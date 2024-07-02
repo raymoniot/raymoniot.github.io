@@ -2,94 +2,94 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Soalrhub 帮助中心</title>
-    <link>https://peasantcoding.github.io/zh/</link>
+    <link>http://localhost:1313/zh/</link>
     <description>Recent content on Soalrhub 帮助中心</description>
     <generator>Hugo</generator>
     <language>zh</language>
     <lastBuildDate>Tue, 02 Jul 2024 09:59:00 +0800</lastBuildDate>
-    <atom:link href="https://peasantcoding.github.io/zh/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/zh/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>登陆</title>
-      <link>https://peasantcoding.github.io/zh/docs/login/login/</link>
+      <link>http://localhost:1313/zh/docs/login/login/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://peasantcoding.github.io/zh/docs/login/login/</guid>
+      <guid>http://localhost:1313/zh/docs/login/login/</guid>
       <description>通过Solarhub可以访问Solarhub登陆页面,输入正确的账号和密码后登陆&#xA;登陆成功后进入数据看版页面</description>
     </item>
     <item>
       <title>多语言切换</title>
-      <link>https://peasantcoding.github.io/zh/docs/login/languages/</link>
+      <link>http://localhost:1313/zh/docs/login/languages/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://peasantcoding.github.io/zh/docs/login/languages/</guid>
+      <guid>http://localhost:1313/zh/docs/login/languages/</guid>
       <description>未登陆时通过右上角图标切换语言&#xA;登陆后通过右上角用户旁边的语言切换</description>
     </item>
     <item>
       <title>数据看板</title>
-      <link>https://peasantcoding.github.io/zh/docs/dashboard/</link>
+      <link>http://localhost:1313/zh/docs/dashboard/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://peasantcoding.github.io/zh/docs/dashboard/</guid>
+      <guid>http://localhost:1313/zh/docs/dashboard/</guid>
       <description>业务使用 作为运维商或安装商，需要了解自身公司名下关联电站的分类数量情况和设备分布情况。&#xA;通过缩放可以看到某个地区数量的详细分布情况</description>
     </item>
     <item>
       <title>光伏系统</title>
-      <link>https://peasantcoding.github.io/zh/docs/plantcenter/pvs/</link>
+      <link>http://localhost:1313/zh/docs/plantcenter/pvs/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://peasantcoding.github.io/zh/docs/plantcenter/pvs/</guid>
+      <guid>http://localhost:1313/zh/docs/plantcenter/pvs/</guid>
       <description>电站概览 光伏系统的电站概览包括实时功率、当日电量、社会效益、在线电站四个板块。&#xA;实时功率：对光伏系统中当前登录用户数据权限下的光伏电站功率和光伏装机容量汇总展示 当日电量：展示当前登录用户数据权限下光伏电站的当日电量、月发电量、年发电量、累计发电量 社会效益：当前登录用户数据权限下整个光伏系统产生的社会效益，包括树木种指数、二氧化碳减排量、灯泡使用量 在线电站：当前登录用户数据权限下的在线的电站数和总电站数 电站列表 电站列表展示所有在线、故障、离线状态电站的部分信息，可以直观的看到电站的基本信息，所有电站的在线情况，也可以进行修改和删除电站&#xA;也可以使用条件搜索，查找符合条件的电站&#xA;电站地图 直观的展示所有电站的在线状态和分布情况，可以通过电站名称/地址/业主来查找符合条件的电站&#xA;系统大屏 系统大屏的入口在电站中心各个系统的电站概览模块右上角&#xA;电站大屏用于直观的展示整个系统的运行状态，包含电站概览、实时功率、日满发电小时排名、当月发电量、当年发电量、社会贡献等信息&#xA;电站详情页 通过点击电站列表中的电站可以查看单个电站的详情页，详情页展示该电站的详细信息，包括电站图表、电站设备、电站报警、电站布局、电站资料等&#xA;功能概述 电站图表查看和导出：可以查看基于设备的电站日月年总统计信息，不同的统计周期展示不同的参数信息，也可以将图表中的统计数据导出成Excel图表&#xA;日视图：展示某日的实时功率趋势图 周视图：展示一周的实时功率趋势图 月视图：展示某月中每天的发电量和收益汇总 年视图：展示某年中每个月的发电量和收益汇总 总视图：展示每年的发电量和收益汇总 电站大屏：展示该电站的概览信息和发电情况、告警信息等&#xA;添加采集器：跳转&#xA;​&#xA;新建工单： 发电修补： 1 </description>
     </item>
     <item>
       <title>电池系统</title>
-      <link>https://peasantcoding.github.io/zh/docs/plantcenter/bess/</link>
+      <link>http://localhost:1313/zh/docs/plantcenter/bess/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://peasantcoding.github.io/zh/docs/plantcenter/bess/</guid>
+      <guid>http://localhost:1313/zh/docs/plantcenter/bess/</guid>
       <description></description>
     </item>
     <item>
       <title>户用储能</title>
-      <link>https://peasantcoding.github.io/zh/docs/plantcenter/hess/</link>
+      <link>http://localhost:1313/zh/docs/plantcenter/hess/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://peasantcoding.github.io/zh/docs/plantcenter/hess/</guid>
+      <guid>http://localhost:1313/zh/docs/plantcenter/hess/</guid>
       <description></description>
     </item>
     <item>
       <title>商业电站</title>
-      <link>https://peasantcoding.github.io/zh/docs/plantcenter/ems/</link>
+      <link>http://localhost:1313/zh/docs/plantcenter/ems/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://peasantcoding.github.io/zh/docs/plantcenter/ems/</guid>
+      <guid>http://localhost:1313/zh/docs/plantcenter/ems/</guid>
       <description></description>
     </item>
     <item>
       <title>创建电站</title>
-      <link>https://peasantcoding.github.io/zh/docs/plantcenter/createplant/</link>
+      <link>http://localhost:1313/zh/docs/plantcenter/createplant/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://peasantcoding.github.io/zh/docs/plantcenter/createplant/</guid>
+      <guid>http://localhost:1313/zh/docs/plantcenter/createplant/</guid>
       <description></description>
     </item>
     <item>
       <title>编辑电站</title>
-      <link>https://peasantcoding.github.io/zh/docs/plantcenter/editplant/</link>
+      <link>http://localhost:1313/zh/docs/plantcenter/editplant/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://peasantcoding.github.io/zh/docs/plantcenter/editplant/</guid>
+      <guid>http://localhost:1313/zh/docs/plantcenter/editplant/</guid>
       <description></description>
     </item>
     <item>
       <title>访客授权</title>
-      <link>https://peasantcoding.github.io/zh/docs/plantcenter/guestaccess/</link>
+      <link>http://localhost:1313/zh/docs/plantcenter/guestaccess/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://peasantcoding.github.io/zh/docs/plantcenter/guestaccess/</guid>
+      <guid>http://localhost:1313/zh/docs/plantcenter/guestaccess/</guid>
       <description></description>
     </item>
     <item>
       <title>添加采集器</title>
-      <link>https://peasantcoding.github.io/zh/docs/plantcenter/addlogger/</link>
+      <link>http://localhost:1313/zh/docs/plantcenter/addlogger/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://peasantcoding.github.io/zh/docs/plantcenter/addlogger/</guid>
+      <guid>http://localhost:1313/zh/docs/plantcenter/addlogger/</guid>
       <description></description>
     </item>
     <item>
       <title>A</title>
-      <link>https://peasantcoding.github.io/zh/a/</link>
+      <link>http://localhost:1313/zh/a/</link>
       <pubDate>Tue, 02 Jul 2024 09:59:00 +0800</pubDate>
-      <guid>https://peasantcoding.github.io/zh/a/</guid>
+      <guid>http://localhost:1313/zh/a/</guid>
       <description></description>
     </item>
   </channel>
