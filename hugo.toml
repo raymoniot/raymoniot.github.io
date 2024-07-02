@@ -1,0 +1,25 @@
+baseURL = 'https://peasantcoding.github.io'
+languageCode = 'zh'
+title = 'Solarhub 帮助中心'
+theme = "docsy"
+contentDir = "content/zh"
+defaultContentLanguage = "zh"
+defaultContentLanguageInSubdir = true
+publishDir = "docs"
+[languages]
+[languages.zh]
+languageName ="中文"
+title = "Soalrhub 帮助中心"
+weight = 1
+contentDir = "content/zh"
+[languages.en]
+languageName ="English"
+title = "Solarhub Help Center"
+weight = 2
+contentDir = "content/en"
+
+[params]
+mainMenu = ["docs"]
+offlineSearch = true
+[markup]
+  defaultMarkdownHandler = 'goldmark'
