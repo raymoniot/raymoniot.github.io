@@ -1,0 +1,416 @@
+<!doctype html>
+<html itemscope itemtype="http://schema.org/WebPage" lang="zh" class="no-js">
+  <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+    <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="noindex, nofollow">
+
+
+<link rel="shortcut icon" href="/favicons/favicon.ico" >
+<link rel="apple-touch-icon" href="/favicons/apple-touch-icon-180x180.png" sizes="180x180">
+<link rel="icon" type="image/png" href="/favicons/favicon-16x16.png" sizes="16x16">
+<link rel="icon" type="image/png" href="/favicons/favicon-32x32.png" sizes="32x32">
+<link rel="icon" type="image/png" href="/favicons/android-36x36.png" sizes="36x36">
+<link rel="icon" type="image/png" href="/favicons/android-48x48.png" sizes="48x48">
+<link rel="icon" type="image/png" href="/favicons/android-72x72.png" sizes="72x72">
+<link rel="icon" type="image/png" href="/favicons/android-96x96.png" sizes="96x96">
+<link rel="icon" type="image/png" href="/favicons/android-144x144.png" sizes="144x144">
+<link rel="icon" type="image/png" href="/favicons/android-192x192.png" sizes="192x192">
+
+<title>优化器 | Soalrhub 帮助中心</title>
+<meta name="description" content="采集器">
+<meta property="og:url" content="http://localhost:1313/zh/docs/web/device/optimizer/">
+  <meta property="og:site_name" content="Soalrhub 帮助中心">
+  <meta property="og:title" content="优化器">
+  <meta property="og:description" content="采集器">
+  <meta property="og:locale" content="zh">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="docs">
+
+  <meta itemprop="name" content="优化器">
+  <meta itemprop="description" content="采集器">
+  <meta itemprop="wordCount" content="20">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="优化器">
+  <meta name="twitter:description" content="采集器">
+<link href="/scss/main.css" rel="stylesheet">
+<script
+  src="https://code.jquery.com/jquery-3.7.1.min.js"
+  integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+  crossorigin="anonymous"></script>
+<script defer
+  src="https://unpkg.com/lunr@2.3.9/lunr.min.js"
+  integrity="sha384-203J0SNzyqHby3iU6hzvzltrWi/M41wOP5Gu+BiJMz5nwKykbkUx8Kp7iti0Lpli"
+  crossorigin="anonymous"></script>
+
+  </head>
+  <body class="td-page">
+    <header>
+      <nav class="td-navbar js-navbar-scroll" data-bs-theme="dark">
+<div class="container-fluid flex-column flex-md-row">
+  <a class="navbar-brand" href="/zh/"><span class="navbar-brand__logo navbar-logo"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 480"><g transform="matrix(20,0,0,20,0,0)"><defs><style>.a{fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:1.5px}</style></defs><circle class="a" cx="12" cy="12" r="11.25"/><polyline class="a" points="11.501 12.501 15.251 8.751 12.001 5.5 5.501 12 12.001 18.5 18.501 12"/></g></svg></span><span class="navbar-brand__name">Soalrhub 帮助中心</span></a>
+  <div class="td-navbar-nav-scroll ms-md-auto" id="main_navbar">
+    <ul class="navbar-nav">
+      <li class="nav-item dropdown d-none d-lg-block">
+        <div class="dropdown">
+  <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">中文</a>
+  <ul class="dropdown-menu">
+    <li><a class="dropdown-item" href="/en/">English</a></li>
+    </ul>
+</div></li>
+      </ul>
+  </div>
+  <div class="d-none d-lg-block">
+    <div class="td-search td-search--offline">
+  <div class="td-search__icon"></div>
+  <input
+    type="search"
+    class="td-search__input form-control"
+    placeholder=""
+    aria-label=""
+    autocomplete="off"
+    
+    data-offline-search-index-json-src="/offline-search-index.json"
+    data-offline-search-base-href="/"
+    data-offline-search-max-results="10"
+  >
+</div>
+  </div>
+</div>
+</nav>
+    </header>
+    <div class="container-fluid td-outer">
+      <div class="td-main">
+        <div class="row flex-xl-nowrap">
+          <aside class="col-12 col-md-3 col-xl-2 td-sidebar d-print-none">
+            <div id="td-sidebar-menu" class="td-sidebar__inner">
+  <form class="td-sidebar__search d-flex align-items-center">
+    <div class="td-search td-search--offline">
+  <div class="td-search__icon"></div>
+  <input
+    type="search"
+    class="td-search__input form-control"
+    placeholder=""
+    aria-label=""
+    autocomplete="off"
+    
+    data-offline-search-index-json-src="/offline-search-index.json"
+    data-offline-search-base-href="/"
+    data-offline-search-max-results="10"
+  >
+</div>
+    <button class="btn btn-link td-sidebar__toggle d-md-none p-0 ms-3 fas fa-bars" type="button" data-bs-toggle="collapse" data-bs-target="#td-section-nav" aria-controls="td-section-nav" aria-expanded="false" aria-label="Toggle section navigation">
+    </button>
+  </form>
+  <nav class="td-sidebar-nav collapse foldable-nav" id="td-section-nav">
+    <div class="td-sidebar-nav__section nav-item dropdown d-block d-lg-none">
+      <div class="dropdown">
+  <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">中文</a>
+  <ul class="dropdown-menu">
+    <li><a class="dropdown-item" href="/en/">English</a></li>
+    </ul>
+</div>
+    </div>
+    <ul class="td-sidebar-nav__section pe-md-3 ul-0">
+      <li class="td-sidebar-nav__section-title td-sidebar-nav__section with-child active-path" id="m-zhdocs-li">
+  <a href="/zh/docs/" class="align-left ps-0 td-sidebar-link td-sidebar-link__section tree-root" id="m-zhdocs"><span class="">Solarhub 帮助中心</span></a>
+  <ul class="ul-1">
+    <li class="td-sidebar-nav__section-title td-sidebar-nav__section with-child active-path" id="m-zhdocsweb-li">
+  <input type="checkbox" id="m-zhdocsweb-check" checked/>
+  <label for="m-zhdocsweb-check"><a href="/zh/docs/web/" title="" class="align-left ps-0  td-sidebar-link td-sidebar-link__section" id="m-zhdocsweb"><span class="">Solarhub(Web)</span></a></label>
+  
+  <ul class="ul-2 foldable">
+    <li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id="m-zhdocswebquickstart-li">
+  <input type="checkbox" id="m-zhdocswebquickstart-check"/>
+  <label for="m-zhdocswebquickstart-check"><a href="/zh/docs/web/quickstart/" class="align-left ps-0  td-sidebar-link td-sidebar-link__section" id="m-zhdocswebquickstart"><span class="">快速开始</span></a></label>
+  
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section with-child" id="m-zhdocsweblogin-li">
+  <input type="checkbox" id="m-zhdocsweblogin-check"/>
+  <label for="m-zhdocsweblogin-check"><a href="/zh/docs/web/login/" class="align-left ps-0  td-sidebar-link td-sidebar-link__section" id="m-zhdocsweblogin"><span class="">登陆</span></a></label>
+  
+  <ul class="ul-3 foldable">
+    <li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id="m-zhdocswebloginlogin-li">
+  <input type="checkbox" id="m-zhdocswebloginlogin-check"/>
+  <label for="m-zhdocswebloginlogin-check"><a href="/zh/docs/web/login/login/" class="align-left ps-0  td-sidebar-link td-sidebar-link__page" id="m-zhdocswebloginlogin"><span class="">登陆</span></a></label>
+  
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id="m-zhdocswebloginlanguages-li">
+  <input type="checkbox" id="m-zhdocswebloginlanguages-check"/>
+  <label for="m-zhdocswebloginlanguages-check"><a href="/zh/docs/web/login/languages/" class="align-left ps-0  td-sidebar-link td-sidebar-link__page" id="m-zhdocswebloginlanguages"><span class="">多语言切换</span></a></label>
+  
+</li>
+  </ul>
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id="m-zhdocswebdashboard-li">
+  <input type="checkbox" id="m-zhdocswebdashboard-check"/>
+  <label for="m-zhdocswebdashboard-check"><a href="/zh/docs/web/dashboard/" class="align-left ps-0  td-sidebar-link td-sidebar-link__page" id="m-zhdocswebdashboard"><span class="">数据看板</span></a></label>
+  
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section with-child" id="m-zhdocswebplantcenter-li">
+  <input type="checkbox" id="m-zhdocswebplantcenter-check"/>
+  <label for="m-zhdocswebplantcenter-check"><a href="/zh/docs/web/plantcenter/" class="align-left ps-0  td-sidebar-link td-sidebar-link__section" id="m-zhdocswebplantcenter"><span class="">电站中心</span></a></label>
+  
+  <ul class="ul-3 foldable">
+    <li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id="m-zhdocswebplantcenterpvs-li">
+  <input type="checkbox" id="m-zhdocswebplantcenterpvs-check"/>
+  <label for="m-zhdocswebplantcenterpvs-check"><a href="/zh/docs/web/plantcenter/pvs/" class="align-left ps-0  td-sidebar-link td-sidebar-link__page" id="m-zhdocswebplantcenterpvs"><span class="">光伏系统</span></a></label>
+  
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id="m-zhdocswebplantcenterbess-li">
+  <input type="checkbox" id="m-zhdocswebplantcenterbess-check"/>
+  <label for="m-zhdocswebplantcenterbess-check"><a href="/zh/docs/web/plantcenter/bess/" class="align-left ps-0  td-sidebar-link td-sidebar-link__page" id="m-zhdocswebplantcenterbess"><span class="">电池系统</span></a></label>
+  
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id="m-zhdocswebplantcenterhess-li">
+  <input type="checkbox" id="m-zhdocswebplantcenterhess-check"/>
+  <label for="m-zhdocswebplantcenterhess-check"><a href="/zh/docs/web/plantcenter/hess/" class="align-left ps-0  td-sidebar-link td-sidebar-link__page" id="m-zhdocswebplantcenterhess"><span class="">户用储能</span></a></label>
+  
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id="m-zhdocswebplantcenterems-li">
+  <input type="checkbox" id="m-zhdocswebplantcenterems-check"/>
+  <label for="m-zhdocswebplantcenterems-check"><a href="/zh/docs/web/plantcenter/ems/" class="align-left ps-0  td-sidebar-link td-sidebar-link__page" id="m-zhdocswebplantcenterems"><span class="">商业电站</span></a></label>
+  
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id="m-zhdocswebplantcentercreateplant-li">
+  <input type="checkbox" id="m-zhdocswebplantcentercreateplant-check"/>
+  <label for="m-zhdocswebplantcentercreateplant-check"><a href="/zh/docs/web/plantcenter/createplant/" class="align-left ps-0  td-sidebar-link td-sidebar-link__page" id="m-zhdocswebplantcentercreateplant"><span class="">创建电站</span></a></label>
+  
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id="m-zhdocswebplantcentereditplant-li">
+  <input type="checkbox" id="m-zhdocswebplantcentereditplant-check"/>
+  <label for="m-zhdocswebplantcentereditplant-check"><a href="/zh/docs/web/plantcenter/editplant/" class="align-left ps-0  td-sidebar-link td-sidebar-link__page" id="m-zhdocswebplantcentereditplant"><span class="">修改电站</span></a></label>
+  
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id="m-zhdocswebplantcenterguestaccess-li">
+  <input type="checkbox" id="m-zhdocswebplantcenterguestaccess-check"/>
+  <label for="m-zhdocswebplantcenterguestaccess-check"><a href="/zh/docs/web/plantcenter/guestaccess/" class="align-left ps-0  td-sidebar-link td-sidebar-link__page" id="m-zhdocswebplantcenterguestaccess"><span class="">访客授权</span></a></label>
+  
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id="m-zhdocswebplantcenteraddlogger-li">
+  <input type="checkbox" id="m-zhdocswebplantcenteraddlogger-check"/>
+  <label for="m-zhdocswebplantcenteraddlogger-check"><a href="/zh/docs/web/plantcenter/addlogger/" class="align-left ps-0  td-sidebar-link td-sidebar-link__page" id="m-zhdocswebplantcenteraddlogger"><span class="">添加采集器</span></a></label>
+  
+</li>
+  </ul>
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section with-child active-path" id="m-zhdocswebdevice-li">
+  <input type="checkbox" id="m-zhdocswebdevice-check" checked/>
+  <label for="m-zhdocswebdevice-check"><a href="/zh/docs/web/device/" class="align-left ps-0  td-sidebar-link td-sidebar-link__section" id="m-zhdocswebdevice"><span class="">设备中心</span></a></label>
+  
+  <ul class="ul-3 foldable">
+    <li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id="m-zhdocswebdevicecollector-li">
+  <input type="checkbox" id="m-zhdocswebdevicecollector-check"/>
+  <label for="m-zhdocswebdevicecollector-check"><a href="/zh/docs/web/device/collector/" class="align-left ps-0  td-sidebar-link td-sidebar-link__page" id="m-zhdocswebdevicecollector"><span class="">采集器</span></a></label>
+  
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id="m-zhdocswebdeviceinveter-li">
+  <input type="checkbox" id="m-zhdocswebdeviceinveter-check"/>
+  <label for="m-zhdocswebdeviceinveter-check"><a href="/zh/docs/web/device/inveter/" class="align-left ps-0  td-sidebar-link td-sidebar-link__page" id="m-zhdocswebdeviceinveter"><span class="">逆变器</span></a></label>
+  
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id="m-zhdocswebdevicebattery-li">
+  <input type="checkbox" id="m-zhdocswebdevicebattery-check"/>
+  <label for="m-zhdocswebdevicebattery-check"><a href="/zh/docs/web/device/battery/" class="align-left ps-0  td-sidebar-link td-sidebar-link__page" id="m-zhdocswebdevicebattery"><span class="">电池系统</span></a></label>
+  
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child active-path" id="m-zhdocswebdeviceoptimizer-li">
+  <input type="checkbox" id="m-zhdocswebdeviceoptimizer-check" checked/>
+  <label for="m-zhdocswebdeviceoptimizer-check"><a href="/zh/docs/web/device/optimizer/" class="align-left ps-0  active td-sidebar-link td-sidebar-link__page" id="m-zhdocswebdeviceoptimizer"><span class="td-sidebar-nav-active-item">优化器</span></a></label>
+  
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id="m-zhdocswebdevicemeter-li">
+  <input type="checkbox" id="m-zhdocswebdevicemeter-check"/>
+  <label for="m-zhdocswebdevicemeter-check"><a href="/zh/docs/web/device/meter/" class="align-left ps-0  td-sidebar-link td-sidebar-link__page" id="m-zhdocswebdevicemeter"><span class="">智能电表</span></a></label>
+  
+</li>
+  </ul>
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section with-child" id="m-zhdocswebops-li">
+  <input type="checkbox" id="m-zhdocswebops-check"/>
+  <label for="m-zhdocswebops-check"><a href="/zh/docs/web/ops/" class="align-left ps-0  td-sidebar-link td-sidebar-link__section" id="m-zhdocswebops"><span class="">运维中心</span></a></label>
+  
+  <ul class="ul-3 foldable">
+    <li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id="m-zhdocswebopsevents-li">
+  <input type="checkbox" id="m-zhdocswebopsevents-check"/>
+  <label for="m-zhdocswebopsevents-check"><a href="/zh/docs/web/ops/events/" class="align-left ps-0  td-sidebar-link td-sidebar-link__page" id="m-zhdocswebopsevents"><span class="">事件中心</span></a></label>
+  
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section with-child" id="m-zhdocswebopsticket-li">
+  <input type="checkbox" id="m-zhdocswebopsticket-check"/>
+  <label for="m-zhdocswebopsticket-check"><a href="/zh/docs/web/ops/ticket/" class="align-left ps-0  td-sidebar-link td-sidebar-link__section" id="m-zhdocswebopsticket"><span class="">工单系统</span></a></label>
+  
+  <ul class="ul-4 foldable">
+    <li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id="m-zhdocswebopsticketdashboard-li">
+  <input type="checkbox" id="m-zhdocswebopsticketdashboard-check"/>
+  <label for="m-zhdocswebopsticketdashboard-check"><a href="/zh/docs/web/ops/ticket/dashboard/" class="align-left ps-0  td-sidebar-link td-sidebar-link__page" id="m-zhdocswebopsticketdashboard"><span class="">工单看板</span></a></label>
+  
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id="m-zhdocswebopsticketlist-li">
+  <input type="checkbox" id="m-zhdocswebopsticketlist-check"/>
+  <label for="m-zhdocswebopsticketlist-check"><a href="/zh/docs/web/ops/ticket/list/" class="align-left ps-0  td-sidebar-link td-sidebar-link__page" id="m-zhdocswebopsticketlist"><span class="">工单列表</span></a></label>
+  
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id="m-zhdocswebopsticketteam-li">
+  <input type="checkbox" id="m-zhdocswebopsticketteam-check"/>
+  <label for="m-zhdocswebopsticketteam-check"><a href="/zh/docs/web/ops/ticket/team/" class="align-left ps-0  td-sidebar-link td-sidebar-link__page" id="m-zhdocswebopsticketteam"><span class="">客户团队</span></a></label>
+  
+</li>
+  </ul>
+</li>
+  </ul>
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section with-child" id="m-zhdocswebreport-li">
+  <input type="checkbox" id="m-zhdocswebreport-check"/>
+  <label for="m-zhdocswebreport-check"><a href="/zh/docs/web/report/" class="align-left ps-0  td-sidebar-link td-sidebar-link__section" id="m-zhdocswebreport"><span class="">报表中心</span></a></label>
+  
+  <ul class="ul-3 foldable">
+    <li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id="m-zhdocswebreporttotal-li">
+  <input type="checkbox" id="m-zhdocswebreporttotal-check"/>
+  <label for="m-zhdocswebreporttotal-check"><a href="/zh/docs/web/report/total/" class="align-left ps-0  td-sidebar-link td-sidebar-link__page" id="m-zhdocswebreporttotal"><span class="">汇总数据</span></a></label>
+  
+</li>
+  </ul>
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section with-child" id="m-zhdocswebtoolkits-li">
+  <input type="checkbox" id="m-zhdocswebtoolkits-check"/>
+  <label for="m-zhdocswebtoolkits-check"><a href="/zh/docs/web/toolkits/" class="align-left ps-0  td-sidebar-link td-sidebar-link__section" id="m-zhdocswebtoolkits"><span class="">工具箱</span></a></label>
+  
+  <ul class="ul-3 foldable">
+    <li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id="m-zhdocswebtoolkitspoint-query-li">
+  <input type="checkbox" id="m-zhdocswebtoolkitspoint-query-check"/>
+  <label for="m-zhdocswebtoolkitspoint-query-check"><a href="/zh/docs/web/toolkits/point-query/" class="align-left ps-0  td-sidebar-link td-sidebar-link__page" id="m-zhdocswebtoolkitspoint-query"><span class="">测点查询</span></a></label>
+  
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id="m-zhdocswebtoolkitsfirmware-li">
+  <input type="checkbox" id="m-zhdocswebtoolkitsfirmware-check"/>
+  <label for="m-zhdocswebtoolkitsfirmware-check"><a href="/zh/docs/web/toolkits/firmware/" class="align-left ps-0  td-sidebar-link td-sidebar-link__page" id="m-zhdocswebtoolkitsfirmware"><span class="">固件管理</span></a></label>
+  
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id="m-zhdocswebtoolkitsbatch-li">
+  <input type="checkbox" id="m-zhdocswebtoolkitsbatch-check"/>
+  <label for="m-zhdocswebtoolkitsbatch-check"><a href="/zh/docs/web/toolkits/batch/" class="align-left ps-0  td-sidebar-link td-sidebar-link__page" id="m-zhdocswebtoolkitsbatch"><span class="">批量操作</span></a></label>
+  
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id="m-zhdocswebtoolkitsremote-li">
+  <input type="checkbox" id="m-zhdocswebtoolkitsremote-check"/>
+  <label for="m-zhdocswebtoolkitsremote-check"><a href="/zh/docs/web/toolkits/remote/" class="align-left ps-0  td-sidebar-link td-sidebar-link__page" id="m-zhdocswebtoolkitsremote"><span class="">远程交互</span></a></label>
+  
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id="m-zhdocswebtoolkitsnotification-li">
+  <input type="checkbox" id="m-zhdocswebtoolkitsnotification-check"/>
+  <label for="m-zhdocswebtoolkitsnotification-check"><a href="/zh/docs/web/toolkits/notification/" class="align-left ps-0  td-sidebar-link td-sidebar-link__page" id="m-zhdocswebtoolkitsnotification"><span class="">通知公告</span></a></label>
+  
+</li>
+  </ul>
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section with-child" id="m-zhdocsweborganization-li">
+  <input type="checkbox" id="m-zhdocsweborganization-check"/>
+  <label for="m-zhdocsweborganization-check"><a href="/zh/docs/web/organization/" class="align-left ps-0  td-sidebar-link td-sidebar-link__section" id="m-zhdocsweborganization"><span class="">组织管理</span></a></label>
+  
+  <ul class="ul-3 foldable">
+    <li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id="m-zhdocsweborganizationmember-li">
+  <input type="checkbox" id="m-zhdocsweborganizationmember-check"/>
+  <label for="m-zhdocsweborganizationmember-check"><a href="/zh/docs/web/organization/member/" class="align-left ps-0  td-sidebar-link td-sidebar-link__page" id="m-zhdocsweborganizationmember"><span class="">成员管理</span></a></label>
+  
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id="m-zhdocsweborganizationtree-li">
+  <input type="checkbox" id="m-zhdocsweborganizationtree-check"/>
+  <label for="m-zhdocsweborganizationtree-check"><a href="/zh/docs/web/organization/tree/" class="align-left ps-0  td-sidebar-link td-sidebar-link__page" id="m-zhdocsweborganizationtree"><span class="">组织架构</span></a></label>
+  
+</li>
+  </ul>
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id="m-zhdocswebfaq-li">
+  <input type="checkbox" id="m-zhdocswebfaq-check"/>
+  <label for="m-zhdocswebfaq-check"><a href="/zh/docs/web/faq/" class="align-left ps-0  td-sidebar-link td-sidebar-link__section" id="m-zhdocswebfaq"><span class="">常见问题及答案</span></a></label>
+  
+</li>
+  </ul>
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id="m-zhdocsapp-li">
+  <input type="checkbox" id="m-zhdocsapp-check"/>
+  <label for="m-zhdocsapp-check"><a href="/zh/docs/app/" title="" class="align-left ps-0  td-sidebar-link td-sidebar-link__section" id="m-zhdocsapp"><span class="">Solarhub(App)</span></a></label>
+  
+</li>
+  </ul>
+</li>
+    </ul>
+  </nav>
+</div>
+
+          </aside>
+          <aside class="d-none d-xl-block col-xl-2 td-sidebar-toc d-print-none">
+            <div class="td-page-meta ms-2 pb-1 pt-2 mb-0">
+
+</div>
+
+            <div class="td-toc">
+        <nav id="TableOfContents">
+  <ul>
+    <li><a href="#1设备列表">1.设备列表</a></li>
+    <li><a href="#2优化器控制器详情页">2.优化器控制器详情页</a>
+      <ul>
+        <li><a href="#31报警">3.1报警</a></li>
+        <li><a href="#32解绑">3.2解绑</a></li>
+        <li><a href="#33新建工单">3.3新建工单</a></li>
+        <li><a href="#34参数设置">3.4参数设置</a></li>
+        <li><a href="#35别名编辑">3.5别名编辑</a></li>
+        <li><a href="#36固件升级">3.6固件升级</a></li>
+        <li><a href="#37操作日志">3.7操作日志</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+      </div>
+    
+            
+
+          </aside>
+          <main class="col-12 col-md-9 col-xl-8 ps-md-5" role="main">
+            
+  
+
+            <nav aria-label="breadcrumb" class="td-breadcrumbs">
+  <ol class="breadcrumb">
+  <li class="breadcrumb-item">
+    <a href="/zh/docs/">Solarhub 帮助中心</a></li>
+  <li class="breadcrumb-item">
+    <a href="/zh/docs/web/">Solarhub(Web)</a></li>
+  <li class="breadcrumb-item">
+    <a href="/zh/docs/web/device/">设备中心</a></li>
+  <li class="breadcrumb-item active" aria-current="page">
+    优化器</li>
+  </ol>
+</nav>
+            
+<div class="td-content">
+	<h1>优化器</h1>
+	<div class="lead">采集器</div>
+	<header class="article-meta">
+		
+</header>
+	<h1 id="功能概述">功能概述</h1>
+<h2 id="1设备列表">1.设备列表</h2>
+<p><img alt="unload!" src="/../../zh/photo/docs/device/optimizer/device-list.png"></p>
+<p>设备列表可以查看在线、故障、离线和全部的设备信息。</p>
+<h2 id="2优化器控制器详情页">2.优化器控制器详情页</h2>
+<p><img alt="unload!" src="/../../zh/photo/docs/device/optimizer/detail-enter.png"></p>
+<p>从设备列表中的设备可以进入设备详情页</p>
+<p><img alt="unload!" src="/../../zh/photo/docs/device/optimizer/detail.png"></p>
+<p>优化器控制器详情页展示优化器控制器的信息和优化器的开关状态</p>
+<h3 id="31报警">3.1报警</h3>
+<p>参考<a href="http://localhost:1313/zh/docs/web/device/collector/#81报警" title="采集器报警">采集器报警</a></p>
+<h3 id="32解绑">3.2解绑</h3>
+<p>参考<a href="http://localhost:1313/zh/docs/web/device/collector/#82解绑" title="采集器解绑">采集器解绑</a>，<strong>子设备的解绑将会从采集器下删除该子设备，清空子设备的数据</strong>。</p>
+<h3 id="33新建工单">3.3新建工单</h3>
+<p>参考<a href="http://localhost:1313/zh/docs/web/device/collector/#832新建工单" title="新建工单">采集器新建工单</a></p>
+<h3 id="34参数设置">3.4参数设置</h3>
+<p>参考<a href="http://localhost:1313/zh/docs/web/device/inveter/#34参数设置" title="逆变器参数设置">逆变器参数设置</a></p>
+<h3 id="35别名编辑">3.5别名编辑</h3>
+<p>参考<a href="http://localhost:1313/zh/docs/web/device/collector/#833别名编辑" title="采集器别名编辑">采集器别名编辑</a></p>
+<h3 id="36固件升级">3.6固件升级</h3>
+<p>参考<a href="http://localhost:1313/zh/docs/web/device/collector/#834固件升级" title="固件升级">采集器固件升级</a></p>
+<h3 id="37操作日志">3.7操作日志</h3>
+<p>参考<a href="http://localhost:1313/zh/docs/web/device/collector/#835操作日志" title="操作日志">采集器操作日志</a></p>
+
+	
+</div>
+
+
+          </main>
+        </div>
+      </div>
+      <footer class="td-footer row d-print-none">
+  <div class="container-fluid">
+    <div class="row mx-md-2">
+      <div class="td-footer__left col-6 col-sm-4 order-sm-1">
+        
+      </div><div class="td-footer__right col-6 col-sm-4 order-sm-3">
+        
+      </div><div class="td-footer__center col-12 col-sm-4 py-2 order-sm-2">
+        <span class="td-footer__copyright">&copy;
+    2024
+    <span class="td-footer__authors">Copyright © 2024 RaymonIoT. All Rights Reserved.</span></span>
+      </div>
+    </div>
+  </div>
+</footer>
+
+    </div>
+    <script src="/js/main.js"></script>
+<script defer src="/js/click-to-copy.js" crossorigin="anonymous"></script>
+<script src='/js/tabpane-persist.js'></script>
+
+  </body>
+</html>

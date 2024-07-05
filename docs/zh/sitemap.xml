@@ -2,49 +2,85 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/zh/docs/quickstart/</loc>
+    <loc>http://localhost:1313/zh/docs/web/</loc>
   </url><url>
-    <loc>http://localhost:1313/zh/docs/login/</loc>
+    <loc>http://localhost:1313/zh/docs/web/device/collector/</loc>
   </url><url>
-    <loc>http://localhost:1313/zh/docs/login/login/</loc>
+    <loc>http://localhost:1313/zh/docs/web/toolkits/point-query/</loc>
   </url><url>
-    <loc>http://localhost:1313/zh/docs/login/languages/</loc>
+    <loc>http://localhost:1313/zh/docs/web/organization/member/</loc>
   </url><url>
-    <loc>http://localhost:1313/zh/docs/dashboard/</loc>
+    <loc>http://localhost:1313/zh/docs/web/toolkits/firmware/</loc>
   </url><url>
-    <loc>http://localhost:1313/zh/docs/plantcenter/</loc>
+    <loc>http://localhost:1313/zh/docs/web/report/total/</loc>
   </url><url>
-    <loc>http://localhost:1313/zh/docs/plantcenter/pvs/</loc>
+    <loc>http://localhost:1313/zh/docs/web/ops/events/</loc>
   </url><url>
-    <loc>http://localhost:1313/zh/docs/plantcenter/bess/</loc>
+    <loc>http://localhost:1313/zh/docs/web/organization/tree/</loc>
   </url><url>
-    <loc>http://localhost:1313/zh/docs/plantcenter/hess/</loc>
+    <loc>http://localhost:1313/zh/docs/app/</loc>
   </url><url>
-    <loc>http://localhost:1313/zh/docs/plantcenter/ems/</loc>
+    <loc>http://localhost:1313/zh/docs/web/ops/ticket/dashboard/</loc>
   </url><url>
-    <loc>http://localhost:1313/zh/docs/plantcenter/createplant/</loc>
+    <loc>http://localhost:1313/zh/docs/web/ops/ticket/</loc>
   </url><url>
-    <loc>http://localhost:1313/zh/docs/plantcenter/editplant/</loc>
+    <loc>http://localhost:1313/zh/docs/web/quickstart/</loc>
   </url><url>
-    <loc>http://localhost:1313/zh/docs/plantcenter/guestaccess/</loc>
+    <loc>http://localhost:1313/zh/docs/web/device/inveter/</loc>
   </url><url>
-    <loc>http://localhost:1313/zh/docs/plantcenter/addlogger/</loc>
+    <loc>http://localhost:1313/zh/docs/web/toolkits/batch/</loc>
   </url><url>
-    <loc>http://localhost:1313/zh/a/</loc>
-    <lastmod>2024-07-02T09:59:00+08:00</lastmod>
+    <loc>http://localhost:1313/zh/docs/web/login/</loc>
   </url><url>
-    <loc>http://localhost:1313/zh/</loc>
-    <lastmod>2024-07-02T09:59:00+08:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="http://localhost:1313/en/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="http://localhost:1313/zh/"
-                />
+    <loc>http://localhost:1313/zh/docs/web/login/login/</loc>
+  </url><url>
+    <loc>http://localhost:1313/zh/docs/web/device/battery/</loc>
+  </url><url>
+    <loc>http://localhost:1313/zh/docs/web/ops/ticket/list/</loc>
+  </url><url>
+    <loc>http://localhost:1313/zh/docs/web/login/languages/</loc>
+  </url><url>
+    <loc>http://localhost:1313/zh/docs/web/ops/ticket/team/</loc>
+  </url><url>
+    <loc>http://localhost:1313/zh/docs/web/device/optimizer/</loc>
+  </url><url>
+    <loc>http://localhost:1313/zh/docs/web/toolkits/remote/</loc>
+  </url><url>
+    <loc>http://localhost:1313/zh/docs/web/dashboard/</loc>
+  </url><url>
+    <loc>http://localhost:1313/zh/docs/web/toolkits/notification/</loc>
+  </url><url>
+    <loc>http://localhost:1313/zh/docs/web/device/meter/</loc>
+  </url><url>
+    <loc>http://localhost:1313/zh/docs/web/plantcenter/</loc>
+  </url><url>
+    <loc>http://localhost:1313/zh/docs/web/plantcenter/pvs/</loc>
+  </url><url>
+    <loc>http://localhost:1313/zh/docs/web/plantcenter/bess/</loc>
+  </url><url>
+    <loc>http://localhost:1313/zh/docs/web/device/</loc>
+  </url><url>
+    <loc>http://localhost:1313/zh/docs/web/plantcenter/hess/</loc>
+  </url><url>
+    <loc>http://localhost:1313/zh/docs/web/ops/</loc>
+  </url><url>
+    <loc>http://localhost:1313/zh/docs/web/report/</loc>
+  </url><url>
+    <loc>http://localhost:1313/zh/docs/web/plantcenter/ems/</loc>
+  </url><url>
+    <loc>http://localhost:1313/zh/docs/web/plantcenter/createplant/</loc>
+  </url><url>
+    <loc>http://localhost:1313/zh/docs/web/toolkits/</loc>
+  </url><url>
+    <loc>http://localhost:1313/zh/docs/web/plantcenter/editplant/</loc>
+  </url><url>
+    <loc>http://localhost:1313/zh/docs/web/organization/</loc>
+  </url><url>
+    <loc>http://localhost:1313/zh/docs/web/faq/</loc>
+  </url><url>
+    <loc>http://localhost:1313/zh/docs/web/plantcenter/guestaccess/</loc>
+  </url><url>
+    <loc>http://localhost:1313/zh/docs/web/plantcenter/addlogger/</loc>
   </url><url>
     <loc>http://localhost:1313/zh/categories/</loc>
     <xhtml:link
@@ -56,6 +92,18 @@
                 rel="alternate"
                 hreflang="zh"
                 href="http://localhost:1313/zh/categories/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/zh/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/en/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="http://localhost:1313/zh/"
                 />
   </url><url>
     <loc>http://localhost:1313/zh/docs/</loc>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>设备中心 on Soalrhub 帮助中心</title>
+    <link>http://localhost:1313/zh/docs/device/</link>
+    <description>Recent content in 设备中心 on Soalrhub 帮助中心</description>
+    <generator>Hugo</generator>
+    <language>zh</language>
+    <atom:link href="http://localhost:1313/zh/docs/device/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>采集器</title>
+      <link>http://localhost:1313/zh/docs/device/collector/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/zh/docs/device/collector/</guid>
+      <description>功能概述 1.设备列表 设备列表可以查看在线、故障、离线和全部的设备信息。&#xA;对于采集器设备来说，有两种额外的状态&#xA;已安装：采集器入库后进行了绑定电站 未安装：采集器入库后未绑定电站 2.采集器入库 采集器入库有两种方式&#xA;单个导入：单个采集器导入，一次导入一个采集器 批量导入：通过将采集器SN写入模版文件，一次性导入多个采集器 2.1单个导入 一般采集器类型选择WI-FI Stick，填写授权用户可以将该设备授权给其他用户，该用户拥有设备的查看管理权限，不填写则默认当前登录用户，填写标签会对采集器添加备注信息。&#xA;2.2批量导入 下载采集器导入模版&#xA;可以填写多个采集器SN，Owner为授权用户，Keywords为标签&#xA;类型选择WI-FI Stick，上传并读取校验，即可添加成功，若上传错误的SN或者已入库的SN则会列出报错信息&#xA;3.批量设置访问授权 可以勾选单个或多个设备&#xA;输入平台账号的邮箱，如果存在则会弹出对应的平台账号&#xA;选择平台账号，点击确定设置成功&#xA;4.批量设置标签 5.批量删除 6.单个访问授权/设置标签/删除 7.固件版本号搜索 8.采集器详情页 从设备列表中的设备可以进入设备详情页&#xA;采集器详情页包括采集器的基本信息和其子设备，支持的子设备有逆变器、BMS、优化器、电表等。&#xA;8.1报警 报警将打开该设备的设备事件页面，可以看到该设备产生的所有告警&#xA;8.2解绑 采集器的解绑将解绑采集器绑定的电站，子设备的解绑将会从采集器下删除该子设备，清空子设备的数据。&#xA;8.3其他功能 8.3.1变更 变更采集器的型号和序列号&#xA;8.3.2新建工单 对该采集器创建一个工单&#xA;8.3.3别名编辑 可以对采集器命名&#xA;8.3.4固件升级 对采集器进行OTA升级，上传固件后选择固件，点击立即升级&#xA;8.3.5操作日志 操作日志保存了最近对该设备的远程交互记录，包括OTA、参数设置、指令透传</description>
+    </item>
+    <item>
+      <title>逆变器</title>
+      <link>http://localhost:1313/zh/docs/device/inveter/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/zh/docs/device/inveter/</guid>
+      <description>功能概述 1.设备列表 设备列表可以查看在线、故障、离线和全部的设备信息。&#xA;2.设备高级搜索 3.逆变器详情页 从设备列表中的设备可以进入设备详情页&#xA;逆变器详情页展示逆变器信息和历史数据图表&#xA;3.1报警 参考采集器报警&#xA;3.2解绑 参考采集器解绑，子设备的解绑将会从采集器下删除该子设备，清空子设备的数据。&#xA;3.3新建工单 参考采集器新建工单&#xA;3.4参数设置 通过绿色按钮进行测点参数设置下发，或者点击批量设置下发，详细请参考远程交互链接&#xA;3.5别名编辑 参考采集器别名编辑&#xA;3.6固件升级 参考采集器固件升级&#xA;3.7操作日志 参考采集器操作日志&#xA;3.8历史数据图表 历史数据支持日、周、月、年、总级别的数据展示和时间范围选择，其中不同的时间维度展示的参数不同&#xA;日：通过参数选择用户可以自定义参数展示 周：通过参数选择用户可以自定义参数展示 月：展示发电量 年：展示发电量 总：展示发电量 3.8.1参数选择 用户可以选择想要展示的参数，点击确定查看&#xA;用户也可以自定义模板，每个模板可以保存自定的参数&#xA;3.8.2导出报表 将图表数据导出为Excel表格</description>
+    </item>
+    <item>
+      <title>电池系统</title>
+      <link>http://localhost:1313/zh/docs/device/battery/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/zh/docs/device/battery/</guid>
+      <description>功能概述 1.设备列表 设备列表可以查看在线、故障、离线和全部的设备信息。&#xA;2.电池详情页 从设备列表中的设备可以进入设备详情页&#xA;电池详情页展示BMS信息及其BMS下的电池信息和历史数据图表&#xA;3.1报警 参考采集器报警&#xA;3.2解绑 参考采集器解绑，子设备的解绑将会从采集器下删除该子设备，清空子设备的数据。&#xA;3.3新建工单 参考采集器新建工单&#xA;3.4参数设置 参考逆变器参数设置&#xA;3.5别名编辑 参考采集器别名编辑&#xA;3.6固件升级 参考采集器固件升级&#xA;3.7操作日志 参考采集器操作日志&#xA;3.8历史数据图表 电池历史数据支持日、周级别的数据展示和时间范围选择&#xA;日：通过参数选择用户可以自定义参数展示 周：通过参数选择用户可以自定义参数展示 3.8.1参数选择 参考逆变器参数选择&#xA;3.8.2导出报表 参考逆变器导出报表</description>
+    </item>
+    <item>
+      <title>优化器</title>
+      <link>http://localhost:1313/zh/docs/device/optimizer/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/zh/docs/device/optimizer/</guid>
+      <description>功能概述 1.设备列表 设备列表可以查看在线、故障、离线和全部的设备信息。&#xA;2.优化器控制器详情页 从设备列表中的设备可以进入设备详情页&#xA;优化器控制器详情页展示优化器控制器的信息和优化器的开关状态&#xA;3.1报警 参考采集器报警&#xA;3.2解绑 参考采集器解绑，子设备的解绑将会从采集器下删除该子设备，清空子设备的数据。&#xA;3.3新建工单 参考采集器新建工单&#xA;3.4参数设置 参考逆变器参数设置&#xA;3.5别名编辑 参考采集器别名编辑&#xA;3.6固件升级 参考采集器固件升级&#xA;3.7操作日志 参考采集器操作日志</description>
+    </item>
+    <item>
+      <title>智能电表</title>
+      <link>http://localhost:1313/zh/docs/device/meter/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/zh/docs/device/meter/</guid>
+      <description>功能概述 1.设备列表 设备列表可以查看在线、故障、离线和全部的设备信息。&#xA;2.电表详情页 从设备列表中的设备可以进入设备详情页&#xA;电表详情页展示电表信息和微逆设备&#xA;3.1报警 参考采集器报警&#xA;3.2解绑 参考采集器解绑，子设备的解绑将会从采集器下删除该子设备，清空子设备的数据。&#xA;3.3新建工单 参考采集器新建工单&#xA;3.4参数设置 参考逆变器参数设置&#xA;3.5别名编辑 参考采集器别名编辑&#xA;3.6操作日志 参考采集器操作日志</description>
+    </item>
+  </channel>
+</rss>

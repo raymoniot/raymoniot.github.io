@@ -1,0 +1,244 @@
+<!doctype html>
+<html itemscope itemtype="http://schema.org/WebPage" lang="zh" class="no-js">
+  <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+    <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="noindex, nofollow">
+
+
+<link rel="shortcut icon" href="/favicons/favicon.ico" >
+<link rel="apple-touch-icon" href="/favicons/apple-touch-icon-180x180.png" sizes="180x180">
+<link rel="icon" type="image/png" href="/favicons/favicon-16x16.png" sizes="16x16">
+<link rel="icon" type="image/png" href="/favicons/favicon-32x32.png" sizes="32x32">
+<link rel="icon" type="image/png" href="/favicons/android-36x36.png" sizes="36x36">
+<link rel="icon" type="image/png" href="/favicons/android-48x48.png" sizes="48x48">
+<link rel="icon" type="image/png" href="/favicons/android-72x72.png" sizes="72x72">
+<link rel="icon" type="image/png" href="/favicons/android-96x96.png" sizes="96x96">
+<link rel="icon" type="image/png" href="/favicons/android-144x144.png" sizes="144x144">
+<link rel="icon" type="image/png" href="/favicons/android-192x192.png" sizes="192x192">
+
+<title>采集器 | Soalrhub 帮助中心</title>
+<meta name="description" content="采集器">
+<meta property="og:url" content="http://localhost:1313/zh/docs/device/collector_%E5%89%AF%E6%9C%AC4/">
+  <meta property="og:site_name" content="Soalrhub 帮助中心">
+  <meta property="og:title" content="采集器">
+  <meta property="og:description" content="采集器">
+  <meta property="og:locale" content="zh">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="docs">
+
+  <meta itemprop="name" content="采集器">
+  <meta itemprop="description" content="采集器">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="采集器">
+  <meta name="twitter:description" content="采集器">
+<link href="/scss/main.css" rel="stylesheet">
+<script
+  src="https://code.jquery.com/jquery-3.7.1.min.js"
+  integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+  crossorigin="anonymous"></script>
+<script defer
+  src="https://unpkg.com/lunr@2.3.9/lunr.min.js"
+  integrity="sha384-203J0SNzyqHby3iU6hzvzltrWi/M41wOP5Gu+BiJMz5nwKykbkUx8Kp7iti0Lpli"
+  crossorigin="anonymous"></script>
+
+  </head>
+  <body class="td-page">
+    <header>
+      <nav class="td-navbar js-navbar-scroll" data-bs-theme="dark">
+<div class="container-fluid flex-column flex-md-row">
+  <a class="navbar-brand" href="/zh/"><span class="navbar-brand__logo navbar-logo"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 480"><g transform="matrix(20,0,0,20,0,0)"><defs><style>.a{fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:1.5px}</style></defs><circle class="a" cx="12" cy="12" r="11.25"/><polyline class="a" points="11.501 12.501 15.251 8.751 12.001 5.5 5.501 12 12.001 18.5 18.501 12"/></g></svg></span><span class="navbar-brand__name">Soalrhub 帮助中心</span></a>
+  <div class="td-navbar-nav-scroll ms-md-auto" id="main_navbar">
+    <ul class="navbar-nav">
+      <li class="nav-item dropdown d-none d-lg-block">
+        <div class="dropdown">
+  <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">中文</a>
+  <ul class="dropdown-menu">
+    <li><a class="dropdown-item" href="/en/">English</a></li>
+    </ul>
+</div></li>
+      </ul>
+  </div>
+  <div class="d-none d-lg-block">
+    <div class="td-search td-search--offline">
+  <div class="td-search__icon"></div>
+  <input
+    type="search"
+    class="td-search__input form-control"
+    placeholder=""
+    aria-label=""
+    autocomplete="off"
+    
+    data-offline-search-index-json-src="/offline-search-index.json"
+    data-offline-search-base-href="/"
+    data-offline-search-max-results="10"
+  >
+</div>
+  </div>
+</div>
+</nav>
+    </header>
+    <div class="container-fluid td-outer">
+      <div class="td-main">
+        <div class="row flex-xl-nowrap">
+          <aside class="col-12 col-md-3 col-xl-2 td-sidebar d-print-none">
+            <div id="td-sidebar-menu" class="td-sidebar__inner">
+  <form class="td-sidebar__search d-flex align-items-center">
+    <div class="td-search td-search--offline">
+  <div class="td-search__icon"></div>
+  <input
+    type="search"
+    class="td-search__input form-control"
+    placeholder=""
+    aria-label=""
+    autocomplete="off"
+    
+    data-offline-search-index-json-src="/offline-search-index.json"
+    data-offline-search-base-href="/"
+    data-offline-search-max-results="10"
+  >
+</div>
+    <button class="btn btn-link td-sidebar__toggle d-md-none p-0 ms-3 fas fa-bars" type="button" data-bs-toggle="collapse" data-bs-target="#td-section-nav" aria-controls="td-section-nav" aria-expanded="false" aria-label="Toggle section navigation">
+    </button>
+  </form>
+  <nav class="td-sidebar-nav collapse" id="td-section-nav">
+    <div class="td-sidebar-nav__section nav-item dropdown d-block d-lg-none">
+      <div class="dropdown">
+  <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">中文</a>
+  <ul class="dropdown-menu">
+    <li><a class="dropdown-item" href="/en/">English</a></li>
+    </ul>
+</div>
+    </div>
+    <ul class="td-sidebar-nav__section pe-md-3 ul-0">
+      <li class="td-sidebar-nav__section-title td-sidebar-nav__section with-child active-path" id="m-zhdocs-li">
+  <a href="/zh/docs/" title="" class="align-left ps-0 td-sidebar-link td-sidebar-link__section tree-root" id="m-zhdocs"><span class="">Solarhub(Web)</span></a>
+  <ul class="ul-1">
+    <li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id="m-zhdocsquickstart-li">
+  <a href="/zh/docs/quickstart/" class="align-left ps-0 td-sidebar-link td-sidebar-link__section" id="m-zhdocsquickstart"><span class="">快速开始</span></a>
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section with-child" id="m-zhdocslogin-li">
+  <a href="/zh/docs/login/" class="align-left ps-0 td-sidebar-link td-sidebar-link__section" id="m-zhdocslogin"><span class="">登陆</span></a>
+  <ul class="ul-2 foldable">
+    <li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id="m-zhdocsloginlogin-li">
+  <a href="/zh/docs/login/login/" class="align-left ps-0 td-sidebar-link td-sidebar-link__page" id="m-zhdocsloginlogin"><span class="">登陆</span></a>
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id="m-zhdocsloginlanguages-li">
+  <a href="/zh/docs/login/languages/" class="align-left ps-0 td-sidebar-link td-sidebar-link__page" id="m-zhdocsloginlanguages"><span class="">多语言切换</span></a>
+</li>
+  </ul>
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id="m-zhdocsdashboard-li">
+  <a href="/zh/docs/dashboard/" class="align-left ps-0 td-sidebar-link td-sidebar-link__page" id="m-zhdocsdashboard"><span class="">数据看板</span></a>
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section with-child" id="m-zhdocsplantcenter-li">
+  <a href="/zh/docs/plantcenter/" class="align-left ps-0 td-sidebar-link td-sidebar-link__section" id="m-zhdocsplantcenter"><span class="">电站中心</span></a>
+  <ul class="ul-2 foldable">
+    <li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id="m-zhdocsplantcenterpvs-li">
+  <a href="/zh/docs/plantcenter/pvs/" class="align-left ps-0 td-sidebar-link td-sidebar-link__page" id="m-zhdocsplantcenterpvs"><span class="">光伏系统</span></a>
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id="m-zhdocsplantcenterbess-li">
+  <a href="/zh/docs/plantcenter/bess/" class="align-left ps-0 td-sidebar-link td-sidebar-link__page" id="m-zhdocsplantcenterbess"><span class="">电池系统</span></a>
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id="m-zhdocsplantcenterhess-li">
+  <a href="/zh/docs/plantcenter/hess/" class="align-left ps-0 td-sidebar-link td-sidebar-link__page" id="m-zhdocsplantcenterhess"><span class="">户用储能</span></a>
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id="m-zhdocsplantcenterems-li">
+  <a href="/zh/docs/plantcenter/ems/" class="align-left ps-0 td-sidebar-link td-sidebar-link__page" id="m-zhdocsplantcenterems"><span class="">商业电站</span></a>
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id="m-zhdocsplantcentercreateplant-li">
+  <a href="/zh/docs/plantcenter/createplant/" class="align-left ps-0 td-sidebar-link td-sidebar-link__page" id="m-zhdocsplantcentercreateplant"><span class="">创建电站</span></a>
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id="m-zhdocsplantcentereditplant-li">
+  <a href="/zh/docs/plantcenter/editplant/" class="align-left ps-0 td-sidebar-link td-sidebar-link__page" id="m-zhdocsplantcentereditplant"><span class="">修改电站</span></a>
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id="m-zhdocsplantcenterguestaccess-li">
+  <a href="/zh/docs/plantcenter/guestaccess/" class="align-left ps-0 td-sidebar-link td-sidebar-link__page" id="m-zhdocsplantcenterguestaccess"><span class="">访客授权</span></a>
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id="m-zhdocsplantcenteraddlogger-li">
+  <a href="/zh/docs/plantcenter/addlogger/" class="align-left ps-0 td-sidebar-link td-sidebar-link__page" id="m-zhdocsplantcenteraddlogger"><span class="">添加采集器</span></a>
+</li>
+  </ul>
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section with-child active-path" id="m-zhdocsdevice-li">
+  <a href="/zh/docs/device/" class="align-left ps-0 td-sidebar-link td-sidebar-link__section" id="m-zhdocsdevice"><span class="">设备中心</span></a>
+  <ul class="ul-2 foldable">
+    <li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id="m-zhdocsdevicebattery-li">
+  <a href="/zh/docs/device/battery/" class="align-left ps-0 td-sidebar-link td-sidebar-link__page" id="m-zhdocsdevicebattery"><span class="">采集器</span></a>
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id="m-zhdocsdevicecollector-li">
+  <a href="/zh/docs/device/collector/" class="align-left ps-0 td-sidebar-link td-sidebar-link__page" id="m-zhdocsdevicecollector"><span class="">采集器</span></a>
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child active-path" id="m-zhdocsdevicecollector_e589afe69cac4-li">
+  <a href="/zh/docs/device/collector_%E5%89%AF%E6%9C%AC4/" class="align-left ps-0 active td-sidebar-link td-sidebar-link__page" id="m-zhdocsdevicecollector_e589afe69cac4"><span class="td-sidebar-nav-active-item">采集器</span></a>
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id="m-zhdocsdeviceinveter-li">
+  <a href="/zh/docs/device/inveter/" class="align-left ps-0 td-sidebar-link td-sidebar-link__page" id="m-zhdocsdeviceinveter"><span class="">采集器</span></a>
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id="m-zhdocsdeviceoptimizer-li">
+  <a href="/zh/docs/device/optimizer/" class="align-left ps-0 td-sidebar-link td-sidebar-link__page" id="m-zhdocsdeviceoptimizer"><span class="">采集器</span></a>
+</li>
+  </ul>
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id="m-zhdocsopscenter-li">
+  <a href="/zh/docs/opscenter/" class="align-left ps-0 td-sidebar-link td-sidebar-link__section" id="m-zhdocsopscenter"><span class="">运维中心</span></a>
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id="m-zhdocsreportcenter-li">
+  <a href="/zh/docs/reportcenter/" class="align-left ps-0 td-sidebar-link td-sidebar-link__section" id="m-zhdocsreportcenter"><span class="">报表中心</span></a>
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id="m-zhdocstoolkits-li">
+  <a href="/zh/docs/toolkits/" class="align-left ps-0 td-sidebar-link td-sidebar-link__section" id="m-zhdocstoolkits"><span class="">工具箱</span></a>
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id="m-zhdocsorganization-li">
+  <a href="/zh/docs/organization/" class="align-left ps-0 td-sidebar-link td-sidebar-link__section" id="m-zhdocsorganization"><span class="">组织管理</span></a>
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id="m-zhdocsfaq-li">
+  <a href="/zh/docs/faq/" class="align-left ps-0 td-sidebar-link td-sidebar-link__section" id="m-zhdocsfaq"><span class="">常见问题及答案</span></a>
+</li>
+  </ul>
+</li>
+    </ul>
+  </nav>
+</div>
+
+          </aside>
+          <aside class="d-none d-xl-block col-xl-2 td-sidebar-toc d-print-none">
+            <div class="td-page-meta ms-2 pb-1 pt-2 mb-0">
+
+</div>
+
+            
+            
+
+          </aside>
+          <main class="col-12 col-md-9 col-xl-8 ps-md-5" role="main">
+            
+  
+
+            <nav aria-label="breadcrumb" class="td-breadcrumbs">
+  <ol class="breadcrumb">
+  <li class="breadcrumb-item">
+    <a href="/zh/docs/">Solarhub(Web)</a></li>
+  <li class="breadcrumb-item">
+    <a href="/zh/docs/device/">设备中心</a></li>
+  <li class="breadcrumb-item active" aria-current="page">
+    采集器</li>
+  </ol>
+</nav>
+            
+<div class="td-content">
+	<h1>采集器</h1>
+	<div class="lead">采集器</div>
+	<header class="article-meta">
+		
+</header>
+	
+	
+</div>
+
+
+          </main>
+        </div>
+      </div>
+      <footer class="td-footer row d-print-none">
+  <div class="container-fluid">
+    <div class="row mx-md-2">
+      <div class="td-footer__left col-6 col-sm-4 order-sm-1">
+        
+      </div><div class="td-footer__right col-6 col-sm-4 order-sm-3">
+        
+      </div><div class="td-footer__center col-12 col-sm-4 py-2 order-sm-2">
+        <span class="td-footer__copyright">&copy;
+    2024
+    <span class="td-footer__authors">Copyright © 2024 RaymonIoT. All Rights Reserved.</span></span>
+      </div>
+    </div>
+  </div>
+</footer>
+
+    </div>
+    <script src="/js/main.js"></script>
+<script defer src="/js/click-to-copy.js" crossorigin="anonymous"></script>
+<script src='/js/tabpane-persist.js'></script>
+
+  </body>
+</html>

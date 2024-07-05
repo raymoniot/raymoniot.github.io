@@ -2,7 +2,7 @@ baseURL = 'https://peasantcoding.github.io'
 languageCode = 'zh'
 title = 'Solarhub 帮助中心'
 theme = "docsy"
-contentDir = "content/zh"
+contentDir = "content/zh/docs/web"
 defaultContentLanguage = "zh"
 defaultContentLanguageInSubdir = true
 publishDir = "docs"
@@ -21,5 +21,13 @@ contentDir = "content/en"
 [params]
 mainMenu = ["docs"]
 offlineSearch = true
+copyright = "Copyright © 2024 RaymonIoT. All Rights Reserved."
 [markup]
   defaultMarkdownHandler = 'goldmark'
+[markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+[params.ui]
+sidebar_menu_compact = true
+ul_show = 1
+sidebar_menu_foldable = true

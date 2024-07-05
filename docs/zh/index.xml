@@ -6,91 +6,202 @@
     <description>Recent content on Soalrhub 帮助中心</description>
     <generator>Hugo</generator>
     <language>zh</language>
-    <lastBuildDate>Tue, 02 Jul 2024 09:59:00 +0800</lastBuildDate>
     <atom:link href="http://localhost:1313/zh/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>登陆</title>
-      <link>http://localhost:1313/zh/docs/login/login/</link>
+      <title>采集器</title>
+      <link>http://localhost:1313/zh/docs/web/device/collector/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/zh/docs/login/login/</guid>
+      <guid>http://localhost:1313/zh/docs/web/device/collector/</guid>
+      <description>功能概述 1.设备列表 设备列表可以查看在线、故障、离线和全部的设备信息。&#xA;对于采集器设备来说，有两种额外的状态&#xA;已安装：采集器入库后进行了绑定电站 未安装：采集器入库后未绑定电站 2.采集器入库 采集器入库有两种方式&#xA;单个导入：单个采集器导入，一次导入一个采集器 批量导入：通过将采集器SN写入模版文件，一次性导入多个采集器 2.1单个导入 一般采集器类型选择WI-FI Stick，填写授权用户可以将该设备授权给其他用户，该用户拥有设备的查看管理权限，不填写则默认当前登录用户，填写标签会对采集器添加备注信息。&#xA;2.2批量导入 下载采集器导入模版&#xA;可以填写多个采集器SN，Owner为授权用户，Keywords为标签&#xA;类型选择WI-FI Stick，上传并读取校验，即可添加成功，若上传错误的SN或者已入库的SN则会列出报错信息&#xA;3.批量设置访问授权 可以勾选单个或多个设备&#xA;输入平台账号的邮箱，如果存在则会弹出对应的平台账号&#xA;选择平台账号，点击确定设置成功&#xA;4.批量设置标签 5.批量删除 6.单个访问授权/设置标签/删除 7.固件版本号搜索 8.采集器详情页 从设备列表中的设备可以进入设备详情页&#xA;采集器详情页包括采集器的基本信息和其子设备，支持的子设备有逆变器、BMS、优化器、电表等。&#xA;8.1报警 报警将打开该设备的设备事件页面，可以看到该设备产生的所有告警&#xA;8.2解绑 采集器的解绑将解绑采集器绑定的电站，子设备的解绑将会从采集器下删除该子设备，清空子设备的数据。&#xA;8.3其他功能 8.3.1变更 变更采集器的型号和序列号&#xA;8.3.2新建工单 对该采集器创建一个工单&#xA;8.3.3别名编辑 可以对采集器命名&#xA;8.3.4固件升级 对采集器进行OTA升级，上传固件后选择固件，点击立即升级&#xA;8.3.5操作日志 操作日志保存了最近对该设备的远程交互记录，包括OTA、参数设置、指令透传</description>
+    </item>
+    <item>
+      <title>测点查询</title>
+      <link>http://localhost:1313/zh/docs/web/toolkits/point-query/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/zh/docs/web/toolkits/point-query/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>成员管理</title>
+      <link>http://localhost:1313/zh/docs/web/organization/member/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/zh/docs/web/organization/member/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>固件管理</title>
+      <link>http://localhost:1313/zh/docs/web/toolkits/firmware/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/zh/docs/web/toolkits/firmware/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>汇总数据</title>
+      <link>http://localhost:1313/zh/docs/web/report/total/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/zh/docs/web/report/total/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>事件中心</title>
+      <link>http://localhost:1313/zh/docs/web/ops/events/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/zh/docs/web/ops/events/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>组织架构</title>
+      <link>http://localhost:1313/zh/docs/web/organization/tree/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/zh/docs/web/organization/tree/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>工单看板</title>
+      <link>http://localhost:1313/zh/docs/web/ops/ticket/dashboard/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/zh/docs/web/ops/ticket/dashboard/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>逆变器</title>
+      <link>http://localhost:1313/zh/docs/web/device/inveter/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/zh/docs/web/device/inveter/</guid>
+      <description>功能概述 1.设备列表 设备列表可以查看在线、故障、离线和全部的设备信息。&#xA;2.设备高级搜索 3.逆变器详情页 从设备列表中的设备可以进入设备详情页&#xA;逆变器详情页展示逆变器信息和历史数据图表&#xA;3.1报警 参考采集器报警&#xA;3.2解绑 参考采集器解绑，子设备的解绑将会从采集器下删除该子设备，清空子设备的数据。&#xA;3.3新建工单 参考采集器新建工单&#xA;3.4参数设置 通过绿色按钮进行测点参数设置下发，或者点击批量设置下发，详细请参考远程交互链接&#xA;3.5别名编辑 参考采集器别名编辑&#xA;3.6固件升级 参考采集器固件升级&#xA;3.7操作日志 参考采集器操作日志&#xA;3.8历史数据图表 历史数据支持日、周、月、年、总级别的数据展示和时间范围选择，其中不同的时间维度展示的参数不同&#xA;日：通过参数选择用户可以自定义参数展示 周：通过参数选择用户可以自定义参数展示 月：展示发电量 年：展示发电量 总：展示发电量 3.8.1参数选择 用户可以选择想要展示的参数，点击确定查看&#xA;用户也可以自定义模板，每个模板可以保存自定的参数&#xA;3.8.2导出报表 将图表数据导出为Excel表格</description>
+    </item>
+    <item>
+      <title>批量操作</title>
+      <link>http://localhost:1313/zh/docs/web/toolkits/batch/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/zh/docs/web/toolkits/batch/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>登陆</title>
+      <link>http://localhost:1313/zh/docs/web/login/login/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/zh/docs/web/login/login/</guid>
       <description>通过Solarhub可以访问Solarhub登陆页面,输入正确的账号和密码后登陆&#xA;登陆成功后进入数据看版页面</description>
     </item>
     <item>
-      <title>多语言切换</title>
-      <link>http://localhost:1313/zh/docs/login/languages/</link>
+      <title>电池系统</title>
+      <link>http://localhost:1313/zh/docs/web/device/battery/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/zh/docs/login/languages/</guid>
+      <guid>http://localhost:1313/zh/docs/web/device/battery/</guid>
+      <description>功能概述 1.设备列表 设备列表可以查看在线、故障、离线和全部的设备信息。&#xA;2.电池详情页 从设备列表中的设备可以进入设备详情页&#xA;电池详情页展示BMS信息及其BMS下的电池信息和历史数据图表&#xA;3.1报警 参考采集器报警&#xA;3.2解绑 参考采集器解绑，子设备的解绑将会从采集器下删除该子设备，清空子设备的数据。&#xA;3.3新建工单 参考采集器新建工单&#xA;3.4参数设置 参考逆变器参数设置&#xA;3.5别名编辑 参考采集器别名编辑&#xA;3.6固件升级 参考采集器固件升级&#xA;3.7操作日志 参考采集器操作日志&#xA;3.8历史数据图表 电池历史数据支持日、周级别的数据展示和时间范围选择&#xA;日：通过参数选择用户可以自定义参数展示 周：通过参数选择用户可以自定义参数展示 3.8.1参数选择 参考逆变器参数选择&#xA;3.8.2导出报表 参考逆变器导出报表</description>
+    </item>
+    <item>
+      <title>工单列表</title>
+      <link>http://localhost:1313/zh/docs/web/ops/ticket/list/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/zh/docs/web/ops/ticket/list/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>多语言切换</title>
+      <link>http://localhost:1313/zh/docs/web/login/languages/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/zh/docs/web/login/languages/</guid>
       <description>未登陆时通过右上角图标切换语言&#xA;登陆后通过右上角用户旁边的语言切换</description>
     </item>
     <item>
-      <title>数据看板</title>
-      <link>http://localhost:1313/zh/docs/dashboard/</link>
+      <title>客户团队</title>
+      <link>http://localhost:1313/zh/docs/web/ops/ticket/team/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/zh/docs/dashboard/</guid>
+      <guid>http://localhost:1313/zh/docs/web/ops/ticket/team/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>优化器</title>
+      <link>http://localhost:1313/zh/docs/web/device/optimizer/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/zh/docs/web/device/optimizer/</guid>
+      <description>功能概述 1.设备列表 设备列表可以查看在线、故障、离线和全部的设备信息。&#xA;2.优化器控制器详情页 从设备列表中的设备可以进入设备详情页&#xA;优化器控制器详情页展示优化器控制器的信息和优化器的开关状态&#xA;3.1报警 参考采集器报警&#xA;3.2解绑 参考采集器解绑，子设备的解绑将会从采集器下删除该子设备，清空子设备的数据。&#xA;3.3新建工单 参考采集器新建工单&#xA;3.4参数设置 参考逆变器参数设置&#xA;3.5别名编辑 参考采集器别名编辑&#xA;3.6固件升级 参考采集器固件升级&#xA;3.7操作日志 参考采集器操作日志</description>
+    </item>
+    <item>
+      <title>远程交互</title>
+      <link>http://localhost:1313/zh/docs/web/toolkits/remote/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/zh/docs/web/toolkits/remote/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>数据看板</title>
+      <link>http://localhost:1313/zh/docs/web/dashboard/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/zh/docs/web/dashboard/</guid>
       <description>业务使用 作为运维商或安装商，需要了解自身公司名下关联电站的分类数量情况和设备分布情况。&#xA;通过缩放可以看到某个地区数量的详细分布情况</description>
     </item>
     <item>
-      <title>光伏系统</title>
-      <link>http://localhost:1313/zh/docs/plantcenter/pvs/</link>
+      <title>通知公告</title>
+      <link>http://localhost:1313/zh/docs/web/toolkits/notification/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/zh/docs/plantcenter/pvs/</guid>
-      <description>电站概览 光伏系统的电站概览包括实时功率、当日电量、社会效益、在线电站四个板块。&#xA;实时功率：对光伏系统中当前登录用户数据权限下的光伏电站功率和光伏装机容量汇总展示 当日电量：展示当前登录用户数据权限下光伏电站的当日电量、月发电量、年发电量、累计发电量 社会效益：当前登录用户数据权限下整个光伏系统产生的社会效益，包括树木种指数、二氧化碳减排量、灯泡使用量 在线电站：当前登录用户数据权限下的在线的电站数和总电站数 电站列表 电站列表展示所有在线、故障、离线状态电站的部分信息，可以直观的看到电站的基本信息，所有电站的在线情况，也可以进行修改和删除电站&#xA;也可以使用条件搜索，查找符合条件的电站&#xA;电站地图 直观的展示所有电站的在线状态和分布情况，可以通过电站名称/地址/业主来查找符合条件的电站&#xA;系统大屏 系统大屏的入口在电站中心各个系统的电站概览模块右上角&#xA;电站大屏用于直观的展示整个系统的运行状态，包含电站概览、实时功率、日满发电小时排名、当月发电量、当年发电量、社会贡献等信息&#xA;电站详情页 通过点击电站列表中的电站可以查看单个电站的详情页，详情页展示该电站的详细信息，包括电站图表、电站设备、电站报警、电站布局、电站资料等&#xA;功能概述 电站图表查看和导出：可以查看基于设备的电站日月年总统计信息，不同的统计周期展示不同的参数信息，也可以将图表中的统计数据导出成Excel图表&#xA;日视图：展示某日的实时功率趋势图 周视图：展示一周的实时功率趋势图 月视图：展示某月中每天的发电量和收益汇总 年视图：展示某年中每个月的发电量和收益汇总 总视图：展示每年的发电量和收益汇总 电站大屏：展示该电站的概览信息和发电情况、告警信息等&#xA;添加采集器：跳转&#xA;​&#xA;新建工单： 发电修补： 1 </description>
+      <guid>http://localhost:1313/zh/docs/web/toolkits/notification/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>智能电表</title>
+      <link>http://localhost:1313/zh/docs/web/device/meter/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/zh/docs/web/device/meter/</guid>
+      <description>功能概述 1.设备列表 设备列表可以查看在线、故障、离线和全部的设备信息。&#xA;2.电表详情页 从设备列表中的设备可以进入设备详情页&#xA;电表详情页展示电表信息和微逆设备&#xA;3.1报警 参考采集器报警&#xA;3.2解绑 参考采集器解绑，子设备的解绑将会从采集器下删除该子设备，清空子设备的数据。&#xA;3.3新建工单 参考采集器新建工单&#xA;3.4参数设置 参考逆变器参数设置&#xA;3.5别名编辑 参考采集器别名编辑&#xA;3.6操作日志 参考采集器操作日志</description>
+    </item>
+    <item>
+      <title>光伏系统</title>
+      <link>http://localhost:1313/zh/docs/web/plantcenter/pvs/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/zh/docs/web/plantcenter/pvs/</guid>
+      <description>电站概览 光伏系统的电站概览包括实时功率、当日电量、社会效益、在线电站四个板块。&#xA;实时功率：对光伏系统中当前登录用户数据权限下的光伏电站功率和光伏装机容量汇总展示 当日电量：展示当前登录用户数据权限下光伏电站的当日电量、月发电量、年发电量、累计发电量 社会效益：当前登录用户数据权限下整个光伏系统产生的社会效益，包括树木种指数、二氧化碳减排量、灯泡使用量 在线电站：当前登录用户数据权限下的在线的电站数和总电站数 电站列表 电站列表展示所有在线、故障、离线状态电站的部分信息，可以直观的看到电站的基本信息，所有电站的在线情况，也可以进行修改和删除电站&#xA;也可以使用条件搜索，查找符合条件的电站&#xA;电站地图 直观的展示所有电站的在线状态和分布情况，可以通过电站名称/地址/业主来查找符合条件的电站&#xA;系统大屏 系统大屏的入口在电站中心各个系统的电站概览模块右上角&#xA;电站大屏用于直观的展示整个系统的运行状态，包含电站概览、实时功率、日满发电小时排名、当月发电量、当年发电量、社会贡献等信息&#xA;电站详情页 通过点击电站列表中的电站可以查看单个电站的详情页，详情页展示该电站的详细信息，包括电站图表、电站设备、电站报警、电站布局、电站资料等&#xA;功能概述 电站图表查看和导出：可以查看基于设备的电站日月年总统计信息，不同的统计周期展示不同的参数信息，也可以将图表中的统计数据导出成Excel图表&#xA;日视图：展示某日的实时功率趋势图 周视图：展示一周的实时功率趋势图 月视图：展示某月中每天的发电量和收益汇总 年视图：展示某年中每个月的发电量和收益汇总 总视图：展示每年的发电量和收益汇总 电站大屏：展示该电站的概览信息和发电情况、告警信息等&#xA;添加采集器：跳转&#xA;​&#xA;新建工单：对此电站创建一个工单，详细参考【跳转工单系统】&#xA;发电修补：对发电量修补&#xA;设备列表：电站下的所有设备&#xA;告警列表：电站下所有发生告警的设备&#xA;布局：设置屋面的物理布局和组件设备连接的系统布局&#xA;时间轴拖动：支持拖动时间轴来获取不同时间的光伏板信息&#xA;布局编辑：通过拖动组件来添加光伏板，支持对光伏板的启动/禁用和删除&#xA;资料：电站的详细信息展示</description>
     </item>
     <item>
       <title>电池系统</title>
-      <link>http://localhost:1313/zh/docs/plantcenter/bess/</link>
+      <link>http://localhost:1313/zh/docs/web/plantcenter/bess/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/zh/docs/plantcenter/bess/</guid>
-      <description></description>
+      <guid>http://localhost:1313/zh/docs/web/plantcenter/bess/</guid>
+      <description>电站概览 电池系统的电站概览包括实时功率、充放电统计、社会效益、在线电站四个板块。&#xA;实时功率：对电池系统中当前登录用户数据权限下的电池系统功率和装机容量汇总展示 充放电统计：展示当前登录用户数据权限下光伏电站的日充电量、日放电量、累计充电量、累计放电量 社会效益：当前登录用户数据权限下整个光伏系统产生的社会效益，包括树木种指数、二氧化碳减排量、灯泡使用量 在线电站：当前登录用户数据权限下的在线的电站数和总电站数 电站列表 此处与光伏系统相同，具体参考电站列表&#xA;电站地图 此处与光伏系统相同，具体参考电站地图&#xA;系统大屏 此处与光伏系统相同，具体参考电站大屏&#xA;电站详情页 通过点击电站列表中的电站可以查看单个电站的详情页，详情页展示该电站的详细信息，包括电站图表、电站设备、电站报警、电站布局、电站资料等&#xA;功能概述 电站图表查看：可以查看基于设备汇总的电站日月年总统计信息，不同的统计周期展示不同的参数信息，支持SOC、SOH、日充电量、日放电量、累计充电量、累计放电量、电池温度、总电流、总电压、总功率的参数选择，可以直观地在图表中展示多个参数。&#xA;日视图：通过参数选择展示选择的参数趋势图 周视图：展示电站一周的日充电量、日放电量趋势图 月视图：展示电站某月中每天的日充电量、日放电量和收益汇总 年视图：展示电站某年中每个月的充电量、放电量和收益汇总 总视图：展示电站每年的充电量、放电量和收益汇总 其他内容与光伏系统相同，具体参考功能概述</description>
     </item>
     <item>
       <title>户用储能</title>
-      <link>http://localhost:1313/zh/docs/plantcenter/hess/</link>
+      <link>http://localhost:1313/zh/docs/web/plantcenter/hess/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/zh/docs/plantcenter/hess/</guid>
-      <description></description>
+      <guid>http://localhost:1313/zh/docs/web/plantcenter/hess/</guid>
+      <description>电站概览 户用储能的电站概览包括发电、电网、电池、用电四个板块。&#xA;发电：对户用储能电站中当前登录用户数据权限下的发电功率、光伏装机容量、日发电量、月发电量、年发电量、年发电量汇总展示 电网：展示当前登录用户数据权限下户用储能电站的买电量与卖电量汇总 电池：展示当前登录用户数据权限下户用储能电站的SOC、日放电量、日充电量汇总 用电：展示当前登录用户数据权限下户用储能电站的用电功率、日用电量、月用电量、年用电量、总用电量 电站列表 此处与光伏系统相同，具体参考电站列表&#xA;电站地图 此处与光伏系统相同，具体参考电站地图&#xA;系统大屏 此处与光伏系统相同，具体参考电站大屏&#xA;电站详情页 通过点击电站列表中的电站可以查看单个电站的详情页，详情页展示该电站的详细信息，包括电站图表、电站设备、电站报警、电站布局、电站资料等&#xA;功能概述 电站图表查看：可以查看基于设备汇总的电站日月年总统计信息，不同的统计周期展示不同的参数信息，支持发电功率、用电功率、电池剩余量、电网功率、电池功率的参数选择，可以直观地在图表中展示多个参数。 日视图：通过参数选择展示选择的参数趋势图 周视图：展示电站一周的用电功率、日充电量、日放电量趋势 月视图：展示电站某月中每天的发电量、日充电量、日放电量、买电量、卖电量趋势 年视图：展示电站某年中每个月的发电量、日充电量、日放电量、买电量、卖电量趋势 总视图：展示电站每年的发电量、日充电量、日放电量、买电量、卖电量趋势 其他内容与光伏系统相同，具体参考功能概述 </description>
     </item>
     <item>
       <title>商业电站</title>
-      <link>http://localhost:1313/zh/docs/plantcenter/ems/</link>
+      <link>http://localhost:1313/zh/docs/web/plantcenter/ems/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/zh/docs/plantcenter/ems/</guid>
-      <description></description>
+      <guid>http://localhost:1313/zh/docs/web/plantcenter/ems/</guid>
+      <description>电池系统与光伏系统结构相同，具体参考光伏系统&#xA;电站概览 此处与户用储能相同，具体参考电站概览&#xA;电站列表 此处与光伏系统相同，具体参考电站列表&#xA;电站地图 此处与光伏系统相同，具体参考电站地图&#xA;系统大屏 此处与光伏系统相同，具体参考电站大屏&#xA;电站详情页 此处与户用储能相同，具体参考电站详情页</description>
     </item>
     <item>
       <title>创建电站</title>
-      <link>http://localhost:1313/zh/docs/plantcenter/createplant/</link>
+      <link>http://localhost:1313/zh/docs/web/plantcenter/createplant/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/zh/docs/plantcenter/createplant/</guid>
-      <description></description>
+      <guid>http://localhost:1313/zh/docs/web/plantcenter/createplant/</guid>
+      <description>1.创建入口 2.完善电站信息 2.1填写基本信息 2.2选择地理位置 允许网站进行定位可以快速获取当前位置&#xA;在地图上选择位置获取坐标信息作为电站位置&#xA;2.3添加干系人（访客） 输入访客邮箱即可将电站授权给平台其他账号从而使其拥有电站访问权限&#xA;2.4上传电站照片 2.5提交 创建成功即可在电站列表中看到电站，同时也可以在列表操作一列中进行电站的修改和删除</description>
     </item>
     <item>
-      <title>编辑电站</title>
-      <link>http://localhost:1313/zh/docs/plantcenter/editplant/</link>
+      <title>修改电站</title>
+      <link>http://localhost:1313/zh/docs/web/plantcenter/editplant/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/zh/docs/plantcenter/editplant/</guid>
-      <description></description>
+      <guid>http://localhost:1313/zh/docs/web/plantcenter/editplant/</guid>
+      <description>1.修改电站入口 修改电站步骤请参考完善电站信息</description>
     </item>
     <item>
       <title>访客授权</title>
-      <link>http://localhost:1313/zh/docs/plantcenter/guestaccess/</link>
+      <link>http://localhost:1313/zh/docs/web/plantcenter/guestaccess/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/zh/docs/plantcenter/guestaccess/</guid>
-      <description></description>
+      <guid>http://localhost:1313/zh/docs/web/plantcenter/guestaccess/</guid>
+      <description>1.授权入口 在修改电站中，通过完善电站信息中的添加干系人进行授权</description>
     </item>
     <item>
       <title>添加采集器</title>
-      <link>http://localhost:1313/zh/docs/plantcenter/addlogger/</link>
+      <link>http://localhost:1313/zh/docs/web/plantcenter/addlogger/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/zh/docs/plantcenter/addlogger/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>A</title>
-      <link>http://localhost:1313/zh/a/</link>
-      <pubDate>Tue, 02 Jul 2024 09:59:00 +0800</pubDate>
-      <guid>http://localhost:1313/zh/a/</guid>
-      <description></description>
+      <guid>http://localhost:1313/zh/docs/web/plantcenter/addlogger/</guid>
+      <description>1.添加采集器入口 从电站列表进入电站的电站详情页，右上角添加采集器&#xA;2.功能概述 2.1输入采集器序列号添加 添加序列号，添加前要先对采集器进行采集器入库，已入库则忽略&#xA;点击提交按钮完成采集器添加&#xA;2.2通过模板文件添加 下载模版collector-import-template.xlsx&#xA;在模版中添加序列号&#xA;通过模版文件添加&#xA;确认后提交</description>
     </item>
   </channel>
 </rss>
