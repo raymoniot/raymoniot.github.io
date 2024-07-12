@@ -2,23 +2,23 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>登陆 on Soalrhub 帮助中心</title>
-    <link>http://localhost:1313/zh/docs/web/login/</link>
+    <link>https://peasantcoding.github.io/zh/docs/web/login/</link>
     <description>Recent content in 登陆 on Soalrhub 帮助中心</description>
     <generator>Hugo</generator>
     <language>zh</language>
-    <atom:link href="http://localhost:1313/zh/docs/web/login/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://peasantcoding.github.io/zh/docs/web/login/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>登陆</title>
-      <link>http://localhost:1313/zh/docs/web/login/login/</link>
+      <link>https://peasantcoding.github.io/zh/docs/web/login/login/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/zh/docs/web/login/login/</guid>
+      <guid>https://peasantcoding.github.io/zh/docs/web/login/login/</guid>
       <description>通过Solarhub可以访问Solarhub登陆页面,输入正确的账号和密码后登陆&#xA;登陆成功后进入数据看版页面</description>
     </item>
     <item>
       <title>多语言切换</title>
-      <link>http://localhost:1313/zh/docs/web/login/languages/</link>
+      <link>https://peasantcoding.github.io/zh/docs/web/login/languages/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/zh/docs/web/login/languages/</guid>
+      <guid>https://peasantcoding.github.io/zh/docs/web/login/languages/</guid>
       <description>未登陆时通过右上角图标切换语言&#xA;登陆后通过右上角用户旁边的语言切换</description>
     </item>
   </channel>

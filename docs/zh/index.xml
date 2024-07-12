@@ -2,198 +2,198 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Soalrhub 帮助中心</title>
-    <link>http://localhost:1313/zh/</link>
+    <link>https://peasantcoding.github.io/zh/</link>
     <description>Recent content on Soalrhub 帮助中心</description>
     <generator>Hugo</generator>
     <language>zh</language>
-    <atom:link href="http://localhost:1313/zh/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://peasantcoding.github.io/zh/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>采集器</title>
-      <link>http://localhost:1313/zh/docs/web/device/collector/</link>
+      <link>https://peasantcoding.github.io/zh/docs/web/device/collector/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/zh/docs/web/device/collector/</guid>
+      <guid>https://peasantcoding.github.io/zh/docs/web/device/collector/</guid>
       <description>功能概述 1.设备列表 设备列表可以查看在线、故障、离线和全部的设备信息。&#xA;对于采集器设备来说，有两种额外的状态&#xA;已安装：采集器入库后进行了绑定电站 未安装：采集器入库后未绑定电站 2.采集器入库 采集器入库有两种方式&#xA;单个导入：单个采集器导入，一次导入一个采集器 批量导入：通过将采集器SN写入模版文件，一次性导入多个采集器 2.1单个导入 一般采集器类型选择WI-FI Stick，填写授权用户可以将该设备授权给其他用户，该用户拥有设备的查看管理权限，不填写则默认当前登录用户，填写标签会对采集器添加备注信息。&#xA;2.2批量导入 下载采集器导入模版&#xA;可以填写多个采集器SN，Owner为授权用户，Keywords为标签&#xA;类型选择WI-FI Stick，上传并读取校验，即可添加成功，若上传错误的SN或者已入库的SN则会列出报错信息&#xA;3.批量设置访问授权 可以勾选单个或多个设备&#xA;输入平台账号的邮箱，如果存在则会弹出对应的平台账号&#xA;选择平台账号，点击确定设置成功&#xA;4.批量设置标签 5.批量删除 6.单个访问授权/设置标签/删除 7.固件版本号搜索 8.采集器详情页 从设备列表中的设备可以进入设备详情页&#xA;采集器详情页包括采集器的基本信息和其子设备，支持的子设备有逆变器、BMS、优化器、电表等。&#xA;8.1报警 报警将打开该设备的设备事件页面，可以看到该设备产生的所有告警&#xA;8.2解绑 采集器的解绑将解绑采集器绑定的电站，子设备的解绑将会从采集器下删除该子设备，清空子设备的数据。&#xA;8.3其他功能 8.3.1变更 变更采集器的型号和序列号&#xA;8.3.2新建工单 对该采集器创建一个工单&#xA;8.3.3别名编辑 可以对采集器命名&#xA;8.3.4固件升级 对采集器进行OTA升级，上传固件后选择固件，点击立即升级&#xA;8.3.5操作日志 操作日志保存了最近对该设备的远程交互记录，包括OTA、参数设置、指令透传</description>
     </item>
     <item>
       <title>测点查询</title>
-      <link>http://localhost:1313/zh/docs/web/toolkits/point-query/</link>
+      <link>https://peasantcoding.github.io/zh/docs/web/toolkits/point-query/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/zh/docs/web/toolkits/point-query/</guid>
+      <guid>https://peasantcoding.github.io/zh/docs/web/toolkits/point-query/</guid>
       <description>功能概述 1.测点查询导出 输入设备序列号即可查询到设备数据&#xA;选择导出时间，可以导出某天的数据</description>
     </item>
     <item>
       <title>固件管理</title>
-      <link>http://localhost:1313/zh/docs/web/toolkits/firmware/</link>
+      <link>https://peasantcoding.github.io/zh/docs/web/toolkits/firmware/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/zh/docs/web/toolkits/firmware/</guid>
+      <guid>https://peasantcoding.github.io/zh/docs/web/toolkits/firmware/</guid>
       <description>功能概述 1.固件搜索 可以根据设备类型或固件名称进行高级搜索&#xA;2.新增固件 固件版本不易过长，请确保固件文件合法，否则将无法新增&#xA;3.其他操作 3.1修改固件 3.2删除固件 3.3下载固件 3.4固件访问授权 通过输入平台账号的邮箱会自动检索平台账号，选择对应的账号可以将固件访问授权到该账号下，授权组织同理&#xA;3.5固件兑换码生成 固件兑换码生成用于APP中使用OTA助手进行升级，详请参考APP页面OTA助手</description>
     </item>
     <item>
       <title>汇总数据</title>
-      <link>http://localhost:1313/zh/docs/web/report/total/</link>
+      <link>https://peasantcoding.github.io/zh/docs/web/report/total/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/zh/docs/web/report/total/</guid>
+      <guid>https://peasantcoding.github.io/zh/docs/web/report/total/</guid>
       <description>功能概述 1.电站报表 1.1导出 2.设备报表 </description>
     </item>
     <item>
       <title>事件中心</title>
-      <link>http://localhost:1313/zh/docs/web/ops/events/</link>
+      <link>https://peasantcoding.github.io/zh/docs/web/ops/events/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/zh/docs/web/ops/events/</guid>
+      <guid>https://peasantcoding.github.io/zh/docs/web/ops/events/</guid>
       <description>功能概述 1.高级搜索 支持通过事件级别、事件时间、电站名名称、设备序列号、事件代码、事件内容作为条件搜索&#xA;2.新建工单 对单个事件进行工单创建</description>
     </item>
     <item>
       <title>组织架构</title>
-      <link>http://localhost:1313/zh/docs/web/organization/tree/</link>
+      <link>https://peasantcoding.github.io/zh/docs/web/organization/tree/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/zh/docs/web/organization/tree/</guid>
+      <guid>https://peasantcoding.github.io/zh/docs/web/organization/tree/</guid>
       <description>功能概述 1.成员列表 查看当前组织下的所有成员&#xA;1.1添加成员 在选中的组织下添加成员&#xA;关于新增成员数据权限的定义：&#xA;仅自己：新增的成员只能看到自己权限范围内的数据 同组织人员：新增的成员可以看到自己权限范围内的数据，还能看到同组织其他成员权限内的数据 同组织人员&amp;amp;下级组织：新增的成员可以看到自己权限范围内的数据，还能看到同组织其他成员以及下级组织其他成员权限内的数据 1.2修改成员 成员的角色会影响成员在平台可进行的操作，测点组则影响成员对设备详情的是否可见&#xA;1.3转移组织 通过输入组织代码，可以将成员转移到其他组织中&#xA;1.4删除成员 1.5重置密码 2.组织信息 2.1修改组织 2.2新建下级组织 2.3转移组织 转移组织可以将子组织转移到其他组织下&#xA;2.4删除组织 3.测点组 3.1新建测点组 输入要创建的测点组名称，其他语言的名称将用于系统多语言的切换的翻译&#xA;3.2测点分配 对一个测点组进行测点分配，选择要分配的设备类型，添加未分配的测点，已分配的测点可以看到&#xA;3.3修改测点组 3.4删除测点组 </description>
     </item>
     <item>
       <title>工单看板</title>
-      <link>http://localhost:1313/zh/docs/web/ops/ticket/dashboard/</link>
+      <link>https://peasantcoding.github.io/zh/docs/web/ops/ticket/dashboard/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/zh/docs/web/ops/ticket/dashboard/</guid>
+      <guid>https://peasantcoding.github.io/zh/docs/web/ops/ticket/dashboard/</guid>
       <description>功能概述 1.最近活动 工单系统的操作记录</description>
     </item>
     <item>
       <title>逆变器</title>
-      <link>http://localhost:1313/zh/docs/web/device/inveter/</link>
+      <link>https://peasantcoding.github.io/zh/docs/web/device/inveter/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/zh/docs/web/device/inveter/</guid>
+      <guid>https://peasantcoding.github.io/zh/docs/web/device/inveter/</guid>
       <description>功能概述 1.设备列表 设备列表可以查看在线、故障、离线和全部的设备信息。&#xA;2.设备高级搜索 3.逆变器详情页 从设备列表中的设备可以进入设备详情页&#xA;逆变器详情页展示逆变器信息和历史数据图表&#xA;3.1报警 参考采集器报警&#xA;3.2解绑 参考采集器解绑，子设备的解绑将会从采集器下删除该子设备，清空子设备的数据。&#xA;3.3新建工单 参考采集器新建工单&#xA;3.4参数设置 通过绿色按钮进行测点参数设置下发，或者点击批量设置下发，详细请参考远程交互链接&#xA;3.5别名编辑 参考采集器别名编辑&#xA;3.6固件升级 参考采集器固件升级&#xA;3.7操作日志 参考采集器操作日志&#xA;3.8历史数据图表 历史数据支持日、周、月、年、总级别的数据展示和时间范围选择，其中不同的时间维度展示的参数不同&#xA;日：通过参数选择用户可以自定义参数展示 周：通过参数选择用户可以自定义参数展示 月：展示发电量 年：展示发电量 总：展示发电量 3.8.1参数选择 用户可以选择想要展示的参数，点击确定查看&#xA;用户也可以自定义模板，每个模板可以保存自定的参数&#xA;3.8.2导出报表 将图表数据导出为Excel表格</description>
     </item>
     <item>
       <title>批量操作</title>
-      <link>http://localhost:1313/zh/docs/web/toolkits/batch/</link>
+      <link>https://peasantcoding.github.io/zh/docs/web/toolkits/batch/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/zh/docs/web/toolkits/batch/</guid>
+      <guid>https://peasantcoding.github.io/zh/docs/web/toolkits/batch/</guid>
       <description>功能概述 1.创建任务 可以按照指定设备类型和电站进行设备的筛选&#xA;选择设备类型，选择设备列表中的设备，添加设备&#xA;选择需要批量操作的类型，提交任务&#xA;2.重做失败设备 如果批量操作任务重出现设备操作失败，可以使用重做功能，对批量任务中失败的设备进行重做</description>
     </item>
     <item>
       <title>登陆</title>
-      <link>http://localhost:1313/zh/docs/web/login/login/</link>
+      <link>https://peasantcoding.github.io/zh/docs/web/login/login/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/zh/docs/web/login/login/</guid>
+      <guid>https://peasantcoding.github.io/zh/docs/web/login/login/</guid>
       <description>通过Solarhub可以访问Solarhub登陆页面,输入正确的账号和密码后登陆&#xA;登陆成功后进入数据看版页面</description>
     </item>
     <item>
       <title>电池系统</title>
-      <link>http://localhost:1313/zh/docs/web/device/battery/</link>
+      <link>https://peasantcoding.github.io/zh/docs/web/device/battery/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/zh/docs/web/device/battery/</guid>
+      <guid>https://peasantcoding.github.io/zh/docs/web/device/battery/</guid>
       <description>功能概述 1.设备列表 设备列表可以查看在线、故障、离线和全部的设备信息。&#xA;2.电池详情页 从设备列表中的设备可以进入设备详情页&#xA;电池详情页展示BMS信息及其BMS下的电池信息和历史数据图表&#xA;3.1报警 参考采集器报警&#xA;3.2解绑 参考采集器解绑，子设备的解绑将会从采集器下删除该子设备，清空子设备的数据。&#xA;3.3新建工单 参考采集器新建工单&#xA;3.4参数设置 参考逆变器参数设置&#xA;3.5别名编辑 参考采集器别名编辑&#xA;3.6固件升级 参考采集器固件升级&#xA;3.7操作日志 参考采集器操作日志&#xA;3.8历史数据图表 电池历史数据支持日、周级别的数据展示和时间范围选择&#xA;日：通过参数选择用户可以自定义参数展示 周：通过参数选择用户可以自定义参数展示 3.8.1参数选择 参考逆变器参数选择&#xA;3.8.2导出报表 参考逆变器导出报表</description>
     </item>
     <item>
       <title>工单列表</title>
-      <link>http://localhost:1313/zh/docs/web/ops/ticket/list/</link>
+      <link>https://peasantcoding.github.io/zh/docs/web/ops/ticket/list/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/zh/docs/web/ops/ticket/list/</guid>
+      <guid>https://peasantcoding.github.io/zh/docs/web/ops/ticket/list/</guid>
       <description>功能概述 1.工单状态变更 2.工单修改 3.待办 4.与我相关 </description>
     </item>
     <item>
       <title>多语言切换</title>
-      <link>http://localhost:1313/zh/docs/web/login/languages/</link>
+      <link>https://peasantcoding.github.io/zh/docs/web/login/languages/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/zh/docs/web/login/languages/</guid>
+      <guid>https://peasantcoding.github.io/zh/docs/web/login/languages/</guid>
       <description>未登陆时通过右上角图标切换语言&#xA;登陆后通过右上角用户旁边的语言切换</description>
     </item>
     <item>
       <title>客户团队</title>
-      <link>http://localhost:1313/zh/docs/web/ops/ticket/team/</link>
+      <link>https://peasantcoding.github.io/zh/docs/web/ops/ticket/team/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/zh/docs/web/ops/ticket/team/</guid>
+      <guid>https://peasantcoding.github.io/zh/docs/web/ops/ticket/team/</guid>
       <description>功能概述 1.新建团队 2.修改 3.解散 </description>
     </item>
     <item>
       <title>优化器</title>
-      <link>http://localhost:1313/zh/docs/web/device/optimizer/</link>
+      <link>https://peasantcoding.github.io/zh/docs/web/device/optimizer/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/zh/docs/web/device/optimizer/</guid>
+      <guid>https://peasantcoding.github.io/zh/docs/web/device/optimizer/</guid>
       <description>功能概述 1.设备列表 设备列表可以查看在线、故障、离线和全部的设备信息。&#xA;2.优化器控制器详情页 从设备列表中的设备可以进入设备详情页&#xA;优化器控制器详情页展示优化器控制器的信息和优化器的开关状态&#xA;3.1报警 参考采集器报警&#xA;3.2解绑 参考采集器解绑，子设备的解绑将会从采集器下删除该子设备，清空子设备的数据。&#xA;3.3新建工单 参考采集器新建工单&#xA;3.4参数设置 参考逆变器参数设置&#xA;3.5别名编辑 参考采集器别名编辑&#xA;3.6固件升级 参考采集器固件升级&#xA;3.7操作日志 参考采集器操作日志</description>
     </item>
     <item>
       <title>远程交互</title>
-      <link>http://localhost:1313/zh/docs/web/toolkits/remote/</link>
+      <link>https://peasantcoding.github.io/zh/docs/web/toolkits/remote/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/zh/docs/web/toolkits/remote/</guid>
+      <guid>https://peasantcoding.github.io/zh/docs/web/toolkits/remote/</guid>
       <description>功能概述 远程交互界面默认展示当前在线的采集器，也可以根据序列号、状态、所属电站、标签、固件版本号进行高级搜索&#xA;1.固件升级（OTA） 固件升级包括升级采集器和升级子设备，升级过程相同，两者设备的类型不同，使用的固件不同&#xA;固件列表中展示当前账号权限下可见的所有固件，可以设置升级超时时间，如果设备在超时时间外无反馈回复，则认为此次OTA升级超时&#xA;2.指令透传 指令透传发送的指令格式有两种，发生标准Modbus协议的指令和自定义指令，输入指令后点击立即发生即可，旧版发送为旧版固件使用，忽略即可&#xA;3.参数设置 可以进行单个参数的设置与发送，也可以点击批量设置，同时设置多个参数&#xA;4.操作日志 操作日志可以查询某个设备在一个时间段所有的远程交互记录，也可以按照操作类型搜索</description>
     </item>
     <item>
       <title>数据看板</title>
-      <link>http://localhost:1313/zh/docs/web/dashboard/</link>
+      <link>https://peasantcoding.github.io/zh/docs/web/dashboard/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/zh/docs/web/dashboard/</guid>
+      <guid>https://peasantcoding.github.io/zh/docs/web/dashboard/</guid>
       <description>业务使用 作为运维商或安装商，需要了解自身公司名下关联电站的分类数量情况和设备分布情况。&#xA;通过缩放可以看到某个地区数量的详细分布情况</description>
     </item>
     <item>
       <title>通知公告</title>
-      <link>http://localhost:1313/zh/docs/web/toolkits/notification/</link>
+      <link>https://peasantcoding.github.io/zh/docs/web/toolkits/notification/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/zh/docs/web/toolkits/notification/</guid>
+      <guid>https://peasantcoding.github.io/zh/docs/web/toolkits/notification/</guid>
       <description>功能概述 </description>
     </item>
     <item>
       <title>智能电表</title>
-      <link>http://localhost:1313/zh/docs/web/device/meter/</link>
+      <link>https://peasantcoding.github.io/zh/docs/web/device/meter/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/zh/docs/web/device/meter/</guid>
+      <guid>https://peasantcoding.github.io/zh/docs/web/device/meter/</guid>
       <description>功能概述 1.设备列表 设备列表可以查看在线、故障、离线和全部的设备信息。&#xA;2.电表详情页 从设备列表中的设备可以进入设备详情页&#xA;电表详情页展示电表信息和微逆设备&#xA;3.1报警 参考采集器报警&#xA;3.2解绑 参考采集器解绑，子设备的解绑将会从采集器下删除该子设备，清空子设备的数据。&#xA;3.3新建工单 参考采集器新建工单&#xA;3.4参数设置 参考逆变器参数设置&#xA;3.5别名编辑 参考采集器别名编辑&#xA;3.6操作日志 参考采集器操作日志</description>
     </item>
     <item>
       <title>光伏系统</title>
-      <link>http://localhost:1313/zh/docs/web/plantcenter/pvs/</link>
+      <link>https://peasantcoding.github.io/zh/docs/web/plantcenter/pvs/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/zh/docs/web/plantcenter/pvs/</guid>
+      <guid>https://peasantcoding.github.io/zh/docs/web/plantcenter/pvs/</guid>
       <description>电站概览 光伏系统的电站概览包括实时功率、当日电量、社会效益、在线电站四个板块。&#xA;实时功率：对光伏系统中当前登录用户数据权限下的光伏电站功率和光伏装机容量汇总展示 当日电量：展示当前登录用户数据权限下光伏电站的当日电量、月发电量、年发电量、累计发电量 社会效益：当前登录用户数据权限下整个光伏系统产生的社会效益，包括树木种指数、二氧化碳减排量、灯泡使用量 在线电站：当前登录用户数据权限下的在线的电站数和总电站数 电站列表 电站列表展示所有在线、故障、离线状态电站的部分信息，可以直观的看到电站的基本信息，所有电站的在线情况，也可以进行修改和删除电站&#xA;也可以使用条件搜索，查找符合条件的电站&#xA;电站地图 直观的展示所有电站的在线状态和分布情况，可以通过电站名称/地址/业主来查找符合条件的电站&#xA;系统大屏 系统大屏的入口在电站中心各个系统的电站概览模块右上角&#xA;电站大屏用于直观的展示整个系统的运行状态，包含电站概览、实时功率、日满发电小时排名、当月发电量、当年发电量、社会贡献等信息&#xA;电站详情页 通过点击电站列表中的电站可以查看单个电站的详情页，详情页展示该电站的详细信息，包括电站图表、电站设备、电站报警、电站布局、电站资料等&#xA;功能概述 电站图表查看和导出：可以查看基于设备的电站日月年总统计信息，不同的统计周期展示不同的参数信息，也可以将图表中的统计数据导出成Excel图表&#xA;日视图：展示某日的实时功率趋势图 周视图：展示一周的实时功率趋势图 月视图：展示某月中每天的发电量和收益汇总 年视图：展示某年中每个月的发电量和收益汇总 总视图：展示每年的发电量和收益汇总 电站大屏：展示该电站的概览信息和发电情况、告警信息等&#xA;添加采集器：跳转&#xA;​&#xA;新建工单：对此电站创建一个工单，详细参考【跳转工单系统】&#xA;发电修补：对发电量修补&#xA;设备列表：电站下的所有设备&#xA;告警列表：电站下所有发生告警的设备&#xA;布局：设置屋面的物理布局和组件设备连接的系统布局&#xA;时间轴拖动：支持拖动时间轴来获取不同时间的光伏板信息&#xA;布局编辑：通过拖动组件来添加光伏板，支持对光伏板的启动/禁用和删除&#xA;资料：电站的详细信息展示</description>
     </item>
     <item>
       <title>电池系统</title>
-      <link>http://localhost:1313/zh/docs/web/plantcenter/bess/</link>
+      <link>https://peasantcoding.github.io/zh/docs/web/plantcenter/bess/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/zh/docs/web/plantcenter/bess/</guid>
+      <guid>https://peasantcoding.github.io/zh/docs/web/plantcenter/bess/</guid>
       <description>电站概览 电池系统的电站概览包括实时功率、充放电统计、社会效益、在线电站四个板块。&#xA;实时功率：对电池系统中当前登录用户数据权限下的电池系统功率和装机容量汇总展示 充放电统计：展示当前登录用户数据权限下光伏电站的日充电量、日放电量、累计充电量、累计放电量 社会效益：当前登录用户数据权限下整个光伏系统产生的社会效益，包括树木种指数、二氧化碳减排量、灯泡使用量 在线电站：当前登录用户数据权限下的在线的电站数和总电站数 电站列表 此处与光伏系统相同，具体参考电站列表&#xA;电站地图 此处与光伏系统相同，具体参考电站地图&#xA;系统大屏 此处与光伏系统相同，具体参考电站大屏&#xA;电站详情页 通过点击电站列表中的电站可以查看单个电站的详情页，详情页展示该电站的详细信息，包括电站图表、电站设备、电站报警、电站布局、电站资料等&#xA;功能概述 电站图表查看：可以查看基于设备汇总的电站日月年总统计信息，不同的统计周期展示不同的参数信息，支持SOC、SOH、日充电量、日放电量、累计充电量、累计放电量、电池温度、总电流、总电压、总功率的参数选择，可以直观地在图表中展示多个参数。&#xA;日视图：通过参数选择展示选择的参数趋势图 周视图：展示电站一周的日充电量、日放电量趋势图 月视图：展示电站某月中每天的日充电量、日放电量和收益汇总 年视图：展示电站某年中每个月的充电量、放电量和收益汇总 总视图：展示电站每年的充电量、放电量和收益汇总 其他内容与光伏系统相同，具体参考功能概述</description>
     </item>
     <item>
       <title>户用储能</title>
-      <link>http://localhost:1313/zh/docs/web/plantcenter/hess/</link>
+      <link>https://peasantcoding.github.io/zh/docs/web/plantcenter/hess/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/zh/docs/web/plantcenter/hess/</guid>
+      <guid>https://peasantcoding.github.io/zh/docs/web/plantcenter/hess/</guid>
       <description>电站概览 户用储能的电站概览包括发电、电网、电池、用电四个板块。&#xA;发电：对户用储能电站中当前登录用户数据权限下的发电功率、光伏装机容量、日发电量、月发电量、年发电量、年发电量汇总展示 电网：展示当前登录用户数据权限下户用储能电站的买电量与卖电量汇总 电池：展示当前登录用户数据权限下户用储能电站的SOC、日放电量、日充电量汇总 用电：展示当前登录用户数据权限下户用储能电站的用电功率、日用电量、月用电量、年用电量、总用电量 电站列表 此处与光伏系统相同，具体参考电站列表&#xA;电站地图 此处与光伏系统相同，具体参考电站地图&#xA;系统大屏 此处与光伏系统相同，具体参考电站大屏&#xA;电站详情页 通过点击电站列表中的电站可以查看单个电站的详情页，详情页展示该电站的详细信息，包括电站图表、电站设备、电站报警、电站布局、电站资料等&#xA;功能概述 电站图表查看：可以查看基于设备汇总的电站日月年总统计信息，不同的统计周期展示不同的参数信息，支持发电功率、用电功率、电池剩余量、电网功率、电池功率的参数选择，可以直观地在图表中展示多个参数。 日视图：通过参数选择展示选择的参数趋势图 周视图：展示电站一周的用电功率、日充电量、日放电量趋势 月视图：展示电站某月中每天的发电量、日充电量、日放电量、买电量、卖电量趋势 年视图：展示电站某年中每个月的发电量、日充电量、日放电量、买电量、卖电量趋势 总视图：展示电站每年的发电量、日充电量、日放电量、买电量、卖电量趋势 其他内容与光伏系统相同，具体参考功能概述 </description>
     </item>
     <item>
       <title>商业电站</title>
-      <link>http://localhost:1313/zh/docs/web/plantcenter/ems/</link>
+      <link>https://peasantcoding.github.io/zh/docs/web/plantcenter/ems/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/zh/docs/web/plantcenter/ems/</guid>
+      <guid>https://peasantcoding.github.io/zh/docs/web/plantcenter/ems/</guid>
       <description>电池系统与光伏系统结构相同，具体参考光伏系统&#xA;电站概览 此处与户用储能相同，具体参考电站概览&#xA;电站列表 此处与光伏系统相同，具体参考电站列表&#xA;电站地图 此处与光伏系统相同，具体参考电站地图&#xA;系统大屏 此处与光伏系统相同，具体参考电站大屏&#xA;电站详情页 此处与户用储能相同，具体参考电站详情页</description>
     </item>
     <item>
       <title>创建电站</title>
-      <link>http://localhost:1313/zh/docs/web/plantcenter/createplant/</link>
+      <link>https://peasantcoding.github.io/zh/docs/web/plantcenter/createplant/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/zh/docs/web/plantcenter/createplant/</guid>
+      <guid>https://peasantcoding.github.io/zh/docs/web/plantcenter/createplant/</guid>
       <description>1.创建入口 2.完善电站信息 2.1填写基本信息 2.2选择地理位置 允许网站进行定位可以快速获取当前位置&#xA;在地图上选择位置获取坐标信息作为电站位置&#xA;2.3添加干系人（访客） 输入访客邮箱即可将电站授权给平台其他账号从而使其拥有电站访问权限&#xA;2.4上传电站照片 2.5提交 创建成功即可在电站列表中看到电站，同时也可以在列表操作一列中进行电站的修改和删除</description>
     </item>
     <item>
       <title>修改电站</title>
-      <link>http://localhost:1313/zh/docs/web/plantcenter/editplant/</link>
+      <link>https://peasantcoding.github.io/zh/docs/web/plantcenter/editplant/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/zh/docs/web/plantcenter/editplant/</guid>
+      <guid>https://peasantcoding.github.io/zh/docs/web/plantcenter/editplant/</guid>
       <description>1.修改电站入口 修改电站步骤请参考完善电站信息</description>
     </item>
     <item>
       <title>访客授权</title>
-      <link>http://localhost:1313/zh/docs/web/plantcenter/guestaccess/</link>
+      <link>https://peasantcoding.github.io/zh/docs/web/plantcenter/guestaccess/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/zh/docs/web/plantcenter/guestaccess/</guid>
+      <guid>https://peasantcoding.github.io/zh/docs/web/plantcenter/guestaccess/</guid>
       <description>1.授权入口 在修改电站中，通过完善电站信息中的添加干系人进行授权</description>
     </item>
     <item>
       <title>添加采集器</title>
-      <link>http://localhost:1313/zh/docs/web/plantcenter/addlogger/</link>
+      <link>https://peasantcoding.github.io/zh/docs/web/plantcenter/addlogger/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/zh/docs/web/plantcenter/addlogger/</guid>
+      <guid>https://peasantcoding.github.io/zh/docs/web/plantcenter/addlogger/</guid>
       <description>1.添加采集器入口 从电站列表进入电站的电站详情页，右上角添加采集器&#xA;2.功能概述 2.1输入采集器序列号添加 添加序列号，添加前要先对采集器进行采集器入库，已入库则忽略&#xA;点击提交按钮完成采集器添加&#xA;2.2通过模板文件添加 下载模版collector-import-template.xlsx&#xA;在模版中添加序列号&#xA;通过模版文件添加&#xA;确认后提交</description>
     </item>
   </channel>

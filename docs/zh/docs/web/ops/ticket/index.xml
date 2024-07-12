@@ -2,30 +2,30 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>工单系统 on Soalrhub 帮助中心</title>
-    <link>http://localhost:1313/zh/docs/web/ops/ticket/</link>
+    <link>https://peasantcoding.github.io/zh/docs/web/ops/ticket/</link>
     <description>Recent content in 工单系统 on Soalrhub 帮助中心</description>
     <generator>Hugo</generator>
     <language>zh</language>
-    <atom:link href="http://localhost:1313/zh/docs/web/ops/ticket/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://peasantcoding.github.io/zh/docs/web/ops/ticket/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>工单看板</title>
-      <link>http://localhost:1313/zh/docs/web/ops/ticket/dashboard/</link>
+      <link>https://peasantcoding.github.io/zh/docs/web/ops/ticket/dashboard/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/zh/docs/web/ops/ticket/dashboard/</guid>
+      <guid>https://peasantcoding.github.io/zh/docs/web/ops/ticket/dashboard/</guid>
       <description>功能概述 1.最近活动 工单系统的操作记录</description>
     </item>
     <item>
       <title>工单列表</title>
-      <link>http://localhost:1313/zh/docs/web/ops/ticket/list/</link>
+      <link>https://peasantcoding.github.io/zh/docs/web/ops/ticket/list/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/zh/docs/web/ops/ticket/list/</guid>
+      <guid>https://peasantcoding.github.io/zh/docs/web/ops/ticket/list/</guid>
       <description>功能概述 1.工单状态变更 2.工单修改 3.待办 4.与我相关 </description>
     </item>
     <item>
       <title>客户团队</title>
-      <link>http://localhost:1313/zh/docs/web/ops/ticket/team/</link>
+      <link>https://peasantcoding.github.io/zh/docs/web/ops/ticket/team/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/zh/docs/web/ops/ticket/team/</guid>
+      <guid>https://peasantcoding.github.io/zh/docs/web/ops/ticket/team/</guid>
       <description>功能概述 1.新建团队 2.修改 3.解散 </description>
     </item>
   </channel>
