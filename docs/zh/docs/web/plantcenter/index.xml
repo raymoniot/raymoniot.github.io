@@ -2,65 +2,65 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>电站中心 on Soalrhub 帮助中心</title>
-    <link>https://peasantcoding.github.io/zh/docs/web/plantcenter/</link>
+    <link>https://raymoniot.github.io/zh/docs/web/plantcenter/</link>
     <description>Recent content in 电站中心 on Soalrhub 帮助中心</description>
     <generator>Hugo</generator>
     <language>zh</language>
-    <atom:link href="https://peasantcoding.github.io/zh/docs/web/plantcenter/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://raymoniot.github.io/zh/docs/web/plantcenter/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>光伏系统</title>
-      <link>https://peasantcoding.github.io/zh/docs/web/plantcenter/pvs/</link>
+      <link>https://raymoniot.github.io/zh/docs/web/plantcenter/pvs/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://peasantcoding.github.io/zh/docs/web/plantcenter/pvs/</guid>
+      <guid>https://raymoniot.github.io/zh/docs/web/plantcenter/pvs/</guid>
       <description>电站概览 光伏系统的电站概览包括实时功率、当日电量、社会效益、在线电站四个板块。&#xA;实时功率：对光伏系统中当前登录用户数据权限下的光伏电站功率和光伏装机容量汇总展示 当日电量：展示当前登录用户数据权限下光伏电站的当日电量、月发电量、年发电量、累计发电量 社会效益：当前登录用户数据权限下整个光伏系统产生的社会效益，包括树木种指数、二氧化碳减排量、灯泡使用量 在线电站：当前登录用户数据权限下的在线的电站数和总电站数 电站列表 电站列表展示所有在线、故障、离线状态电站的部分信息，可以直观的看到电站的基本信息，所有电站的在线情况，也可以进行修改和删除电站&#xA;也可以使用条件搜索，查找符合条件的电站&#xA;电站地图 直观的展示所有电站的在线状态和分布情况，可以通过电站名称/地址/业主来查找符合条件的电站&#xA;系统大屏 系统大屏的入口在电站中心各个系统的电站概览模块右上角&#xA;电站大屏用于直观的展示整个系统的运行状态，包含电站概览、实时功率、日满发电小时排名、当月发电量、当年发电量、社会贡献等信息&#xA;电站详情页 通过点击电站列表中的电站可以查看单个电站的详情页，详情页展示该电站的详细信息，包括电站图表、电站设备、电站报警、电站布局、电站资料等&#xA;功能概述 电站图表查看和导出：可以查看基于设备的电站日月年总统计信息，不同的统计周期展示不同的参数信息，也可以将图表中的统计数据导出成Excel图表&#xA;日视图：展示某日的实时功率趋势图 周视图：展示一周的实时功率趋势图 月视图：展示某月中每天的发电量和收益汇总 年视图：展示某年中每个月的发电量和收益汇总 总视图：展示每年的发电量和收益汇总 电站大屏：展示该电站的概览信息和发电情况、告警信息等&#xA;添加采集器：跳转&#xA;​&#xA;新建工单：对此电站创建一个工单，详细参考【跳转工单系统】&#xA;发电修补：对发电量修补&#xA;设备列表：电站下的所有设备&#xA;告警列表：电站下所有发生告警的设备&#xA;布局：设置屋面的物理布局和组件设备连接的系统布局&#xA;时间轴拖动：支持拖动时间轴来获取不同时间的光伏板信息&#xA;布局编辑：通过拖动组件来添加光伏板，支持对光伏板的启动/禁用和删除&#xA;资料：电站的详细信息展示</description>
     </item>
     <item>
       <title>电池系统</title>
-      <link>https://peasantcoding.github.io/zh/docs/web/plantcenter/bess/</link>
+      <link>https://raymoniot.github.io/zh/docs/web/plantcenter/bess/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://peasantcoding.github.io/zh/docs/web/plantcenter/bess/</guid>
+      <guid>https://raymoniot.github.io/zh/docs/web/plantcenter/bess/</guid>
       <description>电站概览 电池系统的电站概览包括实时功率、充放电统计、社会效益、在线电站四个板块。&#xA;实时功率：对电池系统中当前登录用户数据权限下的电池系统功率和装机容量汇总展示 充放电统计：展示当前登录用户数据权限下光伏电站的日充电量、日放电量、累计充电量、累计放电量 社会效益：当前登录用户数据权限下整个光伏系统产生的社会效益，包括树木种指数、二氧化碳减排量、灯泡使用量 在线电站：当前登录用户数据权限下的在线的电站数和总电站数 电站列表 此处与光伏系统相同，具体参考电站列表&#xA;电站地图 此处与光伏系统相同，具体参考电站地图&#xA;系统大屏 此处与光伏系统相同，具体参考电站大屏&#xA;电站详情页 通过点击电站列表中的电站可以查看单个电站的详情页，详情页展示该电站的详细信息，包括电站图表、电站设备、电站报警、电站布局、电站资料等&#xA;功能概述 电站图表查看：可以查看基于设备汇总的电站日月年总统计信息，不同的统计周期展示不同的参数信息，支持SOC、SOH、日充电量、日放电量、累计充电量、累计放电量、电池温度、总电流、总电压、总功率的参数选择，可以直观地在图表中展示多个参数。&#xA;日视图：通过参数选择展示选择的参数趋势图 周视图：展示电站一周的日充电量、日放电量趋势图 月视图：展示电站某月中每天的日充电量、日放电量和收益汇总 年视图：展示电站某年中每个月的充电量、放电量和收益汇总 总视图：展示电站每年的充电量、放电量和收益汇总 其他内容与光伏系统相同，具体参考功能概述</description>
     </item>
     <item>
       <title>户用储能</title>
-      <link>https://peasantcoding.github.io/zh/docs/web/plantcenter/hess/</link>
+      <link>https://raymoniot.github.io/zh/docs/web/plantcenter/hess/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://peasantcoding.github.io/zh/docs/web/plantcenter/hess/</guid>
+      <guid>https://raymoniot.github.io/zh/docs/web/plantcenter/hess/</guid>
       <description>电站概览 户用储能的电站概览包括发电、电网、电池、用电四个板块。&#xA;发电：对户用储能电站中当前登录用户数据权限下的发电功率、光伏装机容量、日发电量、月发电量、年发电量、年发电量汇总展示 电网：展示当前登录用户数据权限下户用储能电站的买电量与卖电量汇总 电池：展示当前登录用户数据权限下户用储能电站的SOC、日放电量、日充电量汇总 用电：展示当前登录用户数据权限下户用储能电站的用电功率、日用电量、月用电量、年用电量、总用电量 电站列表 此处与光伏系统相同，具体参考电站列表&#xA;电站地图 此处与光伏系统相同，具体参考电站地图&#xA;系统大屏 此处与光伏系统相同，具体参考电站大屏&#xA;电站详情页 通过点击电站列表中的电站可以查看单个电站的详情页，详情页展示该电站的详细信息，包括电站图表、电站设备、电站报警、电站布局、电站资料等&#xA;功能概述 电站图表查看：可以查看基于设备汇总的电站日月年总统计信息，不同的统计周期展示不同的参数信息，支持发电功率、用电功率、电池剩余量、电网功率、电池功率的参数选择，可以直观地在图表中展示多个参数。 日视图：通过参数选择展示选择的参数趋势图 周视图：展示电站一周的用电功率、日充电量、日放电量趋势 月视图：展示电站某月中每天的发电量、日充电量、日放电量、买电量、卖电量趋势 年视图：展示电站某年中每个月的发电量、日充电量、日放电量、买电量、卖电量趋势 总视图：展示电站每年的发电量、日充电量、日放电量、买电量、卖电量趋势 其他内容与光伏系统相同，具体参考功能概述 </description>
     </item>
     <item>
       <title>商业电站</title>
-      <link>https://peasantcoding.github.io/zh/docs/web/plantcenter/ems/</link>
+      <link>https://raymoniot.github.io/zh/docs/web/plantcenter/ems/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://peasantcoding.github.io/zh/docs/web/plantcenter/ems/</guid>
+      <guid>https://raymoniot.github.io/zh/docs/web/plantcenter/ems/</guid>
       <description>电池系统与光伏系统结构相同，具体参考光伏系统&#xA;电站概览 此处与户用储能相同，具体参考电站概览&#xA;电站列表 此处与光伏系统相同，具体参考电站列表&#xA;电站地图 此处与光伏系统相同，具体参考电站地图&#xA;系统大屏 此处与光伏系统相同，具体参考电站大屏&#xA;电站详情页 此处与户用储能相同，具体参考电站详情页</description>
     </item>
     <item>
       <title>创建电站</title>
-      <link>https://peasantcoding.github.io/zh/docs/web/plantcenter/createplant/</link>
+      <link>https://raymoniot.github.io/zh/docs/web/plantcenter/createplant/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://peasantcoding.github.io/zh/docs/web/plantcenter/createplant/</guid>
+      <guid>https://raymoniot.github.io/zh/docs/web/plantcenter/createplant/</guid>
       <description>1.创建入口 2.完善电站信息 2.1填写基本信息 2.2选择地理位置 允许网站进行定位可以快速获取当前位置&#xA;在地图上选择位置获取坐标信息作为电站位置&#xA;2.3添加干系人（访客） 输入访客邮箱即可将电站授权给平台其他账号从而使其拥有电站访问权限&#xA;2.4上传电站照片 2.5提交 创建成功即可在电站列表中看到电站，同时也可以在列表操作一列中进行电站的修改和删除</description>
     </item>
     <item>
       <title>修改电站</title>
-      <link>https://peasantcoding.github.io/zh/docs/web/plantcenter/editplant/</link>
+      <link>https://raymoniot.github.io/zh/docs/web/plantcenter/editplant/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://peasantcoding.github.io/zh/docs/web/plantcenter/editplant/</guid>
+      <guid>https://raymoniot.github.io/zh/docs/web/plantcenter/editplant/</guid>
       <description>1.修改电站入口 修改电站步骤请参考完善电站信息</description>
     </item>
     <item>
       <title>访客授权</title>
-      <link>https://peasantcoding.github.io/zh/docs/web/plantcenter/guestaccess/</link>
+      <link>https://raymoniot.github.io/zh/docs/web/plantcenter/guestaccess/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://peasantcoding.github.io/zh/docs/web/plantcenter/guestaccess/</guid>
+      <guid>https://raymoniot.github.io/zh/docs/web/plantcenter/guestaccess/</guid>
       <description>1.授权入口 在修改电站中，通过完善电站信息中的添加干系人进行授权</description>
     </item>
     <item>
       <title>添加采集器</title>
-      <link>https://peasantcoding.github.io/zh/docs/web/plantcenter/addlogger/</link>
+      <link>https://raymoniot.github.io/zh/docs/web/plantcenter/addlogger/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://peasantcoding.github.io/zh/docs/web/plantcenter/addlogger/</guid>
+      <guid>https://raymoniot.github.io/zh/docs/web/plantcenter/addlogger/</guid>
       <description>1.添加采集器入口 从电站列表进入电站的电站详情页，右上角添加采集器&#xA;2.功能概述 2.1输入采集器序列号添加 添加序列号，添加前要先对采集器进行采集器入库，已入库则忽略&#xA;点击提交按钮完成采集器添加&#xA;2.2通过模板文件添加 下载模版collector-import-template.xlsx&#xA;在模版中添加序列号&#xA;通过模版文件添加&#xA;确认后提交</description>
     </item>
   </channel>
