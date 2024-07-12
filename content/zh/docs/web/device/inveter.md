@@ -1,6 +1,6 @@
 ---
 title: 逆变器
-description: 采集器
+description: 
 weight: 2
 ---
 

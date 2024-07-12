@@ -12,7 +12,7 @@
       <link>http://localhost:1313/zh/docs/web/ops/events/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/zh/docs/web/ops/events/</guid>
-      <description></description>
+      <description>功能概述 1.高级搜索 支持通过事件级别、事件时间、电站名名称、设备序列号、事件代码、事件内容作为条件搜索&#xA;2.新建工单 对单个事件进行工单创建</description>
     </item>
   </channel>
 </rss>

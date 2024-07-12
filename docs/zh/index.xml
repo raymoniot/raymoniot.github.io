@@ -19,49 +19,42 @@
       <link>http://localhost:1313/zh/docs/web/toolkits/point-query/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/zh/docs/web/toolkits/point-query/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>成员管理</title>
-      <link>http://localhost:1313/zh/docs/web/organization/member/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/zh/docs/web/organization/member/</guid>
-      <description></description>
+      <description>功能概述 1.测点查询导出 输入设备序列号即可查询到设备数据&#xA;选择导出时间，可以导出某天的数据</description>
     </item>
     <item>
       <title>固件管理</title>
       <link>http://localhost:1313/zh/docs/web/toolkits/firmware/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/zh/docs/web/toolkits/firmware/</guid>
-      <description></description>
+      <description>功能概述 1.固件搜索 可以根据设备类型或固件名称进行高级搜索&#xA;2.新增固件 固件版本不易过长，请确保固件文件合法，否则将无法新增&#xA;3.其他操作 3.1修改固件 3.2删除固件 3.3下载固件 3.4固件访问授权 通过输入平台账号的邮箱会自动检索平台账号，选择对应的账号可以将固件访问授权到该账号下，授权组织同理&#xA;3.5固件兑换码生成 固件兑换码生成用于APP中使用OTA助手进行升级，详请参考APP页面OTA助手</description>
     </item>
     <item>
       <title>汇总数据</title>
       <link>http://localhost:1313/zh/docs/web/report/total/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/zh/docs/web/report/total/</guid>
-      <description></description>
+      <description>功能概述 1.电站报表 1.1导出 2.设备报表 </description>
     </item>
     <item>
       <title>事件中心</title>
       <link>http://localhost:1313/zh/docs/web/ops/events/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/zh/docs/web/ops/events/</guid>
-      <description></description>
+      <description>功能概述 1.高级搜索 支持通过事件级别、事件时间、电站名名称、设备序列号、事件代码、事件内容作为条件搜索&#xA;2.新建工单 对单个事件进行工单创建</description>
     </item>
     <item>
       <title>组织架构</title>
       <link>http://localhost:1313/zh/docs/web/organization/tree/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/zh/docs/web/organization/tree/</guid>
-      <description></description>
+      <description>功能概述 1.成员列表 查看当前组织下的所有成员&#xA;1.1添加成员 在选中的组织下添加成员&#xA;关于新增成员数据权限的定义：&#xA;仅自己：新增的成员只能看到自己权限范围内的数据 同组织人员：新增的成员可以看到自己权限范围内的数据，还能看到同组织其他成员权限内的数据 同组织人员&amp;amp;下级组织：新增的成员可以看到自己权限范围内的数据，还能看到同组织其他成员以及下级组织其他成员权限内的数据 1.2修改成员 成员的角色会影响成员在平台可进行的操作，测点组则影响成员对设备详情的是否可见&#xA;1.3转移组织 通过输入组织代码，可以将成员转移到其他组织中&#xA;1.4删除成员 1.5重置密码 2.组织信息 2.1修改组织 2.2新建下级组织 2.3转移组织 转移组织可以将子组织转移到其他组织下&#xA;2.4删除组织 3.测点组 3.1新建测点组 输入要创建的测点组名称，其他语言的名称将用于系统多语言的切换的翻译&#xA;3.2测点分配 对一个测点组进行测点分配，选择要分配的设备类型，添加未分配的测点，已分配的测点可以看到&#xA;3.3修改测点组 3.4删除测点组 </description>
     </item>
     <item>
       <title>工单看板</title>
       <link>http://localhost:1313/zh/docs/web/ops/ticket/dashboard/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/zh/docs/web/ops/ticket/dashboard/</guid>
-      <description></description>
+      <description>功能概述 1.最近活动 工单系统的操作记录</description>
     </item>
     <item>
       <title>逆变器</title>
@@ -75,7 +68,7 @@
       <link>http://localhost:1313/zh/docs/web/toolkits/batch/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/zh/docs/web/toolkits/batch/</guid>
-      <description></description>
+      <description>功能概述 1.创建任务 可以按照指定设备类型和电站进行设备的筛选&#xA;选择设备类型，选择设备列表中的设备，添加设备&#xA;选择需要批量操作的类型，提交任务&#xA;2.重做失败设备 如果批量操作任务重出现设备操作失败，可以使用重做功能，对批量任务中失败的设备进行重做</description>
     </item>
     <item>
       <title>登陆</title>
@@ -96,7 +89,7 @@
       <link>http://localhost:1313/zh/docs/web/ops/ticket/list/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/zh/docs/web/ops/ticket/list/</guid>
-      <description></description>
+      <description>功能概述 1.工单状态变更 2.工单修改 3.待办 4.与我相关 </description>
     </item>
     <item>
       <title>多语言切换</title>
@@ -110,7 +103,7 @@
       <link>http://localhost:1313/zh/docs/web/ops/ticket/team/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/zh/docs/web/ops/ticket/team/</guid>
-      <description></description>
+      <description>功能概述 1.新建团队 2.修改 3.解散 </description>
     </item>
     <item>
       <title>优化器</title>
@@ -124,7 +117,7 @@
       <link>http://localhost:1313/zh/docs/web/toolkits/remote/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/zh/docs/web/toolkits/remote/</guid>
-      <description></description>
+      <description>功能概述 远程交互界面默认展示当前在线的采集器，也可以根据序列号、状态、所属电站、标签、固件版本号进行高级搜索&#xA;1.固件升级（OTA） 固件升级包括升级采集器和升级子设备，升级过程相同，两者设备的类型不同，使用的固件不同&#xA;固件列表中展示当前账号权限下可见的所有固件，可以设置升级超时时间，如果设备在超时时间外无反馈回复，则认为此次OTA升级超时&#xA;2.指令透传 指令透传发送的指令格式有两种，发生标准Modbus协议的指令和自定义指令，输入指令后点击立即发生即可，旧版发送为旧版固件使用，忽略即可&#xA;3.参数设置 可以进行单个参数的设置与发送，也可以点击批量设置，同时设置多个参数&#xA;4.操作日志 操作日志可以查询某个设备在一个时间段所有的远程交互记录，也可以按照操作类型搜索</description>
     </item>
     <item>
       <title>数据看板</title>
@@ -138,7 +131,7 @@
       <link>http://localhost:1313/zh/docs/web/toolkits/notification/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/zh/docs/web/toolkits/notification/</guid>
-      <description></description>
+      <description>功能概述 </description>
     </item>
     <item>
       <title>智能电表</title>

@@ -20,7 +20,6 @@ contentDir = "content/en"
 
 [params]
 mainMenu = ["docs"]
-offlineSearch = true
 copyright = "Copyright © 2024 RaymonIoT. All Rights Reserved."
 [markup]
   defaultMarkdownHandler = 'goldmark'
@@ -31,3 +30,9 @@ copyright = "Copyright © 2024 RaymonIoT. All Rights Reserved."
 sidebar_menu_compact = true
 ul_show = 1
 sidebar_menu_foldable = true
+
+[params.search.algolia]
+appId = "AU7590UZW9"
+apiKey = "542b501d6e1956d4c1889d77e46fb8d8"
+indexName = "peasantcodingio"
+

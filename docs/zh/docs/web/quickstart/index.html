@@ -19,28 +19,28 @@
 <link rel="icon" type="image/png" href="/favicons/android-192x192.png" sizes="192x192">
 
 <title>快速开始 | Soalrhub 帮助中心</title>
-<meta name="description" content="快速使用Solarhub，从创建电站、添加采集器、配网、到查看数据">
+<meta name="description" content="快速使用Solarhub，从采集器配网、采集器入库、创建电站、添加采集器、配网、到查看数据">
 <meta property="og:url" content="http://localhost:1313/zh/docs/web/quickstart/">
   <meta property="og:site_name" content="Soalrhub 帮助中心">
   <meta property="og:title" content="快速开始">
-  <meta property="og:description" content="快速使用Solarhub，从创建电站、添加采集器、配网、到查看数据">
+  <meta property="og:description" content="快速使用Solarhub，从采集器配网、采集器入库、创建电站、添加采集器、配网、到查看数据">
   <meta property="og:locale" content="zh">
   <meta property="og:type" content="website">
 
   <meta itemprop="name" content="快速开始">
-  <meta itemprop="description" content="快速使用Solarhub，从创建电站、添加采集器、配网、到查看数据">
+  <meta itemprop="description" content="快速使用Solarhub，从采集器配网、采集器入库、创建电站、添加采集器、配网、到查看数据">
+  <meta itemprop="wordCount" content="15">
   <meta name="twitter:card" content="summary">
   <meta name="twitter:title" content="快速开始">
-  <meta name="twitter:description" content="快速使用Solarhub，从创建电站、添加采集器、配网、到查看数据">
+  <meta name="twitter:description" content="快速使用Solarhub，从采集器配网、采集器入库、创建电站、添加采集器、配网、到查看数据">
 <link href="/scss/main.css" rel="stylesheet">
 <script
   src="https://code.jquery.com/jquery-3.7.1.min.js"
   integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
   crossorigin="anonymous"></script>
-<script defer
-  src="https://unpkg.com/lunr@2.3.9/lunr.min.js"
-  integrity="sha384-203J0SNzyqHby3iU6hzvzltrWi/M41wOP5Gu+BiJMz5nwKykbkUx8Kp7iti0Lpli"
-  crossorigin="anonymous"></script>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@docsearch/css@3.6.0"
+  integrity="sha512-AyDFDkYyALC5qoao077IqAOV7UC4oKCBTp+mJfjIt306AIRoBxoEZYDo0kAx/R7RbT+3EYEky1po/F1w1eQt7g=="
+  crossorigin="anonymous" />
 
   </head>
   <body class="td-section">
@@ -60,19 +60,8 @@
       </ul>
   </div>
   <div class="d-none d-lg-block">
-    <div class="td-search td-search--offline">
-  <div class="td-search__icon"></div>
-  <input
-    type="search"
-    class="td-search__input form-control"
-    placeholder=""
-    aria-label=""
-    autocomplete="off"
-    
-    data-offline-search-index-json-src="/offline-search-index.json"
-    data-offline-search-base-href="/"
-    data-offline-search-max-results="10"
-  >
+    <div class="td-search">
+  <div class="td-search--algolia" id="docsearch-1"></div>
 </div>
   </div>
 </div>
@@ -84,19 +73,8 @@
           <aside class="col-12 col-md-3 col-xl-2 td-sidebar d-print-none">
             <div id="td-sidebar-menu" class="td-sidebar__inner">
   <form class="td-sidebar__search d-flex align-items-center">
-    <div class="td-search td-search--offline">
-  <div class="td-search__icon"></div>
-  <input
-    type="search"
-    class="td-search__input form-control"
-    placeholder=""
-    aria-label=""
-    autocomplete="off"
-    
-    data-offline-search-index-json-src="/offline-search-index.json"
-    data-offline-search-base-href="/"
-    data-offline-search-max-results="10"
-  >
+    <div class="td-search">
+  <div class="td-search--algolia" id="docsearch-0"></div>
 </div>
     <button class="btn btn-link td-sidebar__toggle d-md-none p-0 ms-3 fas fa-bars" type="button" data-bs-toggle="collapse" data-bs-target="#td-section-nav" aria-controls="td-section-nav" aria-expanded="false" aria-label="Toggle section navigation">
     </button>
@@ -112,11 +90,11 @@
     </div>
     <ul class="td-sidebar-nav__section pe-md-3 ul-0">
       <li class="td-sidebar-nav__section-title td-sidebar-nav__section with-child active-path" id="m-zhdocs-li">
-  <a href="/zh/docs/" class="align-left ps-0 td-sidebar-link td-sidebar-link__section tree-root" id="m-zhdocs"><span class="">Solarhub 帮助中心</span></a>
+  <a href="/zh/docs/" title="欢迎来到Solarhub 帮助中心" class="align-left ps-0 td-sidebar-link td-sidebar-link__section tree-root" id="m-zhdocs"><span class="">Solarhub 帮助中心</span></a>
   <ul class="ul-1">
     <li class="td-sidebar-nav__section-title td-sidebar-nav__section with-child active-path" id="m-zhdocsweb-li">
   <input type="checkbox" id="m-zhdocsweb-check" checked/>
-  <label for="m-zhdocsweb-check"><a href="/zh/docs/web/" title="" class="align-left ps-0  td-sidebar-link td-sidebar-link__section" id="m-zhdocsweb"><span class="">Solarhub(Web)</span></a></label>
+  <label for="m-zhdocsweb-check"><a href="/zh/docs/web/" class="align-left ps-0  td-sidebar-link td-sidebar-link__section" id="m-zhdocsweb"><span class="">Solarhub(Web)</span></a></label>
   
   <ul class="ul-2 foldable">
     <li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child active-path" id="m-zhdocswebquickstart-li">
@@ -281,11 +259,7 @@
   <label for="m-zhdocsweborganization-check"><a href="/zh/docs/web/organization/" class="align-left ps-0  td-sidebar-link td-sidebar-link__section" id="m-zhdocsweborganization"><span class="">组织管理</span></a></label>
   
   <ul class="ul-3 foldable">
-    <li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id="m-zhdocsweborganizationmember-li">
-  <input type="checkbox" id="m-zhdocsweborganizationmember-check"/>
-  <label for="m-zhdocsweborganizationmember-check"><a href="/zh/docs/web/organization/member/" class="align-left ps-0  td-sidebar-link td-sidebar-link__page" id="m-zhdocsweborganizationmember"><span class="">成员管理</span></a></label>
-  
-</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id="m-zhdocsweborganizationtree-li">
+    <li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id="m-zhdocsweborganizationtree-li">
   <input type="checkbox" id="m-zhdocsweborganizationtree-check"/>
   <label for="m-zhdocsweborganizationtree-check"><a href="/zh/docs/web/organization/tree/" class="align-left ps-0  td-sidebar-link td-sidebar-link__page" id="m-zhdocsweborganizationtree"><span class="">组织架构</span></a></label>
   
@@ -299,7 +273,7 @@
   </ul>
 </li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id="m-zhdocsapp-li">
   <input type="checkbox" id="m-zhdocsapp-check"/>
-  <label for="m-zhdocsapp-check"><a href="/zh/docs/app/" title="" class="align-left ps-0  td-sidebar-link td-sidebar-link__section" id="m-zhdocsapp"><span class="">Solarhub(App)</span></a></label>
+  <label for="m-zhdocsapp-check"><a href="/zh/docs/app/" class="align-left ps-0  td-sidebar-link td-sidebar-link__section" id="m-zhdocsapp"><span class="">Solarhub(App)</span></a></label>
   
 </li>
   </ul>
@@ -314,7 +288,18 @@
 
 </div>
 
-            
+            <div class="td-toc">
+        <nav id="TableOfContents">
+  <ul>
+    <li><a href="#1采集器配网">1.采集器配网</a></li>
+    <li><a href="#2采集器入库">2.采集器入库</a></li>
+    <li><a href="#3创建电站">3.创建电站</a></li>
+    <li><a href="#4添加采集器">4.添加采集器</a></li>
+    <li><a href="#5查看电站设备详情信息">5.查看电站/设备详情信息</a></li>
+  </ul>
+</nav>
+      </div>
+    
             
 
           </aside>
@@ -335,11 +320,39 @@
             
 <div class="td-content">
 	<h1>快速开始</h1>
-  <div class="lead">快速使用Solarhub，从创建电站、添加采集器、配网、到查看数据</div>
+  <div class="lead">快速使用Solarhub，从采集器配网、采集器入库、创建电站、添加采集器、配网、到查看数据</div>
 	<header class="article-meta">
 		
 </header>
-	
+	<h2 id="1采集器配网">1.采集器配网</h2>
+<p>使用SolarhubApp进行采集器配网操作，配网时请保证采集器和配网手机在<strong>同一个2.4Ghz</strong>的WiFi下。</p>
+<p><strong>注意</strong>：操作过程中请允许应用程序获取蓝牙、定位、数据等权限，并开启蓝牙、WiFi、定位服务，否则可能会导致<strong>设备无法选择</strong>，或者<strong>配网失败</strong>。</p>
+<img src="/../../zh/photo/docs/quickStart/wifi.png" style="margin-right: 50px" width="300">
+<img src="/../../zh/photo/docs/quickStart/wifi1.png" style="margin-right: 50px" width="300">
+<img src="/../../zh/photo/docs/quickStart/wifi2.png" style="margin-right: 50px" width="300">
+<p>点击配网后添加设备，通过扫码采集器二维码/手动收入采集器序列号来进行添加配网设备。</p>
+<img src="/../../zh/photo/docs/quickStart/wifi3.png" style="margin-right: 50px" width="300">
+<img src="/../../zh/photo/docs/quickStart/wifi4.png" style="margin-right: 50px" width="300">
+<img src="/../../zh/photo/docs/quickStart/wifi5.png" style="margin-right: 50px" width="300">
+<p>勾选设备后开始配置，选择与采集器相同的2.4Ghz网络，输入WiFi密码，开始配网。</p>
+<img src="/../../zh/photo/docs/quickStart/wifi6.png" style="margin: 0 auto" width="300">
+<p>配网成功后采集器将在平台在线，可以通过平台的<a href="http://localhost:1313/zh/docs/web/toolkits/point-query/" title="测点查询">测点查询</a>来验证设备是否在线，如果可以查到测点数据并且其中最新数据更新时间与当前时间接近，则说明设备正常在线。</p>
+<h2 id="2采集器入库">2.采集器入库</h2>
+<p>配网完成后将采集器入库后即可在设备列表中查看该设备</p>
+<p><img alt="psv-overview" src="/../../zh/photo/docs/quickStart/import.png"></p>
+<p>可以通过<a href="http://localhost:1313/zh/docs/web/device/collector/#21单个导入" title="导入">单个导入</a>或<a href="http://localhost:1313/zh/docs/web/device/collector/#22批量导入" title="导入">批量导入</a>两种方式</p>
+<p><img alt="psv-overview" src="/../../zh/photo/docs/quickStart/import1.png"></p>
+<p>导入后即可看到导入设备，此时设备是未安装状态</p>
+<h2 id="3创建电站">3.创建电站</h2>
+<p><img alt="psv-overview" src="/../../zh/photo/docs/quickStart/add-plant.png"></p>
+<p>选择需要的业务类型，创建对应的电站，详细请参考<a href="http://localhost:1313/zh/docs/web/plantcenter/createplant/" title="创建电站">创建电站</a></p>
+<h2 id="4添加采集器">4.添加采集器</h2>
+<p>详细参考<a href="http://localhost:1313/zh/docs/web/plantcenter/addlogger/" title="添加采集器">添加采集器</a></p>
+<h2 id="5查看电站设备详情信息">5.查看电站/设备详情信息</h2>
+<p><img alt="psv-overview" src="/../../zh/photo/docs/quickStart/plant.png"></p>
+<p><img alt="psv-overview" src="/../../zh/photo/docs/quickStart/device.png"></p>
+<p><img alt="psv-overview" src="/../../zh/photo/docs/quickStart/device1.png"></p>
+
   <div class="section-index">
     
     
@@ -368,6 +381,20 @@
     </div>
     <script src="/js/main.js"></script>
 <script defer src="/js/click-to-copy.js" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/@docsearch/js@3.6.0"
+  integrity="sha512-FtDaTWf3IS29TLuYzTPlytjGqcXkwrzG9ivq7xXElnOZeiYTbcIy/hwXAgrrRNnI0+PfN+WFz4/+4phhJmuS8Q=="
+  crossorigin="anonymous" ></script>
+<script type="text/javascript">
+const containers = ['#docsearch-0', '#docsearch-1'];
+for (let c of containers) {
+  docsearch({
+    container: c,
+    appId: "AU7590UZW9",
+    apiKey: "542b501d6e1956d4c1889d77e46fb8d8",
+    indexName: "peasantcodingio",
+  });
+}
+</script>
 <script src='/js/tabpane-persist.js'></script>
 
   </body>

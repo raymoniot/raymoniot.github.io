@@ -19,28 +19,27 @@
 <link rel="icon" type="image/png" href="/favicons/android-192x192.png" sizes="192x192">
 
 <title>电站中心 | Soalrhub 帮助中心</title>
-<meta name="description" content="电站模块可汇总显示所完成添加的电站数据信息进行管理，支持进行电站查询、添加电站、查看电站详情、关注电站、编辑电站、删除电站和导出/刷新电站数据的功能操作，满足您对所属电站进行管理及数据查看。">
+<meta name="description" content="电站模块可汇总显示所完成添加的电站数据信息进行管理，支持进行电站查询、添加电站、查看电站详情、关注电站、编辑电站、删除电站和导出/刷新电站数据的功能操作，满足您对所属电站进行管理及数据查看，平台支持的电站业务类型有光伏系统、电池系统、户用储能、商业电站等">
 <meta property="og:url" content="http://localhost:1313/zh/docs/web/plantcenter/">
   <meta property="og:site_name" content="Soalrhub 帮助中心">
   <meta property="og:title" content="电站中心">
-  <meta property="og:description" content="电站模块可汇总显示所完成添加的电站数据信息进行管理，支持进行电站查询、添加电站、查看电站详情、关注电站、编辑电站、删除电站和导出/刷新电站数据的功能操作，满足您对所属电站进行管理及数据查看。">
+  <meta property="og:description" content="电站模块可汇总显示所完成添加的电站数据信息进行管理，支持进行电站查询、添加电站、查看电站详情、关注电站、编辑电站、删除电站和导出/刷新电站数据的功能操作，满足您对所属电站进行管理及数据查看，平台支持的电站业务类型有光伏系统、电池系统、户用储能、商业电站等">
   <meta property="og:locale" content="zh">
   <meta property="og:type" content="website">
 
   <meta itemprop="name" content="电站中心">
-  <meta itemprop="description" content="电站模块可汇总显示所完成添加的电站数据信息进行管理，支持进行电站查询、添加电站、查看电站详情、关注电站、编辑电站、删除电站和导出/刷新电站数据的功能操作，满足您对所属电站进行管理及数据查看。">
+  <meta itemprop="description" content="电站模块可汇总显示所完成添加的电站数据信息进行管理，支持进行电站查询、添加电站、查看电站详情、关注电站、编辑电站、删除电站和导出/刷新电站数据的功能操作，满足您对所属电站进行管理及数据查看，平台支持的电站业务类型有光伏系统、电池系统、户用储能、商业电站等">
   <meta name="twitter:card" content="summary">
   <meta name="twitter:title" content="电站中心">
-  <meta name="twitter:description" content="电站模块可汇总显示所完成添加的电站数据信息进行管理，支持进行电站查询、添加电站、查看电站详情、关注电站、编辑电站、删除电站和导出/刷新电站数据的功能操作，满足您对所属电站进行管理及数据查看。">
+  <meta name="twitter:description" content="电站模块可汇总显示所完成添加的电站数据信息进行管理，支持进行电站查询、添加电站、查看电站详情、关注电站、编辑电站、删除电站和导出/刷新电站数据的功能操作，满足您对所属电站进行管理及数据查看，平台支持的电站业务类型有光伏系统、电池系统、户用储能、商业电站等">
 <link href="/scss/main.css" rel="stylesheet">
 <script
   src="https://code.jquery.com/jquery-3.7.1.min.js"
   integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
   crossorigin="anonymous"></script>
-<script defer
-  src="https://unpkg.com/lunr@2.3.9/lunr.min.js"
-  integrity="sha384-203J0SNzyqHby3iU6hzvzltrWi/M41wOP5Gu+BiJMz5nwKykbkUx8Kp7iti0Lpli"
-  crossorigin="anonymous"></script>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@docsearch/css@3.6.0"
+  integrity="sha512-AyDFDkYyALC5qoao077IqAOV7UC4oKCBTp+mJfjIt306AIRoBxoEZYDo0kAx/R7RbT+3EYEky1po/F1w1eQt7g=="
+  crossorigin="anonymous" />
 
   </head>
   <body class="td-section">
@@ -60,19 +59,8 @@
       </ul>
   </div>
   <div class="d-none d-lg-block">
-    <div class="td-search td-search--offline">
-  <div class="td-search__icon"></div>
-  <input
-    type="search"
-    class="td-search__input form-control"
-    placeholder=""
-    aria-label=""
-    autocomplete="off"
-    
-    data-offline-search-index-json-src="/offline-search-index.json"
-    data-offline-search-base-href="/"
-    data-offline-search-max-results="10"
-  >
+    <div class="td-search">
+  <div class="td-search--algolia" id="docsearch-1"></div>
 </div>
   </div>
 </div>
@@ -84,19 +72,8 @@
           <aside class="col-12 col-md-3 col-xl-2 td-sidebar d-print-none">
             <div id="td-sidebar-menu" class="td-sidebar__inner">
   <form class="td-sidebar__search d-flex align-items-center">
-    <div class="td-search td-search--offline">
-  <div class="td-search__icon"></div>
-  <input
-    type="search"
-    class="td-search__input form-control"
-    placeholder=""
-    aria-label=""
-    autocomplete="off"
-    
-    data-offline-search-index-json-src="/offline-search-index.json"
-    data-offline-search-base-href="/"
-    data-offline-search-max-results="10"
-  >
+    <div class="td-search">
+  <div class="td-search--algolia" id="docsearch-0"></div>
 </div>
     <button class="btn btn-link td-sidebar__toggle d-md-none p-0 ms-3 fas fa-bars" type="button" data-bs-toggle="collapse" data-bs-target="#td-section-nav" aria-controls="td-section-nav" aria-expanded="false" aria-label="Toggle section navigation">
     </button>
@@ -112,11 +89,11 @@
     </div>
     <ul class="td-sidebar-nav__section pe-md-3 ul-0">
       <li class="td-sidebar-nav__section-title td-sidebar-nav__section with-child active-path" id="m-zhdocs-li">
-  <a href="/zh/docs/" class="align-left ps-0 td-sidebar-link td-sidebar-link__section tree-root" id="m-zhdocs"><span class="">Solarhub 帮助中心</span></a>
+  <a href="/zh/docs/" title="欢迎来到Solarhub 帮助中心" class="align-left ps-0 td-sidebar-link td-sidebar-link__section tree-root" id="m-zhdocs"><span class="">Solarhub 帮助中心</span></a>
   <ul class="ul-1">
     <li class="td-sidebar-nav__section-title td-sidebar-nav__section with-child active-path" id="m-zhdocsweb-li">
   <input type="checkbox" id="m-zhdocsweb-check" checked/>
-  <label for="m-zhdocsweb-check"><a href="/zh/docs/web/" title="" class="align-left ps-0  td-sidebar-link td-sidebar-link__section" id="m-zhdocsweb"><span class="">Solarhub(Web)</span></a></label>
+  <label for="m-zhdocsweb-check"><a href="/zh/docs/web/" class="align-left ps-0  td-sidebar-link td-sidebar-link__section" id="m-zhdocsweb"><span class="">Solarhub(Web)</span></a></label>
   
   <ul class="ul-2 foldable">
     <li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id="m-zhdocswebquickstart-li">
@@ -281,11 +258,7 @@
   <label for="m-zhdocsweborganization-check"><a href="/zh/docs/web/organization/" class="align-left ps-0  td-sidebar-link td-sidebar-link__section" id="m-zhdocsweborganization"><span class="">组织管理</span></a></label>
   
   <ul class="ul-3 foldable">
-    <li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id="m-zhdocsweborganizationmember-li">
-  <input type="checkbox" id="m-zhdocsweborganizationmember-check"/>
-  <label for="m-zhdocsweborganizationmember-check"><a href="/zh/docs/web/organization/member/" class="align-left ps-0  td-sidebar-link td-sidebar-link__page" id="m-zhdocsweborganizationmember"><span class="">成员管理</span></a></label>
-  
-</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id="m-zhdocsweborganizationtree-li">
+    <li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id="m-zhdocsweborganizationtree-li">
   <input type="checkbox" id="m-zhdocsweborganizationtree-check"/>
   <label for="m-zhdocsweborganizationtree-check"><a href="/zh/docs/web/organization/tree/" class="align-left ps-0  td-sidebar-link td-sidebar-link__page" id="m-zhdocsweborganizationtree"><span class="">组织架构</span></a></label>
   
@@ -299,7 +272,7 @@
   </ul>
 </li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id="m-zhdocsapp-li">
   <input type="checkbox" id="m-zhdocsapp-check"/>
-  <label for="m-zhdocsapp-check"><a href="/zh/docs/app/" title="" class="align-left ps-0  td-sidebar-link td-sidebar-link__section" id="m-zhdocsapp"><span class="">Solarhub(App)</span></a></label>
+  <label for="m-zhdocsapp-check"><a href="/zh/docs/app/" class="align-left ps-0  td-sidebar-link td-sidebar-link__section" id="m-zhdocsapp"><span class="">Solarhub(App)</span></a></label>
   
 </li>
   </ul>
@@ -335,7 +308,7 @@
             
 <div class="td-content">
 	<h1>电站中心</h1>
-  <div class="lead">电站模块可汇总显示所完成添加的电站数据信息进行管理，支持进行电站查询、添加电站、查看电站详情、关注电站、编辑电站、删除电站和导出/刷新电站数据的功能操作，满足您对所属电站进行管理及数据查看。</div>
+  <div class="lead">电站模块可汇总显示所完成添加的电站数据信息进行管理，支持进行电站查询、添加电站、查看电站详情、关注电站、编辑电站、删除电站和导出/刷新电站数据的功能操作，满足您对所属电站进行管理及数据查看，平台支持的电站业务类型有光伏系统、电池系统、户用储能、商业电站等</div>
 	<header class="article-meta">
 		
 </header>
@@ -417,6 +390,20 @@
     </div>
     <script src="/js/main.js"></script>
 <script defer src="/js/click-to-copy.js" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/@docsearch/js@3.6.0"
+  integrity="sha512-FtDaTWf3IS29TLuYzTPlytjGqcXkwrzG9ivq7xXElnOZeiYTbcIy/hwXAgrrRNnI0+PfN+WFz4/+4phhJmuS8Q=="
+  crossorigin="anonymous" ></script>
+<script type="text/javascript">
+const containers = ['#docsearch-0', '#docsearch-1'];
+for (let c of containers) {
+  docsearch({
+    container: c,
+    appId: "AU7590UZW9",
+    apiKey: "542b501d6e1956d4c1889d77e46fb8d8",
+    indexName: "peasantcodingio",
+  });
+}
+</script>
 <script src='/js/tabpane-persist.js'></script>
 
   </body>

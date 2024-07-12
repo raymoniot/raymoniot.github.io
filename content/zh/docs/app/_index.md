@@ -1,6 +1,7 @@
 ---
-linkTitle: Solarhub(App)
+title: Solarhub(App)
 weight: 2
+description: Solarhub App帮助文档
 ---
 
 ## Solarhub App概述

@@ -1,6 +1,6 @@
 ---
 title: 智能电表
-description: 采集器
+description: 
 weight: 5
 ---
 

@@ -35,10 +35,9 @@
   src="https://code.jquery.com/jquery-3.7.1.min.js"
   integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
   crossorigin="anonymous"></script>
-<script defer
-  src="https://unpkg.com/lunr@2.3.9/lunr.min.js"
-  integrity="sha384-203J0SNzyqHby3iU6hzvzltrWi/M41wOP5Gu+BiJMz5nwKykbkUx8Kp7iti0Lpli"
-  crossorigin="anonymous"></script>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@docsearch/css@3.6.0"
+  integrity="sha512-AyDFDkYyALC5qoao077IqAOV7UC4oKCBTp+mJfjIt306AIRoBxoEZYDo0kAx/R7RbT+3EYEky1po/F1w1eQt7g=="
+  crossorigin="anonymous" />
 
   </head>
   <body class="td-home">
@@ -58,19 +57,8 @@
       </ul>
   </div>
   <div class="d-none d-lg-block">
-    <div class="td-search td-search--offline">
-  <div class="td-search__icon"></div>
-  <input
-    type="search"
-    class="td-search__input form-control"
-    placeholder="Search this site…"
-    aria-label="Search this site…"
-    autocomplete="off"
-    
-    data-offline-search-index-json-src="/offline-search-index.json"
-    data-offline-search-base-href="/"
-    data-offline-search-max-results="10"
-  >
+    <div class="td-search">
+  <div class="td-search--algolia" id="docsearch-1"></div>
 </div>
   </div>
 </div>
@@ -101,6 +89,20 @@
     </div>
     <script src="/js/main.js"></script>
 <script defer src="/js/click-to-copy.js" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/@docsearch/js@3.6.0"
+  integrity="sha512-FtDaTWf3IS29TLuYzTPlytjGqcXkwrzG9ivq7xXElnOZeiYTbcIy/hwXAgrrRNnI0+PfN+WFz4/+4phhJmuS8Q=="
+  crossorigin="anonymous" ></script>
+<script type="text/javascript">
+const containers = ['#docsearch-0', '#docsearch-1'];
+for (let c of containers) {
+  docsearch({
+    container: c,
+    appId: "AU7590UZW9",
+    apiKey: "542b501d6e1956d4c1889d77e46fb8d8",
+    indexName: "peasantcodingio",
+  });
+}
+</script>
 <script src='/js/tabpane-persist.js'></script>
 
   </body>

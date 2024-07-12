@@ -1,6 +1,6 @@
 ---
 title: 电池系统
-description: 采集器
+description: 
 weight: 3
 ---
 

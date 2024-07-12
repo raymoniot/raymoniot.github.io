@@ -18,39 +18,29 @@
 <link rel="icon" type="image/png" href="/favicons/android-144x144.png" sizes="144x144">
 <link rel="icon" type="image/png" href="/favicons/android-192x192.png" sizes="192x192">
 
-<title>Soalrhub 帮助中心</title>
-<meta name="description" content="">
+<title>Solarhub(Web) | Soalrhub 帮助中心</title>
+<meta name="description" content="Solarhub Web帮助文档">
 <meta property="og:url" content="http://localhost:1313/zh/docs/web/">
   <meta property="og:site_name" content="Soalrhub 帮助中心">
-  <meta property="og:title" content="Soalrhub 帮助中心">
-  <meta property="og:description" content="Solarhub Web概述 Solarhub Web提供光伏、风电、储能等综合能源监控服务，面向中大型电站、设备厂商、运维商、户用电站业主提供专业、高效的综合能源云监控平台服务。
-拥有Solarhub账号 体验账号：为了方便您快速体验Solarhub的功能，我们开通了客户体验账号，您可以向商务对接负责人沟通后输入体验账号及密码即可体验小麦商家版。目前支持主流的浏览器，推荐您使用Chrome58、Firefox49、IE9以上版本。
-操作步骤：通过访问Solarhub（Web），选择“登录方式”后，输入体验账号和密码即可登录Solarhub。
-业务板块简介 ">
+  <meta property="og:title" content="Solarhub(Web)">
+  <meta property="og:description" content="Solarhub Web帮助文档">
   <meta property="og:locale" content="zh">
   <meta property="og:type" content="website">
 
-  <meta itemprop="name" content="Soalrhub 帮助中心">
-  <meta itemprop="description" content="Solarhub Web概述 Solarhub Web提供光伏、风电、储能等综合能源监控服务，面向中大型电站、设备厂商、运维商、户用电站业主提供专业、高效的综合能源云监控平台服务。
-拥有Solarhub账号 体验账号：为了方便您快速体验Solarhub的功能，我们开通了客户体验账号，您可以向商务对接负责人沟通后输入体验账号及密码即可体验小麦商家版。目前支持主流的浏览器，推荐您使用Chrome58、Firefox49、IE9以上版本。
-操作步骤：通过访问Solarhub（Web），选择“登录方式”后，输入体验账号和密码即可登录Solarhub。
-业务板块简介 ">
+  <meta itemprop="name" content="Solarhub(Web)">
+  <meta itemprop="description" content="Solarhub Web帮助文档">
   <meta itemprop="wordCount" content="8">
   <meta name="twitter:card" content="summary">
-  <meta name="twitter:title" content="Soalrhub 帮助中心">
-  <meta name="twitter:description" content="Solarhub Web概述 Solarhub Web提供光伏、风电、储能等综合能源监控服务，面向中大型电站、设备厂商、运维商、户用电站业主提供专业、高效的综合能源云监控平台服务。
-拥有Solarhub账号 体验账号：为了方便您快速体验Solarhub的功能，我们开通了客户体验账号，您可以向商务对接负责人沟通后输入体验账号及密码即可体验小麦商家版。目前支持主流的浏览器，推荐您使用Chrome58、Firefox49、IE9以上版本。
-操作步骤：通过访问Solarhub（Web），选择“登录方式”后，输入体验账号和密码即可登录Solarhub。
-业务板块简介 ">
+  <meta name="twitter:title" content="Solarhub(Web)">
+  <meta name="twitter:description" content="Solarhub Web帮助文档">
 <link href="/scss/main.css" rel="stylesheet">
 <script
   src="https://code.jquery.com/jquery-3.7.1.min.js"
   integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
   crossorigin="anonymous"></script>
-<script defer
-  src="https://unpkg.com/lunr@2.3.9/lunr.min.js"
-  integrity="sha384-203J0SNzyqHby3iU6hzvzltrWi/M41wOP5Gu+BiJMz5nwKykbkUx8Kp7iti0Lpli"
-  crossorigin="anonymous"></script>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@docsearch/css@3.6.0"
+  integrity="sha512-AyDFDkYyALC5qoao077IqAOV7UC4oKCBTp+mJfjIt306AIRoBxoEZYDo0kAx/R7RbT+3EYEky1po/F1w1eQt7g=="
+  crossorigin="anonymous" />
 
   </head>
   <body class="td-section">
@@ -70,19 +60,8 @@
       </ul>
   </div>
   <div class="d-none d-lg-block">
-    <div class="td-search td-search--offline">
-  <div class="td-search__icon"></div>
-  <input
-    type="search"
-    class="td-search__input form-control"
-    placeholder=""
-    aria-label=""
-    autocomplete="off"
-    
-    data-offline-search-index-json-src="/offline-search-index.json"
-    data-offline-search-base-href="/"
-    data-offline-search-max-results="10"
-  >
+    <div class="td-search">
+  <div class="td-search--algolia" id="docsearch-1"></div>
 </div>
   </div>
 </div>
@@ -94,19 +73,8 @@
           <aside class="col-12 col-md-3 col-xl-2 td-sidebar d-print-none">
             <div id="td-sidebar-menu" class="td-sidebar__inner">
   <form class="td-sidebar__search d-flex align-items-center">
-    <div class="td-search td-search--offline">
-  <div class="td-search__icon"></div>
-  <input
-    type="search"
-    class="td-search__input form-control"
-    placeholder=""
-    aria-label=""
-    autocomplete="off"
-    
-    data-offline-search-index-json-src="/offline-search-index.json"
-    data-offline-search-base-href="/"
-    data-offline-search-max-results="10"
-  >
+    <div class="td-search">
+  <div class="td-search--algolia" id="docsearch-0"></div>
 </div>
     <button class="btn btn-link td-sidebar__toggle d-md-none p-0 ms-3 fas fa-bars" type="button" data-bs-toggle="collapse" data-bs-target="#td-section-nav" aria-controls="td-section-nav" aria-expanded="false" aria-label="Toggle section navigation">
     </button>
@@ -122,11 +90,11 @@
     </div>
     <ul class="td-sidebar-nav__section pe-md-3 ul-0">
       <li class="td-sidebar-nav__section-title td-sidebar-nav__section with-child active-path" id="m-zhdocs-li">
-  <a href="/zh/docs/" class="align-left ps-0 td-sidebar-link td-sidebar-link__section tree-root" id="m-zhdocs"><span class="">Solarhub 帮助中心</span></a>
+  <a href="/zh/docs/" title="欢迎来到Solarhub 帮助中心" class="align-left ps-0 td-sidebar-link td-sidebar-link__section tree-root" id="m-zhdocs"><span class="">Solarhub 帮助中心</span></a>
   <ul class="ul-1">
     <li class="td-sidebar-nav__section-title td-sidebar-nav__section with-child active-path" id="m-zhdocsweb-li">
   <input type="checkbox" id="m-zhdocsweb-check" checked/>
-  <label for="m-zhdocsweb-check"><a href="/zh/docs/web/" title="" class="align-left ps-0  active td-sidebar-link td-sidebar-link__section" id="m-zhdocsweb"><span class="td-sidebar-nav-active-item">Solarhub(Web)</span></a></label>
+  <label for="m-zhdocsweb-check"><a href="/zh/docs/web/" class="align-left ps-0  active td-sidebar-link td-sidebar-link__section" id="m-zhdocsweb"><span class="td-sidebar-nav-active-item">Solarhub(Web)</span></a></label>
   
   <ul class="ul-2 foldable">
     <li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id="m-zhdocswebquickstart-li">
@@ -291,11 +259,7 @@
   <label for="m-zhdocsweborganization-check"><a href="/zh/docs/web/organization/" class="align-left ps-0  td-sidebar-link td-sidebar-link__section" id="m-zhdocsweborganization"><span class="">组织管理</span></a></label>
   
   <ul class="ul-3 foldable">
-    <li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id="m-zhdocsweborganizationmember-li">
-  <input type="checkbox" id="m-zhdocsweborganizationmember-check"/>
-  <label for="m-zhdocsweborganizationmember-check"><a href="/zh/docs/web/organization/member/" class="align-left ps-0  td-sidebar-link td-sidebar-link__page" id="m-zhdocsweborganizationmember"><span class="">成员管理</span></a></label>
-  
-</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id="m-zhdocsweborganizationtree-li">
+    <li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id="m-zhdocsweborganizationtree-li">
   <input type="checkbox" id="m-zhdocsweborganizationtree-check"/>
   <label for="m-zhdocsweborganizationtree-check"><a href="/zh/docs/web/organization/tree/" class="align-left ps-0  td-sidebar-link td-sidebar-link__page" id="m-zhdocsweborganizationtree"><span class="">组织架构</span></a></label>
   
@@ -309,7 +273,7 @@
   </ul>
 </li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id="m-zhdocsapp-li">
   <input type="checkbox" id="m-zhdocsapp-check"/>
-  <label for="m-zhdocsapp-check"><a href="/zh/docs/app/" title="" class="align-left ps-0  td-sidebar-link td-sidebar-link__section" id="m-zhdocsapp"><span class="">Solarhub(App)</span></a></label>
+  <label for="m-zhdocsapp-check"><a href="/zh/docs/app/" class="align-left ps-0  td-sidebar-link td-sidebar-link__section" id="m-zhdocsapp"><span class="">Solarhub(App)</span></a></label>
   
 </li>
   </ul>
@@ -351,8 +315,8 @@
 </nav>
             
 <div class="td-content">
-	<h1></h1>
-  
+	<h1>Solarhub(Web)</h1>
+  <div class="lead">Solarhub Web帮助文档</div>
 	<header class="article-meta">
 		
 </header>
@@ -362,7 +326,7 @@
 <p><img alt="overview" src="../../photo/docs/overview.png"></p>
 <ul>
 <li>
-<p>体验账号：为了方便您快速体验Solarhub的功能，我们开通了客户体验账号，您可以向商务对接负责人沟通后输入体验账号及密码即可体验小麦商家版。<strong>目前支持主流的浏览器，推荐您使用Chrome58、Firefox49、IE9以上版本</strong>。</p>
+<p>体验账号：为了方便您快速体验Solarhub的功能，我们开通了客户体验账号，您可以向商务对接负责人沟通后输入体验账号及密码即可体验Solarhub。<strong>目前支持主流的浏览器，推荐您使用Chrome58、Firefox49、IE9以上版本</strong>。</p>
 <p>操作步骤：通过访问Solarhub（Web），选择“登录方式”后，输入体验账号和密码即可登录Solarhub。</p>
 </li>
 </ul>
@@ -376,7 +340,7 @@
                 <h5>
                     <a href="/zh/docs/web/quickstart/">快速开始</a>
                 </h5>
-                <p>快速使用Solarhub，从创建电站、添加采集器、配网、到查看数据</p>
+                <p>快速使用Solarhub，从采集器配网、采集器入库、创建电站、添加采集器、配网、到查看数据</p>
             </div>
         <div class="entry">
                 <h5>
@@ -394,43 +358,43 @@
                 <h5>
                     <a href="/zh/docs/web/plantcenter/">电站中心</a>
                 </h5>
-                <p>电站模块可汇总显示所完成添加的电站数据信息进行管理，支持进行电站查询、添加电站、查看电站详情、关注电站、编辑电站、删除电站和导出/刷新电站数据的功能操作，满足您对所属电站进行管理及数据查看。</p>
+                <p>电站模块可汇总显示所完成添加的电站数据信息进行管理，支持进行电站查询、添加电站、查看电站详情、关注电站、编辑电站、删除电站和导出/刷新电站数据的功能操作，满足您对所属电站进行管理及数据查看，平台支持的电站业务类型有光伏系统、电池系统、户用储能、商业电站等</p>
             </div>
         <div class="entry">
                 <h5>
                     <a href="/zh/docs/web/device/">设备中心</a>
                 </h5>
-                <p>设备中心汇总显示所完成添加的设备数据信息进行管理，可支持进行设备SN查询、单个导入/批量导入、设备类型/状态筛选、设备详情、查看所属系统和删除设备数据的功能操作，便于您对采集器或DTU数据设备数据的快速导入与管理。</p>
+                <p>设备中心汇总显示所完成添加的设备数据信息进行管理，可支持进行设备SN查询、单个导入/批量导入、设备类型/状态筛选、设备详情、查看所属系统和删除设备数据的功能操作，便于您对采集器或DTU数据设备数据的快速导入与管理，支持的设备类型有采集器、逆变器、电池、优化器、电表等。</p>
             </div>
         <div class="entry">
                 <h5>
                     <a href="/zh/docs/web/ops/">运维中心</a>
                 </h5>
-                <p>运维</p>
+                <p>运维中心包含事件中心和工单系统、事件中心监控平台设备的异常情况，可以查看当前系统中所有告警设备、工单系统用于用户提出问题，管理客户的需求</p>
             </div>
         <div class="entry">
                 <h5>
                     <a href="/zh/docs/web/report/">报表中心</a>
                 </h5>
-                <p>设备中心汇总显示所完成添加的设备数据信息进行管理，可支持进行设备SN查询、单个导入/批量导入、设备类型/状态筛选、设备详情、查看所属系统和删除设备数据的功能操作，便于您对采集器或DTU数据设备数据的快速导入与管理。</p>
+                <p>报表中心统计了平台上所有电站和设备的历史数据、可以直观的看到这些数据并导出</p>
             </div>
         <div class="entry">
                 <h5>
                     <a href="/zh/docs/web/toolkits/">工具箱</a>
                 </h5>
-                <p>设备中心汇总显示所完成添加的设备数据信息进行管理，可支持进行设备SN查询、单个导入/批量导入、设备类型/状态筛选、设备详情、查看所属系统和删除设备数据的功能操作，便于您对采集器或DTU数据设备数据的快速导入与管理。</p>
+                <p>常用的工具集合</p>
             </div>
         <div class="entry">
                 <h5>
                     <a href="/zh/docs/web/organization/">组织管理</a>
                 </h5>
-                <p>设备中心汇总显示所完成添加的设备数据信息进行管理，可支持进行设备SN查询、单个导入/批量导入、设备类型/状态筛选、设备详情、查看所属系统和删除设备数据的功能操作，便于您对采集器或DTU数据设备数据的快速导入与管理。</p>
+                <p>平台组织管理、成员管理、测点组管理</p>
             </div>
         <div class="entry">
                 <h5>
                     <a href="/zh/docs/web/faq/">常见问题及答案</a>
                 </h5>
-                <p>设备中心汇总显示所完成添加的设备数据信息进行管理，可支持进行设备SN查询、单个导入/批量导入、设备类型/状态筛选、设备详情、查看所属系统和删除设备数据的功能操作，便于您对采集器或DTU数据设备数据的快速导入与管理。</p>
+                <p></p>
             </div>
         </div>
 </div>
@@ -457,6 +421,20 @@
     </div>
     <script src="/js/main.js"></script>
 <script defer src="/js/click-to-copy.js" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/@docsearch/js@3.6.0"
+  integrity="sha512-FtDaTWf3IS29TLuYzTPlytjGqcXkwrzG9ivq7xXElnOZeiYTbcIy/hwXAgrrRNnI0+PfN+WFz4/+4phhJmuS8Q=="
+  crossorigin="anonymous" ></script>
+<script type="text/javascript">
+const containers = ['#docsearch-0', '#docsearch-1'];
+for (let c of containers) {
+  docsearch({
+    container: c,
+    appId: "AU7590UZW9",
+    apiKey: "542b501d6e1956d4c1889d77e46fb8d8",
+    indexName: "peasantcodingio",
+  });
+}
+</script>
 <script src='/js/tabpane-persist.js'></script>
 
   </body>

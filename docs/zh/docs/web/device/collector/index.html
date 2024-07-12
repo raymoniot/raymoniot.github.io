@@ -18,30 +18,101 @@
 <link rel="icon" type="image/png" href="/favicons/android-192x192.png" sizes="192x192">
 
 <title>采集器 | Soalrhub 帮助中心</title>
-<meta name="description" content="采集器">
+<meta name="description" content="功能概述 1.设备列表 设备列表可以查看在线、故障、离线和全部的设备信息。
+对于采集器设备来说，有两种额外的状态
+已安装：采集器入库后进行了绑定电站 未安装：采集器入库后未绑定电站 2.采集器入库 采集器入库有两种方式
+单个导入：单个采集器导入，一次导入一个采集器 批量导入：通过将采集器SN写入模版文件，一次性导入多个采集器 2.1单个导入 一般采集器类型选择WI-FI Stick，填写授权用户可以将该设备授权给其他用户，该用户拥有设备的查看管理权限，不填写则默认当前登录用户，填写标签会对采集器添加备注信息。
+2.2批量导入 下载采集器导入模版
+可以填写多个采集器SN，Owner为授权用户，Keywords为标签
+类型选择WI-FI Stick，上传并读取校验，即可添加成功，若上传错误的SN或者已入库的SN则会列出报错信息
+3.批量设置访问授权 可以勾选单个或多个设备
+输入平台账号的邮箱，如果存在则会弹出对应的平台账号
+选择平台账号，点击确定设置成功
+4.批量设置标签 5.批量删除 6.单个访问授权/设置标签/删除 7.固件版本号搜索 8.采集器详情页 从设备列表中的设备可以进入设备详情页
+采集器详情页包括采集器的基本信息和其子设备，支持的子设备有逆变器、BMS、优化器、电表等。
+8.1报警 报警将打开该设备的设备事件页面，可以看到该设备产生的所有告警
+8.2解绑 采集器的解绑将解绑采集器绑定的电站，子设备的解绑将会从采集器下删除该子设备，清空子设备的数据。
+8.3其他功能 8.3.1变更 变更采集器的型号和序列号
+8.3.2新建工单 对该采集器创建一个工单
+8.3.3别名编辑 可以对采集器命名
+8.3.4固件升级 对采集器进行OTA升级，上传固件后选择固件，点击立即升级
+8.3.5操作日志 操作日志保存了最近对该设备的远程交互记录，包括OTA、参数设置、指令透传">
 <meta property="og:url" content="http://localhost:1313/zh/docs/web/device/collector/">
   <meta property="og:site_name" content="Soalrhub 帮助中心">
   <meta property="og:title" content="采集器">
-  <meta property="og:description" content="采集器">
+  <meta property="og:description" content="功能概述 1.设备列表 设备列表可以查看在线、故障、离线和全部的设备信息。
+对于采集器设备来说，有两种额外的状态
+已安装：采集器入库后进行了绑定电站 未安装：采集器入库后未绑定电站 2.采集器入库 采集器入库有两种方式
+单个导入：单个采集器导入，一次导入一个采集器 批量导入：通过将采集器SN写入模版文件，一次性导入多个采集器 2.1单个导入 一般采集器类型选择WI-FI Stick，填写授权用户可以将该设备授权给其他用户，该用户拥有设备的查看管理权限，不填写则默认当前登录用户，填写标签会对采集器添加备注信息。
+2.2批量导入 下载采集器导入模版
+可以填写多个采集器SN，Owner为授权用户，Keywords为标签
+类型选择WI-FI Stick，上传并读取校验，即可添加成功，若上传错误的SN或者已入库的SN则会列出报错信息
+3.批量设置访问授权 可以勾选单个或多个设备
+输入平台账号的邮箱，如果存在则会弹出对应的平台账号
+选择平台账号，点击确定设置成功
+4.批量设置标签 5.批量删除 6.单个访问授权/设置标签/删除 7.固件版本号搜索 8.采集器详情页 从设备列表中的设备可以进入设备详情页
+采集器详情页包括采集器的基本信息和其子设备，支持的子设备有逆变器、BMS、优化器、电表等。
+8.1报警 报警将打开该设备的设备事件页面，可以看到该设备产生的所有告警
+8.2解绑 采集器的解绑将解绑采集器绑定的电站，子设备的解绑将会从采集器下删除该子设备，清空子设备的数据。
+8.3其他功能 8.3.1变更 变更采集器的型号和序列号
+8.3.2新建工单 对该采集器创建一个工单
+8.3.3别名编辑 可以对采集器命名
+8.3.4固件升级 对采集器进行OTA升级，上传固件后选择固件，点击立即升级
+8.3.5操作日志 操作日志保存了最近对该设备的远程交互记录，包括OTA、参数设置、指令透传">
   <meta property="og:locale" content="zh">
   <meta property="og:type" content="article">
     <meta property="article:section" content="docs">
 
   <meta itemprop="name" content="采集器">
-  <meta itemprop="description" content="采集器">
+  <meta itemprop="description" content="功能概述 1.设备列表 设备列表可以查看在线、故障、离线和全部的设备信息。
+对于采集器设备来说，有两种额外的状态
+已安装：采集器入库后进行了绑定电站 未安装：采集器入库后未绑定电站 2.采集器入库 采集器入库有两种方式
+单个导入：单个采集器导入，一次导入一个采集器 批量导入：通过将采集器SN写入模版文件，一次性导入多个采集器 2.1单个导入 一般采集器类型选择WI-FI Stick，填写授权用户可以将该设备授权给其他用户，该用户拥有设备的查看管理权限，不填写则默认当前登录用户，填写标签会对采集器添加备注信息。
+2.2批量导入 下载采集器导入模版
+可以填写多个采集器SN，Owner为授权用户，Keywords为标签
+类型选择WI-FI Stick，上传并读取校验，即可添加成功，若上传错误的SN或者已入库的SN则会列出报错信息
+3.批量设置访问授权 可以勾选单个或多个设备
+输入平台账号的邮箱，如果存在则会弹出对应的平台账号
+选择平台账号，点击确定设置成功
+4.批量设置标签 5.批量删除 6.单个访问授权/设置标签/删除 7.固件版本号搜索 8.采集器详情页 从设备列表中的设备可以进入设备详情页
+采集器详情页包括采集器的基本信息和其子设备，支持的子设备有逆变器、BMS、优化器、电表等。
+8.1报警 报警将打开该设备的设备事件页面，可以看到该设备产生的所有告警
+8.2解绑 采集器的解绑将解绑采集器绑定的电站，子设备的解绑将会从采集器下删除该子设备，清空子设备的数据。
+8.3其他功能 8.3.1变更 变更采集器的型号和序列号
+8.3.2新建工单 对该采集器创建一个工单
+8.3.3别名编辑 可以对采集器命名
+8.3.4固件升级 对采集器进行OTA升级，上传固件后选择固件，点击立即升级
+8.3.5操作日志 操作日志保存了最近对该设备的远程交互记录，包括OTA、参数设置、指令透传">
   <meta itemprop="wordCount" content="44">
   <meta name="twitter:card" content="summary">
   <meta name="twitter:title" content="采集器">
-  <meta name="twitter:description" content="采集器">
+  <meta name="twitter:description" content="功能概述 1.设备列表 设备列表可以查看在线、故障、离线和全部的设备信息。
+对于采集器设备来说，有两种额外的状态
+已安装：采集器入库后进行了绑定电站 未安装：采集器入库后未绑定电站 2.采集器入库 采集器入库有两种方式
+单个导入：单个采集器导入，一次导入一个采集器 批量导入：通过将采集器SN写入模版文件，一次性导入多个采集器 2.1单个导入 一般采集器类型选择WI-FI Stick，填写授权用户可以将该设备授权给其他用户，该用户拥有设备的查看管理权限，不填写则默认当前登录用户，填写标签会对采集器添加备注信息。
+2.2批量导入 下载采集器导入模版
+可以填写多个采集器SN，Owner为授权用户，Keywords为标签
+类型选择WI-FI Stick，上传并读取校验，即可添加成功，若上传错误的SN或者已入库的SN则会列出报错信息
+3.批量设置访问授权 可以勾选单个或多个设备
+输入平台账号的邮箱，如果存在则会弹出对应的平台账号
+选择平台账号，点击确定设置成功
+4.批量设置标签 5.批量删除 6.单个访问授权/设置标签/删除 7.固件版本号搜索 8.采集器详情页 从设备列表中的设备可以进入设备详情页
+采集器详情页包括采集器的基本信息和其子设备，支持的子设备有逆变器、BMS、优化器、电表等。
+8.1报警 报警将打开该设备的设备事件页面，可以看到该设备产生的所有告警
+8.2解绑 采集器的解绑将解绑采集器绑定的电站，子设备的解绑将会从采集器下删除该子设备，清空子设备的数据。
+8.3其他功能 8.3.1变更 变更采集器的型号和序列号
+8.3.2新建工单 对该采集器创建一个工单
+8.3.3别名编辑 可以对采集器命名
+8.3.4固件升级 对采集器进行OTA升级，上传固件后选择固件，点击立即升级
+8.3.5操作日志 操作日志保存了最近对该设备的远程交互记录，包括OTA、参数设置、指令透传">
 <link href="/scss/main.css" rel="stylesheet">
 <script
   src="https://code.jquery.com/jquery-3.7.1.min.js"
   integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
   crossorigin="anonymous"></script>
-<script defer
-  src="https://unpkg.com/lunr@2.3.9/lunr.min.js"
-  integrity="sha384-203J0SNzyqHby3iU6hzvzltrWi/M41wOP5Gu+BiJMz5nwKykbkUx8Kp7iti0Lpli"
-  crossorigin="anonymous"></script>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@docsearch/css@3.6.0"
+  integrity="sha512-AyDFDkYyALC5qoao077IqAOV7UC4oKCBTp+mJfjIt306AIRoBxoEZYDo0kAx/R7RbT+3EYEky1po/F1w1eQt7g=="
+  crossorigin="anonymous" />
 
   </head>
   <body class="td-page">
@@ -61,19 +132,8 @@
       </ul>
   </div>
   <div class="d-none d-lg-block">
-    <div class="td-search td-search--offline">
-  <div class="td-search__icon"></div>
-  <input
-    type="search"
-    class="td-search__input form-control"
-    placeholder=""
-    aria-label=""
-    autocomplete="off"
-    
-    data-offline-search-index-json-src="/offline-search-index.json"
-    data-offline-search-base-href="/"
-    data-offline-search-max-results="10"
-  >
+    <div class="td-search">
+  <div class="td-search--algolia" id="docsearch-1"></div>
 </div>
   </div>
 </div>
@@ -85,19 +145,8 @@
           <aside class="col-12 col-md-3 col-xl-2 td-sidebar d-print-none">
             <div id="td-sidebar-menu" class="td-sidebar__inner">
   <form class="td-sidebar__search d-flex align-items-center">
-    <div class="td-search td-search--offline">
-  <div class="td-search__icon"></div>
-  <input
-    type="search"
-    class="td-search__input form-control"
-    placeholder=""
-    aria-label=""
-    autocomplete="off"
-    
-    data-offline-search-index-json-src="/offline-search-index.json"
-    data-offline-search-base-href="/"
-    data-offline-search-max-results="10"
-  >
+    <div class="td-search">
+  <div class="td-search--algolia" id="docsearch-0"></div>
 </div>
     <button class="btn btn-link td-sidebar__toggle d-md-none p-0 ms-3 fas fa-bars" type="button" data-bs-toggle="collapse" data-bs-target="#td-section-nav" aria-controls="td-section-nav" aria-expanded="false" aria-label="Toggle section navigation">
     </button>
@@ -113,11 +162,11 @@
     </div>
     <ul class="td-sidebar-nav__section pe-md-3 ul-0">
       <li class="td-sidebar-nav__section-title td-sidebar-nav__section with-child active-path" id="m-zhdocs-li">
-  <a href="/zh/docs/" class="align-left ps-0 td-sidebar-link td-sidebar-link__section tree-root" id="m-zhdocs"><span class="">Solarhub 帮助中心</span></a>
+  <a href="/zh/docs/" title="欢迎来到Solarhub 帮助中心" class="align-left ps-0 td-sidebar-link td-sidebar-link__section tree-root" id="m-zhdocs"><span class="">Solarhub 帮助中心</span></a>
   <ul class="ul-1">
     <li class="td-sidebar-nav__section-title td-sidebar-nav__section with-child active-path" id="m-zhdocsweb-li">
   <input type="checkbox" id="m-zhdocsweb-check" checked/>
-  <label for="m-zhdocsweb-check"><a href="/zh/docs/web/" title="" class="align-left ps-0  td-sidebar-link td-sidebar-link__section" id="m-zhdocsweb"><span class="">Solarhub(Web)</span></a></label>
+  <label for="m-zhdocsweb-check"><a href="/zh/docs/web/" class="align-left ps-0  td-sidebar-link td-sidebar-link__section" id="m-zhdocsweb"><span class="">Solarhub(Web)</span></a></label>
   
   <ul class="ul-2 foldable">
     <li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id="m-zhdocswebquickstart-li">
@@ -282,11 +331,7 @@
   <label for="m-zhdocsweborganization-check"><a href="/zh/docs/web/organization/" class="align-left ps-0  td-sidebar-link td-sidebar-link__section" id="m-zhdocsweborganization"><span class="">组织管理</span></a></label>
   
   <ul class="ul-3 foldable">
-    <li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id="m-zhdocsweborganizationmember-li">
-  <input type="checkbox" id="m-zhdocsweborganizationmember-check"/>
-  <label for="m-zhdocsweborganizationmember-check"><a href="/zh/docs/web/organization/member/" class="align-left ps-0  td-sidebar-link td-sidebar-link__page" id="m-zhdocsweborganizationmember"><span class="">成员管理</span></a></label>
-  
-</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id="m-zhdocsweborganizationtree-li">
+    <li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id="m-zhdocsweborganizationtree-li">
   <input type="checkbox" id="m-zhdocsweborganizationtree-check"/>
   <label for="m-zhdocsweborganizationtree-check"><a href="/zh/docs/web/organization/tree/" class="align-left ps-0  td-sidebar-link td-sidebar-link__page" id="m-zhdocsweborganizationtree"><span class="">组织架构</span></a></label>
   
@@ -300,7 +345,7 @@
   </ul>
 </li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id="m-zhdocsapp-li">
   <input type="checkbox" id="m-zhdocsapp-check"/>
-  <label for="m-zhdocsapp-check"><a href="/zh/docs/app/" title="" class="align-left ps-0  td-sidebar-link td-sidebar-link__section" id="m-zhdocsapp"><span class="">Solarhub(App)</span></a></label>
+  <label for="m-zhdocsapp-check"><a href="/zh/docs/app/" class="align-left ps-0  td-sidebar-link td-sidebar-link__section" id="m-zhdocsapp"><span class="">Solarhub(App)</span></a></label>
   
 </li>
   </ul>
@@ -368,7 +413,7 @@
             
 <div class="td-content">
 	<h1>采集器</h1>
-	<div class="lead">采集器</div>
+	
 	<header class="article-meta">
 		
 </header>
@@ -472,6 +517,20 @@
     </div>
     <script src="/js/main.js"></script>
 <script defer src="/js/click-to-copy.js" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/@docsearch/js@3.6.0"
+  integrity="sha512-FtDaTWf3IS29TLuYzTPlytjGqcXkwrzG9ivq7xXElnOZeiYTbcIy/hwXAgrrRNnI0+PfN+WFz4/+4phhJmuS8Q=="
+  crossorigin="anonymous" ></script>
+<script type="text/javascript">
+const containers = ['#docsearch-0', '#docsearch-1'];
+for (let c of containers) {
+  docsearch({
+    container: c,
+    appId: "AU7590UZW9",
+    apiKey: "542b501d6e1956d4c1889d77e46fb8d8",
+    indexName: "peasantcodingio",
+  });
+}
+</script>
 <script src='/js/tabpane-persist.js'></script>
 
   </body>
