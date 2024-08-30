@@ -2,51 +2,51 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>电站 on Soalrhub 帮助中心</title>
-    <link>http://localhost:1313/zh/docs/app/plant/</link>
+    <link>https://raymoniot.github.io/zh/docs/app/plant/</link>
     <description>Recent content in 电站 on Soalrhub 帮助中心</description>
     <generator>Hugo</generator>
     <language>zh</language>
-    <atom:link href="http://localhost:1313/zh/docs/app/plant/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://raymoniot.github.io/zh/docs/app/plant/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>创建电站</title>
-      <link>http://localhost:1313/zh/docs/app/plant/create/</link>
+      <link>https://raymoniot.github.io/zh/docs/app/plant/create/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/zh/docs/app/plant/create/</guid>
+      <guid>https://raymoniot.github.io/zh/docs/app/plant/create/</guid>
       <description>创建方式一 步骤 通过电站列表右上角点击加号进入创建电站界面 补充电站信息后点击右上角保存按钮创建成功 创建方式二 步骤 通过电站列表点击电站进入电站概览界面 通过右上角菜单点击创建电站 补充电站信息后点击右上角保存按钮创建成功 </description>
     </item>
     <item>
       <title>搜索或筛选电站</title>
-      <link>http://localhost:1313/zh/docs/app/plant/search/</link>
+      <link>https://raymoniot.github.io/zh/docs/app/plant/search/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/zh/docs/app/plant/search/</guid>
+      <guid>https://raymoniot.github.io/zh/docs/app/plant/search/</guid>
       <description>1.电站搜索 在APP的&amp;quot;电站&amp;quot;下，可以通过电站名称关键字来搜索电站&#xA;2.电站筛选 两种条件筛选 根据电站类型筛选 根据电站在线状态筛选 </description>
     </item>
     <item>
       <title>添加采集器</title>
-      <link>http://localhost:1313/zh/docs/app/plant/logger/</link>
+      <link>https://raymoniot.github.io/zh/docs/app/plant/logger/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/zh/docs/app/plant/logger/</guid>
+      <guid>https://raymoniot.github.io/zh/docs/app/plant/logger/</guid>
       <description> 步骤 在电站列表选择电站进入电站概览页 在电站概览页点击右上角添加采集器 扫码或点击键盘图标进入手动输入界面 手动输入采集器SN号，点击添加设备 </description>
     </item>
     <item>
       <title>切换电站</title>
-      <link>http://localhost:1313/zh/docs/app/plant/switch/</link>
+      <link>https://raymoniot.github.io/zh/docs/app/plant/switch/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/zh/docs/app/plant/switch/</guid>
+      <guid>https://raymoniot.github.io/zh/docs/app/plant/switch/</guid>
       <description> 步骤 在电站列表选择电站进入电站概览页 在电站概览页点击右上角切换电站进入切换电站界面 选择切换的电站完成切换 </description>
     </item>
     <item>
       <title>电站历史</title>
-      <link>http://localhost:1313/zh/docs/app/plant/history/</link>
+      <link>https://raymoniot.github.io/zh/docs/app/plant/history/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/zh/docs/app/plant/history/</guid>
+      <guid>https://raymoniot.github.io/zh/docs/app/plant/history/</guid>
       <description> 步骤 在电站列表选择电站进入电站概览界面 在底部选择历史进入历史界面 通过按压图表可以查看某一个时间点的数据 通过上方箭头可以切换前一天或者后一天的历史数据，点击时间可以手动选择时间 </description>
     </item>
     <item>
       <title>电站布局</title>
-      <link>http://localhost:1313/zh/docs/app/plant/layout/</link>
+      <link>https://raymoniot.github.io/zh/docs/app/plant/layout/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/zh/docs/app/plant/layout/</guid>
+      <guid>https://raymoniot.github.io/zh/docs/app/plant/layout/</guid>
       <description>1.创建布局 步骤 在电站列表选择电站进入电站概览界面 在底部选择布局进入布局界面 创建布局 默认会根据电站下的所有设备创建对应的组件 2.编辑布局 步骤 可以通过拖动组件自由调整组件位置或者通过下方编辑对组件进行单独编辑 编辑组件界面可以看到组件的编号，可以调整组件的方向和角度，调整后点击保存 可以在布局界面添加和删除组件（如不可添加组件则说明组件已满） 通过右上角保存按钮保存当前布局 3.布局数据查看 功能概述 点击右下角箭头可以打开功率曲线 通过点击曲线可以选择某个时间点查看该时刻的功率情况，组件中的数据也随之改变，可以看到各个设备某个时间点的功率情况 通过布局中右下角刷新按钮可以快速复位布局视角，铅笔图状按钮用于进入布局编辑界面 通过上方箭头可以切换前一天或者后一天的布局数据，点击时间可以手动选择时间 </description>
     </item>
   </channel>

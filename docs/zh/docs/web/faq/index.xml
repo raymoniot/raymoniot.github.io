@@ -2,23 +2,23 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>常见问题及答案 on Soalrhub 帮助中心</title>
-    <link>http://localhost:1313/zh/docs/web/faq/</link>
+    <link>https://raymoniot.github.io/zh/docs/web/faq/</link>
     <description>Recent content in 常见问题及答案 on Soalrhub 帮助中心</description>
     <generator>Hugo</generator>
     <language>zh</language>
-    <atom:link href="http://localhost:1313/zh/docs/web/faq/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://raymoniot.github.io/zh/docs/web/faq/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>网络搜索工具</title>
-      <link>http://localhost:1313/zh/docs/web/faq/1.networktools/</link>
+      <link>https://raymoniot.github.io/zh/docs/web/faq/1.networktools/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/zh/docs/web/faq/1.networktools/</guid>
+      <guid>https://raymoniot.github.io/zh/docs/web/faq/1.networktools/</guid>
       <description>功能概述 网络搜索配置工具主要用于对WiFi数据棒(采集器)进行配置，使用网络搜索工具向采集器发送命令可以对采集器的参数进行修改&#xA;使用方法 1.使用前置条件 使用网络搜索工具的PC必须和采集器处于同一网络中，否则将无法搜索到采集器&#xA;2.搜索当前网络下的所有采集器设备 打开软件后网络搜索工具会默认自动查找当前网络的网关地址作为搜索地址，点击搜索按钮将搜索采集器设备&#xA;3.选择设备发送指令 选择目标设备，列表中可以看到采集器的IP地址、采集器的序列号&#xA;发送命令后在日志中可以看到命令的执行结果，如图中反馈+ok代表执行成功，=2代表命令执行结果为2，图中执行的命令为查询采集器上报数据的URL地址指向，结果为2代表使用的是配置2&#xA;常见问题：：&#xA;发送命令后没有返回：发送命令后可能出现在日志中无返回结果的情况，此时可能是网络搜索配置工具与采集器通讯断开，可以通过再次搜索设备后重新发送指令来解决 发送命令返回ERR：检查命令格式是否有误，符号是否为中文，可以多次搜索设备重新发送指令尝试 常用命令 查询命令 AT+SERVERSELECT：查询服务器选择，用于查看上报数据服务器地址指向是1还是2（采集器支持配置两个地址指向分别是URL1、URL2，查询到的是1地址1生效，查询到的是2地址2生效） AT+SERVERURL1：查询URL1的地址内容，一般为logger.example.com,5005的格式 AT+SERVERURL2：查询URL2的地址内容，一般为logger.example.com,5005的格式 设置命令 AT+SERVERSELECT=1：修改采集器服务器选择，指向URL1，此时URL1生效 AT+SERVERSELECT=2：修改采集器服务器选择，指向URL2，此时URL2生效 AT+SERVERURL1=logger.example.com2,5005：修改采集器URL1的地址为logger.example.com2,5005 AT+SERVERURL2=logger.example.com2,5005：修改采集器URL2的地址为logger.example.com2,5005 其他命令 AT+FSET：保存配置信息 AT+RST：重启采集器（修改采集器指向和配置后需要重启生效） </description>
     </item>
     <item>
       <title>采集器首次上电不在线</title>
-      <link>http://localhost:1313/zh/docs/web/faq/2.deviceoffline/</link>
+      <link>https://raymoniot.github.io/zh/docs/web/faq/2.deviceoffline/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/zh/docs/web/faq/2.deviceoffline/</guid>
+      <guid>https://raymoniot.github.io/zh/docs/web/faq/2.deviceoffline/</guid>
       <description>1.检查采集器信号灯 2.使用网络搜索配置工具检查配置 网络搜索配置工具的使用方法参考网络搜索配置工具&#xA;3.检查方法 1.查询服务器选择 发送AT+SERVERSELECT指令查询服务区选择的URL，3.0版本以后的固件默认指向URL2地址，为各家网关服务的地址，如地址不清楚请联系我们，如图返回ok=2则说明采集器指向URL2&#xA;2.查询服务器地址 发送AT+SERVERURL2查询URL的地址，如图URL2的地址为tt.raymoniot.com为平台的测试环境&#xA;3.修改服务器地址 如果地址不是您的平台地址或者不符合预期可以发送AT+SERVERURL2=xxx.xxx.com修改&#xA;4.保存 发送AT+FSET保存配置&#xA;5.重启 发送AT+RST重启采集器生效，重启后可以观察设备在平台是否在线</description>
     </item>
   </channel>

@@ -2,37 +2,37 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>设备 on Soalrhub 帮助中心</title>
-    <link>http://localhost:1313/zh/docs/app/device/</link>
+    <link>https://raymoniot.github.io/zh/docs/app/device/</link>
     <description>Recent content in 设备 on Soalrhub 帮助中心</description>
     <generator>Hugo</generator>
     <language>zh</language>
-    <atom:link href="http://localhost:1313/zh/docs/app/device/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://raymoniot.github.io/zh/docs/app/device/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>搜索或筛选设备</title>
-      <link>http://localhost:1313/zh/docs/app/device/search/</link>
+      <link>https://raymoniot.github.io/zh/docs/app/device/search/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/zh/docs/app/device/search/</guid>
+      <guid>https://raymoniot.github.io/zh/docs/app/device/search/</guid>
       <description>1.设备搜索 在APP的&amp;quot;设备&amp;quot;下，可以通过设备序列号来搜索设备&#xA;2.设备筛选 两种条件筛选 根据设备类型筛选 根据设备在线状态筛选 </description>
     </item>
     <item>
       <title>设备详情</title>
-      <link>http://localhost:1313/zh/docs/app/device/detail/</link>
+      <link>https://raymoniot.github.io/zh/docs/app/device/detail/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/zh/docs/app/device/detail/</guid>
+      <guid>https://raymoniot.github.io/zh/docs/app/device/detail/</guid>
       <description>入口 设备列表界面点击设备进入设备概览页&#xA;功能概述 1.设备别名 2.远程升级 功能待完成&#xA;3.参数设置 参数设置支持针对不同类型的参数使用不同的设置方式&#xA;4.解绑设备 解绑设备后所有历史数据都将被删除</description>
     </item>
     <item>
       <title>设备历史</title>
-      <link>http://localhost:1313/zh/docs/app/device/history/</link>
+      <link>https://raymoniot.github.io/zh/docs/app/device/history/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/zh/docs/app/device/history/</guid>
+      <guid>https://raymoniot.github.io/zh/docs/app/device/history/</guid>
       <description> 设备列表点击设备进入设备详情 从下方菜单中点击进入历史 历史数据支持日、月、年、全部四种视图 在图表中通过持续按压的方式可以查看某个时间点的数据 </description>
     </item>
     <item>
       <title>设备事件</title>
-      <link>http://localhost:1313/zh/docs/app/device/event/</link>
+      <link>https://raymoniot.github.io/zh/docs/app/device/event/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/zh/docs/app/device/event/</guid>
+      <guid>https://raymoniot.github.io/zh/docs/app/device/event/</guid>
       <description> 设备列表点击设备进入设备详情 从下方菜单中点击进入事件 事件有两种状态发生中和已恢复，可以点击上方标题筛选 点击事件可以查看事件的详细信息 </description>
     </item>
   </channel>

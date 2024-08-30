@@ -2,16 +2,16 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>组织管理 on Soalrhub 帮助中心</title>
-    <link>http://localhost:1313/zh/docs/web/organization/</link>
+    <link>https://raymoniot.github.io/zh/docs/web/organization/</link>
     <description>Recent content in 组织管理 on Soalrhub 帮助中心</description>
     <generator>Hugo</generator>
     <language>zh</language>
-    <atom:link href="http://localhost:1313/zh/docs/web/organization/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://raymoniot.github.io/zh/docs/web/organization/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>组织架构</title>
-      <link>http://localhost:1313/zh/docs/web/organization/tree/</link>
+      <link>https://raymoniot.github.io/zh/docs/web/organization/tree/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/zh/docs/web/organization/tree/</guid>
+      <guid>https://raymoniot.github.io/zh/docs/web/organization/tree/</guid>
       <description>功能概述 1.成员列表 查看当前组织下的所有成员&#xA;1.1添加成员 在选中的组织下添加成员&#xA;关于新增成员数据权限的定义：&#xA;仅自己：新增的成员只能看到自己权限范围内的数据 同组织人员：新增的成员可以看到自己权限范围内的数据，还能看到同组织其他成员权限内的数据 同组织人员&amp;amp;下级组织：新增的成员可以看到自己权限范围内的数据，还能看到同组织其他成员以及下级组织其他成员权限内的数据 1.2修改成员 成员的角色会影响成员在平台可进行的操作，测点组则影响成员对设备详情的是否可见&#xA;1.3转移组织 通过输入组织代码，可以将成员转移到其他组织中&#xA;1.4删除成员 1.5重置密码 2.组织信息 2.1修改组织 2.2新建下级组织 2.3转移组织 转移组织可以将子组织转移到其他组织下&#xA;2.4删除组织 3.测点组 3.1新建测点组 输入要创建的测点组名称，其他语言的名称将用于系统多语言的切换的翻译&#xA;3.2测点分配 对一个测点组进行测点分配，选择要分配的设备类型，添加未分配的测点，已分配的测点可以看到&#xA;3.3修改测点组 3.4删除测点组 </description>
     </item>
   </channel>
