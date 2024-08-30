@@ -1,7 +1,7 @@
 {
 	"version": 3,
 	"file": "main.css",
-	"sourceRoot": "/Users/junjie/work/test",
+	"sourceRoot": "/Users/junjie/work/solarhub",
 	"sources": [
 		"themes/docsy/assets/scss/main.scss",
 		"themes/docsy/node_modules/bootstrap/scss/_functions.scss",

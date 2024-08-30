@@ -32,7 +32,7 @@ ul_show = 1
 sidebar_menu_foldable = true
 
 [params.search.algolia]
-appId = "AU7590UZW9"
-apiKey = "542b501d6e1956d4c1889d77e46fb8d8"
-indexName = "peasantcodingio"
+appId = "UTU98CAGT1"
+apiKey = "4d3e8e1102314e0a038a07622c8165ac"
+indexName = "raymoniotio"
 

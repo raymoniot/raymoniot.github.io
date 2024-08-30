@@ -2,16 +2,16 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>运维中心 on Soalrhub 帮助中心</title>
-    <link>https://raymoniot.github.io/zh/docs/web/ops/</link>
+    <link>http://localhost:1313/zh/docs/web/ops/</link>
     <description>Recent content in 运维中心 on Soalrhub 帮助中心</description>
     <generator>Hugo</generator>
     <language>zh</language>
-    <atom:link href="https://raymoniot.github.io/zh/docs/web/ops/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/zh/docs/web/ops/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>事件中心</title>
-      <link>https://raymoniot.github.io/zh/docs/web/ops/events/</link>
+      <link>http://localhost:1313/zh/docs/web/ops/events/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://raymoniot.github.io/zh/docs/web/ops/events/</guid>
+      <guid>http://localhost:1313/zh/docs/web/ops/events/</guid>
       <description>功能概述 1.高级搜索 支持通过事件级别、事件时间、电站名名称、设备序列号、事件代码、事件内容作为条件搜索&#xA;2.新建工单 对单个事件进行工单创建</description>
     </item>
   </channel>

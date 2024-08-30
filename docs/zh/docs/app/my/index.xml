@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>我的 on Soalrhub 帮助中心</title>
+    <link>http://localhost:1313/zh/docs/app/my/</link>
+    <description>Recent content in 我的 on Soalrhub 帮助中心</description>
+    <generator>Hugo</generator>
+    <language>zh</language>
+    <atom:link href="http://localhost:1313/zh/docs/app/my/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>切换视角</title>
+      <link>http://localhost:1313/zh/docs/app/my/switch/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/zh/docs/app/my/switch/</guid>
+      <description> 在APP底部菜单栏中选择我的，在切换视角中可以切换App的访问模式 有两种访问视角，专业顾问和终端用户 专业顾问：以设备制造商、经销商的角色使用APP，关注点在平台下所有的电站和设备 终端用户：以电站业主的角色使用APP，关注点在我的电站和设备 </description>
+    </item>
+    <item>
+      <title>用户资料</title>
+      <link>http://localhost:1313/zh/docs/app/my/profile/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/zh/docs/app/my/profile/</guid>
+      <description> </description>
+    </item>
+    <item>
+      <title>修改密码</title>
+      <link>http://localhost:1313/zh/docs/app/my/modify/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/zh/docs/app/my/modify/</guid>
+      <description> </description>
+    </item>
+    <item>
+      <title>注销账户</title>
+      <link>http://localhost:1313/zh/docs/app/my/cancel/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/zh/docs/app/my/cancel/</guid>
+      <description> </description>
+    </item>
+    <item>
+      <title>配网</title>
+      <link>http://localhost:1313/zh/docs/app/my/config/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/zh/docs/app/my/config/</guid>
+      <description> 在APP底部进入&amp;quot;我的&amp;quot;点击配网进入配网界面准备配网 配网需要打开蓝牙、连接2.4GhzWIFi、并授权蓝牙WiFi等权限给APP，否则可能导致配网失败 右上角添加设备，通过扫码或者手动输入序列号添加设备 如设备进入配网状态则出现可勾选状态否则不可勾选，勾选设备进入Wi-Fi选择界面 选择要进行配网的2.4GhzWiFi，输入密码 正在配网，一般等待10s-20s配网成功 </description>
+    </item>
+    <item>
+      <title>OTA小助手</title>
+      <link>http://localhost:1313/zh/docs/app/my/ota/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/zh/docs/app/my/ota/</guid>
+      <description>在APP底部&amp;quot;我的&amp;quot;界面点击OTA助手 使用兑换码兑换的固件将显示在列表中 点击右上角兑换可以使用兑换码兑换固件，兑换码生成参考Web 点击固件升级进入升级界面 选择需要升级的设备，列表会将当前电站概览的电站下的在线设备展示出，用于升级</description>
+    </item>
+    <item>
+      <title>关于</title>
+      <link>http://localhost:1313/zh/docs/app/my/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/zh/docs/app/my/about/</guid>
+      <description> </description>
+    </item>
+  </channel>
+</rss>

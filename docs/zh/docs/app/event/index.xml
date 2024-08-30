@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>事件 on Soalrhub 帮助中心</title>
+    <link>http://localhost:1313/zh/docs/app/event/</link>
+    <description>Recent content in 事件 on Soalrhub 帮助中心</description>
+    <generator>Hugo</generator>
+    <language>zh</language>
+    <atom:link href="http://localhost:1313/zh/docs/app/event/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>搜索或筛选事件</title>
+      <link>http://localhost:1313/zh/docs/app/event/search/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/zh/docs/app/event/search/</guid>
+      <description>1.事件搜索 在APP的&amp;quot;事件&amp;quot;下，可以通过事件序列号来搜索事件&#xA;2.事件筛选 事件的状态有两种，发生中、已恢复，可以通过标题处进行筛选</description>
+    </item>
+    <item>
+      <title>事件详情</title>
+      <link>http://localhost:1313/zh/docs/app/event/detail/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/zh/docs/app/event/detail/</guid>
+      <description> 在APP低部点击事件进入事件界面 在事件列表中点击事件进入事件详情界面 查看事件的详情信息 </description>
+    </item>
+  </channel>
+</rss>
