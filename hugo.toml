@@ -40,3 +40,9 @@ contentDir = "content/en"
     logoLinkURL = "www.baidu.com"
     repoURL = "https://raymoniot.github.io"
     repoBranch = "main"
+
+[[menu.primary]]
+    name  = "Docs"
+    url = "/docs/"
+    identifier = "docs"
+    weight = 10
