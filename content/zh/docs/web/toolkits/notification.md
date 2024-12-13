@@ -6,6 +6,6 @@ weight: 5
 
 # 功能概述
 
-![unload!](/../../zh/photo/docs/toolkits/remote-notice.png)
+<img src="/../../zh/photo/docs/toolkits/remote-notice.png">
 
-![unload!](/../../zh/photo/docs/toolkits/remote-notice1.png)
+<img src="/../../zh/photo/docs/toolkits/remote-notice1.png">

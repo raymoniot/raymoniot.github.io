@@ -6,12 +6,12 @@ weight: 2
 
 # 功能概述
 
-![unload!](/../../zh/photo/docs/ops/ticket/ticket.png)
+<img src="/../../zh/photo/docs/ops/ticket/ticket.png">
 
 ## 1.最近活动
 
-![unload!](/../../zh/photo/docs/ops/ticket/active.png)
+<img src="/../../zh/photo/docs/ops/ticket/active.png">
 
-![unload!](/../../zh/photo/docs/ops/ticket/active-expand.png)
+<img src="/../../zh/photo/docs/ops/ticket/active-expand.png">
 
 工单系统的操作记录

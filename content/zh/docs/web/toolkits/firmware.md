@@ -6,11 +6,11 @@ weight: 1
 
 # 功能概述
 
-![unload!](/../../zh/photo/docs/toolkits/firmware-enter.png)
+<img src="/../../zh/photo/docs/toolkits/firmware-enter.png">
 
 ## 1.固件搜索
 
-![unload!](/../../zh/photo/docs/toolkits/firmware-search1.png)
+<img src="/../../zh/photo/docs/toolkits/firmware-search1.png">
 
 <img src="/../../zh/photo/docs/toolkits/firmware-search.png" width="700" height="550">
 
@@ -18,7 +18,7 @@ weight: 1
 
 ## 2.新增固件
 
-![unload!](/../../zh/photo/docs/toolkits/firmware-add.png)
+<img src="/../../zh/photo/docs/toolkits/firmware-add.png">
 
 <img src="/../../zh/photo/docs/toolkits/firmware-add1.png" width="600" height="450">
 
@@ -26,25 +26,25 @@ weight: 1
 
 ## 3.其他操作
 
-![unload!](/../../zh/photo/docs/toolkits/firmware-other.png)
+<img src="/../../zh/photo/docs/toolkits/firmware-other.png">
 
 ### 3.1修改固件
 
-![unload!](/../../zh/photo/docs/toolkits/firmware-update1.png)
+<img src="/../../zh/photo/docs/toolkits/firmware-update1.png">
 
 <img src="/../../zh/photo/docs/toolkits/firmware-update.png" width="600" height="450">
 
 ### 3.2删除固件
 
-![unload!](/../../zh/photo/docs/toolkits/firmware-delete.png)
+<img src="/../../zh/photo/docs/toolkits/firmware-delete.png">
 
 ### 3.3下载固件
 
-![unload!](/../../zh/photo/docs/toolkits/firmware-download.png)
+<img src="/../../zh/photo/docs/toolkits/firmware-download.png">
 
 ### 3.4固件访问授权
 
-![unload!](/../../zh/photo/docs/toolkits/firmware-access1.png)
+<img src="/../../zh/photo/docs/toolkits/firmware-access1.png">
 
 <img src="/../../zh/photo/docs/toolkits/firmware-access.png" width="600" height="450">
 
@@ -52,7 +52,7 @@ weight: 1
 
 ### 3.5固件兑换码生成
 
-![unload!](/../../zh/photo/docs/toolkits/firmware-code1.png)
+<img src="/../../zh/photo/docs/toolkits/firmware-code1.png">
 
 <img src="/../../zh/photo/docs/toolkits/firmware-code.png" width="600" height="450">
 

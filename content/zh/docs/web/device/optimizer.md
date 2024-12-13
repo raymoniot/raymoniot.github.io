@@ -8,17 +8,17 @@ weight: 4
 
 ## 1.设备列表
 
-![unload!](/../../zh/photo/docs/device/optimizer/device-list.png)
+<img src="/../../zh/photo/docs/device/optimizer/device-list.png">
 
 设备列表可以查看在线、故障、离线和全部的设备信息。
 
 ## 2.优化器控制器详情页
 
-![unload!](/../../zh/photo/docs/device/optimizer/detail-enter.png)
+<img src="/../../zh/photo/docs/device/optimizer/detail-enter.png">
 
 从设备列表中的设备可以进入设备详情页
 
-![unload!](/../../zh/photo/docs/device/optimizer/detail.png)
+<img src="/../../zh/photo/docs/device/optimizer/detail.png">
 
 优化器控制器详情页展示优化器控制器的信息和优化器的开关状态
 

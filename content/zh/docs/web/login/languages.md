@@ -6,9 +6,9 @@ weight: 4
 
 1. 未登陆时通过右上角图标切换语言
 
-   ![language](/../../zh/photo/docs/login/language.png)
+   <img src="/../../zh/photo/docs/login/language.png" width="80%">
 
 2. 登陆后通过右上角用户旁边的语言切换
 
-   ![language](/../../zh/photo/docs/login/language2.png)
+   <img src="/../../zh/photo/docs/login/language2.png" width="80%">
 

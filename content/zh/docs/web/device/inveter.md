@@ -8,21 +8,21 @@ weight: 2
 
 ## 1.设备列表
 
-![unload!](/../../zh/photo/docs/device/inveter/device-list.png)
+<img src="/../../zh/photo/docs/device/inveter/device-list.png">
 
 设备列表可以查看在线、故障、离线和全部的设备信息。
 
 ## 2.设备高级搜索
 
-![unload!](/../../zh/photo/docs/device/inveter/search.png)
+<img src="/../../zh/photo/docs/device/inveter/search.png">
 
 ## 3.逆变器详情页
 
-![unload!](/../../zh/photo/docs/device/inveter/detail-enter.png)
+<img src="/../../zh/photo/docs/device/inveter/detail-enter.png">
 
 从设备列表中的设备可以进入设备详情页
 
-![unload!](/../../zh/photo/docs/device/inveter/detail.png)
+<img src="/../../zh/photo/docs/device/inveter/detail.png">
 
 逆变器详情页展示逆变器信息和历史数据图表
 
@@ -40,7 +40,7 @@ weight: 2
 
 ### 3.4参数设置
 
-![unload!](/../../zh/photo/docs/device/inveter/set.png)
+<img src="/../../zh/photo/docs/device/inveter/set.png">
 
 通过绿色按钮进行测点参数设置下发，或者点击批量设置下发，详细请参考远程交互链接
 
@@ -58,7 +58,7 @@ weight: 2
 
 ### 3.8历史数据图表
 
-![unload!](/../../zh/photo/docs/device/inveter/chart.png)
+<img src="/../../zh/photo/docs/device/inveter/chart.png">
 
 历史数据支持日、周、月、年、总级别的数据展示和时间范围选择，其中不同的时间维度展示的参数不同
 
@@ -70,19 +70,19 @@ weight: 2
 
 ### 3.8.1参数选择
 
-![unload!](/../../zh/photo/docs/device/inveter/param-select.png)
+<img src="/../../zh/photo/docs/device/inveter/param-select.png">
 
-![unload!](/../../zh/photo/docs/device/inveter/param-select1.png)
+<img src="/../../zh/photo/docs/device/inveter/param-select1.png">
 
 用户可以选择想要展示的参数，点击确定查看
 
-![unload!](/../../zh/photo/docs/device/inveter/param-select3.png)
+<img src="/../../zh/photo/docs/device/inveter/param-select3.png">
 
 用户也可以自定义模板，每个模板可以保存自定的参数
 
 ### 3.8.2导出报表
 
-![unload!](/../../zh/photo/docs/device/inveter/export.png)
+<img src="/../../zh/photo/docs/device/inveter/export.png">
 
 将图表数据导出为Excel表格
 

@@ -8,13 +8,11 @@ weight: 5
 
 - 作为运维商或安装商，需要了解自身公司名下关联电站的分类数量情况和设备分布情况。
 
-  ![dashboard](/../../zh/photo/docs/dashboard/dashboard.png)
+  <img src="/../../zh/photo/docs/dashboard/dashboard.png">
 
 - 通过缩放可以看到某个地区数量的详细分布情况
 
-  ![dashboard](/../../zh/photo/docs/dashboard/dashboard2.png)
-
-  
+  <img src="/../../zh/photo/docs/dashboard/dashboard2.png">
 
   
 

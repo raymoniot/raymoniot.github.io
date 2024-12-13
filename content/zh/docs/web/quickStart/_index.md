@@ -50,11 +50,11 @@ weight: 2
 
 ![psv-overview](/../../zh/photo/docs/quickStart/add-plant.png)
 
-选择需要的业务类型，创建对应的电站，详细请参考[创建电站]({{< ref "../plantcenter/createplant" >}} "创建电站")
+选择需要的业务类型，创建对应的电站，详细请参考[创建电站]({{< ref "../plant-center/create-plant" >}} "创建电站")
 
 ## 4.添加采集器
 
-详细参考[添加采集器]({{< ref "../plantcenter/addlogger" >}} "添加采集器")
+详细参考[添加采集器]({{< ref "../plant-center/add-logger" >}} "添加采集器")
 
 ## 5.查看电站/设备详情信息
 

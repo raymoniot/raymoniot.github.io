@@ -6,13 +6,13 @@ weight: 4
 
 # 功能概述
 
-![unload!](/../../zh/photo/docs/toolkits/remote-enter.png)
+<img src="/../../zh/photo/docs/toolkits/remote-enter.png">
 
 远程交互界面默认展示当前在线的采集器，也可以根据序列号、状态、所属电站、标签、固件版本号进行高级搜索
 
 ## 1.固件升级（OTA）
 
-![unload!](/../../zh/photo/docs/toolkits/remote-ota.png)
+<img src="/../../zh/photo/docs/toolkits/remote-ota.png">
 
 固件升级包括升级采集器和升级子设备，升级过程相同，两者设备的类型不同，使用的固件不同
 
@@ -22,7 +22,7 @@ weight: 4
 
 ## 2.指令透传
 
-![unload!](/../../zh/photo/docs/toolkits/remote-send.png)
+<img src="/../../zh/photo/docs/toolkits/remote-send.png">
 
 <img src="/../../zh/photo/docs/toolkits/remote-send1.png" width="700" height="550">
 
@@ -30,16 +30,16 @@ weight: 4
 
 ## 3.参数设置
 
-![unload!](/../../zh/photo/docs/toolkits/remote-set.png)
+<img src="/../../zh/photo/docs/toolkits/remote-set.png">
 
-![unload!](/../../zh/photo/docs/toolkits/remote-set1.png)
+<img src="/../../zh/photo/docs/toolkits/remote-set1.png">
 
 可以进行单个参数的设置与发送，也可以点击批量设置，同时设置多个参数
 
 ## 4.操作日志
 
-![unload!](/../../zh/photo/docs/toolkits/remote-logs.png)
+<img src="/../../zh/photo/docs/toolkits/remote-logs.png">
 
-![unload!](/../../zh/photo/docs/toolkits/remote-logs1.png)
+<img src="/../../zh/photo/docs/toolkits/remote-logs1.png">
 
 操作日志可以查询某个设备在一个时间段所有的远程交互记录，也可以按照操作类型搜索

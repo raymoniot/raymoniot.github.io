@@ -6,16 +6,16 @@ weight: 1
 
 # 功能概述
 
-![unload!](/../../zh/photo/docs/report/report-enter.png)
+<img src="/../../zh/photo/docs/report/report-enter.png">
 
 ## 1.电站报表
 
-![unload!](/../../zh/photo/docs/report/report-plant.png)
+<img src="/../../zh/photo/docs/report/report-plant.png">
 
 ### 1.1导出
 
-![unload!](/../../zh/photo/docs/report/export.png)
+<img src="/../../zh/photo/docs/report/export.png">
 
 ## 2.设备报表
 
-![unload!](/../../zh/photo/docs/report/report-device.png)
+<img src="/../../zh/photo/docs/report/report-device.png">

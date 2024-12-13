@@ -2,17 +2,24 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Solarhub(Web) on Soalrhub 帮助中心</title>
-    <link>https://raymoniot.github.io/zh/docs/web/</link>
+    <link>http://localhost:1313/zh/docs/web/</link>
     <description>Recent content in Solarhub(Web) on Soalrhub 帮助中心</description>
     <generator>Hugo</generator>
     <language>zh</language>
-    <atom:link href="https://raymoniot.github.io/zh/docs/web/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/zh/docs/web/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>概述</title>
+      <link>http://localhost:1313/zh/docs/web/web/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/zh/docs/web/web/</guid>
+      <description>Solarhub Web概述 linkSolarhub Web提供光伏、风电、储能等综合能源监控服务，面向中大型电站、设备厂商、运维商、户用电站业主提供专业、高效的综合能源云监控平台服务。&#xA;拥有Solarhub账号 link 体验账号：为了方便您快速体验Solarhub的功能，我们开通了客户体验账号，您可以向商务对接负责人沟通后输入体验账号及密码即可体验Solarhub。目前支持主流的浏览器，推荐您使用Chrome58、Firefox49、IE9以上版本。&#xA;操作步骤：通过访问Solarhub（Web），选择“登录方式”后，输入体验账号和密码即可登录Solarhub。</description>
+    </item>
     <item>
       <title>数据看板</title>
-      <link>https://raymoniot.github.io/zh/docs/web/dashboard/</link>
+      <link>http://localhost:1313/zh/docs/web/dashboard/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://raymoniot.github.io/zh/docs/web/dashboard/</guid>
-      <description>业务使用 作为运维商或安装商，需要了解自身公司名下关联电站的分类数量情况和设备分布情况。&#xA;通过缩放可以看到某个地区数量的详细分布情况</description>
+      <guid>http://localhost:1313/zh/docs/web/dashboard/</guid>
+      <description>业务使用 link 作为运维商或安装商，需要了解自身公司名下关联电站的分类数量情况和设备分布情况。&#xA;通过缩放可以看到某个地区数量的详细分布情况</description>
     </item>
   </channel>
 </rss>

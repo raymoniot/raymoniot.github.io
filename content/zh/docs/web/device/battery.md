@@ -8,17 +8,17 @@ weight: 3
 
 ## 1.设备列表
 
-![unload!](/../../zh/photo/docs/device/battery/device-list.png)
+<img src="/../../zh/photo/docs/device/battery/device-list.png">
 
 设备列表可以查看在线、故障、离线和全部的设备信息。
 
 ## 2.电池详情页
 
-![unload!](/../../zh/photo/docs/device/battery/detail-enter.png)
+<img src="/../../zh/photo/docs/device/battery/detail-enter.png">
 
 从设备列表中的设备可以进入设备详情页
 
-![unload!](/../../zh/photo/docs/device/battery/detail.png)
+<img src="/../../zh/photo/docs/device/battery/detail.png">
 
 电池详情页展示BMS信息及其BMS下的电池信息和历史数据图表
 
@@ -52,7 +52,7 @@ weight: 3
 
 ### 3.8历史数据图表
 
-![unload!](/../../zh/photo/docs/device/battery/chart.png)
+<img src="/../../zh/photo/docs/device/battery/chart.png">
 
 电池历史数据支持日、周级别的数据展示和时间范围选择
 
