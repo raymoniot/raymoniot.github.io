@@ -2,30 +2,30 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Solarhub(Web) on Soalrhub 帮助中心</title>
-    <link>https://raymoniot.github.io/zh/docs/web/</link>
+    <link>http://localhost:1313/zh/docs/web/</link>
     <description>Recent content in Solarhub(Web) on Soalrhub 帮助中心</description>
     <generator>Hugo</generator>
     <language>zh</language>
-    <atom:link href="https://raymoniot.github.io/zh/docs/web/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/zh/docs/web/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>概述</title>
-      <link>https://raymoniot.github.io/zh/docs/web/web/</link>
+      <link>http://localhost:1313/zh/docs/web/web/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://raymoniot.github.io/zh/docs/web/web/</guid>
+      <guid>http://localhost:1313/zh/docs/web/web/</guid>
       <description>Solarhub Web概述 linkSolarhub Web提供光伏、风电、储能等综合能源监控服务，面向中大型电站、设备厂商、运维商、户用电站业主提供专业、高效的综合能源云监控平台服务。&#xA;拥有Solarhub账号 link 体验账号：为了方便您快速体验Solarhub的功能，我们开通了客户体验账号，您可以向商务对接负责人沟通后输入体验账号及密码即可体验Solarhub。目前支持主流的浏览器，推荐您使用Chrome58、Firefox49、IE9以上版本。&#xA;操作步骤：通过访问Solarhub（Web），选择“登录方式”后，输入体验账号和密码即可登录Solarhub。</description>
     </item>
     <item>
       <title>快速开始</title>
-      <link>https://raymoniot.github.io/zh/docs/web/quickstart/</link>
+      <link>http://localhost:1313/zh/docs/web/quickstart/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://raymoniot.github.io/zh/docs/web/quickstart/</guid>
+      <guid>http://localhost:1313/zh/docs/web/quickstart/</guid>
       <description>1.采集器配网 link使用SolarhubApp进行采集器配网操作，配网时请保证采集器和配网手机在同一个2.4Ghz的WiFi下。&#xA;注意：操作过程中请允许应用程序获取蓝牙、定位、数据等权限，并开启蓝牙、WiFi、定位服务，否则可能会导致设备无法选择，或者配网失败。&#xA;点击配网后添加设备，通过扫码采集器二维码/手动收入采集器序列号来进行添加配网设备。&#xA;勾选设备后开始配置，选择与采集器相同的2.4Ghz网络，输入WiFi密码，开始配网。&#xA;配网成功后采集器将在平台在线，可以通过平台的测点查询来验证设备是否在线，如果可以查到测点数据并且其中最新数据更新时间与当前时间接近，则说明设备正常在线。&#xA;2.采集器入库 link配网完成后将采集器入库后即可在设备列表中查看该设备&#xA;可以通过单个导入或批量导入两种方式&#xA;导入后即可看到导入设备，此时设备是未安装状态&#xA;3.创建电站 link 选择需要的业务类型，创建对应的电站，详细请参考创建电站&#xA;4.添加采集器 link详细参考添加采集器&#xA;5.查看电站/设备详情信息 link </description>
     </item>
     <item>
       <title>数据看板</title>
-      <link>https://raymoniot.github.io/zh/docs/web/dashboard/</link>
+      <link>http://localhost:1313/zh/docs/web/dashboard/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://raymoniot.github.io/zh/docs/web/dashboard/</guid>
+      <guid>http://localhost:1313/zh/docs/web/dashboard/</guid>
       <description>业务使用 link 作为运维商或安装商，需要了解自身公司名下关联电站的分类数量情况和设备分布情况。&#xA;通过缩放可以看到某个地区数量的详细分布情况</description>
     </item>
   </channel>
