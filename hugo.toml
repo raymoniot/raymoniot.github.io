@@ -18,6 +18,7 @@ weight = 2
 contentDir = "content/en"
 
 [module]
+    replacements = "github.com/colinwilson/lotusdocs -> lotusdocs"
     [[module.imports]]
         path = "github.com/colinwilson/lotusdocs"
         disable = false
@@ -29,19 +30,20 @@ contentDir = "content/en"
 [markup.goldmark]
     [markup.goldmark.renderer]
       unsafe = true
-[params.footer]
-    copyright = "Copyright © 2024 RaymonIoT. All Rights Reserved."
-[params.docsearch]
-    appId = "UTU98CAGT1"
-    apiKey = "4d3e8e1102314e0a038a07622c8165ac"
-    indexName = "raymoniotio"
-[params.docs]
-    logoLinkURL = "https://www.baidu.com" 
-    repoURL = "https://raymoniot.github.io"
-    repoBranch = "main"
-    darkMode = true
+[params]
+    [params.footer]
+        copyright = "Copyright © 2024 RaymonIoT. All Rights Reserved."
+    [params.docsearch]
+        appId = "UTU98CAGT1"
+        apiKey = "4d3e8e1102314e0a038a07622c8165ac"
+        indexName = "raymoniotio"
+    [params.docs]
+        repoURL = "https://raymoniot.github.io"
+        repoBranch = "main"
+        darkMode = true
+	logoLinkURL = "https://cloud.raymoniot.com"
 
-
+[menu]
 [[menu.primary]]
     name  = "Docs"
     url = "/docs/"
