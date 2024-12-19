@@ -2,16 +2,16 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>报表中心 on Soalrhub 帮助中心</title>
-    <link>http://localhost:1313/zh/docs/web/report/</link>
+    <link>https://raymoniot.github.io/zh/docs/web/report/</link>
     <description>Recent content in 报表中心 on Soalrhub 帮助中心</description>
     <generator>Hugo</generator>
     <language>zh</language>
-    <atom:link href="http://localhost:1313/zh/docs/web/report/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://raymoniot.github.io/zh/docs/web/report/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>汇总数据</title>
-      <link>http://localhost:1313/zh/docs/web/report/total/</link>
+      <link>https://raymoniot.github.io/zh/docs/web/report/total/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/zh/docs/web/report/total/</guid>
+      <guid>https://raymoniot.github.io/zh/docs/web/report/total/</guid>
       <description>功能概述 link汇总数据会汇总所有电站，所有设备日月年总的数据情况，可以根据条件筛选目标数据后导出为Excel表格&#xA;1.电站报表 link 1.1导出 link 2.设备报表 link </description>
     </item>
   </channel>
