@@ -6,6 +6,8 @@ weight: 1
 
 # 功能概述
 
+平台设备固件管理，包含固件搜索、新增固件、修改固件、下载固件、访问授权、生成兑换码等
+
 <img src="/../../zh/photo/docs/toolkits/firmware-enter.png">
 
 ## 1.固件搜索

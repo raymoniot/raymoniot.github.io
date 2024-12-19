@@ -1,7 +1,6 @@
 baseURL = 'https://raymoniot.github.io'
 languageCode = 'zh'
 title = 'Solarhub 帮助中心'
-contentDir = "content/zh/docs/web"
 defaultContentLanguage = "zh"
 defaultContentLanguageInSubdir = true
 publishDir = "docs"
@@ -41,7 +40,7 @@ contentDir = "content/en"
         repoURL = "https://raymoniot.github.io"
         repoBranch = "main"
         darkMode = true
-	logoLinkURL = "https://cloud.raymoniot.com"
+    default_version = "WEB"
 
 [menu]
 [[menu.primary]]

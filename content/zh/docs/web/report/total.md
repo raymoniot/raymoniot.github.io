@@ -6,6 +6,8 @@ weight: 1
 
 # 功能概述
 
+汇总数据会汇总所有电站，所有设备日月年总的数据情况，可以根据条件筛选目标数据后导出为Excel表格
+
 <img src="/../../zh/photo/docs/report/report-enter.png">
 
 ## 1.电站报表

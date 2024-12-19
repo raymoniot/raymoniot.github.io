@@ -6,6 +6,8 @@ weight: 1
 
 # 功能概述
 
+查询设备上报测点数据的情况，会显示最新一包的数据上报情况
+
 <img src="/../../zh/photo/docs/toolkits/point-query.png">
 
 ## 1.测点查询导出

@@ -9922,6 +9922,17 @@ button:not(:disabled) {
 .btn-landing {
   color: #3c4858; }
 
+.version-selector {
+  width: 100px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background-color: #f9f9f9;
+  font-size: 16px; }
+
+.version-selector option {
+  background-color: #fff; }
+
 .badge {
   letter-spacing: 0.5px;
   padding: 4px 8px;

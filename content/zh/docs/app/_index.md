@@ -2,6 +2,7 @@
 title: Solarhub(App)
 weight: 2
 description: Solarhub App帮助文档
+version: "app"
 ---
 
 ## Solarhub App概述

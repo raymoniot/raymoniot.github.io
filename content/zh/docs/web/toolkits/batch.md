@@ -6,6 +6,8 @@ weight: 2
 
 # 功能概述
 
+批量对设备进行参数设置，固件升级，指令透传等操作
+
 <img src="/../../zh/photo/docs/toolkits/batch-enter.png">
 
 ## 1.创建任务

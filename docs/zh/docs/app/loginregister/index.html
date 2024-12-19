@@ -12,9 +12,12 @@
 
     
 
-<html lang="zh"><head>
+
+
+<html lang="zh"><head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
     <meta charset="utf-8" />
     <title>注册与登陆 | Soalrhub 帮助中心</title>
+    <meta name="robots" content="noindex">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Solarhub App注册，登陆">
     <meta name="keywords" content="Documentation, Hugo, Hugo Theme, Bootstrap" />
@@ -23,17 +26,17 @@
     <meta name="website" content="https://lotusdocs.dev" />
     <meta name="Version" content="v0.1.0" />
     
-    <link rel="icon" href="https://raymoniot.github.io/favicon.ico" sizes="any">
-<link rel="icon" type="image/svg+xml" href="https://raymoniot.github.io/favicon.svg">
-<link rel="apple-touch-icon" sizes="180x180" href="https://raymoniot.github.io/apple-touch-icon.png">
-<link rel="icon" type="image/png" sizes="32x32" href="https://raymoniot.github.io/favicon-32x32.png">
-<link rel="icon" type="image/png" sizes="16x16" href="https://raymoniot.github.io/favicon-16x16.png">
-<link rel="manifest" crossorigin="use-credentials" href="https://raymoniot.github.io/site.webmanifest">
+    <link rel="icon" href="http://localhost:1313/favicon.ico" sizes="any">
+<link rel="icon" type="image/svg+xml" href="http://localhost:1313/favicon.svg">
+<link rel="apple-touch-icon" sizes="180x180" href="http://localhost:1313/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="http://localhost:1313/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="http://localhost:1313/favicon-16x16.png">
+<link rel="manifest" crossorigin="use-credentials" href="http://localhost:1313/site.webmanifest">
 <meta property="og:title" content="注册与登陆" />
 <meta property="og:description" content="Solarhub App注册，登陆" />
 <meta property="og:type" content="website" />
-<meta property="og:url" content="https://raymoniot.github.io/zh/docs/app/loginregister/" /><meta property="og:image" content="https://raymoniot.github.io/opengraph/card-base-2_hu06b1a92291a380a0d2e0ec03dab66b2f_17642_filter_12439560031602562660.png"/><meta name="twitter:card" content="summary_large_image"/>
-<meta name="twitter:image" content="https://raymoniot.github.io/opengraph/card-base-2_hu06b1a92291a380a0d2e0ec03dab66b2f_17642_filter_12439560031602562660.png"/>
+<meta property="og:url" content="http://localhost:1313/zh/docs/app/loginregister/" /><meta property="og:image" content="http://localhost:1313/opengraph/card-base-2_hu06b1a92291a380a0d2e0ec03dab66b2f_17642_filter_12439560031602562660.png"/><meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:image" content="http://localhost:1313/opengraph/card-base-2_hu06b1a92291a380a0d2e0ec03dab66b2f_17642_filter_12439560031602562660.png"/>
 <meta name="twitter:title" content="注册与登陆"/>
 <meta name="twitter:description" content="Solarhub App注册，登陆"/>
 
@@ -44,323 +47,45 @@
     
     
 
-    <link rel="stylesheet" href="/docs/scss/style.min.237348bf28b3e280d3cf41db024cf012c991f54049c6396228f48cd32855c229c811da0f5026d2aba4013fb48c40896c.css" integrity="sha384-I3NIvyiz4oDTz0HbAkzwEsmR9UBJxjliKPSM0yhVwinIEdoPUCbSq6QBP7SMQIls"crossorigin="anonymous">
-    
+    <link rel="stylesheet" href="/docs/scss/style.css" crossorigin="anonymous">
     
     
     </head><body>
         <div class="content">
             <div class="page-wrapper toggled">
+
+<link rel="stylesheet" href="../../../assets/scss/custom/components/_buttons.scss">
 <nav id="sidebar" class="sidebar-wrapper">
     <div class="sidebar-brand">
-        <a href='https://cloud.raymoniot.com' aria-label="HomePage" alt="HomePage">
+        <a aria-label="HomePage" alt="HomePage">
             
                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 480"><g transform="matrix(20,0,0,20,0,0)"><defs><style>.a{fill:none;stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-width:1.5px;}</style></defs><circle class="a" cx="12" cy="12" r="11.25"></circle><polyline class="a" points="11.501 12.501 15.251 8.751 12.001 5.5 5.501 12 12.001 18.5 18.501 12"></polyline></g></svg>
             
         </a>
     </div>
     <div class="sidebar-content" style="height: calc(100% - 131px);">
+        <div style="margin-top: 20px;margin-left: 20px">
+            <label for="version-selector">文档版本：</label>
+            <select class="version-selector" id="version-selector" data-my-value = "web">
+                <option value="web">WEB</option>
+                <option value="app">APP</option>
+            </select>
+        </div>
+
         <ul class="sidebar-menu">
             
-                
+            
                 
                     
                     
-                        <li class="sidebar-dropdown no-icon ">
-                            <button class="btn">
-                                Solarhub(Web)
-                            </button>
-                            <div class="sidebar-submenu ">
-                                <ul>
-                                    
-                                        
-                                        
-                                            <li class=" no-icon"><a class="sidebar-nested-link" href="https://raymoniot.github.io/zh/docs/web/overview/">概述</a></li>
-                                        
-                                    
-                                        
-                                        
-                                            <li class=" no-icon"><a class="sidebar-nested-link" href="https://raymoniot.github.io/zh/docs/web/quickstart/">快速开始</a></li>
-                                        
-                                    
-                                        
-                                        
-                                            <li class="sidebar-dropdown nested no-icon ">
-                                                <button class="btn">
-                                                    登陆
-                                                </button>
-                                                <div class="sidebar-submenu ">
-                                                    <ul>
-                                                        
-                                                            
-                                                            
-                                                                <li class=" no-icon"><a class="sidebar-nested-link" href="https://raymoniot.github.io/zh/docs/web/login/login/">登陆</a></li>
-                                                            
-                                                        
-                                                            
-                                                            
-                                                                <li class=" no-icon"><a class="sidebar-nested-link" href="https://raymoniot.github.io/zh/docs/web/login/languages/">多语言切换</a></li>
-                                                            
-                                                        
-                                                    </ul>
-                                                </div>
-                                            </li>
-                                        
-                                    
-                                        
-                                        
-                                            <li class=" no-icon"><a class="sidebar-nested-link" href="https://raymoniot.github.io/zh/docs/web/dashboard/">数据看板</a></li>
-                                        
-                                    
-                                        
-                                        
-                                            <li class="sidebar-dropdown nested no-icon ">
-                                                <button class="btn">
-                                                    电站中心
-                                                </button>
-                                                <div class="sidebar-submenu ">
-                                                    <ul>
-                                                        
-                                                            
-                                                            
-                                                                <li class=" no-icon"><a class="sidebar-nested-link" href="https://raymoniot.github.io/zh/docs/web/plant-center/pvs/">光伏系统</a></li>
-                                                            
-                                                        
-                                                            
-                                                            
-                                                                <li class=" no-icon"><a class="sidebar-nested-link" href="https://raymoniot.github.io/zh/docs/web/plant-center/bess/">电池系统</a></li>
-                                                            
-                                                        
-                                                            
-                                                            
-                                                                <li class=" no-icon"><a class="sidebar-nested-link" href="https://raymoniot.github.io/zh/docs/web/plant-center/hess/">户用储能</a></li>
-                                                            
-                                                        
-                                                            
-                                                            
-                                                                <li class=" no-icon"><a class="sidebar-nested-link" href="https://raymoniot.github.io/zh/docs/web/plant-center/ems/">商业电站</a></li>
-                                                            
-                                                        
-                                                            
-                                                            
-                                                                <li class=" no-icon"><a class="sidebar-nested-link" href="https://raymoniot.github.io/zh/docs/web/plant-center/create-plant/">创建电站</a></li>
-                                                            
-                                                        
-                                                            
-                                                            
-                                                                <li class=" no-icon"><a class="sidebar-nested-link" href="https://raymoniot.github.io/zh/docs/web/plant-center/edit-plant/">修改电站</a></li>
-                                                            
-                                                        
-                                                            
-                                                            
-                                                                <li class=" no-icon"><a class="sidebar-nested-link" href="https://raymoniot.github.io/zh/docs/web/plant-center/guest-access/">访客授权</a></li>
-                                                            
-                                                        
-                                                            
-                                                            
-                                                                <li class=" no-icon"><a class="sidebar-nested-link" href="https://raymoniot.github.io/zh/docs/web/plant-center/add-logger/">添加采集器</a></li>
-                                                            
-                                                        
-                                                    </ul>
-                                                </div>
-                                            </li>
-                                        
-                                    
-                                        
-                                        
-                                            <li class="sidebar-dropdown nested no-icon ">
-                                                <button class="btn">
-                                                    设备中心
-                                                </button>
-                                                <div class="sidebar-submenu ">
-                                                    <ul>
-                                                        
-                                                            
-                                                            
-                                                                <li class=" no-icon"><a class="sidebar-nested-link" href="https://raymoniot.github.io/zh/docs/web/device/collector/">采集器</a></li>
-                                                            
-                                                        
-                                                            
-                                                            
-                                                                <li class=" no-icon"><a class="sidebar-nested-link" href="https://raymoniot.github.io/zh/docs/web/device/inveter/">逆变器</a></li>
-                                                            
-                                                        
-                                                            
-                                                            
-                                                                <li class=" no-icon"><a class="sidebar-nested-link" href="https://raymoniot.github.io/zh/docs/web/device/battery/">电池系统</a></li>
-                                                            
-                                                        
-                                                            
-                                                            
-                                                                <li class=" no-icon"><a class="sidebar-nested-link" href="https://raymoniot.github.io/zh/docs/web/device/optimizer/">优化器</a></li>
-                                                            
-                                                        
-                                                            
-                                                            
-                                                                <li class=" no-icon"><a class="sidebar-nested-link" href="https://raymoniot.github.io/zh/docs/web/device/meter/">智能电表</a></li>
-                                                            
-                                                        
-                                                    </ul>
-                                                </div>
-                                            </li>
-                                        
-                                    
-                                        
-                                        
-                                            <li class="sidebar-dropdown nested no-icon ">
-                                                <button class="btn">
-                                                    运维中心
-                                                </button>
-                                                <div class="sidebar-submenu ">
-                                                    <ul>
-                                                        
-                                                            
-                                                            
-                                                                <li class=" no-icon"><a class="sidebar-nested-link" href="https://raymoniot.github.io/zh/docs/web/ops/events/">事件中心</a></li>
-                                                            
-                                                        
-                                                            
-                                                            
-                                                                <li class="sidebar-dropdown nested no-icon ">
-                                                                    <button class="btn">
-                                                                        工单系统
-                                                                    </button>
-                                                                    <div class="sidebar-submenu ">
-                                                                        <ul>
-                                                                            
-                                                                                
-                                                                                
-                                                                                    <li class=" no-icon"><a class="sidebar-nested-link" href="https://raymoniot.github.io/zh/docs/web/ops/ticket/dashboard/">工单看板</a></li>
-                                                                                
-                                                                            
-                                                                                
-                                                                                
-                                                                                    <li class=" no-icon"><a class="sidebar-nested-link" href="https://raymoniot.github.io/zh/docs/web/ops/ticket/list/">工单列表</a></li>
-                                                                                
-                                                                            
-                                                                                
-                                                                                
-                                                                                    <li class=" no-icon"><a class="sidebar-nested-link" href="https://raymoniot.github.io/zh/docs/web/ops/ticket/team/">客户团队</a></li>
-                                                                                
-                                                                            
-                                                                        </ul>
-                                                                    </div>
-                                                                </li>
-                                                            
-                                                        
-                                                    </ul>
-                                                </div>
-                                            </li>
-                                        
-                                    
-                                        
-                                        
-                                            <li class="sidebar-dropdown nested no-icon ">
-                                                <button class="btn">
-                                                    报表中心
-                                                </button>
-                                                <div class="sidebar-submenu ">
-                                                    <ul>
-                                                        
-                                                            
-                                                            
-                                                                <li class=" no-icon"><a class="sidebar-nested-link" href="https://raymoniot.github.io/zh/docs/web/report/total/">汇总数据</a></li>
-                                                            
-                                                        
-                                                    </ul>
-                                                </div>
-                                            </li>
-                                        
-                                    
-                                        
-                                        
-                                            <li class="sidebar-dropdown nested no-icon ">
-                                                <button class="btn">
-                                                    工具箱
-                                                </button>
-                                                <div class="sidebar-submenu ">
-                                                    <ul>
-                                                        
-                                                            
-                                                            
-                                                                <li class=" no-icon"><a class="sidebar-nested-link" href="https://raymoniot.github.io/zh/docs/web/toolkits/point-query/">测点查询</a></li>
-                                                            
-                                                        
-                                                            
-                                                            
-                                                                <li class=" no-icon"><a class="sidebar-nested-link" href="https://raymoniot.github.io/zh/docs/web/toolkits/firmware/">固件管理</a></li>
-                                                            
-                                                        
-                                                            
-                                                            
-                                                                <li class=" no-icon"><a class="sidebar-nested-link" href="https://raymoniot.github.io/zh/docs/web/toolkits/batch/">批量操作</a></li>
-                                                            
-                                                        
-                                                            
-                                                            
-                                                                <li class=" no-icon"><a class="sidebar-nested-link" href="https://raymoniot.github.io/zh/docs/web/toolkits/remote/">远程交互</a></li>
-                                                            
-                                                        
-                                                            
-                                                            
-                                                                <li class=" no-icon"><a class="sidebar-nested-link" href="https://raymoniot.github.io/zh/docs/web/toolkits/notification/">通知公告</a></li>
-                                                            
-                                                        
-                                                    </ul>
-                                                </div>
-                                            </li>
-                                        
-                                    
-                                        
-                                        
-                                            <li class="sidebar-dropdown nested no-icon ">
-                                                <button class="btn">
-                                                    组织管理
-                                                </button>
-                                                <div class="sidebar-submenu ">
-                                                    <ul>
-                                                        
-                                                            
-                                                            
-                                                                <li class=" no-icon"><a class="sidebar-nested-link" href="https://raymoniot.github.io/zh/docs/web/organization/tree/">组织架构</a></li>
-                                                            
-                                                        
-                                                    </ul>
-                                                </div>
-                                            </li>
-                                        
-                                    
-                                        
-                                        
-                                            <li class="sidebar-dropdown nested no-icon ">
-                                                <button class="btn">
-                                                    常见问题及答案
-                                                </button>
-                                                <div class="sidebar-submenu ">
-                                                    <ul>
-                                                        
-                                                            
-                                                            
-                                                                <li class=" no-icon"><a class="sidebar-nested-link" href="https://raymoniot.github.io/zh/docs/web/faq/1.network-tools/">网络搜索工具</a></li>
-                                                            
-                                                        
-                                                            
-                                                            
-                                                                <li class=" no-icon"><a class="sidebar-nested-link" href="https://raymoniot.github.io/zh/docs/web/faq/2.device-offline/">采集器首次上电不在线</a></li>
-                                                            
-                                                        
-                                                    </ul>
-                                                </div>
-                                            </li>
-                                        
-                                    
-                                </ul>
-                            </div>
-                        </li>
+            
+            
                     
                 
                     
                     
+            
+            
                         <li class="sidebar-dropdown no-icon current active">
                             <button class="btn">
                                 Solarhub(App)
@@ -407,32 +132,32 @@
                                                         
                                                             
                                                             
-                                                                <li class=" no-icon"><a class="sidebar-nested-link" href="https://raymoniot.github.io/zh/docs/app/plant/create/">创建电站</a></li>
+                                                                <li class=" no-icon"><a class="sidebar-nested-link" href="http://localhost:1313/zh/docs/app/plant/create/">创建电站</a></li>
                                                             
                                                         
                                                             
                                                             
-                                                                <li class=" no-icon"><a class="sidebar-nested-link" href="https://raymoniot.github.io/zh/docs/app/plant/search/">搜索或筛选电站</a></li>
+                                                                <li class=" no-icon"><a class="sidebar-nested-link" href="http://localhost:1313/zh/docs/app/plant/search/">搜索或筛选电站</a></li>
                                                             
                                                         
                                                             
                                                             
-                                                                <li class=" no-icon"><a class="sidebar-nested-link" href="https://raymoniot.github.io/zh/docs/app/plant/logger/">添加采集器</a></li>
+                                                                <li class=" no-icon"><a class="sidebar-nested-link" href="http://localhost:1313/zh/docs/app/plant/logger/">添加采集器</a></li>
                                                             
                                                         
                                                             
                                                             
-                                                                <li class=" no-icon"><a class="sidebar-nested-link" href="https://raymoniot.github.io/zh/docs/app/plant/switch/">切换电站</a></li>
+                                                                <li class=" no-icon"><a class="sidebar-nested-link" href="http://localhost:1313/zh/docs/app/plant/switch/">切换电站</a></li>
                                                             
                                                         
                                                             
                                                             
-                                                                <li class=" no-icon"><a class="sidebar-nested-link" href="https://raymoniot.github.io/zh/docs/app/plant/history/">电站历史</a></li>
+                                                                <li class=" no-icon"><a class="sidebar-nested-link" href="http://localhost:1313/zh/docs/app/plant/history/">电站历史</a></li>
                                                             
                                                         
                                                             
                                                             
-                                                                <li class=" no-icon"><a class="sidebar-nested-link" href="https://raymoniot.github.io/zh/docs/app/plant/layout/">电站布局</a></li>
+                                                                <li class=" no-icon"><a class="sidebar-nested-link" href="http://localhost:1313/zh/docs/app/plant/layout/">电站布局</a></li>
                                                             
                                                         
                                                     </ul>
@@ -451,22 +176,22 @@
                                                         
                                                             
                                                             
-                                                                <li class=" no-icon"><a class="sidebar-nested-link" href="https://raymoniot.github.io/zh/docs/app/device/search/">搜索或筛选设备</a></li>
+                                                                <li class=" no-icon"><a class="sidebar-nested-link" href="http://localhost:1313/zh/docs/app/device/search/">搜索或筛选设备</a></li>
                                                             
                                                         
                                                             
                                                             
-                                                                <li class=" no-icon"><a class="sidebar-nested-link" href="https://raymoniot.github.io/zh/docs/app/device/detail/">设备详情</a></li>
+                                                                <li class=" no-icon"><a class="sidebar-nested-link" href="http://localhost:1313/zh/docs/app/device/detail/">设备详情</a></li>
                                                             
                                                         
                                                             
                                                             
-                                                                <li class=" no-icon"><a class="sidebar-nested-link" href="https://raymoniot.github.io/zh/docs/app/device/history/">设备历史</a></li>
+                                                                <li class=" no-icon"><a class="sidebar-nested-link" href="http://localhost:1313/zh/docs/app/device/history/">设备历史</a></li>
                                                             
                                                         
                                                             
                                                             
-                                                                <li class=" no-icon"><a class="sidebar-nested-link" href="https://raymoniot.github.io/zh/docs/app/device/event/">设备事件</a></li>
+                                                                <li class=" no-icon"><a class="sidebar-nested-link" href="http://localhost:1313/zh/docs/app/device/event/">设备事件</a></li>
                                                             
                                                         
                                                     </ul>
@@ -485,12 +210,12 @@
                                                         
                                                             
                                                             
-                                                                <li class=" no-icon"><a class="sidebar-nested-link" href="https://raymoniot.github.io/zh/docs/app/event/search/">搜索或筛选事件</a></li>
+                                                                <li class=" no-icon"><a class="sidebar-nested-link" href="http://localhost:1313/zh/docs/app/event/search/">搜索或筛选事件</a></li>
                                                             
                                                         
                                                             
                                                             
-                                                                <li class=" no-icon"><a class="sidebar-nested-link" href="https://raymoniot.github.io/zh/docs/app/event/detail/">事件详情</a></li>
+                                                                <li class=" no-icon"><a class="sidebar-nested-link" href="http://localhost:1313/zh/docs/app/event/detail/">事件详情</a></li>
                                                             
                                                         
                                                     </ul>
@@ -509,37 +234,37 @@
                                                         
                                                             
                                                             
-                                                                <li class=" no-icon"><a class="sidebar-nested-link" href="https://raymoniot.github.io/zh/docs/app/my/switch/">切换视角</a></li>
+                                                                <li class=" no-icon"><a class="sidebar-nested-link" href="http://localhost:1313/zh/docs/app/my/switch/">切换视角</a></li>
                                                             
                                                         
                                                             
                                                             
-                                                                <li class=" no-icon"><a class="sidebar-nested-link" href="https://raymoniot.github.io/zh/docs/app/my/profile/">用户资料</a></li>
+                                                                <li class=" no-icon"><a class="sidebar-nested-link" href="http://localhost:1313/zh/docs/app/my/profile/">用户资料</a></li>
                                                             
                                                         
                                                             
                                                             
-                                                                <li class=" no-icon"><a class="sidebar-nested-link" href="https://raymoniot.github.io/zh/docs/app/my/modify/">修改密码</a></li>
+                                                                <li class=" no-icon"><a class="sidebar-nested-link" href="http://localhost:1313/zh/docs/app/my/modify/">修改密码</a></li>
                                                             
                                                         
                                                             
                                                             
-                                                                <li class=" no-icon"><a class="sidebar-nested-link" href="https://raymoniot.github.io/zh/docs/app/my/cancel/">注销账户</a></li>
+                                                                <li class=" no-icon"><a class="sidebar-nested-link" href="http://localhost:1313/zh/docs/app/my/cancel/">注销账户</a></li>
                                                             
                                                         
                                                             
                                                             
-                                                                <li class=" no-icon"><a class="sidebar-nested-link" href="https://raymoniot.github.io/zh/docs/app/my/config/">配网</a></li>
+                                                                <li class=" no-icon"><a class="sidebar-nested-link" href="http://localhost:1313/zh/docs/app/my/config/">配网</a></li>
                                                             
                                                         
                                                             
                                                             
-                                                                <li class=" no-icon"><a class="sidebar-nested-link" href="https://raymoniot.github.io/zh/docs/app/my/ota/">OTA小助手</a></li>
+                                                                <li class=" no-icon"><a class="sidebar-nested-link" href="http://localhost:1313/zh/docs/app/my/ota/">OTA小助手</a></li>
                                                             
                                                         
                                                             
                                                             
-                                                                <li class=" no-icon"><a class="sidebar-nested-link" href="https://raymoniot.github.io/zh/docs/app/my/about/">关于</a></li>
+                                                                <li class=" no-icon"><a class="sidebar-nested-link" href="http://localhost:1313/zh/docs/app/my/about/">关于</a></li>
                                                             
                                                         
                                                     </ul>
@@ -550,6 +275,7 @@
                                 </ul>
                             </div>
                         </li>
+            
                     
                 
             
@@ -563,12 +289,46 @@
     
 </nav>
 
+
+<style type="text/css">
+    .version-selector {
+        padding: 5px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        background-color: #f9f9f9;
+        font-size: 16px;
+    }
+    .version-selector option {
+        background-color: white;
+    }
+
+
+</style>
+
+<script>
+    document.getElementById('version-selector').addEventListener('change', function() {
+        var selectedVersion = this.value.toLowerCase();
+        var domain = "http://localhost:1313"
+        var lang = "zh"
+        var jumpUrl = domain + "/" + lang + "/" + "docs" + "/" + selectedVersion
+        window.location.href = jumpUrl
+
+    });
+    document.addEventListener('DOMContentLoaded', function () {
+        var url = "\/zh\/docs\/app\/loginregister\/"
+        let version  = url.split("/")[3]
+        if(version !== 'web' && version !== 'app'){
+            version  = 'web'
+        }
+        document.getElementById('version-selector').value = version
+    });
+</script>
                     <main class="page-content bg-transparent">
                         
 <div id="top-header" class="top-header d-print-none">
     <div class="header-bar d-flex justify-content-between">
         <div class="d-flex align-items-center">
-            <a href='https://cloud.raymoniot.com' class="logo-icon me-3" aria-label="HomePage" alt="HomePage">
+            <a class="logo-icon me-3" aria-label="HomePage" alt="HomePage">
                 <div class="small">
                     
                             <?xml version="1.0" encoding="UTF-8"?><svg id="Layer_1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 250 250"><path d="m143,39.5c-18,0-18,18-18,18,0,0,0-18-18-18H22c-2.76,0-5,2.24-5,5v143c0,2.76,2.24,5,5,5h76c7.2,0,8.64,11.52,8.93,16.13.07,1.05.95,1.87,2,1.87h32.14c1.06,0,1.94-.82,2-1.87.29-4.61,1.73-16.13,8.93-16.13h76c2.76,0,5-2.24,5-5V44.5c0-2.76-2.24-5-5-5h-85Zm63,123.5c0,1.38-1.12,2.5-2.5,2.5h-60.5c-18,0-18,18-18,18,0,0,0-18-18-18h-60.5c-1.38,0-2.5-1.12-2.5-2.5v-94c0-1.38,1.12-2.5,2.5-2.5h51.5c7.2,0,8.64,11.52,8.93,16.13.07,1.05.95,1.87,2,1.87h32.14c1.06,0,1.94-.82,2-1.87.29-4.61,1.73-16.13,8.93-16.13h51.5c1.38,0,2.5,1.12,2.5,2.5v94Z" style="fill:#06f;"/></svg>
@@ -641,7 +401,7 @@
     
 </div>
 
-                            <div class="container-fluid">
+                            <div class="container-fluid" style="width: 80%">
                                 <div class="layout-spacing">
                                     
                                         <div class="d-md-flex justify-content-between align-items-center"><nav aria-label="breadcrumb" class="d-inline-block pb-2 mt-1 mt-sm-0">
@@ -760,12 +520,10 @@
 
 
 
-    
-
-    <script src="/docs/js/bootstrap.eac7ee3f6fa791c684e7a51fc2fd50b6f724271b9e39562e4fe8c3942412df3acbfc4045f043d03399dac70091207507.js" integrity="sha384-6sfuP2&#43;nkcaE56Ufwv1QtvckJxueOVYuT&#43;jDlCQS3zrL/EBF8EPQM5naxwCRIHUH"defer></script>
+    <script src="/docs/js/bootstrap.js" defer></script>
 
 
-    <script type="text/javascript" src="https://raymoniot.github.io/docs/js/bundle.min.11632c85b6795b41b9dac1dc4ca0f5a827b78f03dbd9b6e26ee2b7f044c9aed29c744f7a3db0100da8c11956aa824dbb.js" integrity="sha384-EWMshbZ5W0G52sHcTKD1qCe3jwPb2bbibuK38ETJrtKcdE96PbAQDajBGVaqgk27" crossorigin="anonymous" defer></script>
+    <script type="text/javascript" src="http://localhost:1313/docs/js/bundle.js" defer></script>
         <script>
     window.addEventListener('DOMContentLoaded', function() {
         

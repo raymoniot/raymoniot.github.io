@@ -2,6 +2,7 @@
 title: Solarhub(Web)
 weight: 1
 description: Solarhub Web帮助文档
+version: "web"
 ---
 
 ## Solarhub Web概述

@@ -38,17 +38,17 @@ weight: 2
 
 配网完成后将采集器入库后即可在设备列表中查看该设备
 
-![psv-overview](/../../zh/photo/docs/quickStart/import.png)
+<img src="/../../zh/photo/docs/quickStart/import.png">
 
 可以通过[单个导入]({{< ref "./device/collector/#21单个导入" >}} "导入")或[批量导入]({{< ref "./device/collector/#22批量导入" >}} "导入")两种方式
 
-![psv-overview](/../../zh/photo/docs/quickStart/import1.png)
+<img src="/../../zh/photo/docs/quickStart/import1.png">
 
 导入后即可看到导入设备，此时设备是未安装状态
 
 ## 3.创建电站
 
-![psv-overview](/../../zh/photo/docs/quickStart/add-plant.png)
+<img src="/../../zh/photo/docs/quickStart/add-plant.png">
 
 选择需要的业务类型，创建对应的电站，详细请参考[创建电站]({{< ref "./plant-center/create-plant" >}} "创建电站")
 
@@ -58,9 +58,9 @@ weight: 2
 
 ## 5.查看电站/设备详情信息
 
-![psv-overview](/../../zh/photo/docs/quickStart/plant.png)
+<img src="/../../zh/photo/docs/quickStart/plant.png">
 
-![psv-overview](/../../zh/photo/docs/quickStart/device.png)
+<img src="/../../zh/photo/docs/quickStart/device.png">
 
-![psv-overview](/../../zh/photo/docs/quickStart/device1.png)
+<img src="/../../zh/photo/docs/quickStart/device1.png">
 

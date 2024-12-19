@@ -76,28 +76,28 @@ weight: 6
 
   <img src="/../../zh/photo/docs/plant/plant-dashboard2.png">
 
-
-
-- **添加采集器**：跳转
+- **添加采集器**：对当前电站绑定采集器，添加采集器的方式有两种，详细请参考[添加采集器]({{< ref "/add-logger" >}} "添加采集器")
 
   <img src="/../../zh/photo/docs/plant/add-collect.png">
 
 
-- **新建工单**：对此电站创建一个工单，详细参考【跳转工单系统】
+- **新建工单**：对此电站创建一个工单，详细请参考[工单系统]({{< ref "../ops/ticket/dashboard/" >}} "光伏系统")
 
   <img src="/../../zh/photo/docs/plant/ticket.png">
 
-- **发电修补**：对发电量修补
+- **发电修补**：针对发电量有误的情况，手动对发电量的数值进行修改
 
   <img src="/../../zh/photo/docs/plant/power-fix.png">
 
-- **设备列表**：电站下的所有设备
+- **设备列表**：展示电站下的所有设备，按照设备分类展示各设备列表
 
   <img src="/../../zh/photo/docs/plant/device-list.png">
 
-- **告警列表**：电站下所有发生告警的设备
+- **告警列表**：展示最近3天内正在告警的事件，可以通过高级搜索过滤条件
 
   <img src="/../../zh/photo/docs/plant/alert.png">
+
+  <img src="/../../zh/photo/docs/plant/alert2.png">
 
 - **布局**：设置屋面的物理布局和组件设备连接的系统布局
 
