@@ -416,11 +416,10 @@
 <script>
     document.getElementById('version-selector').addEventListener('change', function() {
         var selectedVersion = this.value.toLowerCase();
-        var domain = "http://localhost:1313"
+        var domain = "https://raymoniot.github.io"
         var lang = "zh"
         var jumpUrl = domain + "/" + lang + "/" + "docs" + "/" + selectedVersion
         window.location.href = jumpUrl
-
     });
     document.addEventListener('DOMContentLoaded', function () {
         var url = "\/zh\/docs\/web\/ops\/ticket\/list\/"
