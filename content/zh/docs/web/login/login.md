@@ -1,17 +1,17 @@
 ---
-title: 登陆
-description: 通过登陆入口登陆到Solarhub平台
+title: 登录
+description: 通过登录入口登录到Solarhub平台
 weight: 3
 ---
 
-1. 通过[Solarhub](https://cloud.raymoniot.com)可以访问Solarhub登陆页面,输入正确的账号和密码后登陆
+1. 通过[Solarhub](https://cloud.raymoniot.com)可以访问Solarhub登录页面,输入正确的账号和密码后登陆
 
    <img src="/../../../zh/photo/docs/overview.png" width="80%">
 
    - APP下载：登录页右上角提供APP下载二维码，使用手机扫码即可下载平台最新发布的APP
    - 多语言切换：登录页右上角可以切换多种语言显示
 
-2. 登陆成功后进入数据看版页面
+2. 登录成功后进入数据看版页面
 
    <img src="/../../../zh/photo/docs/login/login-success.png" width="80%">
    

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Login on Solarhub Help Center</title>
+    <link>http://localhost:1313/en/docs/web/login/</link>
+    <description>Recent content in Login on Solarhub Help Center</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <atom:link href="http://localhost:1313/en/docs/web/login/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Login</title>
+      <link>http://localhost:1313/en/docs/web/login/login/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/en/docs/web/login/login/</guid>
+      <description>You can access the Solarhub login page through Solarhub, enter the correct account and password and log in APP download: The APP download QR code is provided in the upper right corner of the login page. Use your mobile phone to scan the code to download the latest APP released by the platform&#xA;Multi-language switching: Multiple languages ​​can be switched in the upper right corner of the login page</description>
+    </item>
+    <item>
+      <title>Multi-language switch</title>
+      <link>http://localhost:1313/en/docs/web/login/languages/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/en/docs/web/login/languages/</guid>
+      <description> Switch the language through the icon in the upper right corner when not logged in After logging in, switch the language next to the user in the upper right corner </description>
+    </item>
+  </channel>
+</rss>

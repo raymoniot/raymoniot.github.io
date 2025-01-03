@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Device on Solarhub Help Center</title>
+    <link>http://localhost:1313/en/docs/app/device/</link>
+    <description>Recent content in Device on Solarhub Help Center</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <atom:link href="http://localhost:1313/en/docs/app/device/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Search or filter devices</title>
+      <link>http://localhost:1313/en/docs/app/device/search/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/en/docs/app/device/search/</guid>
+      <description>1. Device search link Under &amp;ldquo;Device&amp;rdquo; of the APP, you can search for devices by device serial number&#xA;2. Device filtering link Two conditions for filtering link Filter by device type Filter by device online status </description>
+    </item>
+    <item>
+      <title>Device Details</title>
+      <link>http://localhost:1313/en/docs/app/device/detail/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/en/docs/app/device/detail/</guid>
+      <description>Entrance link Click on the device in the device list interface to enter the device overview page&#xA;Function Overview link1. Device Alias link 2. Remote upgrade link Function to be completed&#xA;3. Parameter setting link Parameter settings support different settings for different types of parameters&#xA;4. Unbind device link All historical data will be deleted after unbinding the device</description>
+    </item>
+    <item>
+      <title>Device History</title>
+      <link>http://localhost:1313/en/docs/app/device/history/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/en/docs/app/device/history/</guid>
+      <description> Click a device in the device list to enter the device details Click to enter history from the menu below Historical data supports four views: day, month, year, and all In the chart, you can view the data at a certain point in time by continuously pressing </description>
+    </item>
+    <item>
+      <title>Device Event</title>
+      <link>http://localhost:1313/en/docs/app/device/event/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/en/docs/app/device/event/</guid>
+      <description> Click a device in the device list to enter the device details Click to enter the event from the menu below Events have two states: Occurring and Recovered. You can filter by clicking the title above Click on an event to view detailed information about the event </description>
+    </item>
+  </channel>
+</rss>
