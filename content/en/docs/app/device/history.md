@@ -4,13 +4,13 @@ weight: 4
 description: Device History Data
 ---
 
-<img src="/../../zh/photo/docs/app/device/history.png" style="margin-right: 24px" width="300">
+<img src="../../../../photo/docs/app/device/history.png" style="margin-right: 24px" width="300">
 
-<img src="/../../zh/photo/docs/app/device/history1.png" style="margin-right: 24px" width="300">
+<img src="../../../../photo/docs/app/device/history1.png" style="margin-right: 24px" width="300">
 
-<img src="/../../zh/photo/docs/app/device/history2.png" style="margin-right: 24px" width="300">
+<img src="../../../../photo/docs/app/device/history2.png" style="margin-right: 24px" width="300">
 
-<img src="/../../zh/photo/docs/app/device/history3.png" style="margin-right: 0px" width="300">
+<img src="../../../../photo/docs/app/device/history3.png" style="margin-right: 0px" width="300">
 
 1. Click a device in the device list to enter the device details
 2. Click to enter history from the menu below

@@ -4,13 +4,13 @@ weight: 3
 description: Bind a collector to the power station
 ---
 
-<img src="/../../zh/photo/docs/app/plant/switch.png" style="margin-right: 24px" width="300">
+<img src="../../../../photo/docs/app/plant/switch.png" style="margin-right: 24px" width="300">
 
-<img src="/../../zh/photo/docs/app/plant/logger.png" style="margin-right: 24px" width="300">
+<img src="../../../../photo/docs/app/plant/logger.png" style="margin-right: 24px" width="300">
 
-<img src="/../../zh/photo/docs/app/plant/logger1.png" style="margin-right: 24px" width="300">
+<img src="../../../../photo/docs/app/plant/logger1.png" style="margin-right: 24px" width="300">
 
-<img src="/../../zh/photo/docs/app/plant/logger2.png" style="margin-right: 0px" width="300">
+<img src="../../../../photo/docs/app/plant/logger2.png" style="margin-right: 0px" width="300">
 
 ### Steps
 

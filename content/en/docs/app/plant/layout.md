@@ -6,13 +6,13 @@ description: Power Plant Layout
 
 ## 1. Create layout
 
-<img src="/../../zh/photo/docs/app/plant/switch.png" style="margin-right: 24px" width="300">
+<img src="../../../../photo/docs/app/plant/switch.png" style="margin-right: 24px" width="300">
 
-<img src="/../../zh/photo/docs/app/plant/layout.png" style="margin-right: 24px" width="300">
+<img src="../../../../photo/docs/app/plant/layout.png" style="margin-right: 24px" width="300">
 
-<img src="/../../zh/photo/docs/app/plant/layout1.png" style="margin-right: 24px" width="300">
+<img src="../../../../photo/docs/app/plant/layout1.png" style="margin-right: 24px" width="300">
 
-<img src="/../../zh/photo/docs/app/plant/layout2.png" style="margin-right: 0px" width="300">
+<img src="../../../../photo/docs/app/plant/layout2.png" style="margin-right: 0px" width="300">
 
 ### Steps
 
@@ -23,13 +23,13 @@ description: Power Plant Layout
 
 ## 2. Edit layout
 
-<img src="/../../zh/photo/docs/app/plant/layout3.png" style="margin-right: 24px" width="300">
+<img src="../../../../photo/docs/app/plant/layout3.png" style="margin-right: 24px" width="300">
 
-<img src="/../../zh/photo/docs/app/plant/layout4.png" style="margin-right: 24px" width="300">
+<img src="../../../../photo/docs/app/plant/layout4.png" style="margin-right: 24px" width="300">
 
-<img src="/../../zh/photo/docs/app/plant/layout7.png" style="margin-right: 24px" width="300">
+<img src="../../../../photo/docs/app/plant/layout7.png" style="margin-right: 24px" width="300">
 
-<img src="/../../zh/photo/docs/app/plant/layout5.png" style="margin-right: 0px" width="300">
+<img src="../../../../photo/docs/app/plant/layout5.png" style="margin-right: 0px" width="300">
 
 ### Steps
 
@@ -43,13 +43,13 @@ description: Power Plant Layout
 
 ## 3. View layout data
 
-<img src="/../../zh/photo/docs/app/plant/layout6.png" style="margin-right: 24x" width="300">
+<img src="../../../../photo/docs/app/plant/layout6.png" style="margin-right: 24x" width="300">
 
-<img src="/../../zh/photo/docs/app/plant/layout8.png" style="margin-right: 24px" width="300">
+<img src="../../../../photo/docs/app/plant/layout8.png" style="margin-right: 24px" width="300">
 
-<img src="/../../zh/photo/docs/app/plant/layout9.png" style="margin-right: 24px" width="300">
+<img src="../../../../photo/docs/app/plant/layout9.png" style="margin-right: 24px" width="300">
 
-<img src="/../../zh/photo/docs/app/plant/layout10.png" style="margin-right: 0px" width="300">
+<img src="../../../../photo/docs/app/plant/layout10.png" style="margin-right: 0px" width="300">
 
 ### Function Overview
 

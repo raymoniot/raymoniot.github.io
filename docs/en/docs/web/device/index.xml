@@ -2,44 +2,44 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Device Center on Solarhub Help Center</title>
-    <link>https://raymoniot.github.io/en/docs/web/device/</link>
+    <link>http://localhost:1313/en/docs/web/device/</link>
     <description>Recent content in Device Center on Solarhub Help Center</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <atom:link href="https://raymoniot.github.io/en/docs/web/device/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/en/docs/web/device/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Collector</title>
-      <link>https://raymoniot.github.io/en/docs/web/device/collector/</link>
+      <link>http://localhost:1313/en/docs/web/device/collector/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://raymoniot.github.io/en/docs/web/device/collector/</guid>
+      <guid>http://localhost:1313/en/docs/web/device/collector/</guid>
       <description>Function Overview link1. Device List link The device list can view online, faulty, offline and all device information.&#xA;For collector devices, there are two additional states&#xA;Installed: The collector is bound to a power station after entering the warehouse&#xA;Not Installed: The collector is not bound to a power station after entering the warehouse&#xA;2. Collector entry link There are two ways to enter the collector&#xA;Single import: import a single collector, import one collector at a time</description>
     </item>
     <item>
       <title>Inverter</title>
-      <link>https://raymoniot.github.io/en/docs/web/device/inveter/</link>
+      <link>http://localhost:1313/en/docs/web/device/inveter/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://raymoniot.github.io/en/docs/web/device/inveter/</guid>
+      <guid>http://localhost:1313/en/docs/web/device/inveter/</guid>
       <description>Function Overview link1. Device List link The device list can view online, faulty, offline and all device information.&#xA;2. Advanced device search link 3. Inverter details page link You can enter the device details page from the device in the device list&#xA;The inverter details page displays inverter information and historical data charts&#xA;3.1 Alarm linkRefer to Collector Alarm&#xA;3.2 Unbinding linkRefer to Collector Unbinding, unbinding the sub-device will delete the sub-device from the collector and clear the sub-device data.</description>
     </item>
     <item>
       <title>Battery System</title>
-      <link>https://raymoniot.github.io/en/docs/web/device/battery/</link>
+      <link>http://localhost:1313/en/docs/web/device/battery/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://raymoniot.github.io/en/docs/web/device/battery/</guid>
+      <guid>http://localhost:1313/en/docs/web/device/battery/</guid>
       <description>Function Overview link1. Device List link The device list can view online, faulty, offline and all device information.&#xA;2. Battery details page link You can enter the device details page from the device in the device list&#xA;The battery details page displays BMS information and battery information and historical data charts under BMS&#xA;3.1 Alarm linkRefer to Collector Alarm&#xA;3.2 Unbinding linkRefer to Collector Unbinding, Unbinding a sub-device will delete the sub-device from the collector and clear the sub-device data.</description>
     </item>
     <item>
       <title>Optimizer</title>
-      <link>https://raymoniot.github.io/en/docs/web/device/optimizer/</link>
+      <link>http://localhost:1313/en/docs/web/device/optimizer/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://raymoniot.github.io/en/docs/web/device/optimizer/</guid>
+      <guid>http://localhost:1313/en/docs/web/device/optimizer/</guid>
       <description>Function Overview link1. Device List link The device list can view online, faulty, offline and all device information.&#xA;2. Optimizer controller details page link You can enter the device details page from the device in the device list&#xA;The optimizer controller details page displays the optimizer controller information and the optimizer switch status&#xA;3.1 Alarm linkRefer to Collector Alarm&#xA;3.2 Unbinding linkRefer to Collector Unbinding, Unbinding a sub-device will delete the sub-device from the collector and clear the sub-device data.</description>
     </item>
     <item>
       <title>Smart Meter</title>
-      <link>https://raymoniot.github.io/en/docs/web/device/meter/</link>
+      <link>http://localhost:1313/en/docs/web/device/meter/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://raymoniot.github.io/en/docs/web/device/meter/</guid>
+      <guid>http://localhost:1313/en/docs/web/device/meter/</guid>
       <description>Function Overview link1. Device List link The device list can view online, faulty, offline and all device information.&#xA;2. Meter details page link You can enter the device details page from the device in the device list&#xA;The meter details page displays meter information and micro-inverter devices&#xA;3.1 Alarm linkRefer to Collector Alarm&#xA;3.2 Unbinding linkRefer to Collector Unbinding, Unbinding a sub-device will delete the sub-device from the collector and clear the sub-device data.</description>
     </item>
   </channel>

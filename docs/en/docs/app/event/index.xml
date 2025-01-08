@@ -2,23 +2,23 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Event on Solarhub Help Center</title>
-    <link>https://raymoniot.github.io/en/docs/app/event/</link>
+    <link>http://localhost:1313/en/docs/app/event/</link>
     <description>Recent content in Event on Solarhub Help Center</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <atom:link href="https://raymoniot.github.io/en/docs/app/event/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/en/docs/app/event/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Search or filter events</title>
-      <link>https://raymoniot.github.io/en/docs/app/event/search/</link>
+      <link>http://localhost:1313/en/docs/app/event/search/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://raymoniot.github.io/en/docs/app/event/search/</guid>
+      <guid>http://localhost:1313/en/docs/app/event/search/</guid>
       <description>1. Event search link Under &amp;ldquo;Events&amp;rdquo; of the APP, you can search for events by event serial number&#xA;2. Event filtering link There are two states of events, occurring and recovered, which can be filtered by the title</description>
     </item>
     <item>
       <title>Event Details</title>
-      <link>https://raymoniot.github.io/en/docs/app/event/detail/</link>
+      <link>http://localhost:1313/en/docs/app/event/detail/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://raymoniot.github.io/en/docs/app/event/detail/</guid>
+      <guid>http://localhost:1313/en/docs/app/event/detail/</guid>
       <description> Click the event at the bottom of the APP to enter the event interface Click the event in the event list to enter the event details interface View the event details </description>
     </item>
   </channel>

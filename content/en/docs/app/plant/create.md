@@ -6,9 +6,9 @@ description: Create a power plant
 
 ## Creation method 1
 
-<img src="/../../zh/photo/docs/app/plant/create.png" style="margin-right: 50px" width="300">
+<img src="../../../../photo/docs/app/plant/create.png" style="margin-right: 50px" width="300">
 
-<img src="/../../zh/photo/docs/app/plant/create2.png" style="margin-right: 50px" width="300">
+<img src="../../../../photo/docs/app/plant/create2.png" style="margin-right: 50px" width="300">
 
 ### Steps
 
@@ -17,11 +17,11 @@ description: Create a power plant
 
 ## Creation method 2
 
-<img src="/../../zh/photo/docs/app/plant/switch.png" style="margin-right: 50px" width="300">
+<img src="../../../../photo/docs/app/plant/switch.png" style="margin-right: 50px" width="300">
 
-<img src="/../../zh/photo/docs/app/plant/create1.png" style="margin-right: 50px" width="300">
+<img src="../../../../photo/docs/app/plant/create1.png" style="margin-right: 50px" width="300">
 
-<img src="/../../zh/photo/docs/app/plant/create2.png" style="margin-right: 50px" width="300">
+<img src="../../../../photo/docs/app/plant/create2.png" style="margin-right: 50px" width="300">
 
 ### Steps
 

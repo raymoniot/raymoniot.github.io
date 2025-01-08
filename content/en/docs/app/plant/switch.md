@@ -4,11 +4,11 @@ weight: 4
 description: Switch to other power plant overview page
 ---
 
-<img src="/../../zh/photo/docs/app/plant/switch.png" style="margin-right: 50px" width="300">
+<img src="../../../../photo/docs/app/plant/switch.png" style="margin-right: 50px" width="300">
 
-<img src="/../../zh/photo/docs/app/plant/switch1.png" style="margin-right: 50px" width="300">
+<img src="../../../../photo/docs/app/plant/switch1.png" style="margin-right: 50px" width="300">
 
-<img src="/../../zh/photo/docs/app/plant/switch3.png" style="margin-right: 50px" width="300">
+<img src="../../../../photo/docs/app/plant/switch3.png" style="margin-right: 50px" width="300">
 
 ### Steps
 

@@ -74,7 +74,7 @@ Select the platform account and click OK to set it successfully
 
 ## 5. Batch delete
 
-<img src="../../../../photo/docs/device/collector/tag.png">
+<img src="../../../../photo/docs/device/collector/batch-delete.png">
 
 ## 6. Single access authorization/set tag/delete
 

@@ -2,44 +2,44 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Toolbox on Solarhub Help Center</title>
-    <link>https://raymoniot.github.io/en/docs/web/toolkits/</link>
+    <link>http://localhost:1313/en/docs/web/toolkits/</link>
     <description>Recent content in Toolbox on Solarhub Help Center</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <atom:link href="https://raymoniot.github.io/en/docs/web/toolkits/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/en/docs/web/toolkits/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Firmware Management</title>
-      <link>https://raymoniot.github.io/en/docs/web/toolkits/firmware/</link>
+      <link>http://localhost:1313/en/docs/web/toolkits/firmware/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://raymoniot.github.io/en/docs/web/toolkits/firmware/</guid>
+      <guid>http://localhost:1313/en/docs/web/toolkits/firmware/</guid>
       <description>Function Overview linkPlatform device firmware management, including firmware search, adding firmware, modifying firmware, downloading firmware, access authorization, generating redemption codes, etc.&#xA;1. Firmware Search link Advanced search can be performed based on device type or firmware name&#xA;2. Add firmware link Firmware version should not be too long, please make sure firmware file is legal, otherwise it will not be added&#xA;3. Other operations link 3.1 Modify firmware link 3.2 Delete firmware link 3.</description>
     </item>
     <item>
       <title>Point Query</title>
-      <link>https://raymoniot.github.io/en/docs/web/toolkits/point-query/</link>
+      <link>http://localhost:1313/en/docs/web/toolkits/point-query/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://raymoniot.github.io/en/docs/web/toolkits/point-query/</guid>
+      <guid>http://localhost:1313/en/docs/web/toolkits/point-query/</guid>
       <description>Function Overview linkQuery the device&amp;rsquo;s reporting of point data, and the latest data report will be displayed&#xA;1. Point Query Export link Enter the device serial number to query the device data&#xA;Select the export time to export the data of a certain day</description>
     </item>
     <item>
       <title>Batch Operation</title>
-      <link>https://raymoniot.github.io/en/docs/web/toolkits/batch/</link>
+      <link>http://localhost:1313/en/docs/web/toolkits/batch/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://raymoniot.github.io/en/docs/web/toolkits/batch/</guid>
+      <guid>http://localhost:1313/en/docs/web/toolkits/batch/</guid>
       <description>Function Overview linkBatch parameter setting, firmware upgrade, command transmission, etc. for devices&#xA;1. Create a task link Can filter devices according to specified device type and power station&#xA;Select the device type, select the device in the device list, and add the device&#xA;Select the type of batch operation required and submit the task&#xA;2. Redo failed devices link If the batch operation task fails, you can use the redo function to redo the failed devices in the batch task.</description>
     </item>
     <item>
       <title>Remote Interaction</title>
-      <link>https://raymoniot.github.io/en/docs/web/toolkits/remote/</link>
+      <link>http://localhost:1313/en/docs/web/toolkits/remote/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://raymoniot.github.io/en/docs/web/toolkits/remote/</guid>
+      <guid>http://localhost:1313/en/docs/web/toolkits/remote/</guid>
       <description>Function Overview linkSend downlink commands to the collector, including firmware upgrade, command transmission, parameter setting&#xA;The remote interaction interface displays the current online collector by default, and can also perform advanced search based on serial number, status, power station, tag, and firmware version number&#xA;1. Firmware Upgrade (OTA) link Firmware upgrade includes upgrading the collector and upgrading the sub-device. The upgrade process is the same, but the types of the two devices are different and the firmware used is different</description>
     </item>
     <item>
       <title>Notice Announcement</title>
-      <link>https://raymoniot.github.io/en/docs/web/toolkits/notification/</link>
+      <link>http://localhost:1313/en/docs/web/toolkits/notification/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://raymoniot.github.io/en/docs/web/toolkits/notification/</guid>
+      <guid>http://localhost:1313/en/docs/web/toolkits/notification/</guid>
       <description>Function Overview link </description>
     </item>
   </channel>
