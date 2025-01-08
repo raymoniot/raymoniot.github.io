@@ -2,16 +2,16 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Operation and Maintenance Center on Solarhub Help Center</title>
-    <link>http://localhost:1313/en/docs/web/ops/</link>
+    <link>https://raymoniot.github.io/en/docs/web/ops/</link>
     <description>Recent content in Operation and Maintenance Center on Solarhub Help Center</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <atom:link href="http://localhost:1313/en/docs/web/ops/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://raymoniot.github.io/en/docs/web/ops/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Event Center</title>
-      <link>http://localhost:1313/en/docs/web/ops/events/</link>
+      <link>https://raymoniot.github.io/en/docs/web/ops/events/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/en/docs/web/ops/events/</guid>
+      <guid>https://raymoniot.github.io/en/docs/web/ops/events/</guid>
       <description>Function Overview link 1. Advanced Search link Supports searching by event level, event time, power plant name, equipment serial number, event code, and event content as conditions&#xA;2. Create a new work order link Create a work order for a single event</description>
     </item>
   </channel>
