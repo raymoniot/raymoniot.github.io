@@ -26,14 +26,14 @@
       <link>https://raymoniot.github.io/en/docs/web/toolkits/batch/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://raymoniot.github.io/en/docs/web/toolkits/batch/</guid>
-      <description>Function Overview linkBatch parameter setting, firmware upgrade, command transmission, etc. for devices&#xA;1. Create a task link Can filter devices according to specified device type and power station&#xA;Select the device type, select the device in the device list, and add the device&#xA;Select the type of batch operation required and submit the task&#xA;2. Redo failed devices link If the batch operation task fails, you can use the redo function to redo the failed devices in the batch task.</description>
+      <description>Function Overview linkBatch parameter setting, firmware upgrade, command transmission, etc. for devices&#xA;1. Create a task link Can filter devices according to specified device type and plant&#xA;Select the device type, select the device in the device list, and add the device&#xA;Select the type of batch operation required and submit the task&#xA;2. Redo failed devices link If the batch operation task fails, you can use the redo function to redo the failed devices in the batch task.</description>
     </item>
     <item>
       <title>Remote Interaction</title>
       <link>https://raymoniot.github.io/en/docs/web/toolkits/remote/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://raymoniot.github.io/en/docs/web/toolkits/remote/</guid>
-      <description>Function Overview linkSend downlink commands to the collector, including firmware upgrade, command transmission, parameter setting&#xA;The remote interaction interface displays the current online collector by default, and can also perform advanced search based on serial number, status, power station, tag, and firmware version number&#xA;1. Firmware Upgrade (OTA) link Firmware upgrade includes upgrading the collector and upgrading the sub-device. The upgrade process is the same, but the types of the two devices are different and the firmware used is different</description>
+      <description>Function Overview linkSend downlink commands to the collector, including firmware upgrade, command transmission, parameter setting&#xA;The remote interaction interface displays the current online collector by default, and can also perform advanced search based on serial number, status, plant, tag, and firmware version number&#xA;1. Firmware Upgrade (OTA) link Firmware upgrade includes upgrading the collector and upgrading the sub-device. The upgrade process is the same, but the types of the two devices are different and the firmware used is different</description>
     </item>
     <item>
       <title>Notice Announcement</title>

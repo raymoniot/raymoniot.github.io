@@ -1,7 +1,7 @@
 ---
-title: Power plant history
+title: Plant History
 weight: 5
-description: Power plant historical data
+description: Plant historical data
 ---
 <img src="../../../../photo/docs/app/plant/switch.png" style="margin-right: 24px" width="300">
 

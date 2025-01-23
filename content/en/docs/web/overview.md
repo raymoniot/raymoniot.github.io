@@ -6,7 +6,7 @@ description: Solarhub Web Help Document
 
 ## Solarhub Web Overview
 
-Solarhub Web provides comprehensive energy monitoring services such as photovoltaic, wind power, and energy storage, and provides professional and efficient comprehensive energy cloud monitoring platform services for medium and large power stations, equipment manufacturers, operation and maintenance providers, and household power station owners.
+Solarhub Web provides comprehensive energy monitoring services such as photovoltaic, wind power, and energy storage, and provides professional and efficient comprehensive energy cloud monitoring platform services for medium and large plants, equipment manufacturers, operation and maintenance providers, and household plant owners.
 
 ## Have a Solarhub account
 

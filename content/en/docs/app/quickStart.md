@@ -49,7 +49,7 @@ Newly registered accounts need to create a power plant first
 2. Supplement power plant information
 3. Scan the code to add a collector
 
-## 4. View equipment/power station information
+## 4. View equipment/plant information
 
 <img src="../../../photo/docs/quickStart/plant-info-app.png" style="margin-right: 50px" width="300">
 

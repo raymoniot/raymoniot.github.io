@@ -18,9 +18,9 @@ The device list can view online, faulty, offline and all device information.
 
 For collector devices, there are two additional states
 
-- **Installed**: The collector is bound to a power station after entering the warehouse
+- **Installed**: The collector is bound to a plant after entering the warehouse
 
-- **Not Installed**: The collector is not bound to a power station after entering the warehouse
+- **Not Installed**: The collector is not bound to a plant after entering the warehouse
 
 ## 2. Collector entry
 
@@ -106,7 +106,7 @@ The alarm will open the device event page of the device, where you can see all t
 
 <img src="../../../../photo/docs/device/collector/unbind.png">
 
-The unbinding of the collector will unbind the power station bound to the collector. **The unbinding of the sub-device will delete the sub-device from the collector and clear the data of the sub-device**.
+The unbinding of the collector will unbind the plant bound to the collector. **The unbinding of the sub-device will delete the sub-device from the collector and clear the data of the sub-device**.
 
 ### 8.3 Other functions
 

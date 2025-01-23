@@ -1,6 +1,6 @@
 ---
 title: Quick Start
-description: Quickly use Solarhub, from collector network configuration, collector storage, power station creation, collector addition, network configuration, to data viewing
+description: Quickly use Solarhub, from collector network configuration, collector storage, plant creation, collector addition, network configuration, to data viewing
 weight: 2
 ---
 
@@ -42,17 +42,17 @@ You can use [single import]({{< ref "./device/collector/#21 single import" >}} "
 
 After importing, you can see the imported device. At this time, the device is not installed
 
-## 3. Create a power plant
+## 3. Create a plant
 
 <img src="../../../photo/docs/quickStart/add-plant.png">
 
-Select the required business type and create the corresponding power plant. For details, please refer to [Create a power plant]({{< ref "./plant-center/create-plant" >}} "Create a power plant")
+Select the required business type and create the corresponding  plant. For details, please refer to [Create a  plant]({{< ref "./plant-center/create-plant" >}} "Create a  plant")
 
 ## 4. Add a logger
 
 For details, refer to [Add a logger]({{< ref "./plant-center/add-logger" >}} "Add a logger")
 
-## 5. View the details of the power plant/device
+## 5. View the details of the  plant/device
 
 <img src="../../../photo/docs/quickStart/plant.png">
 

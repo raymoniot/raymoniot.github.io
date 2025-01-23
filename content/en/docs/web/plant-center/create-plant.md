@@ -1,13 +1,13 @@
 ---
-title: Create a power plant
-description: Create a power plant
+title: Create Plant
+description: Create a Plant
 weight: 10
 ---
 ## 1. Create an entrance
 
 <img src="../../../../photo/docs/add-plant/add-plant.png">
 
-## 2. Complete the power plant information
+## 2. Complete the plant information
 
 ### 2.1 Fill in basic information
 
@@ -21,15 +21,15 @@ Allow the website to locate and quickly obtain the current location
 
 <img src="../../../../photo/docs/add-plant/add-plant2.png">
 
-Select a location on the map to obtain coordinate information as the power plant location
+Select a location on the map to obtain coordinate information as the plant location
 
 ### 2.3 Add stakeholders (visitors)
 
 <img src="../../../../photo/docs/add-plant/add-plant3.png">
 
-Enter the visitor's email address to authorize the power plant to other accounts on the platform so that they have access to the power plant
+Enter the visitor's email address to authorize the plant to other accounts on the platform so that they have access to the plant
 
-### 2.4 Upload photos of the power plant
+### 2.4 Upload photos of the plant
 
 <img src="../../../../photo/docs/add-plant/add-plant4.png">
 
@@ -37,4 +37,5 @@ Enter the visitor's email address to authorize the power plant to other accounts
 
 <img src="../../../../photo/docs/add-plant/add-plant5.png">
 
-After successful creation, you can see the power plant in the power plant list, and you can also [modify] ({{< ref "/edit-plant" >}} "Power plant edit") and delete the power plant in the list operation column
+After successful creation, you can see the plant in the plant list, and you can also [modify]({{< ref "/edit-plant" >}} "Plant edit") and delete the plant in the list operation column
+

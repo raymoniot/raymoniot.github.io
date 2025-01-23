@@ -1,5 +1,5 @@
 ---
-title: Power Station
+title: Plant
 weight: 3
-description: Create a power station, add a collector, switch power stations, power station historical data, power station layout
+description: Create a plant, add a collector, switch plants, plant historical data, plant layout
 ---

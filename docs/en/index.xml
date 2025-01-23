@@ -12,14 +12,14 @@
       <link>https://raymoniot.github.io/en/docs/web/device/collector/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://raymoniot.github.io/en/docs/web/device/collector/</guid>
-      <description>Function Overview link1. Device List link The device list can view online, faulty, offline and all device information.&#xA;For collector devices, there are two additional states&#xA;Installed: The collector is bound to a power station after entering the warehouse&#xA;Not Installed: The collector is not bound to a power station after entering the warehouse&#xA;2. Collector entry link There are two ways to enter the collector&#xA;Single import: import a single collector, import one collector at a time</description>
+      <description>Function Overview link1. Device List link The device list can view online, faulty, offline and all device information.&#xA;For collector devices, there are two additional states&#xA;Installed: The collector is bound to a plant after entering the warehouse&#xA;Not Installed: The collector is not bound to a plant after entering the warehouse&#xA;2. Collector entry link There are two ways to enter the collector&#xA;Single import: import a single collector, import one collector at a time</description>
     </item>
     <item>
-      <title>Create a power plant</title>
+      <title>Create Plant</title>
       <link>https://raymoniot.github.io/en/docs/app/plant/create/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://raymoniot.github.io/en/docs/app/plant/create/</guid>
-      <description>Creation method 1 link Steps link Click the plus sign in the upper right corner of the power plant list to enter the power plant creation interface After adding the power plant information, click the save button in the upper right corner to create successfully Creation method 2 link Steps link Click on the power station in the power station list to enter the power station overview interface Click Create Power Station in the upper right corner menu After adding the power station information, click the Save button in the upper right corner to create successfully </description>
+      <description>Creation method 1 link Steps link Click the plus sign in the upper right corner of the plant list to enter the plant creation interface After adding the plant information, click the save button in the upper right corner to create successfully Creation method 2 link Steps link Click on the plant in the plant list to enter the plant overview interface Click Create Power Station in the upper right corner menu After adding the plant information, click the Save button in the upper right corner to create successfully </description>
     </item>
     <item>
       <title>Event Center</title>
@@ -54,7 +54,7 @@
       <link>https://raymoniot.github.io/en/docs/web/overview/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://raymoniot.github.io/en/docs/web/overview/</guid>
-      <description>Solarhub Web Overview linkSolarhub Web provides comprehensive energy monitoring services such as photovoltaic, wind power, and energy storage, and provides professional and efficient comprehensive energy cloud monitoring platform services for medium and large power stations, equipment manufacturers, operation and maintenance providers, and household power station owners.&#xA;Have a Solarhub account link Experience account: In order to facilitate you to quickly experience the functions of Solarhub, we have opened a customer experience account.</description>
+      <description>Solarhub Web Overview linkSolarhub Web provides comprehensive energy monitoring services such as photovoltaic, wind power, and energy storage, and provides professional and efficient comprehensive energy cloud monitoring platform services for medium and large plants, equipment manufacturers, operation and maintenance providers, and household plant owners.&#xA;Have a Solarhub account link Experience account: In order to facilitate you to quickly experience the functions of Solarhub, we have opened a customer experience account. You can communicate with the business docking person in charge and enter the experience account and password to experience Solarhub.</description>
     </item>
     <item>
       <title>Point Query</title>
@@ -64,32 +64,32 @@
       <description>Function Overview linkQuery the device&amp;rsquo;s reporting of point data, and the latest data report will be displayed&#xA;1. Point Query Export link Enter the device serial number to query the device data&#xA;Select the export time to export the data of a certain day</description>
     </item>
     <item>
-      <title>Registration and Login</title>
+      <title>Registration And Login</title>
       <link>https://raymoniot.github.io/en/docs/app/login-register/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://raymoniot.github.io/en/docs/app/login-register/</guid>
       <description>1. Account registration link Registration information overview:&#xA;Email: used for account login and registration security code acquisition Security code: Enter a valid email address to send the security code Username: Platform users can use it as the platform account to log in Password: Platform account password Time zone: Account time zone. The platform will select different time zone offsets for time display based on the different account time zones Installer information: No need to change by default.</description>
     </item>
     <item>
-      <title>Summary data</title>
+      <title>Summary Data</title>
       <link>https://raymoniot.github.io/en/docs/web/report/total/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://raymoniot.github.io/en/docs/web/report/total/</guid>
       <description>Function overview linkSummary data will summarize the daily, monthly and annual data of all power plants and all equipment. You can filter the target data according to the conditions and export it to Excel table&#xA;1. Power plant report link 1.1 Export link 2. Equipment report link</description>
     </item>
     <item>
-      <title>Switch perspective</title>
+      <title>Switch Perspective</title>
       <link>https://raymoniot.github.io/en/docs/app/my/switch/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://raymoniot.github.io/en/docs/app/my/switch/</guid>
-      <description> Select My in the menu bar at the bottom of the APP, and you can switch the access mode of the App in Switch perspective There are two access perspectives, professional consultant and end user Professional consultant: Use the APP as an equipment manufacturer or dealer, focusing on all power stations and equipment under the platform End user: Use the APP as a power station owner, focusing on my power station and equipment </description>
+      <description> Select My in the menu bar at the bottom of the APP, and you can switch the access mode of the App in Switch perspective There are two access perspectives, professional consultant and end user Professional consultant: Use the APP as an equipment manufacturer or dealer, focusing on all plants and equipment under the platform End user: Use the APP as a plant owner, focusing on my plant and equipment </description>
     </item>
     <item>
       <title>Batch Operation</title>
       <link>https://raymoniot.github.io/en/docs/web/toolkits/batch/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://raymoniot.github.io/en/docs/web/toolkits/batch/</guid>
-      <description>Function Overview linkBatch parameter setting, firmware upgrade, command transmission, etc. for devices&#xA;1. Create a task link Can filter devices according to specified device type and power station&#xA;Select the device type, select the device in the device list, and add the device&#xA;Select the type of batch operation required and submit the task&#xA;2. Redo failed devices link If the batch operation task fails, you can use the redo function to redo the failed devices in the batch task.</description>
+      <description>Function Overview linkBatch parameter setting, firmware upgrade, command transmission, etc. for devices&#xA;1. Create a task link Can filter devices according to specified device type and plant&#xA;Select the device type, select the device in the device list, and add the device&#xA;Select the type of batch operation required and submit the task&#xA;2. Redo failed devices link If the batch operation task fails, you can use the redo function to redo the failed devices in the batch task.</description>
     </item>
     <item>
       <title>Inverter</title>
@@ -113,25 +113,25 @@
       <description>1. Collector network configuration linkUse SolarhubApp to perform collector network configuration operations. When configuring the network, please ensure that the collector and the network configuration mobile phone are under the same 2.4Ghz WiFi.&#xA;Note: During the operation, please allow the application to obtain Bluetooth, positioning, data and other permissions, and turn on Bluetooth, WiFi, and positioning services, otherwise it may cause devices to be unable to be selected, or network configuration fails.</description>
     </item>
     <item>
-      <title>Search or filter devices</title>
+      <title>Search Or Filter Devices</title>
       <link>https://raymoniot.github.io/en/docs/app/device/search/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://raymoniot.github.io/en/docs/app/device/search/</guid>
       <description>1. Device search link Under &amp;ldquo;Device&amp;rdquo; of the APP, you can search for devices by device serial number&#xA;2. Device filtering link Two conditions for filtering link Filter by device type Filter by device online status </description>
     </item>
     <item>
-      <title>Search or filter events</title>
+      <title>Search Or Filter Events</title>
       <link>https://raymoniot.github.io/en/docs/app/event/search/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://raymoniot.github.io/en/docs/app/event/search/</guid>
       <description>1. Event search link Under &amp;ldquo;Events&amp;rdquo; of the APP, you can search for events by event serial number&#xA;2. Event filtering link There are two states of events, occurring and recovered, which can be filtered by the title</description>
     </item>
     <item>
-      <title>Search or filter power stations</title>
+      <title>Search Or Filter Plants</title>
       <link>https://raymoniot.github.io/en/docs/app/plant/search/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://raymoniot.github.io/en/docs/app/plant/search/</guid>
-      <description>1. Power station search link Under &amp;ldquo;Power Station&amp;rdquo; of the APP, you can search for power stations by power station name keywords&#xA;2. Power station screening link Two conditions for filtering link Filter by power plant type Filter by power plant online status </description>
+      <description>1. Plant search link Under &amp;ldquo;Plant&amp;rdquo; of the APP, you can search for plants by plant name keywords&#xA;2. Plant screening link Two conditions for filtering link Filter by plant type Filter by plant online status </description>
     </item>
     <item>
       <title>The collector is not online when powered on for the first time</title>
@@ -141,7 +141,7 @@
       <description>1. Check the collector signal light link2. Use the network search configuration tool to check the configuration linkFor the usage of the network search configuration tool, refer to Network Search Configuration Tool&#xA;3. Check method link1. Query server selection link Send AT+SERVERSELECT command to query the URL selected in the service area. The firmware after version 3.0 points to URL2 by default, which is the address of each gateway service. If the address is unclear, please contact us.</description>
     </item>
     <item>
-      <title>User information</title>
+      <title>User Information</title>
       <link>https://raymoniot.github.io/en/docs/app/my/profile/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://raymoniot.github.io/en/docs/app/my/profile/</guid>
@@ -155,11 +155,11 @@
       <description>Function Overview link 1. Recent Activities link Operation Records of the Work Order System</description>
     </item>
     <item>
-      <title>Add a collector</title>
+      <title>Add Logger</title>
       <link>https://raymoniot.github.io/en/docs/app/plant/logger/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://raymoniot.github.io/en/docs/app/plant/logger/</guid>
-      <description> Steps link Select a power station in the power station list to enter the power station overview page Click Add Collector in the upper right corner of the power station overview page Scan the code or click the keyboard icon to enter the manual input interface Manually enter the collector SN number and click Add Device </description>
+      <description> Steps link Select a plant in the plant list to enter the plant overview page Click Add logger in the upper right corner of the plant overview page Scan the code or click the keyboard icon to enter the manual input interface Manually enter the logger SN number and click Add Device </description>
     </item>
     <item>
       <title>Battery System</title>
@@ -204,7 +204,7 @@
       <description>Function Overview link 1. Work order status change link 2. Work order modification link 3. To-do link 4. About me link</description>
     </item>
     <item>
-      <title>Account cancellation</title>
+      <title>Account Cancellation</title>
       <link>https://raymoniot.github.io/en/docs/app/my/cancel/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://raymoniot.github.io/en/docs/app/my/cancel/</guid>
@@ -225,7 +225,7 @@
       <description> Click a device in the device list to enter the device details Click to enter history from the menu below Historical data supports four views: day, month, year, and all In the chart, you can view the data at a certain point in time by continuously pressing </description>
     </item>
     <item>
-      <title>Multi-language switch</title>
+      <title>Multi-language Switch</title>
       <link>https://raymoniot.github.io/en/docs/web/login/languages/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://raymoniot.github.io/en/docs/web/login/languages/</guid>
@@ -243,21 +243,21 @@
       <link>https://raymoniot.github.io/en/docs/web/toolkits/remote/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://raymoniot.github.io/en/docs/web/toolkits/remote/</guid>
-      <description>Function Overview linkSend downlink commands to the collector, including firmware upgrade, command transmission, parameter setting&#xA;The remote interaction interface displays the current online collector by default, and can also perform advanced search based on serial number, status, power station, tag, and firmware version number&#xA;1. Firmware Upgrade (OTA) link Firmware upgrade includes upgrading the collector and upgrading the sub-device. The upgrade process is the same, but the types of the two devices are different and the firmware used is different</description>
+      <description>Function Overview linkSend downlink commands to the collector, including firmware upgrade, command transmission, parameter setting&#xA;The remote interaction interface displays the current online collector by default, and can also perform advanced search based on serial number, status, plant, tag, and firmware version number&#xA;1. Firmware Upgrade (OTA) link Firmware upgrade includes upgrading the collector and upgrading the sub-device. The upgrade process is the same, but the types of the two devices are different and the firmware used is different</description>
     </item>
     <item>
-      <title>Switch power plant</title>
+      <title>Switch Plant</title>
       <link>https://raymoniot.github.io/en/docs/app/plant/switch/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://raymoniot.github.io/en/docs/app/plant/switch/</guid>
-      <description> Steps link Select a power plant in the power plant list to enter the power plant overview page Click Switch Power Plant in the upper right corner of the power plant overview page to enter the switch power plant interface Select the power plant to switch to complete the switch </description>
+      <description> Steps link Select a plant in the plant list to enter the plant overview page Click Switch plant in the upper right corner of the plant overview page to enter the switch plant interface Select the plant to switch to complete the switch </description>
     </item>
     <item>
-      <title>Data dashboard</title>
+      <title>Data Dashboard</title>
       <link>https://raymoniot.github.io/en/docs/web/dashboard/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://raymoniot.github.io/en/docs/web/dashboard/</guid>
-      <description>Business use link As an operator or installer, you need to understand the classification quantity and equipment distribution of the power stations under your company. This page displays the total number of power stations and the number of various types of power stations in the platform Display the distribution of power stations in different regions on the map. The map can be scaled, and the distribution will be displayed in different dimensions according to the scaling ratio.</description>
+      <description>Business use link As an operator or installer, you need to understand the classification quantity and equipment distribution of the plants under your company. This page displays the total number of plants and the number of various types of plants in the platform Display the distribution of plants in different regions on the map. The map can be scaled, and the distribution will be displayed in different dimensions according to the scaling ratio.</description>
     </item>
     <item>
       <title>Device Event</title>
@@ -281,7 +281,7 @@
       <description>Function Overview link </description>
     </item>
     <item>
-      <title>Power plant history</title>
+      <title>Plant History</title>
       <link>https://raymoniot.github.io/en/docs/app/plant/history/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://raymoniot.github.io/en/docs/app/plant/history/</guid>
@@ -299,21 +299,21 @@
       <link>https://raymoniot.github.io/en/docs/app/my/ota/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://raymoniot.github.io/en/docs/app/my/ota/</guid>
-      <description>Click OTA Assistant in the &amp;ldquo;My&amp;rdquo; interface at the bottom of the APP The firmware redeemed with the redemption code will be displayed in the list Click Redeem in the upper right corner to redeem the firmware with the redemption code. For redemption code generation, refer to the Web Click Firmware Upgrade to enter the upgrade interface Select the device to be upgraded, and the list will display the online devices under the power station in the current power station overview for upgrade</description>
+      <description>Click OTA Assistant in the &amp;ldquo;My&amp;rdquo; interface at the bottom of the APP The firmware redeemed with the redemption code will be displayed in the list Click Redeem in the upper right corner to redeem the firmware with the redemption code. For redemption code generation, refer to the Web Click Firmware Upgrade to enter the upgrade interface Select the device to be upgraded, and the list will display the online devices under the plant in the current plant overview for upgrade</description>
     </item>
     <item>
-      <title>Photovoltaic system</title>
-      <link>https://raymoniot.github.io/en/docs/web/plant-center/pvs/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://raymoniot.github.io/en/docs/web/plant-center/pvs/</guid>
-      <description>Overview of power station link The overview of the photovoltaic system power station includes four sections: real-time power, daily power, social benefits, and online power station.&#xA;Real-time power: Summary display of the power and installed capacity of photovoltaic power stations under the current login user data permission in the photovoltaic system Daily power: Display the daily power, monthly power generation, annual power generation, and cumulative power generation of photovoltaic power stations under the current login user data permission Social benefits: The social benefits generated by the entire photovoltaic system under the current login user data permission, including tree species index, carbon dioxide emission reduction, and light bulb usage Online power stations: The number of online power stations and the total number of power stations under the current login user data permission Power station list link The power station list displays some information of all online, faulty, and offline power stations.</description>
-    </item>
-    <item>
-      <title>Power Plant Layout</title>
+      <title>Plant Layout</title>
       <link>https://raymoniot.github.io/en/docs/app/plant/layout/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://raymoniot.github.io/en/docs/app/plant/layout/</guid>
-      <description>1. Create layout link Steps link Select a power plant in the power plant list to enter the power plant overview interface Select Layout at the bottom to enter the layout interface Create a layout By default, corresponding components will be created based on all devices under the power plant 2. Edit layout link Steps link You can freely adjust the position of components by dragging them or edit them individually through the edit below</description>
+      <description>1. Create layout link Steps link Select a plant in the plant list to enter the plant overview interface Select Layout at the bottom to enter the layout interface Create a layout By default, corresponding components will be created based on all devices under the plant 2. Edit layout link Steps link You can freely adjust the position of components by dragging them or edit them individually through the edit below</description>
+    </item>
+    <item>
+      <title>PVS</title>
+      <link>https://raymoniot.github.io/en/docs/web/plant-center/pvs/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://raymoniot.github.io/en/docs/web/plant-center/pvs/</guid>
+      <description>Overview of plant link The overview of the PVS plant includes four sections: real-time power, daily power, social benefits, and online plant.&#xA;Real-time power: Summary display of the power and installed capacity of photovoltaic plants under the current login user data permission in the PVS Daily power: Display the daily power, monthly power generation, annual power generation, and cumulative power generation of photovoltaic plants under the current login user data permission Social benefits: The social benefits generated by the entire PVS under the current login user data permission, including tree species index, carbon dioxide emission reduction, and light bulb usage Online plants: The number of online plants and the total number of plants under the current login user data permission Plant list link The plant list displays some information of all online, faulty, and offline plants.</description>
     </item>
     <item>
       <title>About</title>
@@ -323,53 +323,53 @@
       <description> </description>
     </item>
     <item>
-      <title>Battery System</title>
+      <title>BESS</title>
       <link>https://raymoniot.github.io/en/docs/web/plant-center/bess/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://raymoniot.github.io/en/docs/web/plant-center/bess/</guid>
-      <description>Overview of Power Plant link The overview of the power plant of the battery system includes four sections: real-time power, charge and discharge statistics, social benefits, and online power plant.&#xA;Real-time power: Summary display of battery system power and installed capacity under the data permission of the current logged-in user in the battery system Charge and discharge statistics: Display the daily charge, daily discharge, cumulative charge, and cumulative discharge of the photovoltaic power station under the data permission of the current logged-in user Social benefits: The social benefits generated by the entire photovoltaic system under the data permission of the current logged-in user, including tree species index, carbon dioxide emission reduction, and light bulb usage Online power station: The number of online power stations and the total number of power stations under the data permission of the current logged-in user Power station list linkThis is the same as the photovoltaic system, please refer to Power station list</description>
+      <description>Overview of Plant link The overview of the plant of the BESS includes four sections: real-time power, charge and discharge statistics, social benefits, and online plant.&#xA;Real-time power: Summary display of BESS power and installed capacity under the data permission of the current logged-in user in the BESS Charge and discharge statistics: Display the daily charge, daily discharge, cumulative charge, and cumulative discharge of the photovoltaic plant under the data permission of the current logged-in user Social benefits: The social benefits generated by the entire photovoltaic system under the data permission of the current logged-in user, including tree species index, carbon dioxide emission reduction, and light bulb usage Online plant: The number of online plants and the total number of plants under the data permission of the current logged-in user Plant list linkThis is the same as the photovoltaic system, please refer to Plant list</description>
     </item>
     <item>
-      <title>Household Energy Storage</title>
+      <title>HESS</title>
       <link>https://raymoniot.github.io/en/docs/web/plant-center/hess/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://raymoniot.github.io/en/docs/web/plant-center/hess/</guid>
-      <description>Overview of Power Plant link The overview of the power plant for household energy storage includes four sections: power generation, power grid, battery, and power consumption.&#xA;Power generation: Display the power generation power, photovoltaic installed capacity, daily power generation, monthly power generation, annual power generation, and annual power generation of household energy storage power stations under the data permission of the current logged-in user Grid: Display the purchase and sale power of household energy storage power stations under the data permission of the current logged-in user Battery: Display the SOC, daily discharge, and daily charging of household energy storage power stations under the data permission of the current logged-in user Power consumption: Display the power consumption power, daily power consumption, monthly power consumption, annual power consumption, and total power consumption of household energy storage power stations under the data permission of the current logged-in user Power station list linkThis is the same as the photovoltaic system, please refer to Power station list</description>
+      <description>Overview of Plant link The overview of the plant for HESS includes four sections: power generation, power grid, battery, and power consumption.&#xA;Power generation: Display the power generation power, photovoltaic installed capacity, daily power generation, monthly power generation, annual power generation, and annual power generation of HESS plants under the data permission of the current logged-in user Grid: Display the purchase and sale power of HESS plants under the data permission of the current logged-in user Battery: Display the SOC, daily discharge, and daily charging of HESS plants under the data permission of the current logged-in user Power consumption: Display the power consumption power, daily power consumption, monthly power consumption, annual power consumption, and total power consumption of HESS plants under the data permission of the current logged-in user Plant list linkThis is the same as the photovoltaic system, please refer to Plant list</description>
     </item>
     <item>
-      <title>Commercial power station</title>
+      <title>EMS</title>
       <link>https://raymoniot.github.io/en/docs/web/plant-center/ems/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://raymoniot.github.io/en/docs/web/plant-center/ems/</guid>
-      <description>The battery system has the same structure as the photovoltaic system, please refer to Photovoltaic system&#xA;Overview of power station linkThis is the same as household energy storage, please refer to Overview of power station&#xA;Power station list linkThis is the same as the photovoltaic system, please refer to Power station list&#xA;Power station map linkThis is the same as the photovoltaic system, please refer to Power station map&#xA;System large screen linkThis is the same as the photovoltaic system, please refer to Power station large screen</description>
+      <description>The battery system has the same structure as the photovoltaic system, please refer to PVS&#xA;Overview of Plant linkThis is the same as household energy storage, please refer to Overview of Plant&#xA;Plant list linkThis is the same as the photovoltaic system, please refer to Plant list&#xA;Plant map linkThis is the same as the photovoltaic system, please refer to Plant map&#xA;System large screen linkThis is the same as the photovoltaic system, please refer to Plant large screen</description>
     </item>
     <item>
-      <title>Create a power plant</title>
+      <title>Create Plant</title>
       <link>https://raymoniot.github.io/en/docs/web/plant-center/create-plant/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://raymoniot.github.io/en/docs/web/plant-center/create-plant/</guid>
-      <description>1. Create an entrance link 2. Complete the power plant information link2.1 Fill in basic information link 2.2 Select the geographic location link Allow the website to locate and quickly obtain the current location&#xA;Select a location on the map to obtain coordinate information as the power plant location&#xA;2.3 Add stakeholders (visitors) link Enter the visitor&amp;rsquo;s email address to authorize the power plant to other accounts on the platform so that they have access to the power plant</description>
+      <description>1. Create an entrance link 2. Complete the plant information link2.1 Fill in basic information link 2.2 Select the geographic location link Allow the website to locate and quickly obtain the current location&#xA;Select a location on the map to obtain coordinate information as the plant location&#xA;2.3 Add stakeholders (visitors) link Enter the visitor&amp;rsquo;s email address to authorize the plant to other accounts on the platform so that they have access to the plant</description>
     </item>
     <item>
-      <title>Modify a power plant</title>
+      <title>Modify Plant</title>
       <link>https://raymoniot.github.io/en/docs/web/plant-center/edit-plant/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://raymoniot.github.io/en/docs/web/plant-center/edit-plant/</guid>
-      <description>1. Modify the power plant entrance link For the steps to modify the power plant, please refer to [Complete power plant information] (https://raymoniot.github.io/en/docs/web/plant-center/create-plant/#2Complete power plant information &amp;ldquo;Create power plant&amp;rdquo;)</description>
+      <description>1. Modify the plant entrance link For the steps to modify the plant, please refer to Complete plant information</description>
     </item>
     <item>
       <title>Visitor Authorization</title>
       <link>https://raymoniot.github.io/en/docs/web/plant-center/guest-access/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://raymoniot.github.io/en/docs/web/plant-center/guest-access/</guid>
-      <description>1. Authorization entry linkIn Modify power plant, authorize by completing Add stakeholders in the power plant information.</description>
+      <description>1. Authorization entry linkIn Modify plant, authorize by completing Add stakeholders in the plant information.</description>
     </item>
     <item>
-      <title>Add a collector</title>
+      <title>Add Logger</title>
       <link>https://raymoniot.github.io/en/docs/web/plant-center/add-logger/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://raymoniot.github.io/en/docs/web/plant-center/add-logger/</guid>
-      <description>1. Add a collector entry linkEnter the Power Station Details Page of the power station from the power station list, and add a collector in the upper right corner&#xA;2. Function Overview link 2.1 Enter the collector serial number to add link Add a serial number. Before adding, you must first Enter the Collector, if already in the library, ignore&#xA;Click the Submit button to complete the collector addition&#xA;2.2 Add through template file link Download template collector-import-template.</description>
+      <description>1. Add a collector entry linkEnter the Plant Details Page of the plant from the plant list, and add a collector in the upper right corner&#xA;2. Function Overview link 2.1 Enter the collector serial number to add link Add a serial number. Before adding, you must first Enter the Collector, if already in the library, ignore&#xA;Click the Submit button to complete the collector addition&#xA;2.2 Add through template file link Download template collector-import-template.</description>
     </item>
   </channel>
 </rss>

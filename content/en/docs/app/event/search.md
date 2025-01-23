@@ -1,5 +1,5 @@
 ---
-title: Search or filter events
+title: Search Or Filter Events
 weight: 2
 description: Search events based on conditions
 ---

@@ -1,10 +1,10 @@
 ---
-title: Search or filter power stations
+title: Search Or Filter Plants
 weight: 2
-description: Search power stations according to conditions
+description: Search plants according to conditions
 ---
 
-## 1. Power station search
+## 1. Plant search
 
 <img src="../../../../photo/docs/app/plant/search.png" style="margin-right: 50px" width="300">
 
@@ -12,9 +12,9 @@ description: Search power stations according to conditions
 
 <img src="../../../../photo/docs/app/plant/search2.png" style="margin-right: 0px" width="300">
 
-Under "Power Station" of the APP, you can search for power stations by power station name keywords
+Under "Plant" of the APP, you can search for plants by plant name keywords
 
-## 2. Power station screening
+## 2. Plant screening
 
 <img src="../../../../photo/docs/app/plant/search-type.png" style="margin-right: 50px" width="300">
 
@@ -22,5 +22,5 @@ Under "Power Station" of the APP, you can search for power stations by power sta
 
 ### Two conditions for filtering
 
-- Filter by power plant type
-- Filter by power plant online status
+- Filter by plant type
+- Filter by plant online status

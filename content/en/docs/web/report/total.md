@@ -1,5 +1,5 @@
 ---
-title: Summary data
+title: Summary Data
 description: Platform power plant, equipment data summary, can export power plant report, equipment report
 weight: 1
 ---

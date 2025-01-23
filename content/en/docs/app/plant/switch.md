@@ -1,7 +1,7 @@
 ---
-title: Switch power plant
+title: Switch Plant
 weight: 4
-description: Switch to other power plant overview page
+description: Switch to other plant overview page
 ---
 
 <img src="../../../../photo/docs/app/plant/switch.png" style="margin-right: 50px" width="300">
@@ -12,6 +12,6 @@ description: Switch to other power plant overview page
 
 ### Steps
 
-1. Select a power plant in the power plant list to enter the power plant overview page
-2. Click Switch Power Plant in the upper right corner of the power plant overview page to enter the switch power plant interface
-3. Select the power plant to switch to complete the switch
+1. Select a plant in the plant list to enter the plant overview page
+2. Click Switch plant in the upper right corner of the plant overview page to enter the switch plant interface
+3. Select the plant to switch to complete the switch

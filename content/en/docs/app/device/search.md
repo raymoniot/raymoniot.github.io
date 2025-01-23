@@ -1,5 +1,5 @@
 ---
-title: Search or filter devices
+title: Search Or Filter Devices
 weight: 2
 description: Search devices based on conditions
 ---

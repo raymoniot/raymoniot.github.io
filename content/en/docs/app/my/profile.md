@@ -1,5 +1,5 @@
 ---
-title: User information
+title: User Information
 weight: 2
 description: Account information
 ---

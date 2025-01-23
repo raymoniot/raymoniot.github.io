@@ -16,7 +16,7 @@ Batch parameter setting, firmware upgrade, command transmission, etc. for device
 
 <img src="../../../../photo/docs/toolkits/batch-add1.png" width="700" height="550">
 
-Can filter devices according to specified device type and power station
+Can filter devices according to specified device type and plant
 
 <img src="../../../../photo/docs/toolkits/batch-add2.png" width="700" height="550">
 

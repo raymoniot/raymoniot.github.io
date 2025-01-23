@@ -18,6 +18,6 @@ weight: 3
 
 The data dashboard provides the following data support:
 
-- Number of power stations: Display the total number of power stations and the number of various types of power stations on the platform
+- Number of plants: Display the total number of plants and the number of various types of plants on the platform
 
-Power station distribution: Display the distribution of power stations in different regions on the map. The map can be scaled, and the distribution will be displayed in different dimensions according to the scaling ratio.
+plant distribution: Display the distribution of plants in different regions on the map. The map can be scaled, and the distribution will be displayed in different dimensions according to the scaling ratio.

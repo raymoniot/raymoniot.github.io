@@ -10,7 +10,7 @@ Send downlink commands to the collector, including firmware upgrade, command tra
 
 <img src="../../../../photo/docs/toolkits/remote-enter.png">
 
-The remote interaction interface displays the current online collector by default, and can also perform advanced search based on serial number, status, power station, tag, and firmware version number
+The remote interaction interface displays the current online collector by default, and can also perform advanced search based on serial number, status, plant, tag, and firmware version number
 
 ## 1. Firmware Upgrade (OTA)
 

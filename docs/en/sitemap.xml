@@ -602,16 +602,16 @@
                 href="https://raymoniot.github.io/en/docs/app/my/ota/"
                 />
   </url><url>
-    <loc>https://raymoniot.github.io/en/docs/web/plant-center/pvs/</loc>
+    <loc>https://raymoniot.github.io/en/docs/web/plant-center/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
-                href="https://raymoniot.github.io/zh/docs/web/plant-center/pvs/"
+                href="https://raymoniot.github.io/zh/docs/web/plant-center/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://raymoniot.github.io/en/docs/web/plant-center/pvs/"
+                href="https://raymoniot.github.io/en/docs/web/plant-center/"
                 />
   </url><url>
     <loc>https://raymoniot.github.io/en/docs/app/plant/layout/</loc>
@@ -626,16 +626,16 @@
                 href="https://raymoniot.github.io/en/docs/app/plant/layout/"
                 />
   </url><url>
-    <loc>https://raymoniot.github.io/en/docs/web/plant-center/</loc>
+    <loc>https://raymoniot.github.io/en/docs/web/plant-center/pvs/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
-                href="https://raymoniot.github.io/zh/docs/web/plant-center/"
+                href="https://raymoniot.github.io/zh/docs/web/plant-center/pvs/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://raymoniot.github.io/en/docs/web/plant-center/"
+                href="https://raymoniot.github.io/en/docs/web/plant-center/pvs/"
                 />
   </url><url>
     <loc>https://raymoniot.github.io/en/docs/app/my/about/</loc>

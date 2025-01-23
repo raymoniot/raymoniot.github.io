@@ -23,4 +23,4 @@ description: Account Information
 
 <img src="../../../../photo/docs/app/my/ota6.png" style="margin-right: 50px" width="300">
 
-Select the device to be upgraded, and the list will display the online devices under the power station in the current power station overview for upgrade
+Select the device to be upgraded, and the list will display the online devices under the plant in the current plant overview for upgrade

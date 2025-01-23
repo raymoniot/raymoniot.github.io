@@ -8,14 +8,14 @@
     <language>en</language>
     <atom:link href="https://raymoniot.github.io/en/docs/app/my/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Switch perspective</title>
+      <title>Switch Perspective</title>
       <link>https://raymoniot.github.io/en/docs/app/my/switch/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://raymoniot.github.io/en/docs/app/my/switch/</guid>
-      <description> Select My in the menu bar at the bottom of the APP, and you can switch the access mode of the App in Switch perspective There are two access perspectives, professional consultant and end user Professional consultant: Use the APP as an equipment manufacturer or dealer, focusing on all power stations and equipment under the platform End user: Use the APP as a power station owner, focusing on my power station and equipment </description>
+      <description> Select My in the menu bar at the bottom of the APP, and you can switch the access mode of the App in Switch perspective There are two access perspectives, professional consultant and end user Professional consultant: Use the APP as an equipment manufacturer or dealer, focusing on all plants and equipment under the platform End user: Use the APP as a plant owner, focusing on my plant and equipment </description>
     </item>
     <item>
-      <title>User information</title>
+      <title>User Information</title>
       <link>https://raymoniot.github.io/en/docs/app/my/profile/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://raymoniot.github.io/en/docs/app/my/profile/</guid>
@@ -29,7 +29,7 @@
       <description> To change the password, you need to send a verification code to the account-bound email address After filling in the correct verification code, you can reset your password </description>
     </item>
     <item>
-      <title>Account cancellation</title>
+      <title>Account Cancellation</title>
       <link>https://raymoniot.github.io/en/docs/app/my/cancel/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://raymoniot.github.io/en/docs/app/my/cancel/</guid>
@@ -47,7 +47,7 @@
       <link>https://raymoniot.github.io/en/docs/app/my/ota/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://raymoniot.github.io/en/docs/app/my/ota/</guid>
-      <description>Click OTA Assistant in the &amp;ldquo;My&amp;rdquo; interface at the bottom of the APP The firmware redeemed with the redemption code will be displayed in the list Click Redeem in the upper right corner to redeem the firmware with the redemption code. For redemption code generation, refer to the Web Click Firmware Upgrade to enter the upgrade interface Select the device to be upgraded, and the list will display the online devices under the power station in the current power station overview for upgrade</description>
+      <description>Click OTA Assistant in the &amp;ldquo;My&amp;rdquo; interface at the bottom of the APP The firmware redeemed with the redemption code will be displayed in the list Click Redeem in the upper right corner to redeem the firmware with the redemption code. For redemption code generation, refer to the Web Click Firmware Upgrade to enter the upgrade interface Select the device to be upgraded, and the list will display the online devices under the plant in the current plant overview for upgrade</description>
     </item>
     <item>
       <title>About</title>

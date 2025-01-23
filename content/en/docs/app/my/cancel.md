@@ -1,5 +1,5 @@
 ---
-title: Account cancellation
+title: Account Cancellation
 weight: 4
 description: Account information
 ---

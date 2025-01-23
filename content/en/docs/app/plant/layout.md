@@ -1,7 +1,7 @@
 ---
-title: Power Plant Layout
+title: Plant Layout
 weight: 6
-description: Power Plant Layout
+description: Plant Layout
 ---
 
 ## 1. Create layout
@@ -16,10 +16,10 @@ description: Power Plant Layout
 
 ### Steps
 
-1. Select a power plant in the power plant list to enter the power plant overview interface
+1. Select a plant in the plant list to enter the plant overview interface
 2. Select Layout at the bottom to enter the layout interface
 3. Create a layout
-4. By default, corresponding components will be created based on all devices under the power plant
+4. By default, corresponding components will be created based on all devices under the plant
 
 ## 2. Edit layout
 

@@ -1,5 +1,5 @@
 ---
-title: Registration and Login
+title: Registration And Login
 weight: 1
 description: Solarhub App registration, login
 ---

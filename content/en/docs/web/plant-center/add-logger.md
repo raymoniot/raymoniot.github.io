@@ -1,11 +1,11 @@
 ---
-title: Add a collector
-description: Add a collector under a power station
+title: Add Logger
+description: Add a logger under a plant
 weight: 13
 ---
 ## 1. Add a collector entry
 
-Enter the [Power Station Details Page]({{< ref "/pvs/#Power Station Details Page" >}} "Power Station Details Page") of the power station from the power station list, and add a collector in the upper right corner
+Enter the [Plant Details Page]({{< ref "/pvs/#Power Station Details Page" >}} "Plant Details Page") of the plant from the plant list, and add a collector in the upper right corner
 
 ![psv-overview](../../../../photo/docs/add-logger/add-logger-enter.png)
 
