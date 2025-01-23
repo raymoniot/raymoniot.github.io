@@ -285,7 +285,7 @@
       <link>https://raymoniot.github.io/en/docs/app/plant/history/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://raymoniot.github.io/en/docs/app/plant/history/</guid>
-      <description> Steps link Select a power station in the power station list to enter the power station overview interface Select History at the bottom to enter the history interface You can view the data at a certain time point by pressing the chart You can switch the historical data of the previous day or the next day by using the arrow above, and click the time to manually select the time </description>
+      <description> Steps link Select a plant in the plant list to enter the plant overview interface Select History at the bottom to enter the history interface You can view the data at a certain time point by pressing the chart You can switch the historical data of the previous day or the next day by using the arrow above, and click the time to manually select the time </description>
     </item>
     <item>
       <title>Smart Meter</title>

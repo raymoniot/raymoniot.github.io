@@ -13,7 +13,7 @@ description: Plant historical data
 
 ### Steps
 
-1. Select a power station in the power station list to enter the power station overview interface
+1. Select a plant in the plant list to enter the plant overview interface
 2. Select History at the bottom to enter the history interface
 3. You can view the data at a certain time point by **pressing** the chart
 4. You can switch the historical data of the previous day or the next day by using the arrow above, and click the time to manually select the time
