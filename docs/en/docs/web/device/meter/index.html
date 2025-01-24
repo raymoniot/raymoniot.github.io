@@ -404,8 +404,8 @@ The meter details page displays meter information and micro-inverter devices
 <script>
     document.getElementById('version-selector').addEventListener('change', function() {
         var selectedVersion = this.value.toLowerCase();
-        var domain = "https://raymoniot.github.io"
         
+        var domain = "http://localhost:1313"
         var lang = "en"
         var jumpUrl = domain + "/" + lang + "/" + "docs" + "/" + selectedVersion
         window.location.href = jumpUrl
