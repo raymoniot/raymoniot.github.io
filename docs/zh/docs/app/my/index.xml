@@ -50,6 +50,13 @@
       <description>在APP底部&amp;quot;我的&amp;quot;界面点击OTA助手 使用兑换码兑换的固件将显示在列表中 点击右上角兑换可以使用兑换码兑换固件，兑换码生成参考Web 点击固件升级进入升级界面 选择需要升级的设备，列表会将当前电站概览的电站下的在线设备展示出，用于升级</description>
     </item>
     <item>
+      <title>本地调试</title>
+      <link>https://raymoniot.github.io/zh/docs/app/my/bledebug/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://raymoniot.github.io/zh/docs/app/my/bledebug/</guid>
+      <description>模版引擎渲染 link 在APP底部&amp;quot;我的&amp;quot;界面点击本地调试 APP首次进入本地调试功能后会自动下载模版渲染引擎用于加载模版数据，模版引擎会进行迭代，拥有更强大的功能，可以在后续使用中随时更新 模版管理 link 在首次进入本地调试时，会自动下载最新的模版，点击模版按钮可以更新最新的模版 也可以通过右上角扫瞄模版二维码下载模版 固件管理 link 通过固件管理可以下载系统中存在的固件&#xA;本地调试 link 通过蓝牙对设备进行连接，连接成功后可以进行参数读取、参数设置、固件升级&#xA;参数读取：读取设备参数 参数设置：对指定参数进行修改 固件升级：对设备进OTA操作 在APP未登录时仍可以进行本地调试</description>
+    </item>
+    <item>
       <title>关于</title>
       <link>https://raymoniot.github.io/zh/docs/app/my/about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>

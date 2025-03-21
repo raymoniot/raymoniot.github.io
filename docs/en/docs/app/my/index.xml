@@ -43,6 +43,13 @@
       <description>Go to &amp;ldquo;My&amp;rdquo; at the bottom of the APP and click Network Configuration to enter the network configuration interface and prepare for network configuration To configure the network, you need to turn on Bluetooth, connect to 2.4GhzWIFi, and authorize Bluetooth WiFi and other permissions to the APP, otherwise the network configuration may fail. Add a device in the upper right corner, add a device by scanning the code or manually entering the serial number If the device enters the network configuration state, it will appear to be checked.</description>
     </item>
     <item>
+      <title>Local Debugging</title>
+      <link>https://raymoniot.github.io/en/docs/app/my/bledebug/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://raymoniot.github.io/en/docs/app/my/bledebug/</guid>
+      <description>Template engine rendering link Click local debugging in the &amp;ldquo;My&amp;rdquo; interface at the bottom of the APP After the APP enters the local debugging function for the first time, it will automatically download the template rendering engine to load the template data. The template engine will iterate and have more powerful functions, which can be updated at any time in subsequent use Template Management link When you first enter local debugging, the latest template will be automatically downloaded.</description>
+    </item>
+    <item>
       <title>OTA Assistant</title>
       <link>https://raymoniot.github.io/en/docs/app/my/ota/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>

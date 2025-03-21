@@ -295,6 +295,13 @@
       <description>Function Overview link1. Device List link The device list can view online, faulty, offline and all device information.&#xA;2. Meter details page link You can enter the device details page from the device in the device list&#xA;The meter details page displays meter information and micro-inverter devices&#xA;3.1 Alarm linkRefer to Collector Alarm&#xA;3.2 Unbinding linkRefer to Collector Unbinding, Unbinding a sub-device will delete the sub-device from the collector and clear the sub-device data.</description>
     </item>
     <item>
+      <title>Local Debugging</title>
+      <link>https://raymoniot.github.io/en/docs/app/my/bledebug/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://raymoniot.github.io/en/docs/app/my/bledebug/</guid>
+      <description>Template engine rendering link Click local debugging in the &amp;ldquo;My&amp;rdquo; interface at the bottom of the APP After the APP enters the local debugging function for the first time, it will automatically download the template rendering engine to load the template data. The template engine will iterate and have more powerful functions, which can be updated at any time in subsequent use Template Management link When you first enter local debugging, the latest template will be automatically downloaded.</description>
+    </item>
+    <item>
       <title>OTA Assistant</title>
       <link>https://raymoniot.github.io/en/docs/app/my/ota/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>

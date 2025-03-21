@@ -578,6 +578,18 @@
                 href="https://raymoniot.github.io/en/docs/web/device/meter/"
                 />
   </url><url>
+    <loc>https://raymoniot.github.io/en/docs/app/my/bledebug/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://raymoniot.github.io/zh/docs/app/my/bledebug/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://raymoniot.github.io/en/docs/app/my/bledebug/"
+                />
+  </url><url>
     <loc>https://raymoniot.github.io/en/docs/app/my/</loc>
     <xhtml:link
                 rel="alternate"
