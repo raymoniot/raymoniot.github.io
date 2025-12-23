@@ -2,51 +2,51 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Plant on Solarhub Help Center</title>
-    <link>https://raymoniot.github.io/en/docs/app/plant/</link>
+    <link>http://localhost:1313/en/docs/app/plant/</link>
     <description>Recent content in Plant on Solarhub Help Center</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <atom:link href="https://raymoniot.github.io/en/docs/app/plant/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/en/docs/app/plant/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Create Plant</title>
-      <link>https://raymoniot.github.io/en/docs/app/plant/create/</link>
+      <link>http://localhost:1313/en/docs/app/plant/create/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://raymoniot.github.io/en/docs/app/plant/create/</guid>
+      <guid>http://localhost:1313/en/docs/app/plant/create/</guid>
       <description>Creation method 1 link Steps link Click the plus sign in the upper right corner of the plant list to enter the plant creation interface After adding the plant information, click the save button in the upper right corner to create successfully Creation method 2 link Steps link Click on the plant in the plant list to enter the plant overview interface Click Create Power Station in the upper right corner menu After adding the plant information, click the Save button in the upper right corner to create successfully </description>
     </item>
     <item>
       <title>Search Or Filter Plants</title>
-      <link>https://raymoniot.github.io/en/docs/app/plant/search/</link>
+      <link>http://localhost:1313/en/docs/app/plant/search/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://raymoniot.github.io/en/docs/app/plant/search/</guid>
+      <guid>http://localhost:1313/en/docs/app/plant/search/</guid>
       <description>1. Plant search link Under &amp;ldquo;Plant&amp;rdquo; of the APP, you can search for plants by plant name keywords&#xA;2. Plant screening link Two conditions for filtering link Filter by plant type Filter by plant online status </description>
     </item>
     <item>
       <title>Add Logger</title>
-      <link>https://raymoniot.github.io/en/docs/app/plant/logger/</link>
+      <link>http://localhost:1313/en/docs/app/plant/logger/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://raymoniot.github.io/en/docs/app/plant/logger/</guid>
+      <guid>http://localhost:1313/en/docs/app/plant/logger/</guid>
       <description> Steps link Select a plant in the plant list to enter the plant overview page Click Add logger in the upper right corner of the plant overview page Scan the code or click the keyboard icon to enter the manual input interface Manually enter the logger SN number and click Add Device </description>
     </item>
     <item>
       <title>Switch Plant</title>
-      <link>https://raymoniot.github.io/en/docs/app/plant/switch/</link>
+      <link>http://localhost:1313/en/docs/app/plant/switch/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://raymoniot.github.io/en/docs/app/plant/switch/</guid>
+      <guid>http://localhost:1313/en/docs/app/plant/switch/</guid>
       <description> Steps link Select a plant in the plant list to enter the plant overview page Click Switch plant in the upper right corner of the plant overview page to enter the switch plant interface Select the plant to switch to complete the switch </description>
     </item>
     <item>
       <title>Plant History</title>
-      <link>https://raymoniot.github.io/en/docs/app/plant/history/</link>
+      <link>http://localhost:1313/en/docs/app/plant/history/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://raymoniot.github.io/en/docs/app/plant/history/</guid>
+      <guid>http://localhost:1313/en/docs/app/plant/history/</guid>
       <description> Steps link Select a plant in the plant list to enter the plant overview interface Select History at the bottom to enter the history interface You can view the data at a certain time point by pressing the chart You can switch the historical data of the previous day or the next day by using the arrow above, and click the time to manually select the time </description>
     </item>
     <item>
       <title>Plant Layout</title>
-      <link>https://raymoniot.github.io/en/docs/app/plant/layout/</link>
+      <link>http://localhost:1313/en/docs/app/plant/layout/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://raymoniot.github.io/en/docs/app/plant/layout/</guid>
+      <guid>http://localhost:1313/en/docs/app/plant/layout/</guid>
       <description>1. Create layout link Steps link Select a plant in the plant list to enter the plant overview interface Select Layout at the bottom to enter the layout interface Create a layout By default, corresponding components will be created based on all devices under the plant 2. Edit layout link Steps link You can freely adjust the position of components by dragging them or edit them individually through the edit below</description>
     </item>
   </channel>
