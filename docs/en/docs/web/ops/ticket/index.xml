@@ -2,30 +2,30 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Work Order System on Solarhub Help Center</title>
-    <link>http://localhost:1313/en/docs/web/ops/ticket/</link>
+    <link>https://raymoniot.github.io/en/docs/web/ops/ticket/</link>
     <description>Recent content in Work Order System on Solarhub Help Center</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <atom:link href="http://localhost:1313/en/docs/web/ops/ticket/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://raymoniot.github.io/en/docs/web/ops/ticket/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Work Order Dashboard</title>
-      <link>http://localhost:1313/en/docs/web/ops/ticket/dashboard/</link>
+      <link>https://raymoniot.github.io/en/docs/web/ops/ticket/dashboard/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/en/docs/web/ops/ticket/dashboard/</guid>
+      <guid>https://raymoniot.github.io/en/docs/web/ops/ticket/dashboard/</guid>
       <description>Function Overview link 1. Recent Activities link Operation Records of the Work Order System</description>
     </item>
     <item>
       <title>Work Order List</title>
-      <link>http://localhost:1313/en/docs/web/ops/ticket/list/</link>
+      <link>https://raymoniot.github.io/en/docs/web/ops/ticket/list/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/en/docs/web/ops/ticket/list/</guid>
+      <guid>https://raymoniot.github.io/en/docs/web/ops/ticket/list/</guid>
       <description>Function Overview link 1. Work order status change link 2. Work order modification link 3. To-do link 4. About me link</description>
     </item>
     <item>
       <title>Customer Team</title>
-      <link>http://localhost:1313/en/docs/web/ops/ticket/team/</link>
+      <link>https://raymoniot.github.io/en/docs/web/ops/ticket/team/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/en/docs/web/ops/ticket/team/</guid>
+      <guid>https://raymoniot.github.io/en/docs/web/ops/ticket/team/</guid>
       <description>Function Overview link 1. Create a new team link 2. Modify link 3. Disband link</description>
     </item>
   </channel>

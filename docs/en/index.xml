@@ -2,380 +2,380 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Solarhub Help Center</title>
-    <link>http://localhost:1313/en/</link>
+    <link>https://raymoniot.github.io/en/</link>
     <description>Recent content on Solarhub Help Center</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <atom:link href="http://localhost:1313/en/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://raymoniot.github.io/en/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Collector</title>
-      <link>http://localhost:1313/en/docs/web/device/collector/</link>
+      <link>https://raymoniot.github.io/en/docs/web/device/collector/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/en/docs/web/device/collector/</guid>
+      <guid>https://raymoniot.github.io/en/docs/web/device/collector/</guid>
       <description>Function Overview link1. Device List link The device list can view online, faulty, offline and all device information.&#xA;For collector devices, there are two additional states&#xA;Installed: The collector is bound to a plant after entering the warehouse&#xA;Not Installed: The collector is not bound to a plant after entering the warehouse&#xA;2. Collector entry link There are two ways to enter the collector&#xA;Single import: import a single collector, import one collector at a time</description>
     </item>
     <item>
       <title>Create Plant</title>
-      <link>http://localhost:1313/en/docs/app/plant/create/</link>
+      <link>https://raymoniot.github.io/en/docs/app/plant/create/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/en/docs/app/plant/create/</guid>
+      <guid>https://raymoniot.github.io/en/docs/app/plant/create/</guid>
       <description>Creation method 1 link Steps link Click the plus sign in the upper right corner of the plant list to enter the plant creation interface After adding the plant information, click the save button in the upper right corner to create successfully Creation method 2 link Steps link Click on the plant in the plant list to enter the plant overview interface Click Create Power Station in the upper right corner menu After adding the plant information, click the Save button in the upper right corner to create successfully </description>
     </item>
     <item>
       <title>Event Center</title>
-      <link>http://localhost:1313/en/docs/web/ops/events/</link>
+      <link>https://raymoniot.github.io/en/docs/web/ops/events/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/en/docs/web/ops/events/</guid>
+      <guid>https://raymoniot.github.io/en/docs/web/ops/events/</guid>
       <description>Function Overview link 1. Advanced Search link Supports searching by event level, event time, power plant name, equipment serial number, event code, and event content as conditions&#xA;2. Create a new work order link Create a work order for a single event</description>
     </item>
     <item>
       <title>Firmware Management</title>
-      <link>http://localhost:1313/en/docs/web/toolkits/firmware/</link>
+      <link>https://raymoniot.github.io/en/docs/web/toolkits/firmware/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/en/docs/web/toolkits/firmware/</guid>
+      <guid>https://raymoniot.github.io/en/docs/web/toolkits/firmware/</guid>
       <description>Function Overview linkPlatform device firmware management, including firmware search, adding firmware, modifying firmware, downloading firmware, access authorization, generating redemption codes, etc.&#xA;1. Firmware Search link Advanced search can be performed based on device type or firmware name&#xA;2. Add firmware link Firmware version should not be too long, please make sure firmware file is legal, otherwise it will not be added&#xA;3. Other operations link 3.1 Modify firmware link 3.2 Delete firmware link 3.</description>
     </item>
     <item>
       <title>Network Search Tool</title>
-      <link>http://localhost:1313/en/docs/kit/1.network-tools/</link>
+      <link>https://raymoniot.github.io/en/docs/kit/1.network-tools/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/en/docs/kit/1.network-tools/</guid>
+      <guid>https://raymoniot.github.io/en/docs/kit/1.network-tools/</guid>
       <description>Function Overview linkThe network search configuration tool is mainly used to configure the WiFi data stick (collector). Using the network search tool to send commands to the collector can modify the parameters of the collector&#xA;Usage link1. Prerequisites linkThe PC using the network search tool must be in the same network as the collector, otherwise the collector will not be searched&#xA;2. Search for all collector devices in the current network link After opening the software, the network search tool will automatically find the gateway address of the current network as the search address by default.</description>
     </item>
     <item>
       <title>Organizational Structure</title>
-      <link>http://localhost:1313/en/docs/web/organization/tree/</link>
+      <link>https://raymoniot.github.io/en/docs/web/organization/tree/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/en/docs/web/organization/tree/</guid>
+      <guid>https://raymoniot.github.io/en/docs/web/organization/tree/</guid>
       <description>Function Overview link 1. Member List link View all members under the current organization&#xA;1.1 Add Members link Add members to the selected organization&#xA;Definition of the data permissions for new members:&#xA;Only for oneself: Newly added members can only see data within their permissions People in the same organization: Newly added members can see data within their own authority, and can also see data within other members in the same organization People in the same organization &amp;amp; subordinate organizations: Newly added members can see data within their own authority, and can also see data within other members in the same organization and other members in subordinate organizations 1.</description>
     </item>
     <item>
       <title>Overview</title>
-      <link>http://localhost:1313/en/docs/web/overview/</link>
+      <link>https://raymoniot.github.io/en/docs/web/overview/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/en/docs/web/overview/</guid>
+      <guid>https://raymoniot.github.io/en/docs/web/overview/</guid>
       <description>Solarhub Web Overview linkSolarhub Web provides comprehensive energy monitoring services such as photovoltaic, wind power, and energy storage, and provides professional and efficient comprehensive energy cloud monitoring platform services for medium and large plants, equipment manufacturers, operation and maintenance providers, and household plant owners.&#xA;Have a Solarhub account link Experience account: In order to facilitate you to quickly experience the functions of Solarhub, we have opened a customer experience account. You can communicate with the business docking person in charge and enter the experience account and password to experience Solarhub.</description>
     </item>
     <item>
       <title>Point Query</title>
-      <link>http://localhost:1313/en/docs/web/toolkits/point-query/</link>
+      <link>https://raymoniot.github.io/en/docs/web/toolkits/point-query/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/en/docs/web/toolkits/point-query/</guid>
+      <guid>https://raymoniot.github.io/en/docs/web/toolkits/point-query/</guid>
       <description>Function Overview linkQuery the device&amp;rsquo;s reporting of point data, and the latest data report will be displayed&#xA;1. Point Query Export link Enter the device serial number to query the device data&#xA;Select the export time to export the data of a certain day</description>
     </item>
     <item>
       <title>Registration And Login</title>
-      <link>http://localhost:1313/en/docs/app/login-register/</link>
+      <link>https://raymoniot.github.io/en/docs/app/login-register/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/en/docs/app/login-register/</guid>
+      <guid>https://raymoniot.github.io/en/docs/app/login-register/</guid>
       <description>1. Account registration link Registration information overview:&#xA;Email: used for account login and registration security code acquisition Security code: Enter a valid email address to send the security code Username: Platform users can use it as the platform account to log in Password: Platform account password Time zone: Account time zone. The platform will select different time zone offsets for time display based on the different account time zones Installer information: No need to change by default.</description>
     </item>
     <item>
       <title>Summary Data</title>
-      <link>http://localhost:1313/en/docs/web/report/total/</link>
+      <link>https://raymoniot.github.io/en/docs/web/report/total/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/en/docs/web/report/total/</guid>
+      <guid>https://raymoniot.github.io/en/docs/web/report/total/</guid>
       <description>Function overview linkSummary data will summarize the daily, monthly and annual data of all power plants and all equipment. You can filter the target data according to the conditions and export it to Excel table&#xA;1. Power plant report link 1.1 Export link 2. Equipment report link</description>
     </item>
     <item>
       <title>Switch Perspective</title>
-      <link>http://localhost:1313/en/docs/app/my/switch/</link>
+      <link>https://raymoniot.github.io/en/docs/app/my/switch/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/en/docs/app/my/switch/</guid>
+      <guid>https://raymoniot.github.io/en/docs/app/my/switch/</guid>
       <description> Select My in the menu bar at the bottom of the APP, and you can switch the access mode of the App in Switch perspective There are two access perspectives, professional consultant and end user Professional consultant: Use the APP as an equipment manufacturer or dealer, focusing on all plants and equipment under the platform End user: Use the APP as a plant owner, focusing on my plant and equipment </description>
     </item>
     <item>
       <title>Batch Operation</title>
-      <link>http://localhost:1313/en/docs/web/toolkits/batch/</link>
+      <link>https://raymoniot.github.io/en/docs/web/toolkits/batch/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/en/docs/web/toolkits/batch/</guid>
+      <guid>https://raymoniot.github.io/en/docs/web/toolkits/batch/</guid>
       <description>Function Overview linkBatch parameter setting, firmware upgrade, command transmission, etc. for devices&#xA;1. Create a task link Can filter devices according to specified device type and plant&#xA;Select the device type, select the device in the device list, and add the device&#xA;Select the type of batch operation required and submit the task&#xA;2. Redo failed devices link If the batch operation task fails, you can use the redo function to redo the failed devices in the batch task.</description>
     </item>
     <item>
       <title>Inverter</title>
-      <link>http://localhost:1313/en/docs/web/device/inveter/</link>
+      <link>https://raymoniot.github.io/en/docs/web/device/inveter/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/en/docs/web/device/inveter/</guid>
+      <guid>https://raymoniot.github.io/en/docs/web/device/inveter/</guid>
       <description>Function Overview link1. Device List link The device list can view online, faulty, offline and all device information.&#xA;2. Advanced device search link 3. Inverter details page link You can enter the device details page from the device in the device list&#xA;The inverter details page displays inverter information and historical data charts&#xA;3.1 Alarm linkRefer to Collector Alarm&#xA;3.2 Unbinding linkRefer to Collector Unbinding, unbinding the sub-device will delete the sub-device from the collector and clear the sub-device data.</description>
     </item>
     <item>
       <title>Quick Start</title>
-      <link>http://localhost:1313/en/docs/app/quickstart/</link>
+      <link>https://raymoniot.github.io/en/docs/app/quickstart/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/en/docs/app/quickstart/</guid>
+      <guid>https://raymoniot.github.io/en/docs/app/quickstart/</guid>
       <description>Solarhub App Overview link1. Collector network configuration linkUse SolarhubApp to configure the collector network. When configuring the network, please ensure that the collector and the network configuration mobile phone are under the same 2.4Ghz WiFi.&#xA;Note: During the operation, please allow the application to obtain Bluetooth, positioning, data and other permissions, and turn on Bluetooth, WiFi, and positioning services, otherwise it may cause device selection or network configuration failure.&#xA;Click Add Device after Network Configuration, and add network configuration devices by scanning the QR code of the collector/manually entering the collector serial number.</description>
     </item>
     <item>
       <title>Quick Start</title>
-      <link>http://localhost:1313/en/docs/web/quickstart/</link>
+      <link>https://raymoniot.github.io/en/docs/web/quickstart/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/en/docs/web/quickstart/</guid>
+      <guid>https://raymoniot.github.io/en/docs/web/quickstart/</guid>
       <description>1. Collector network configuration linkUse SolarhubApp to perform collector network configuration operations. When configuring the network, please ensure that the collector and the network configuration mobile phone are under the same 2.4Ghz WiFi.&#xA;Note: During the operation, please allow the application to obtain Bluetooth, positioning, data and other permissions, and turn on Bluetooth, WiFi, and positioning services, otherwise it may cause devices to be unable to be selected, or network configuration fails.</description>
     </item>
     <item>
       <title>Search Or Filter Devices</title>
-      <link>http://localhost:1313/en/docs/app/device/search/</link>
+      <link>https://raymoniot.github.io/en/docs/app/device/search/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/en/docs/app/device/search/</guid>
+      <guid>https://raymoniot.github.io/en/docs/app/device/search/</guid>
       <description>1. Device search link Under &amp;ldquo;Device&amp;rdquo; of the APP, you can search for devices by device serial number&#xA;2. Device filtering link Two conditions for filtering link Filter by device type Filter by device online status </description>
     </item>
     <item>
       <title>Search Or Filter Events</title>
-      <link>http://localhost:1313/en/docs/app/event/search/</link>
+      <link>https://raymoniot.github.io/en/docs/app/event/search/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/en/docs/app/event/search/</guid>
+      <guid>https://raymoniot.github.io/en/docs/app/event/search/</guid>
       <description>1. Event search link Under &amp;ldquo;Events&amp;rdquo; of the APP, you can search for events by event serial number&#xA;2. Event filtering link There are two states of events, occurring and recovered, which can be filtered by the title</description>
     </item>
     <item>
       <title>Search Or Filter Plants</title>
-      <link>http://localhost:1313/en/docs/app/plant/search/</link>
+      <link>https://raymoniot.github.io/en/docs/app/plant/search/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/en/docs/app/plant/search/</guid>
+      <guid>https://raymoniot.github.io/en/docs/app/plant/search/</guid>
       <description>1. Plant search link Under &amp;ldquo;Plant&amp;rdquo; of the APP, you can search for plants by plant name keywords&#xA;2. Plant screening link Two conditions for filtering link Filter by plant type Filter by plant online status </description>
     </item>
     <item>
       <title>The collector is not online when powered on for the first time</title>
-      <link>http://localhost:1313/en/docs/kit/2.device-offline/</link>
+      <link>https://raymoniot.github.io/en/docs/kit/2.device-offline/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/en/docs/kit/2.device-offline/</guid>
+      <guid>https://raymoniot.github.io/en/docs/kit/2.device-offline/</guid>
       <description>1. Check the collector signal light link2. Use the network search configuration tool to check the configuration linkFor the usage of the network search configuration tool, refer to Network Search Configuration Tool&#xA;3. Check method link1. Query server selection link Send AT+SERVERSELECT command to query the URL selected in the service area. The firmware after version 3.0 points to URL2 by default, which is the address of each gateway service. If the address is unclear, please contact us.</description>
     </item>
     <item>
       <title>User Information</title>
-      <link>http://localhost:1313/en/docs/app/my/profile/</link>
+      <link>https://raymoniot.github.io/en/docs/app/my/profile/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/en/docs/app/my/profile/</guid>
+      <guid>https://raymoniot.github.io/en/docs/app/my/profile/</guid>
       <description> </description>
     </item>
     <item>
       <title>Work Order Dashboard</title>
-      <link>http://localhost:1313/en/docs/web/ops/ticket/dashboard/</link>
+      <link>https://raymoniot.github.io/en/docs/web/ops/ticket/dashboard/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/en/docs/web/ops/ticket/dashboard/</guid>
+      <guid>https://raymoniot.github.io/en/docs/web/ops/ticket/dashboard/</guid>
       <description>Function Overview link 1. Recent Activities link Operation Records of the Work Order System</description>
     </item>
     <item>
       <title>Add Logger</title>
-      <link>http://localhost:1313/en/docs/app/plant/logger/</link>
+      <link>https://raymoniot.github.io/en/docs/app/plant/logger/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/en/docs/app/plant/logger/</guid>
+      <guid>https://raymoniot.github.io/en/docs/app/plant/logger/</guid>
       <description> Steps link Select a plant in the plant list to enter the plant overview page Click Add logger in the upper right corner of the plant overview page Scan the code or click the keyboard icon to enter the manual input interface Manually enter the logger SN number and click Add Device </description>
     </item>
     <item>
       <title>Battery System</title>
-      <link>http://localhost:1313/en/docs/web/device/battery/</link>
+      <link>https://raymoniot.github.io/en/docs/web/device/battery/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/en/docs/web/device/battery/</guid>
+      <guid>https://raymoniot.github.io/en/docs/web/device/battery/</guid>
       <description>Function Overview link1. Device List link The device list can view online, faulty, offline and all device information.&#xA;2. Battery details page link You can enter the device details page from the device in the device list&#xA;The battery details page displays BMS information and battery information and historical data charts under BMS&#xA;3.1 Alarm linkRefer to Collector Alarm&#xA;3.2 Unbinding linkRefer to Collector Unbinding, Unbinding a sub-device will delete the sub-device from the collector and clear the sub-device data.</description>
     </item>
     <item>
       <title>Change Password</title>
-      <link>http://localhost:1313/en/docs/app/my/modify/</link>
+      <link>https://raymoniot.github.io/en/docs/app/my/modify/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/en/docs/app/my/modify/</guid>
+      <guid>https://raymoniot.github.io/en/docs/app/my/modify/</guid>
       <description> To change the password, you need to send a verification code to the account-bound email address After filling in the correct verification code, you can reset your password </description>
     </item>
     <item>
       <title>Device Details</title>
-      <link>http://localhost:1313/en/docs/app/device/detail/</link>
+      <link>https://raymoniot.github.io/en/docs/app/device/detail/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/en/docs/app/device/detail/</guid>
+      <guid>https://raymoniot.github.io/en/docs/app/device/detail/</guid>
       <description>Entrance link Click on the device in the device list interface to enter the device overview page&#xA;Function Overview link1. Device Alias link 2. Remote upgrade link Function to be completed&#xA;3. Parameter setting link Parameter settings support different settings for different types of parameters&#xA;4. Unbind device link All historical data will be deleted after unbinding the device</description>
     </item>
     <item>
       <title>Event Details</title>
-      <link>http://localhost:1313/en/docs/app/event/detail/</link>
+      <link>https://raymoniot.github.io/en/docs/app/event/detail/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/en/docs/app/event/detail/</guid>
+      <guid>https://raymoniot.github.io/en/docs/app/event/detail/</guid>
       <description> Click the event at the bottom of the APP to enter the event interface Click the event in the event list to enter the event details interface View the event details </description>
     </item>
     <item>
       <title>Login</title>
-      <link>http://localhost:1313/en/docs/web/login/login/</link>
+      <link>https://raymoniot.github.io/en/docs/web/login/login/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/en/docs/web/login/login/</guid>
+      <guid>https://raymoniot.github.io/en/docs/web/login/login/</guid>
       <description>You can access the Solarhub login page through Solarhub, enter the correct account and password and log in APP download: The APP download QR code is provided in the upper right corner of the login page. Use your mobile phone to scan the code to download the latest APP released by the platform&#xA;Multi-language switching: Multiple languages ​​can be switched in the upper right corner of the login page</description>
     </item>
     <item>
       <title>Work Order List</title>
-      <link>http://localhost:1313/en/docs/web/ops/ticket/list/</link>
+      <link>https://raymoniot.github.io/en/docs/web/ops/ticket/list/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/en/docs/web/ops/ticket/list/</guid>
+      <guid>https://raymoniot.github.io/en/docs/web/ops/ticket/list/</guid>
       <description>Function Overview link 1. Work order status change link 2. Work order modification link 3. To-do link 4. About me link</description>
     </item>
     <item>
       <title>Account Cancellation</title>
-      <link>http://localhost:1313/en/docs/app/my/cancel/</link>
+      <link>https://raymoniot.github.io/en/docs/app/my/cancel/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/en/docs/app/my/cancel/</guid>
+      <guid>https://raymoniot.github.io/en/docs/app/my/cancel/</guid>
       <description>When an account is deactivated or no longer used, you can delete the account information by canceling the account. At this time, all data generated by the account on the platform will be cleared</description>
     </item>
     <item>
       <title>Customer Team</title>
-      <link>http://localhost:1313/en/docs/web/ops/ticket/team/</link>
+      <link>https://raymoniot.github.io/en/docs/web/ops/ticket/team/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/en/docs/web/ops/ticket/team/</guid>
+      <guid>https://raymoniot.github.io/en/docs/web/ops/ticket/team/</guid>
       <description>Function Overview link 1. Create a new team link 2. Modify link 3. Disband link</description>
     </item>
     <item>
       <title>Device History</title>
-      <link>http://localhost:1313/en/docs/app/device/history/</link>
+      <link>https://raymoniot.github.io/en/docs/app/device/history/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/en/docs/app/device/history/</guid>
+      <guid>https://raymoniot.github.io/en/docs/app/device/history/</guid>
       <description> Click a device in the device list to enter the device details Click to enter history from the menu below Historical data supports four views: day, month, year, and all In the chart, you can view the data at a certain point in time by continuously pressing </description>
     </item>
     <item>
       <title>Multi-language Switch</title>
-      <link>http://localhost:1313/en/docs/web/login/languages/</link>
+      <link>https://raymoniot.github.io/en/docs/web/login/languages/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/en/docs/web/login/languages/</guid>
+      <guid>https://raymoniot.github.io/en/docs/web/login/languages/</guid>
       <description> Switch the language through the icon in the upper right corner when not logged in After logging in, switch the language next to the user in the upper right corner </description>
     </item>
     <item>
       <title>Optimizer</title>
-      <link>http://localhost:1313/en/docs/web/device/optimizer/</link>
+      <link>https://raymoniot.github.io/en/docs/web/device/optimizer/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/en/docs/web/device/optimizer/</guid>
+      <guid>https://raymoniot.github.io/en/docs/web/device/optimizer/</guid>
       <description>Function Overview link1. Device List link The device list can view online, faulty, offline and all device information.&#xA;2. Optimizer controller details page link You can enter the device details page from the device in the device list&#xA;The optimizer controller details page displays the optimizer controller information and the optimizer switch status&#xA;3.1 Alarm linkRefer to Collector Alarm&#xA;3.2 Unbinding linkRefer to Collector Unbinding, Unbinding a sub-device will delete the sub-device from the collector and clear the sub-device data.</description>
     </item>
     <item>
       <title>Remote Interaction</title>
-      <link>http://localhost:1313/en/docs/web/toolkits/remote/</link>
+      <link>https://raymoniot.github.io/en/docs/web/toolkits/remote/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/en/docs/web/toolkits/remote/</guid>
+      <guid>https://raymoniot.github.io/en/docs/web/toolkits/remote/</guid>
       <description>Function Overview linkSend downlink commands to the collector, including firmware upgrade, command transmission, parameter setting&#xA;The remote interaction interface displays the current online collector by default, and can also perform advanced search based on serial number, status, plant, tag, and firmware version number&#xA;1. Firmware Upgrade (OTA) link Firmware upgrade includes upgrading the collector and upgrading the sub-device. The upgrade process is the same, but the types of the two devices are different and the firmware used is different</description>
     </item>
     <item>
       <title>Switch Plant</title>
-      <link>http://localhost:1313/en/docs/app/plant/switch/</link>
+      <link>https://raymoniot.github.io/en/docs/app/plant/switch/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/en/docs/app/plant/switch/</guid>
+      <guid>https://raymoniot.github.io/en/docs/app/plant/switch/</guid>
       <description> Steps link Select a plant in the plant list to enter the plant overview page Click Switch plant in the upper right corner of the plant overview page to enter the switch plant interface Select the plant to switch to complete the switch </description>
     </item>
     <item>
       <title>Data Dashboard</title>
-      <link>http://localhost:1313/en/docs/web/dashboard/</link>
+      <link>https://raymoniot.github.io/en/docs/web/dashboard/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/en/docs/web/dashboard/</guid>
+      <guid>https://raymoniot.github.io/en/docs/web/dashboard/</guid>
       <description>Business use link As an operator or installer, you need to understand the classification quantity and equipment distribution of the plants under your company. This page displays the total number of plants and the number of various types of plants in the platform Display the distribution of plants in different regions on the map. The map can be scaled, and the distribution will be displayed in different dimensions according to the scaling ratio.</description>
     </item>
     <item>
       <title>Device Event</title>
-      <link>http://localhost:1313/en/docs/app/device/event/</link>
+      <link>https://raymoniot.github.io/en/docs/app/device/event/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/en/docs/app/device/event/</guid>
+      <guid>https://raymoniot.github.io/en/docs/app/device/event/</guid>
       <description> Click a device in the device list to enter the device details Click to enter the event from the menu below Events have two states: Occurring and Recovered. You can filter by clicking the title above Click on an event to view detailed information about the event </description>
     </item>
     <item>
       <title>Network Configuration</title>
-      <link>http://localhost:1313/en/docs/app/my/config/</link>
+      <link>https://raymoniot.github.io/en/docs/app/my/config/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/en/docs/app/my/config/</guid>
+      <guid>https://raymoniot.github.io/en/docs/app/my/config/</guid>
       <description>Go to &amp;ldquo;My&amp;rdquo; at the bottom of the APP and click Network Configuration to enter the network configuration interface and prepare for network configuration To configure the network, you need to turn on Bluetooth, connect to 2.4GhzWIFi, and authorize Bluetooth WiFi and other permissions to the APP, otherwise the network configuration may fail. Add a device in the upper right corner, add a device by scanning the code or manually entering the serial number If the device enters the network configuration state, it will appear to be checked.</description>
     </item>
     <item>
       <title>Notice Announcement</title>
-      <link>http://localhost:1313/en/docs/web/toolkits/notification/</link>
+      <link>https://raymoniot.github.io/en/docs/web/toolkits/notification/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/en/docs/web/toolkits/notification/</guid>
+      <guid>https://raymoniot.github.io/en/docs/web/toolkits/notification/</guid>
       <description>Function Overview link </description>
     </item>
     <item>
       <title>Plant History</title>
-      <link>http://localhost:1313/en/docs/app/plant/history/</link>
+      <link>https://raymoniot.github.io/en/docs/app/plant/history/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/en/docs/app/plant/history/</guid>
+      <guid>https://raymoniot.github.io/en/docs/app/plant/history/</guid>
       <description> Steps link Select a plant in the plant list to enter the plant overview interface Select History at the bottom to enter the history interface You can view the data at a certain time point by pressing the chart You can switch the historical data of the previous day or the next day by using the arrow above, and click the time to manually select the time </description>
     </item>
     <item>
       <title>Smart Meter</title>
-      <link>http://localhost:1313/en/docs/web/device/meter/</link>
+      <link>https://raymoniot.github.io/en/docs/web/device/meter/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/en/docs/web/device/meter/</guid>
+      <guid>https://raymoniot.github.io/en/docs/web/device/meter/</guid>
       <description>Function Overview link1. Device List link The device list can view online, faulty, offline and all device information.&#xA;2. Meter details page link You can enter the device details page from the device in the device list&#xA;The meter details page displays meter information and micro-inverter devices&#xA;3.1 Alarm linkRefer to Collector Alarm&#xA;3.2 Unbinding linkRefer to Collector Unbinding, Unbinding a sub-device will delete the sub-device from the collector and clear the sub-device data.</description>
     </item>
     <item>
       <title>Local Debugging</title>
-      <link>http://localhost:1313/en/docs/app/my/bledebug/</link>
+      <link>https://raymoniot.github.io/en/docs/app/my/bledebug/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/en/docs/app/my/bledebug/</guid>
+      <guid>https://raymoniot.github.io/en/docs/app/my/bledebug/</guid>
       <description>Template engine rendering link Click local debugging in the &amp;ldquo;My&amp;rdquo; interface at the bottom of the APP After the APP enters the local debugging function for the first time, it will automatically download the template rendering engine to load the template data. The template engine will iterate and have more powerful functions, which can be updated at any time in subsequent use Template Management link When you first enter local debugging, the latest template will be automatically downloaded.</description>
     </item>
     <item>
       <title>OTA Assistant</title>
-      <link>http://localhost:1313/en/docs/app/my/ota/</link>
+      <link>https://raymoniot.github.io/en/docs/app/my/ota/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/en/docs/app/my/ota/</guid>
+      <guid>https://raymoniot.github.io/en/docs/app/my/ota/</guid>
       <description>Click OTA Assistant in the &amp;ldquo;My&amp;rdquo; interface at the bottom of the APP The firmware redeemed with the redemption code will be displayed in the list Click Redeem in the upper right corner to redeem the firmware with the redemption code. For redemption code generation, refer to the Web Click Firmware Upgrade to enter the upgrade interface Select the device to be upgraded, and the list will display the online devices under the plant in the current plant overview for upgrade</description>
     </item>
     <item>
       <title>Plant Layout</title>
-      <link>http://localhost:1313/en/docs/app/plant/layout/</link>
+      <link>https://raymoniot.github.io/en/docs/app/plant/layout/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/en/docs/app/plant/layout/</guid>
+      <guid>https://raymoniot.github.io/en/docs/app/plant/layout/</guid>
       <description>1. Create layout link Steps link Select a plant in the plant list to enter the plant overview interface Select Layout at the bottom to enter the layout interface Create a layout By default, corresponding components will be created based on all devices under the plant 2. Edit layout link Steps link You can freely adjust the position of components by dragging them or edit them individually through the edit below</description>
     </item>
     <item>
       <title>PVS</title>
-      <link>http://localhost:1313/en/docs/web/plant-center/pvs/</link>
+      <link>https://raymoniot.github.io/en/docs/web/plant-center/pvs/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/en/docs/web/plant-center/pvs/</guid>
+      <guid>https://raymoniot.github.io/en/docs/web/plant-center/pvs/</guid>
       <description>Overview of plant link The overview of the PVS plant includes four sections: real-time power, daily power, social benefits, and online plant.&#xA;Real-time power: Summary display of the power and installed capacity of photovoltaic plants under the current login user data permission in the PVS Daily power: Display the daily power, monthly power generation, annual power generation, and cumulative power generation of photovoltaic plants under the current login user data permission Social benefits: The social benefits generated by the entire PVS under the current login user data permission, including tree species index, carbon dioxide emission reduction, and light bulb usage Online plants: The number of online plants and the total number of plants under the current login user data permission Plant list link The plant list displays some information of all online, faulty, and offline plants.</description>
     </item>
     <item>
       <title>About</title>
-      <link>http://localhost:1313/en/docs/app/my/about/</link>
+      <link>https://raymoniot.github.io/en/docs/app/my/about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/en/docs/app/my/about/</guid>
+      <guid>https://raymoniot.github.io/en/docs/app/my/about/</guid>
       <description> </description>
     </item>
     <item>
       <title>BESS</title>
-      <link>http://localhost:1313/en/docs/web/plant-center/bess/</link>
+      <link>https://raymoniot.github.io/en/docs/web/plant-center/bess/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/en/docs/web/plant-center/bess/</guid>
+      <guid>https://raymoniot.github.io/en/docs/web/plant-center/bess/</guid>
       <description>Overview of Plant link The overview of the plant of the BESS includes four sections: real-time power, charge and discharge statistics, social benefits, and online plant.&#xA;Real-time power: Summary display of BESS power and installed capacity under the data permission of the current logged-in user in the BESS Charge and discharge statistics: Display the daily charge, daily discharge, cumulative charge, and cumulative discharge of the photovoltaic plant under the data permission of the current logged-in user Social benefits: The social benefits generated by the entire photovoltaic system under the data permission of the current logged-in user, including tree species index, carbon dioxide emission reduction, and light bulb usage Online plant: The number of online plants and the total number of plants under the data permission of the current logged-in user Plant list linkThis is the same as the photovoltaic system, please refer to Plant list</description>
     </item>
     <item>
       <title>HESS</title>
-      <link>http://localhost:1313/en/docs/web/plant-center/hess/</link>
+      <link>https://raymoniot.github.io/en/docs/web/plant-center/hess/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/en/docs/web/plant-center/hess/</guid>
+      <guid>https://raymoniot.github.io/en/docs/web/plant-center/hess/</guid>
       <description>Overview of Plant link The overview of the plant for HESS includes four sections: power generation, power grid, battery, and power consumption.&#xA;Power generation: Display the power generation power, photovoltaic installed capacity, daily power generation, monthly power generation, annual power generation, and annual power generation of HESS plants under the data permission of the current logged-in user Grid: Display the purchase and sale power of HESS plants under the data permission of the current logged-in user Battery: Display the SOC, daily discharge, and daily charging of HESS plants under the data permission of the current logged-in user Power consumption: Display the power consumption power, daily power consumption, monthly power consumption, annual power consumption, and total power consumption of HESS plants under the data permission of the current logged-in user Plant list linkThis is the same as the photovoltaic system, please refer to Plant list</description>
     </item>
     <item>
       <title>EMS</title>
-      <link>http://localhost:1313/en/docs/web/plant-center/ems/</link>
+      <link>https://raymoniot.github.io/en/docs/web/plant-center/ems/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/en/docs/web/plant-center/ems/</guid>
+      <guid>https://raymoniot.github.io/en/docs/web/plant-center/ems/</guid>
       <description>The battery system has the same structure as the photovoltaic system, please refer to PVS&#xA;Overview of Plant linkThis is the same as household energy storage, please refer to Overview of Plant&#xA;Plant list linkThis is the same as the photovoltaic system, please refer to Plant list&#xA;Plant map linkThis is the same as the photovoltaic system, please refer to Plant map&#xA;System large screen linkThis is the same as the photovoltaic system, please refer to Plant large screen</description>
     </item>
     <item>
       <title>Create Plant</title>
-      <link>http://localhost:1313/en/docs/web/plant-center/create-plant/</link>
+      <link>https://raymoniot.github.io/en/docs/web/plant-center/create-plant/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/en/docs/web/plant-center/create-plant/</guid>
+      <guid>https://raymoniot.github.io/en/docs/web/plant-center/create-plant/</guid>
       <description>1. Create an entrance link 2. Complete the plant information link2.1 Fill in basic information link 2.2 Select the geographic location link Allow the website to locate and quickly obtain the current location&#xA;Select a location on the map to obtain coordinate information as the plant location&#xA;2.3 Add stakeholders (visitors) link Enter the visitor&amp;rsquo;s email address to authorize the plant to other accounts on the platform so that they have access to the plant</description>
     </item>
     <item>
       <title>Modify Plant</title>
-      <link>http://localhost:1313/en/docs/web/plant-center/edit-plant/</link>
+      <link>https://raymoniot.github.io/en/docs/web/plant-center/edit-plant/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/en/docs/web/plant-center/edit-plant/</guid>
+      <guid>https://raymoniot.github.io/en/docs/web/plant-center/edit-plant/</guid>
       <description>1. Modify the plant entrance link For the steps to modify the plant, please refer to Complete plant information</description>
     </item>
     <item>
       <title>Visitor Authorization</title>
-      <link>http://localhost:1313/en/docs/web/plant-center/guest-access/</link>
+      <link>https://raymoniot.github.io/en/docs/web/plant-center/guest-access/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/en/docs/web/plant-center/guest-access/</guid>
+      <guid>https://raymoniot.github.io/en/docs/web/plant-center/guest-access/</guid>
       <description>1. Authorization entry linkIn Modify plant, authorize by completing Add stakeholders in the plant information.</description>
     </item>
     <item>
       <title>Add Logger</title>
-      <link>http://localhost:1313/en/docs/web/plant-center/add-logger/</link>
+      <link>https://raymoniot.github.io/en/docs/web/plant-center/add-logger/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/en/docs/web/plant-center/add-logger/</guid>
+      <guid>https://raymoniot.github.io/en/docs/web/plant-center/add-logger/</guid>
       <description>1. Add a collector entry linkEnter the Plant Details Page of the plant from the plant list, and add a collector in the upper right corner&#xA;2. Function Overview link 2.1 Enter the collector serial number to add link Add a serial number. Before adding, you must first Enter the Collector, if already in the library, ignore&#xA;Click the Submit button to complete the collector addition&#xA;2.2 Add through template file link Download template collector-import-template.</description>
     </item>
   </channel>

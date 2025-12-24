@@ -2,868 +2,868 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/en/docs/web/device/collector/</loc>
+    <loc>https://raymoniot.github.io/en/docs/web/device/collector/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
-                href="http://localhost:1313/zh/docs/web/device/collector/"
+                href="https://raymoniot.github.io/zh/docs/web/device/collector/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/en/docs/web/device/collector/"
+                href="https://raymoniot.github.io/en/docs/web/device/collector/"
                 />
   </url><url>
-    <loc>http://localhost:1313/en/docs/app/plant/create/</loc>
+    <loc>https://raymoniot.github.io/en/docs/app/plant/create/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
-                href="http://localhost:1313/zh/docs/app/plant/create/"
+                href="https://raymoniot.github.io/zh/docs/app/plant/create/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/en/docs/app/plant/create/"
+                href="https://raymoniot.github.io/en/docs/app/plant/create/"
                 />
   </url><url>
-    <loc>http://localhost:1313/en/docs/web/ops/events/</loc>
+    <loc>https://raymoniot.github.io/en/docs/web/ops/events/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
-                href="http://localhost:1313/zh/docs/web/ops/events/"
+                href="https://raymoniot.github.io/zh/docs/web/ops/events/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/en/docs/web/ops/events/"
+                href="https://raymoniot.github.io/en/docs/web/ops/events/"
                 />
   </url><url>
-    <loc>http://localhost:1313/en/docs/web/toolkits/firmware/</loc>
+    <loc>https://raymoniot.github.io/en/docs/web/toolkits/firmware/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
-                href="http://localhost:1313/zh/docs/web/toolkits/firmware/"
+                href="https://raymoniot.github.io/zh/docs/web/toolkits/firmware/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/en/docs/web/toolkits/firmware/"
+                href="https://raymoniot.github.io/en/docs/web/toolkits/firmware/"
                 />
   </url><url>
-    <loc>http://localhost:1313/en/docs/kit/1.network-tools/</loc>
+    <loc>https://raymoniot.github.io/en/docs/kit/1.network-tools/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
-                href="http://localhost:1313/zh/docs/kit/1.network-tools/"
+                href="https://raymoniot.github.io/zh/docs/kit/1.network-tools/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/en/docs/kit/1.network-tools/"
+                href="https://raymoniot.github.io/en/docs/kit/1.network-tools/"
                 />
   </url><url>
-    <loc>http://localhost:1313/en/docs/web/organization/tree/</loc>
+    <loc>https://raymoniot.github.io/en/docs/web/organization/tree/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
-                href="http://localhost:1313/zh/docs/web/organization/tree/"
+                href="https://raymoniot.github.io/zh/docs/web/organization/tree/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/en/docs/web/organization/tree/"
+                href="https://raymoniot.github.io/en/docs/web/organization/tree/"
                 />
   </url><url>
-    <loc>http://localhost:1313/en/docs/web/overview/</loc>
+    <loc>https://raymoniot.github.io/en/docs/web/overview/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
-                href="http://localhost:1313/zh/docs/web/overview/"
+                href="https://raymoniot.github.io/zh/docs/web/overview/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/en/docs/web/overview/"
+                href="https://raymoniot.github.io/en/docs/web/overview/"
                 />
   </url><url>
-    <loc>http://localhost:1313/en/docs/web/toolkits/point-query/</loc>
+    <loc>https://raymoniot.github.io/en/docs/web/toolkits/point-query/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
-                href="http://localhost:1313/zh/docs/web/toolkits/point-query/"
+                href="https://raymoniot.github.io/zh/docs/web/toolkits/point-query/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/en/docs/web/toolkits/point-query/"
+                href="https://raymoniot.github.io/en/docs/web/toolkits/point-query/"
                 />
   </url><url>
-    <loc>http://localhost:1313/en/docs/app/login-register/</loc>
+    <loc>https://raymoniot.github.io/en/docs/app/login-register/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
-                href="http://localhost:1313/zh/docs/app/login-register/"
+                href="https://raymoniot.github.io/zh/docs/app/login-register/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/en/docs/app/login-register/"
+                href="https://raymoniot.github.io/en/docs/app/login-register/"
                 />
   </url><url>
-    <loc>http://localhost:1313/en/docs/web/</loc>
+    <loc>https://raymoniot.github.io/en/docs/web/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
-                href="http://localhost:1313/zh/docs/web/"
+                href="https://raymoniot.github.io/zh/docs/web/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/en/docs/web/"
+                href="https://raymoniot.github.io/en/docs/web/"
                 />
   </url><url>
-    <loc>http://localhost:1313/en/docs/web/report/total/</loc>
+    <loc>https://raymoniot.github.io/en/docs/web/report/total/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
-                href="http://localhost:1313/zh/docs/web/report/total/"
+                href="https://raymoniot.github.io/zh/docs/web/report/total/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/en/docs/web/report/total/"
+                href="https://raymoniot.github.io/en/docs/web/report/total/"
                 />
   </url><url>
-    <loc>http://localhost:1313/en/docs/app/my/switch/</loc>
+    <loc>https://raymoniot.github.io/en/docs/app/my/switch/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
-                href="http://localhost:1313/zh/docs/app/my/switch/"
+                href="https://raymoniot.github.io/zh/docs/app/my/switch/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/en/docs/app/my/switch/"
+                href="https://raymoniot.github.io/en/docs/app/my/switch/"
                 />
   </url><url>
-    <loc>http://localhost:1313/en/docs/web/toolkits/batch/</loc>
+    <loc>https://raymoniot.github.io/en/docs/web/toolkits/batch/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
-                href="http://localhost:1313/zh/docs/web/toolkits/batch/"
+                href="https://raymoniot.github.io/zh/docs/web/toolkits/batch/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/en/docs/web/toolkits/batch/"
+                href="https://raymoniot.github.io/en/docs/web/toolkits/batch/"
                 />
   </url><url>
-    <loc>http://localhost:1313/en/docs/web/device/inveter/</loc>
+    <loc>https://raymoniot.github.io/en/docs/web/device/inveter/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
-                href="http://localhost:1313/zh/docs/web/device/inveter/"
+                href="https://raymoniot.github.io/zh/docs/web/device/inveter/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/en/docs/web/device/inveter/"
+                href="https://raymoniot.github.io/en/docs/web/device/inveter/"
                 />
   </url><url>
-    <loc>http://localhost:1313/en/docs/app/quickstart/</loc>
+    <loc>https://raymoniot.github.io/en/docs/app/quickstart/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
-                href="http://localhost:1313/zh/docs/app/quickstart/"
+                href="https://raymoniot.github.io/zh/docs/app/quickstart/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/en/docs/app/quickstart/"
+                href="https://raymoniot.github.io/en/docs/app/quickstart/"
                 />
   </url><url>
-    <loc>http://localhost:1313/en/docs/web/quickstart/</loc>
+    <loc>https://raymoniot.github.io/en/docs/web/quickstart/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
-                href="http://localhost:1313/zh/docs/web/quickstart/"
+                href="https://raymoniot.github.io/zh/docs/web/quickstart/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/en/docs/web/quickstart/"
+                href="https://raymoniot.github.io/en/docs/web/quickstart/"
                 />
   </url><url>
-    <loc>http://localhost:1313/en/docs/app/device/search/</loc>
+    <loc>https://raymoniot.github.io/en/docs/app/device/search/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
-                href="http://localhost:1313/zh/docs/app/device/search/"
+                href="https://raymoniot.github.io/zh/docs/app/device/search/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/en/docs/app/device/search/"
+                href="https://raymoniot.github.io/en/docs/app/device/search/"
                 />
   </url><url>
-    <loc>http://localhost:1313/en/docs/app/event/search/</loc>
+    <loc>https://raymoniot.github.io/en/docs/app/event/search/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
-                href="http://localhost:1313/zh/docs/app/event/search/"
+                href="https://raymoniot.github.io/zh/docs/app/event/search/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/en/docs/app/event/search/"
+                href="https://raymoniot.github.io/en/docs/app/event/search/"
                 />
   </url><url>
-    <loc>http://localhost:1313/en/docs/app/plant/search/</loc>
+    <loc>https://raymoniot.github.io/en/docs/app/plant/search/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
-                href="http://localhost:1313/zh/docs/app/plant/search/"
+                href="https://raymoniot.github.io/zh/docs/app/plant/search/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/en/docs/app/plant/search/"
+                href="https://raymoniot.github.io/en/docs/app/plant/search/"
                 />
   </url><url>
-    <loc>http://localhost:1313/en/docs/app/</loc>
+    <loc>https://raymoniot.github.io/en/docs/app/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
-                href="http://localhost:1313/zh/docs/app/"
+                href="https://raymoniot.github.io/zh/docs/app/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/en/docs/app/"
+                href="https://raymoniot.github.io/en/docs/app/"
                 />
   </url><url>
-    <loc>http://localhost:1313/en/docs/kit/2.device-offline/</loc>
+    <loc>https://raymoniot.github.io/en/docs/kit/2.device-offline/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
-                href="http://localhost:1313/zh/docs/kit/2.device-offline/"
+                href="https://raymoniot.github.io/zh/docs/kit/2.device-offline/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/en/docs/kit/2.device-offline/"
+                href="https://raymoniot.github.io/en/docs/kit/2.device-offline/"
                 />
   </url><url>
-    <loc>http://localhost:1313/en/docs/app/my/profile/</loc>
+    <loc>https://raymoniot.github.io/en/docs/app/my/profile/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
-                href="http://localhost:1313/zh/docs/app/my/profile/"
+                href="https://raymoniot.github.io/zh/docs/app/my/profile/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/en/docs/app/my/profile/"
+                href="https://raymoniot.github.io/en/docs/app/my/profile/"
                 />
   </url><url>
-    <loc>http://localhost:1313/en/docs/web/ops/ticket/dashboard/</loc>
+    <loc>https://raymoniot.github.io/en/docs/web/ops/ticket/dashboard/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
-                href="http://localhost:1313/zh/docs/web/ops/ticket/dashboard/"
+                href="https://raymoniot.github.io/zh/docs/web/ops/ticket/dashboard/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/en/docs/web/ops/ticket/dashboard/"
+                href="https://raymoniot.github.io/en/docs/web/ops/ticket/dashboard/"
                 />
   </url><url>
-    <loc>http://localhost:1313/en/docs/web/ops/ticket/</loc>
+    <loc>https://raymoniot.github.io/en/docs/web/ops/ticket/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
-                href="http://localhost:1313/zh/docs/web/ops/ticket/"
+                href="https://raymoniot.github.io/zh/docs/web/ops/ticket/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/en/docs/web/ops/ticket/"
+                href="https://raymoniot.github.io/en/docs/web/ops/ticket/"
                 />
   </url><url>
-    <loc>http://localhost:1313/en/docs/app/plant/logger/</loc>
+    <loc>https://raymoniot.github.io/en/docs/app/plant/logger/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
-                href="http://localhost:1313/zh/docs/app/plant/logger/"
+                href="https://raymoniot.github.io/zh/docs/app/plant/logger/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/en/docs/app/plant/logger/"
+                href="https://raymoniot.github.io/en/docs/app/plant/logger/"
                 />
   </url><url>
-    <loc>http://localhost:1313/en/docs/web/device/battery/</loc>
+    <loc>https://raymoniot.github.io/en/docs/web/device/battery/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
-                href="http://localhost:1313/zh/docs/web/device/battery/"
+                href="https://raymoniot.github.io/zh/docs/web/device/battery/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/en/docs/web/device/battery/"
+                href="https://raymoniot.github.io/en/docs/web/device/battery/"
                 />
   </url><url>
-    <loc>http://localhost:1313/en/docs/app/my/modify/</loc>
+    <loc>https://raymoniot.github.io/en/docs/app/my/modify/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
-                href="http://localhost:1313/zh/docs/app/my/modify/"
+                href="https://raymoniot.github.io/zh/docs/app/my/modify/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/en/docs/app/my/modify/"
+                href="https://raymoniot.github.io/en/docs/app/my/modify/"
                 />
   </url><url>
-    <loc>http://localhost:1313/en/docs/app/device/detail/</loc>
+    <loc>https://raymoniot.github.io/en/docs/app/device/detail/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
-                href="http://localhost:1313/zh/docs/app/device/detail/"
+                href="https://raymoniot.github.io/zh/docs/app/device/detail/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/en/docs/app/device/detail/"
+                href="https://raymoniot.github.io/en/docs/app/device/detail/"
                 />
   </url><url>
-    <loc>http://localhost:1313/en/docs/app/event/detail/</loc>
+    <loc>https://raymoniot.github.io/en/docs/app/event/detail/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
-                href="http://localhost:1313/zh/docs/app/event/detail/"
+                href="https://raymoniot.github.io/zh/docs/app/event/detail/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/en/docs/app/event/detail/"
+                href="https://raymoniot.github.io/en/docs/app/event/detail/"
                 />
   </url><url>
-    <loc>http://localhost:1313/en/docs/web/login/</loc>
+    <loc>https://raymoniot.github.io/en/docs/web/login/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
-                href="http://localhost:1313/zh/docs/web/login/"
+                href="https://raymoniot.github.io/zh/docs/web/login/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/en/docs/web/login/"
+                href="https://raymoniot.github.io/en/docs/web/login/"
                 />
   </url><url>
-    <loc>http://localhost:1313/en/docs/web/login/login/</loc>
+    <loc>https://raymoniot.github.io/en/docs/web/login/login/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
-                href="http://localhost:1313/zh/docs/web/login/login/"
+                href="https://raymoniot.github.io/zh/docs/web/login/login/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/en/docs/web/login/login/"
+                href="https://raymoniot.github.io/en/docs/web/login/login/"
                 />
   </url><url>
-    <loc>http://localhost:1313/en/docs/app/plant/</loc>
+    <loc>https://raymoniot.github.io/en/docs/app/plant/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
-                href="http://localhost:1313/zh/docs/app/plant/"
+                href="https://raymoniot.github.io/zh/docs/app/plant/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/en/docs/app/plant/"
+                href="https://raymoniot.github.io/en/docs/app/plant/"
                 />
   </url><url>
-    <loc>http://localhost:1313/en/docs/web/ops/ticket/list/</loc>
+    <loc>https://raymoniot.github.io/en/docs/web/ops/ticket/list/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
-                href="http://localhost:1313/zh/docs/web/ops/ticket/list/"
+                href="https://raymoniot.github.io/zh/docs/web/ops/ticket/list/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/en/docs/web/ops/ticket/list/"
+                href="https://raymoniot.github.io/en/docs/web/ops/ticket/list/"
                 />
   </url><url>
-    <loc>http://localhost:1313/en/docs/app/my/cancel/</loc>
+    <loc>https://raymoniot.github.io/en/docs/app/my/cancel/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
-                href="http://localhost:1313/zh/docs/app/my/cancel/"
+                href="https://raymoniot.github.io/zh/docs/app/my/cancel/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/en/docs/app/my/cancel/"
+                href="https://raymoniot.github.io/en/docs/app/my/cancel/"
                 />
   </url><url>
-    <loc>http://localhost:1313/en/docs/web/ops/ticket/team/</loc>
+    <loc>https://raymoniot.github.io/en/docs/web/ops/ticket/team/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
-                href="http://localhost:1313/zh/docs/web/ops/ticket/team/"
+                href="https://raymoniot.github.io/zh/docs/web/ops/ticket/team/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/en/docs/web/ops/ticket/team/"
+                href="https://raymoniot.github.io/en/docs/web/ops/ticket/team/"
                 />
   </url><url>
-    <loc>http://localhost:1313/en/docs/app/device/</loc>
+    <loc>https://raymoniot.github.io/en/docs/app/device/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
-                href="http://localhost:1313/zh/docs/app/device/"
+                href="https://raymoniot.github.io/zh/docs/app/device/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/en/docs/app/device/"
+                href="https://raymoniot.github.io/en/docs/app/device/"
                 />
   </url><url>
-    <loc>http://localhost:1313/en/docs/app/device/history/</loc>
+    <loc>https://raymoniot.github.io/en/docs/app/device/history/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
-                href="http://localhost:1313/zh/docs/app/device/history/"
+                href="https://raymoniot.github.io/zh/docs/app/device/history/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/en/docs/app/device/history/"
+                href="https://raymoniot.github.io/en/docs/app/device/history/"
                 />
   </url><url>
-    <loc>http://localhost:1313/en/docs/web/login/languages/</loc>
+    <loc>https://raymoniot.github.io/en/docs/web/login/languages/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
-                href="http://localhost:1313/zh/docs/web/login/languages/"
+                href="https://raymoniot.github.io/zh/docs/web/login/languages/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/en/docs/web/login/languages/"
+                href="https://raymoniot.github.io/en/docs/web/login/languages/"
                 />
   </url><url>
-    <loc>http://localhost:1313/en/docs/web/device/optimizer/</loc>
+    <loc>https://raymoniot.github.io/en/docs/web/device/optimizer/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
-                href="http://localhost:1313/zh/docs/web/device/optimizer/"
+                href="https://raymoniot.github.io/zh/docs/web/device/optimizer/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/en/docs/web/device/optimizer/"
+                href="https://raymoniot.github.io/en/docs/web/device/optimizer/"
                 />
   </url><url>
-    <loc>http://localhost:1313/en/docs/web/toolkits/remote/</loc>
+    <loc>https://raymoniot.github.io/en/docs/web/toolkits/remote/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
-                href="http://localhost:1313/zh/docs/web/toolkits/remote/"
+                href="https://raymoniot.github.io/zh/docs/web/toolkits/remote/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/en/docs/web/toolkits/remote/"
+                href="https://raymoniot.github.io/en/docs/web/toolkits/remote/"
                 />
   </url><url>
-    <loc>http://localhost:1313/en/docs/app/plant/switch/</loc>
+    <loc>https://raymoniot.github.io/en/docs/app/plant/switch/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
-                href="http://localhost:1313/zh/docs/app/plant/switch/"
+                href="https://raymoniot.github.io/zh/docs/app/plant/switch/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/en/docs/app/plant/switch/"
+                href="https://raymoniot.github.io/en/docs/app/plant/switch/"
                 />
   </url><url>
-    <loc>http://localhost:1313/en/docs/web/dashboard/</loc>
+    <loc>https://raymoniot.github.io/en/docs/web/dashboard/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
-                href="http://localhost:1313/zh/docs/web/dashboard/"
+                href="https://raymoniot.github.io/zh/docs/web/dashboard/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/en/docs/web/dashboard/"
+                href="https://raymoniot.github.io/en/docs/web/dashboard/"
                 />
   </url><url>
-    <loc>http://localhost:1313/en/docs/app/device/event/</loc>
+    <loc>https://raymoniot.github.io/en/docs/app/device/event/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
-                href="http://localhost:1313/zh/docs/app/device/event/"
+                href="https://raymoniot.github.io/zh/docs/app/device/event/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/en/docs/app/device/event/"
+                href="https://raymoniot.github.io/en/docs/app/device/event/"
                 />
   </url><url>
-    <loc>http://localhost:1313/en/docs/app/event/</loc>
+    <loc>https://raymoniot.github.io/en/docs/app/event/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
-                href="http://localhost:1313/zh/docs/app/event/"
+                href="https://raymoniot.github.io/zh/docs/app/event/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/en/docs/app/event/"
+                href="https://raymoniot.github.io/en/docs/app/event/"
                 />
   </url><url>
-    <loc>http://localhost:1313/en/docs/app/my/config/</loc>
+    <loc>https://raymoniot.github.io/en/docs/app/my/config/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
-                href="http://localhost:1313/zh/docs/app/my/config/"
+                href="https://raymoniot.github.io/zh/docs/app/my/config/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/en/docs/app/my/config/"
+                href="https://raymoniot.github.io/en/docs/app/my/config/"
                 />
   </url><url>
-    <loc>http://localhost:1313/en/docs/web/toolkits/notification/</loc>
+    <loc>https://raymoniot.github.io/en/docs/web/toolkits/notification/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
-                href="http://localhost:1313/zh/docs/web/toolkits/notification/"
+                href="https://raymoniot.github.io/zh/docs/web/toolkits/notification/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/en/docs/web/toolkits/notification/"
+                href="https://raymoniot.github.io/en/docs/web/toolkits/notification/"
                 />
   </url><url>
-    <loc>http://localhost:1313/en/docs/app/plant/history/</loc>
+    <loc>https://raymoniot.github.io/en/docs/app/plant/history/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
-                href="http://localhost:1313/zh/docs/app/plant/history/"
+                href="https://raymoniot.github.io/zh/docs/app/plant/history/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/en/docs/app/plant/history/"
+                href="https://raymoniot.github.io/en/docs/app/plant/history/"
                 />
   </url><url>
-    <loc>http://localhost:1313/en/docs/web/device/meter/</loc>
+    <loc>https://raymoniot.github.io/en/docs/web/device/meter/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
-                href="http://localhost:1313/zh/docs/web/device/meter/"
+                href="https://raymoniot.github.io/zh/docs/web/device/meter/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/en/docs/web/device/meter/"
+                href="https://raymoniot.github.io/en/docs/web/device/meter/"
                 />
   </url><url>
-    <loc>http://localhost:1313/en/docs/app/my/bledebug/</loc>
+    <loc>https://raymoniot.github.io/en/docs/app/my/bledebug/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
-                href="http://localhost:1313/zh/docs/app/my/bledebug/"
+                href="https://raymoniot.github.io/zh/docs/app/my/bledebug/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/en/docs/app/my/bledebug/"
+                href="https://raymoniot.github.io/en/docs/app/my/bledebug/"
                 />
   </url><url>
-    <loc>http://localhost:1313/en/docs/app/my/</loc>
+    <loc>https://raymoniot.github.io/en/docs/app/my/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
-                href="http://localhost:1313/zh/docs/app/my/"
+                href="https://raymoniot.github.io/zh/docs/app/my/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/en/docs/app/my/"
+                href="https://raymoniot.github.io/en/docs/app/my/"
                 />
   </url><url>
-    <loc>http://localhost:1313/en/docs/app/my/ota/</loc>
+    <loc>https://raymoniot.github.io/en/docs/app/my/ota/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
-                href="http://localhost:1313/zh/docs/app/my/ota/"
+                href="https://raymoniot.github.io/zh/docs/app/my/ota/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/en/docs/app/my/ota/"
+                href="https://raymoniot.github.io/en/docs/app/my/ota/"
                 />
   </url><url>
-    <loc>http://localhost:1313/en/docs/web/plant-center/</loc>
+    <loc>https://raymoniot.github.io/en/docs/web/plant-center/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
-                href="http://localhost:1313/zh/docs/web/plant-center/"
+                href="https://raymoniot.github.io/zh/docs/web/plant-center/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/en/docs/web/plant-center/"
+                href="https://raymoniot.github.io/en/docs/web/plant-center/"
                 />
   </url><url>
-    <loc>http://localhost:1313/en/docs/app/plant/layout/</loc>
+    <loc>https://raymoniot.github.io/en/docs/app/plant/layout/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
-                href="http://localhost:1313/zh/docs/app/plant/layout/"
+                href="https://raymoniot.github.io/zh/docs/app/plant/layout/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/en/docs/app/plant/layout/"
+                href="https://raymoniot.github.io/en/docs/app/plant/layout/"
                 />
   </url><url>
-    <loc>http://localhost:1313/en/docs/web/plant-center/pvs/</loc>
+    <loc>https://raymoniot.github.io/en/docs/web/plant-center/pvs/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
-                href="http://localhost:1313/zh/docs/web/plant-center/pvs/"
+                href="https://raymoniot.github.io/zh/docs/web/plant-center/pvs/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/en/docs/web/plant-center/pvs/"
+                href="https://raymoniot.github.io/en/docs/web/plant-center/pvs/"
                 />
   </url><url>
-    <loc>http://localhost:1313/en/docs/app/my/about/</loc>
+    <loc>https://raymoniot.github.io/en/docs/app/my/about/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
-                href="http://localhost:1313/zh/docs/app/my/about/"
+                href="https://raymoniot.github.io/zh/docs/app/my/about/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/en/docs/app/my/about/"
+                href="https://raymoniot.github.io/en/docs/app/my/about/"
                 />
   </url><url>
-    <loc>http://localhost:1313/en/docs/web/plant-center/bess/</loc>
+    <loc>https://raymoniot.github.io/en/docs/web/plant-center/bess/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
-                href="http://localhost:1313/zh/docs/web/plant-center/bess/"
+                href="https://raymoniot.github.io/zh/docs/web/plant-center/bess/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/en/docs/web/plant-center/bess/"
+                href="https://raymoniot.github.io/en/docs/web/plant-center/bess/"
                 />
   </url><url>
-    <loc>http://localhost:1313/en/docs/web/device/</loc>
+    <loc>https://raymoniot.github.io/en/docs/web/device/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
-                href="http://localhost:1313/zh/docs/web/device/"
+                href="https://raymoniot.github.io/zh/docs/web/device/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/en/docs/web/device/"
+                href="https://raymoniot.github.io/en/docs/web/device/"
                 />
   </url><url>
-    <loc>http://localhost:1313/en/docs/web/plant-center/hess/</loc>
+    <loc>https://raymoniot.github.io/en/docs/web/plant-center/hess/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
-                href="http://localhost:1313/zh/docs/web/plant-center/hess/"
+                href="https://raymoniot.github.io/zh/docs/web/plant-center/hess/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/en/docs/web/plant-center/hess/"
+                href="https://raymoniot.github.io/en/docs/web/plant-center/hess/"
                 />
   </url><url>
-    <loc>http://localhost:1313/en/docs/web/ops/</loc>
+    <loc>https://raymoniot.github.io/en/docs/web/ops/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
-                href="http://localhost:1313/zh/docs/web/ops/"
+                href="https://raymoniot.github.io/zh/docs/web/ops/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/en/docs/web/ops/"
+                href="https://raymoniot.github.io/en/docs/web/ops/"
                 />
   </url><url>
-    <loc>http://localhost:1313/en/docs/web/plant-center/ems/</loc>
+    <loc>https://raymoniot.github.io/en/docs/web/plant-center/ems/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
-                href="http://localhost:1313/zh/docs/web/plant-center/ems/"
+                href="https://raymoniot.github.io/zh/docs/web/plant-center/ems/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/en/docs/web/plant-center/ems/"
+                href="https://raymoniot.github.io/en/docs/web/plant-center/ems/"
                 />
   </url><url>
-    <loc>http://localhost:1313/en/docs/web/report/</loc>
+    <loc>https://raymoniot.github.io/en/docs/web/report/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
-                href="http://localhost:1313/zh/docs/web/report/"
+                href="https://raymoniot.github.io/zh/docs/web/report/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/en/docs/web/report/"
+                href="https://raymoniot.github.io/en/docs/web/report/"
                 />
   </url><url>
-    <loc>http://localhost:1313/en/docs/web/plant-center/create-plant/</loc>
+    <loc>https://raymoniot.github.io/en/docs/web/plant-center/create-plant/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
-                href="http://localhost:1313/zh/docs/web/plant-center/create-plant/"
+                href="https://raymoniot.github.io/zh/docs/web/plant-center/create-plant/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/en/docs/web/plant-center/create-plant/"
+                href="https://raymoniot.github.io/en/docs/web/plant-center/create-plant/"
                 />
   </url><url>
-    <loc>http://localhost:1313/en/docs/web/toolkits/</loc>
+    <loc>https://raymoniot.github.io/en/docs/web/toolkits/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
-                href="http://localhost:1313/zh/docs/web/toolkits/"
+                href="https://raymoniot.github.io/zh/docs/web/toolkits/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/en/docs/web/toolkits/"
+                href="https://raymoniot.github.io/en/docs/web/toolkits/"
                 />
   </url><url>
-    <loc>http://localhost:1313/en/docs/web/plant-center/edit-plant/</loc>
+    <loc>https://raymoniot.github.io/en/docs/web/plant-center/edit-plant/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
-                href="http://localhost:1313/zh/docs/web/plant-center/edit-plant/"
+                href="https://raymoniot.github.io/zh/docs/web/plant-center/edit-plant/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/en/docs/web/plant-center/edit-plant/"
+                href="https://raymoniot.github.io/en/docs/web/plant-center/edit-plant/"
                 />
   </url><url>
-    <loc>http://localhost:1313/en/docs/web/organization/</loc>
+    <loc>https://raymoniot.github.io/en/docs/web/organization/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
-                href="http://localhost:1313/zh/docs/web/organization/"
+                href="https://raymoniot.github.io/zh/docs/web/organization/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/en/docs/web/organization/"
+                href="https://raymoniot.github.io/en/docs/web/organization/"
                 />
   </url><url>
-    <loc>http://localhost:1313/en/docs/kit/</loc>
+    <loc>https://raymoniot.github.io/en/docs/kit/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
-                href="http://localhost:1313/zh/docs/kit/"
+                href="https://raymoniot.github.io/zh/docs/kit/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/en/docs/kit/"
+                href="https://raymoniot.github.io/en/docs/kit/"
                 />
   </url><url>
-    <loc>http://localhost:1313/en/docs/web/plant-center/guest-access/</loc>
+    <loc>https://raymoniot.github.io/en/docs/web/plant-center/guest-access/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
-                href="http://localhost:1313/zh/docs/web/plant-center/guest-access/"
+                href="https://raymoniot.github.io/zh/docs/web/plant-center/guest-access/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/en/docs/web/plant-center/guest-access/"
+                href="https://raymoniot.github.io/en/docs/web/plant-center/guest-access/"
                 />
   </url><url>
-    <loc>http://localhost:1313/en/docs/web/plant-center/add-logger/</loc>
+    <loc>https://raymoniot.github.io/en/docs/web/plant-center/add-logger/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
-                href="http://localhost:1313/zh/docs/web/plant-center/add-logger/"
+                href="https://raymoniot.github.io/zh/docs/web/plant-center/add-logger/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/en/docs/web/plant-center/add-logger/"
+                href="https://raymoniot.github.io/en/docs/web/plant-center/add-logger/"
                 />
   </url><url>
-    <loc>http://localhost:1313/en/categories/</loc>
+    <loc>https://raymoniot.github.io/en/categories/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
-                href="http://localhost:1313/zh/categories/"
+                href="https://raymoniot.github.io/zh/categories/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/en/categories/"
+                href="https://raymoniot.github.io/en/categories/"
                 />
   </url><url>
-    <loc>http://localhost:1313/en/</loc>
+    <loc>https://raymoniot.github.io/en/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
-                href="http://localhost:1313/zh/"
+                href="https://raymoniot.github.io/zh/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/en/"
+                href="https://raymoniot.github.io/en/"
                 />
   </url><url>
-    <loc>http://localhost:1313/en/docs/</loc>
+    <loc>https://raymoniot.github.io/en/docs/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
-                href="http://localhost:1313/zh/docs/"
+                href="https://raymoniot.github.io/zh/docs/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/en/docs/"
+                href="https://raymoniot.github.io/en/docs/"
                 />
   </url><url>
-    <loc>http://localhost:1313/en/tags/</loc>
+    <loc>https://raymoniot.github.io/en/tags/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
-                href="http://localhost:1313/zh/tags/"
+                href="https://raymoniot.github.io/zh/tags/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/en/tags/"
+                href="https://raymoniot.github.io/en/tags/"
                 />
   </url>
 </urlset>

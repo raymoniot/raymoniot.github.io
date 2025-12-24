@@ -2,23 +2,23 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Solarhub(App) on Solarhub Help Center</title>
-    <link>http://localhost:1313/en/docs/app/</link>
+    <link>https://raymoniot.github.io/en/docs/app/</link>
     <description>Recent content in Solarhub(App) on Solarhub Help Center</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <atom:link href="http://localhost:1313/en/docs/app/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://raymoniot.github.io/en/docs/app/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Registration And Login</title>
-      <link>http://localhost:1313/en/docs/app/login-register/</link>
+      <link>https://raymoniot.github.io/en/docs/app/login-register/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/en/docs/app/login-register/</guid>
+      <guid>https://raymoniot.github.io/en/docs/app/login-register/</guid>
       <description>1. Account registration link Registration information overview:&#xA;Email: used for account login and registration security code acquisition Security code: Enter a valid email address to send the security code Username: Platform users can use it as the platform account to log in Password: Platform account password Time zone: Account time zone. The platform will select different time zone offsets for time display based on the different account time zones Installer information: No need to change by default.</description>
     </item>
     <item>
       <title>Quick Start</title>
-      <link>http://localhost:1313/en/docs/app/quickstart/</link>
+      <link>https://raymoniot.github.io/en/docs/app/quickstart/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/en/docs/app/quickstart/</guid>
+      <guid>https://raymoniot.github.io/en/docs/app/quickstart/</guid>
       <description>Solarhub App Overview link1. Collector network configuration linkUse SolarhubApp to configure the collector network. When configuring the network, please ensure that the collector and the network configuration mobile phone are under the same 2.4Ghz WiFi.&#xA;Note: During the operation, please allow the application to obtain Bluetooth, positioning, data and other permissions, and turn on Bluetooth, WiFi, and positioning services, otherwise it may cause device selection or network configuration failure.&#xA;Click Add Device after Network Configuration, and add network configuration devices by scanning the QR code of the collector/manually entering the collector serial number.</description>
     </item>
   </channel>
