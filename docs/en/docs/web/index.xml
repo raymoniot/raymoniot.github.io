@@ -2,30 +2,30 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Solarhub(Web) on Solarhub Help Center</title>
-    <link>https://raymoniot.github.io/en/docs/web/</link>
+    <link>http://localhost:1313/en/docs/web/</link>
     <description>Recent content in Solarhub(Web) on Solarhub Help Center</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <atom:link href="https://raymoniot.github.io/en/docs/web/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/en/docs/web/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Overview</title>
-      <link>https://raymoniot.github.io/en/docs/web/overview/</link>
+      <link>http://localhost:1313/en/docs/web/overview/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://raymoniot.github.io/en/docs/web/overview/</guid>
+      <guid>http://localhost:1313/en/docs/web/overview/</guid>
       <description>Solarhub Web Overview linkSolarhub Web provides comprehensive energy monitoring services such as photovoltaic, wind power, and energy storage, and provides professional and efficient comprehensive energy cloud monitoring platform services for medium and large plants, equipment manufacturers, operation and maintenance providers, and household plant owners.&#xA;Have a Solarhub account link Experience account: In order to facilitate you to quickly experience the functions of Solarhub, we have opened a customer experience account. You can communicate with the business docking person in charge and enter the experience account and password to experience Solarhub.</description>
     </item>
     <item>
       <title>Quick Start</title>
-      <link>https://raymoniot.github.io/en/docs/web/quickstart/</link>
+      <link>http://localhost:1313/en/docs/web/quickstart/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://raymoniot.github.io/en/docs/web/quickstart/</guid>
+      <guid>http://localhost:1313/en/docs/web/quickstart/</guid>
       <description>1. Collector network configuration linkUse SolarhubApp to perform collector network configuration operations. When configuring the network, please ensure that the collector and the network configuration mobile phone are under the same 2.4Ghz WiFi.&#xA;Note: During the operation, please allow the application to obtain Bluetooth, positioning, data and other permissions, and turn on Bluetooth, WiFi, and positioning services, otherwise it may cause devices to be unable to be selected, or network configuration fails.</description>
     </item>
     <item>
       <title>Data Dashboard</title>
-      <link>https://raymoniot.github.io/en/docs/web/dashboard/</link>
+      <link>http://localhost:1313/en/docs/web/dashboard/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://raymoniot.github.io/en/docs/web/dashboard/</guid>
+      <guid>http://localhost:1313/en/docs/web/dashboard/</guid>
       <description>Business use link As an operator or installer, you need to understand the classification quantity and equipment distribution of the plants under your company. This page displays the total number of plants and the number of various types of plants in the platform Display the distribution of plants in different regions on the map. The map can be scaled, and the distribution will be displayed in different dimensions according to the scaling ratio.</description>
     </item>
   </channel>

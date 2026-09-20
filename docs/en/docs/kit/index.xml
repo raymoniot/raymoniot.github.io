@@ -2,23 +2,23 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Frequently Asked Questions and Answers on Solarhub Help Center</title>
-    <link>https://raymoniot.github.io/en/docs/kit/</link>
+    <link>http://localhost:1313/en/docs/kit/</link>
     <description>Recent content in Frequently Asked Questions and Answers on Solarhub Help Center</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <atom:link href="https://raymoniot.github.io/en/docs/kit/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/en/docs/kit/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Network Search Tool</title>
-      <link>https://raymoniot.github.io/en/docs/kit/1.network-tools/</link>
+      <link>http://localhost:1313/en/docs/kit/1.network-tools/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://raymoniot.github.io/en/docs/kit/1.network-tools/</guid>
+      <guid>http://localhost:1313/en/docs/kit/1.network-tools/</guid>
       <description>Function Overview linkThe network search configuration tool is mainly used to configure the WiFi data stick (collector). Using the network search tool to send commands to the collector can modify the parameters of the collector&#xA;Usage link1. Prerequisites linkThe PC using the network search tool must be in the same network as the collector, otherwise the collector will not be searched&#xA;2. Search for all collector devices in the current network link After opening the software, the network search tool will automatically find the gateway address of the current network as the search address by default.</description>
     </item>
     <item>
       <title>The collector is not online when powered on for the first time</title>
-      <link>https://raymoniot.github.io/en/docs/kit/2.device-offline/</link>
+      <link>http://localhost:1313/en/docs/kit/2.device-offline/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://raymoniot.github.io/en/docs/kit/2.device-offline/</guid>
+      <guid>http://localhost:1313/en/docs/kit/2.device-offline/</guid>
       <description>1. Check the collector signal light link2. Use the network search configuration tool to check the configuration linkFor the usage of the network search configuration tool, refer to Network Search Configuration Tool&#xA;3. Check method link1. Query server selection link Send AT+SERVERSELECT command to query the URL selected in the service area. The firmware after version 3.0 points to URL2 by default, which is the address of each gateway service. If the address is unclear, please contact us.</description>
     </item>
   </channel>
