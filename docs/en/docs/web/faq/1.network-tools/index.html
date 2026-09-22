@@ -114,7 +114,7 @@
                                                         
                                                             
                                                             
-                                                                <li class=" no-icon"><a class="sidebar-nested-link" href="http://localhost:1313/en/docs/web/login/languages/">Multi-language switch</a></li>
+                                                                <li class=" no-icon"><a class="sidebar-nested-link" href="http://localhost:1313/en/docs/web/login/languages/">Multi-language Switch</a></li>
                                                             
                                                         
                                                     </ul>
@@ -124,21 +124,21 @@
                                     
                                         
                                         
-                                            <li class=" no-icon"><a class="sidebar-nested-link" href="http://localhost:1313/en/docs/web/dashboard/">Data dashboard</a></li>
+                                            <li class=" no-icon"><a class="sidebar-nested-link" href="http://localhost:1313/en/docs/web/dashboard/">Data Dashboard</a></li>
                                         
                                     
                                         
                                         
                                             <li class="sidebar-dropdown nested no-icon ">
                                                 <button class="btn">
-                                                    Power Station Center
+                                                    Plant Center
                                                 </button>
                                                 <div class="sidebar-submenu ">
                                                     <ul>
                                                         
                                                             
                                                             
-                                                                <li class=" no-icon"><a class="sidebar-nested-link" href="http://localhost:1313/en/docs/web/plant-center/pvs/">Photovoltaic system</a></li>
+                                                                <li class=" no-icon"><a class="sidebar-nested-link" href="http://localhost:1313/en/docs/web/plant-center/pvs/">PVS</a></li>
                                                             
                                                         
                                                             
@@ -148,22 +148,22 @@
                                                         
                                                             
                                                             
-                                                                <li class=" no-icon"><a class="sidebar-nested-link" href="http://localhost:1313/en/docs/web/plant-center/hess/">Household Energy Storage</a></li>
+                                                                <li class=" no-icon"><a class="sidebar-nested-link" href="http://localhost:1313/en/docs/web/plant-center/hess/">Residential Storage</a></li>
                                                             
                                                         
                                                             
                                                             
-                                                                <li class=" no-icon"><a class="sidebar-nested-link" href="http://localhost:1313/en/docs/web/plant-center/ems/">Commercial power station</a></li>
+                                                                <li class=" no-icon"><a class="sidebar-nested-link" href="http://localhost:1313/en/docs/web/plant-center/ems/">Commercial Plant</a></li>
                                                             
                                                         
                                                             
                                                             
-                                                                <li class=" no-icon"><a class="sidebar-nested-link" href="http://localhost:1313/en/docs/web/plant-center/create-plant/">Create a power plant</a></li>
+                                                                <li class=" no-icon"><a class="sidebar-nested-link" href="http://localhost:1313/en/docs/web/plant-center/create-plant/">Create Plant</a></li>
                                                             
                                                         
                                                             
                                                             
-                                                                <li class=" no-icon"><a class="sidebar-nested-link" href="http://localhost:1313/en/docs/web/plant-center/edit-plant/">Modify a power plant</a></li>
+                                                                <li class=" no-icon"><a class="sidebar-nested-link" href="http://localhost:1313/en/docs/web/plant-center/edit-plant/">Modify Plant</a></li>
                                                             
                                                         
                                                             
@@ -173,7 +173,7 @@
                                                         
                                                             
                                                             
-                                                                <li class=" no-icon"><a class="sidebar-nested-link" href="http://localhost:1313/en/docs/web/plant-center/add-logger/">Add a collector</a></li>
+                                                                <li class=" no-icon"><a class="sidebar-nested-link" href="http://localhost:1313/en/docs/web/plant-center/add-logger/">Add Collector</a></li>
                                                             
                                                         
                                                     </ul>
@@ -279,7 +279,7 @@
                                                         
                                                             
                                                             
-                                                                <li class=" no-icon"><a class="sidebar-nested-link" href="http://localhost:1313/en/docs/web/report/total/">Summary data</a></li>
+                                                                <li class=" no-icon"><a class="sidebar-nested-link" href="http://localhost:1313/en/docs/web/report/total/">Summary Data</a></li>
                                                             
                                                         
                                                     </ul>
@@ -319,6 +319,11 @@
                                                             
                                                             
                                                                 <li class=" no-icon"><a class="sidebar-nested-link" href="http://localhost:1313/en/docs/web/toolkits/notification/">Notice Announcement</a></li>
+                                                            
+                                                        
+                                                            
+                                                            
+                                                                <li class=" no-icon"><a class="sidebar-nested-link" href="http://localhost:1313/en/docs/web/toolkits/test/">Production Test</a></li>
                                                             
                                                         
                                                     </ul>
@@ -361,7 +366,7 @@
                                                         
                                                             
                                                             
-                                                                <li class=" no-icon"><a class="sidebar-nested-link" href="http://localhost:1313/en/docs/web/faq/2.device-offline/">The collector is not online when powered on for the first time</a></li>
+                                                                <li class=" no-icon"><a class="sidebar-nested-link" href="http://localhost:1313/en/docs/web/faq/2.device-offline/">Collector not online at first power-on</a></li>
                                                             
                                                         
                                                     </ul>
@@ -421,8 +426,8 @@
 <script>
     document.getElementById('version-selector').addEventListener('change', function() {
         var selectedVersion = this.value.toLowerCase();
+        var domain = "https://raymoniot.github.io"
         
-        var domain = "http://localhost:1313"
         var lang = "en"
         var jumpUrl = domain + "/" + lang + "/" + "docs" + "/" + selectedVersion
         window.location.href = jumpUrl
@@ -563,13 +568,13 @@
     <nav id="TableOfContents">
   <ul>
     <li><a href="#1-prerequisites">1. Prerequisites</a></li>
-    <li><a href="#2-search-for-all-collector-devices-in-the-current-network">2. Search for all collector devices in the current network</a></li>
-    <li><a href="#3-select-the-device-to-send-instructions">3. Select the device to send instructions</a></li>
+    <li><a href="#2-search-all-collector-devices-in-the-current-network">2. Search all collector devices in the current network</a></li>
+    <li><a href="#3-select-a-device-and-send-commands">3. Select a device and send commands</a></li>
   </ul>
 
   <ul>
-    <li><a href="#query-command">Query command</a></li>
-    <li><a href="#setting-command">Setting command</a></li>
+    <li><a href="#query-commands">Query commands</a></li>
+    <li><a href="#setting-commands">Setting commands</a></li>
     <li><a href="#other-commands">Other commands</a></li>
   </ul>
 </nav>
@@ -583,13 +588,13 @@
 <nav id="toc-mobile">
   <ul class="dropdown-menu">
     <li><a href="#1-prerequisites">1. Prerequisites</a></li>
-    <li><a href="#2-search-for-all-collector-devices-in-the-current-network">2. Search for all collector devices in the current network</a></li>
-    <li><a href="#3-select-the-device-to-send-instructions">3. Select the device to send instructions</a></li>
+    <li><a href="#2-search-all-collector-devices-in-the-current-network">2. Search all collector devices in the current network</a></li>
+    <li><a href="#3-select-a-device-and-send-commands">3. Select a device and send commands</a></li>
   </ul>
 
   <ul>
-    <li><a href="#query-command">Query command</a></li>
-    <li><a href="#setting-command">Setting command</a></li>
+    <li><a href="#query-commands">Query commands</a></li>
+    <li><a href="#setting-commands">Setting commands</a></li>
     <li><a href="#other-commands">Other commands</a></li>
   </ul>
 </nav></div>
@@ -606,37 +611,34 @@
                                                 
     
     <div data-prismjs-copy="" data-prismjs-copy-success="" data-prismjs-copy-error="">
-        <h1 id="function-overview">Function Overview <a href="#function-overview" class="anchor" aria-hidden="true"><i class="material-icons align-middle">link</i></a></h1><p>The network search configuration tool is mainly used to configure the WiFi data stick (collector). Using the network search tool to send commands to the collector can modify the parameters of the collector</p>
-<h1 id="usage">Usage <a href="#usage" class="anchor" aria-hidden="true"><i class="material-icons align-middle">link</i></a></h1><h2 id="1-prerequisites">1. Prerequisites <a href="#1-prerequisites" class="anchor" aria-hidden="true"><i class="material-icons align-middle">link</i></a></h2><p>The PC using the network search tool must be in the <strong>same network</strong> as the collector, otherwise the collector will not be searched</p>
-<h2 id="2-search-for-all-collector-devices-in-the-current-network">2. Search for all collector devices in the current network <a href="#2-search-for-all-collector-devices-in-the-current-network" class="anchor" aria-hidden="true"><i class="material-icons align-middle">link</i></a></h2><img src="../../../../photo/docs/faq/1/1.png" width="700" height="550">
-<p>After opening the software, the network search tool will automatically find the gateway address of the current network as the search address by default. Click the search button to search for collector devices</p>
-<h2 id="3-select-the-device-to-send-instructions">3. Select the device to send instructions <a href="#3-select-the-device-to-send-instructions" class="anchor" aria-hidden="true"><i class="material-icons align-middle">link</i></a></h2><img src="../../../../photo/docs/faq/1/2.png" width="700" height="550">
-<p>Select the target device, and you can see the IP address and serial number of the collector in the list</p>
+        <h1 id="function-overview">Function Overview <a href="#function-overview" class="anchor" aria-hidden="true"><i class="material-icons align-middle">link</i></a></h1><p>The network search configuration tool is mainly used to configure the WiFi stick (collector). Sending commands to the collector with the network search tool can modify the parameters of the collector.</p>
+<p>The tool is a stand-alone program running on a PC (it is not a page of the platform). It is usually used for the configuration of a newly delivered collector and for on-site troubleshooting: first search for the collectors in the same network, then send AT commands to query or modify the configuration.</p>
+<h1 id="how-to-use">How to use <a href="#how-to-use" class="anchor" aria-hidden="true"><i class="material-icons align-middle">link</i></a></h1><h2 id="1-prerequisites">1. Prerequisites <a href="#1-prerequisites" class="anchor" aria-hidden="true"><i class="material-icons align-middle">link</i></a></h2><p>The PC that uses the network search tool must be in the <strong>same network</strong> as the collector, otherwise the collector cannot be found.</p>
+<h2 id="2-search-all-collector-devices-in-the-current-network">2. Search all collector devices in the current network <a href="#2-search-all-collector-devices-in-the-current-network" class="anchor" aria-hidden="true"><i class="material-icons align-middle">link</i></a></h2><img src="../../../../photo/docs/faq/1/1.png" width="700" height="550">
+<p>After the program is opened, the network search tool automatically takes the gateway address of the current network as the search address. Click the search button to search for collector devices.</p>
+<h2 id="3-select-a-device-and-send-commands">3. Select a device and send commands <a href="#3-select-a-device-and-send-commands" class="anchor" aria-hidden="true"><i class="material-icons align-middle">link</i></a></h2><img src="../../../../photo/docs/faq/1/2.png" width="700" height="550">
+<p>Select the target device; the list shows the IP address and the serial number of the collector.</p>
 <img src="../../../../photo/docs/faq/1/3.png" width="700" height="550">
-<p>After sending the command, you can see the execution result of the command in the log. As shown in the figure, +ok means successful execution, =2 means the command execution result is 2. The command executed in the figure is to query the URL address of the data reported by the collector. The result 2 means that configuration 2 is used</p>
-<p><strong>Common problems:</strong>:</p>
+<p>After a command is sent, the execution result can be seen in the log: in the figure, <code>+ok</code> means the command was executed successfully, <code>=2</code> means the execution result of the command is 2, and the command executed in the figure queries the URL the collector reports data to, where the result 2 means configuration 2 is used.</p>
+<p><strong>FAQ</strong>:</p>
 <ul>
-<li>
-<p><strong>No return after sending the command</strong>: After sending the command, there may be no return result in the log. At this time, it may be that the network search configuration tool is disconnected from the collector. You can solve it by searching the device again and resending the command</p>
-</li>
-<li>
-<p><strong>ERR after sending the command</strong>: Check whether the command format is correct and whether the symbol is Chinese. You can search the device multiple times and resend the command to try</p>
-</li>
+<li><strong>No reply after sending a command</strong>: sometimes there is no result in the log after a command is sent. In this case the communication between the network search configuration tool and the collector may be disconnected. Search for the device again and send the command again to solve it.</li>
+<li><strong>ERR returned after sending a command</strong>: check whether the command format is correct and whether Chinese symbols were used by mistake; you can search for the device several times and try to send the command again.</li>
 </ul>
-<h1 id="common-commands">Common commands <a href="#common-commands" class="anchor" aria-hidden="true"><i class="material-icons align-middle">link</i></a></h1><h2 id="query-command">Query command <a href="#query-command" class="anchor" aria-hidden="true"><i class="material-icons align-middle">link</i></a></h2><ul>
-<li>AT+SERVERSELECT: query server selection, used to check whether the reported data server address points to 1 or 2 (the collector supports configuring two addresses, URL1 and URL2. If the query is 1, address 1 will take effect, and if the query is 2, address 2 will take effect)</li>
-<li>AT+SERVERURL1: query the address content of URL1, generally in the format of logger.example.com,5005</li>
-<li>AT+SERVERURL2: query the address content of URL2, generally in the format of logger.example.com,5005</li>
+<h1 id="common-commands">Common commands <a href="#common-commands" class="anchor" aria-hidden="true"><i class="material-icons align-middle">link</i></a></h1><h2 id="query-commands">Query commands <a href="#query-commands" class="anchor" aria-hidden="true"><i class="material-icons align-middle">link</i></a></h2><ul>
+<li>AT+SERVERSELECT: query the server selection, used to check whether the reported data server address points to 1 or 2 (the collector supports two address targets, URL1 and URL2; a result of 1 means address 1 takes effect, a result of 2 means address 2 takes effect)</li>
+<li>AT+SERVERURL1: query the content of URL1, usually in the format logger.example.com,5005</li>
+<li>AT+SERVERURL2: query the content of URL2, usually in the format logger.example.com,5005</li>
 </ul>
-<h2 id="setting-command">Setting command <a href="#setting-command" class="anchor" aria-hidden="true"><i class="material-icons align-middle">link</i></a></h2><ul>
-<li>AT+SERVERSELECT=1: modify the collector server selection, point to URL1, URL1 is effective</li>
-<li>AT+SERVERSELECT=2: modify the collector server selection, point to URL2, URL2 is effective</li>
-<li>AT+SERVERURL1=logger.example.com2,5005: modify the address of collector URL1 to logger.example.com2,5005</li>
-<li>AT+SERVERURL2=logger.example.com2,5005: Change the address of the collector URL2 to logger.example.com2,5005</li>
+<h2 id="setting-commands">Setting commands <a href="#setting-commands" class="anchor" aria-hidden="true"><i class="material-icons align-middle">link</i></a></h2><ul>
+<li>AT+SERVERSELECT=1: change the server selection of the collector to URL1, so URL1 takes effect</li>
+<li>AT+SERVERSELECT=2: change the server selection of the collector to URL2, so URL2 takes effect</li>
+<li>AT+SERVERURL1=logger.example.com2,5005: change URL1 of the collector to logger.example.com2,5005</li>
+<li>AT+SERVERURL2=logger.example.com2,5005: change URL2 of the collector to logger.example.com2,5005</li>
 </ul>
 <h2 id="other-commands">Other commands <a href="#other-commands" class="anchor" aria-hidden="true"><i class="material-icons align-middle">link</i></a></h2><ul>
-<li>AT+FSET: Save configuration information</li>
-<li>AT+RST: Restart the collector (restart is required to take effect after modifying the collector&rsquo;s direction and configuration)</li>
+<li>AT+FSET: save the configuration</li>
+<li>AT+RST: restart the collector (the collector must be restarted for the changes of the target and configuration to take effect)</li>
 </ul>
 
     </div>

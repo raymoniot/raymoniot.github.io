@@ -19,7 +19,7 @@
     <title>批量操作 | Soalrhub 帮助中心</title>
     <meta name="robots" content="noindex">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="批量对多个设备进行指令透传、参数设置、固件升级，包含创建任务，重做失败设备等功能">
+    <meta name="description" content="批量对多个设备进行固件升级、参数设置、指令透传：创建任务、查看任务进度、重做失败设备">
     <meta name="keywords" content="Documentation, Hugo, Hugo Theme, Bootstrap" />
     <meta name="author" content="Colin Wilson - Lotus Labs" />
     <meta name="email" content="support@aigis.uk" />
@@ -33,14 +33,14 @@
 <link rel="icon" type="image/png" sizes="16x16" href="http://localhost:1313/favicon-16x16.png">
 <link rel="manifest" crossorigin="use-credentials" href="http://localhost:1313/site.webmanifest">
 <meta property="og:title" content="批量操作" />
-<meta property="og:description" content="批量对多个设备进行指令透传、参数设置、固件升级，包含创建任务，重做失败设备等功能" />
+<meta property="og:description" content="批量对多个设备进行固件升级、参数设置、指令透传：创建任务、查看任务进度、重做失败设备" />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="http://localhost:1313/zh/docs/web/toolkits/batch/" /><meta property="og:image" content="http://localhost:1313/opengraph/card-base-2_hu06b1a92291a380a0d2e0ec03dab66b2f_17642_filter_8633726198890640080.png"/><meta property="article:section" content="docs" />
+<meta property="og:url" content="http://localhost:1313/zh/docs/web/toolkits/batch/" /><meta property="og:image" content="http://localhost:1313/opengraph/card-base-2_hu06b1a92291a380a0d2e0ec03dab66b2f_17642_filter_14642455852920464770.png"/><meta property="article:section" content="docs" />
 
 <meta name="twitter:card" content="summary_large_image"/>
-<meta name="twitter:image" content="http://localhost:1313/opengraph/card-base-2_hu06b1a92291a380a0d2e0ec03dab66b2f_17642_filter_8633726198890640080.png"/>
+<meta name="twitter:image" content="http://localhost:1313/opengraph/card-base-2_hu06b1a92291a380a0d2e0ec03dab66b2f_17642_filter_14642455852920464770.png"/>
 <meta name="twitter:title" content="批量操作"/>
-<meta name="twitter:description" content="批量对多个设备进行指令透传、参数设置、固件升级，包含创建任务，重做失败设备等功能"/>
+<meta name="twitter:description" content="批量对多个设备进行固件升级、参数设置、指令透传：创建任务、查看任务进度、重做失败设备"/>
 
     
     <script>(()=>{var t=window.matchMedia&&window.matchMedia("(prefers-color-scheme: dark)").matches,e=localStorage.getItem("theme");t&&e===null&&(localStorage.setItem("theme","dark"),document.documentElement.setAttribute("data-dark-mode","")),t&&e==="dark"&&document.documentElement.setAttribute("data-dark-mode",""),e==="dark"&&document.documentElement.setAttribute("data-dark-mode","")})()</script>
@@ -599,13 +599,22 @@
     <div data-prismjs-copy="" data-prismjs-copy-success="" data-prismjs-copy-error="">
         <h1 id="功能概述">功能概述 <a href="#%e5%8a%9f%e8%83%bd%e6%a6%82%e8%bf%b0" class="anchor" aria-hidden="true"><i class="material-icons align-middle">link</i></a></h1><p>批量对设备进行参数设置，固件升级，指令透传等操作</p>
 <img src="/../../zh/photo/docs/toolkits/batch-enter.png">
+<p>批量操作以「任务」为单位：先把设备加到任务里，再选择操作内容提交，平台按台执行并统计成功、失败数量，失败的设备可以重做。列表中的每行显示任务的失败/成功/处理中/全部数量、操作内容、创建者和创建时间。</p>
 <h2 id="1创建任务">1.创建任务 <a href="#1%e5%88%9b%e5%bb%ba%e4%bb%bb%e5%8a%a1" class="anchor" aria-hidden="true"><i class="material-icons align-middle">link</i></a></h2><img src="/../../zh/photo/docs/toolkits/batch-add.png">
 <img src="/../../zh/photo/docs/toolkits/batch-add1.png" width="700" height="550">
 <p>可以按照指定设备类型和电站进行设备的筛选</p>
+<p>先按状态、设备类型、程序版本、序列号、电站名称筛选出目标设备（左栏），勾选后点击「添加」放入右栏，即为本次任务要操作的设备。</p>
 <img src="/../../zh/photo/docs/toolkits/batch-add2.png" width="700" height="550">
 <p>选择设备类型，选择设备列表中的设备，添加设备</p>
 <img src="/../../zh/photo/docs/toolkits/batch-add3.png" width="700" height="550">
 <p>选择需要批量操作的类型，提交任务</p>
+<p>任务类型有三种：</p>
+<ul>
+<li><strong>固件升级</strong>：需要选择要升级的固件，固件按设备类型过滤</li>
+<li><strong>参数设置</strong>：对选中的参数统一下发</li>
+<li><strong>指令透传</strong>：对选中的设备发送同一条指令</li>
+</ul>
+<p>给任务填写名称并提交后，平台会按队列逐台执行，可以在任务列表中刷新查看进度。</p>
 <h2 id="2重做失败设备">2.重做失败设备 <a href="#2%e9%87%8d%e5%81%9a%e5%a4%b1%e8%b4%a5%e8%ae%be%e5%a4%87" class="anchor" aria-hidden="true"><i class="material-icons align-middle">link</i></a></h2><img src="/../../zh/photo/docs/toolkits/batch-redo.png">
 <p>如果批量操作任务重出现设备操作失败，可以使用重做功能，对批量任务中失败的设备进行重做</p>
 
@@ -630,10 +639,10 @@
 		</a>
         </div>
 	<div class="col-sm-6 pt-2 doc-prev">
-		<a class="ms-auto" href="/zh/docs/app/manager-view/plant/search/">
+		<a class="ms-auto" href="/zh/docs/app/device-view/stat/">
 			<div class="card h-100 my-1 text-end">
 				<div class="card-body py-2">
-                    <p class="card-title fs-5 fw-semibold lh-base mb-0">搜索或筛选电站 <i class="material-icons align-middle">navigate_next</i></p>
+                    <p class="card-title fs-5 fw-semibold lh-base mb-0">设备统计 <i class="material-icons align-middle">navigate_next</i></p>
 					
 				</div>
 			</div>

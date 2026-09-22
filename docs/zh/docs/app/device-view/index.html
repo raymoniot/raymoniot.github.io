@@ -142,7 +142,7 @@
                                                                             
                                                                                 
                                                                                 
-                                                                                    <li class=" no-icon"><a class="sidebar-nested-link" href="http://localhost:1313/zh/docs/app/manager-view/plant/history/">电站历史</a></li>
+                                                                                    <li class=" no-icon"><a class="sidebar-nested-link" href="http://localhost:1313/zh/docs/app/manager-view/plant/history/">电站统计</a></li>
                                                                                 
                                                                             
                                                                                 
@@ -176,7 +176,7 @@
                                                                             
                                                                                 
                                                                                 
-                                                                                    <li class=" no-icon"><a class="sidebar-nested-link" href="http://localhost:1313/zh/docs/app/manager-view/device/history/">设备历史</a></li>
+                                                                                    <li class=" no-icon"><a class="sidebar-nested-link" href="http://localhost:1313/zh/docs/app/manager-view/device/history/">设备统计</a></li>
                                                                                 
                                                                             
                                                                                 
@@ -227,6 +227,41 @@
                                                 <div class="sidebar-submenu ">
                                                     <ul>
                                                         
+                                                            
+                                                            
+                                                                <li class=" no-icon"><a class="sidebar-nested-link" href="http://localhost:1313/zh/docs/app/plant-view/overview/">电站概览</a></li>
+                                                            
+                                                        
+                                                            
+                                                            
+                                                                <li class=" no-icon"><a class="sidebar-nested-link" href="http://localhost:1313/zh/docs/app/plant-view/stat/">电站统计</a></li>
+                                                            
+                                                        
+                                                            
+                                                            
+                                                                <li class=" no-icon"><a class="sidebar-nested-link" href="http://localhost:1313/zh/docs/app/plant-view/layout/">电站布局</a></li>
+                                                            
+                                                        
+                                                            
+                                                            
+                                                                <li class=" no-icon"><a class="sidebar-nested-link" href="http://localhost:1313/zh/docs/app/plant-view/switch/">切换电站</a></li>
+                                                            
+                                                        
+                                                            
+                                                            
+                                                                <li class=" no-icon"><a class="sidebar-nested-link" href="http://localhost:1313/zh/docs/app/plant-view/create/">创建电站</a></li>
+                                                            
+                                                        
+                                                            
+                                                            
+                                                                <li class=" no-icon"><a class="sidebar-nested-link" href="http://localhost:1313/zh/docs/app/plant-view/logger/">添加采集器</a></li>
+                                                            
+                                                        
+                                                            
+                                                            
+                                                                <li class=" no-icon"><a class="sidebar-nested-link" href="http://localhost:1313/zh/docs/app/plant-view/devicelist/">电站设备列表</a></li>
+                                                            
+                                                        
                                                     </ul>
                                                 </div>
                                             </li>
@@ -240,6 +275,46 @@
                                                 </button>
                                                 <div class="sidebar-submenu d-block">
                                                     <ul>
+                                                        
+                                                            
+                                                            
+                                                                <li class=" no-icon"><a class="sidebar-nested-link" href="http://localhost:1313/zh/docs/app/device-view/realtime/">设备实时数据</a></li>
+                                                            
+                                                        
+                                                            
+                                                            
+                                                                <li class=" no-icon"><a class="sidebar-nested-link" href="http://localhost:1313/zh/docs/app/device-view/stat/">设备统计</a></li>
+                                                            
+                                                        
+                                                            
+                                                            
+                                                                <li class=" no-icon"><a class="sidebar-nested-link" href="http://localhost:1313/zh/docs/app/device-view/deviceswitch/">设备切换</a></li>
+                                                            
+                                                        
+                                                            
+                                                            
+                                                                <li class=" no-icon"><a class="sidebar-nested-link" href="http://localhost:1313/zh/docs/app/device-view/wifi/">配网</a></li>
+                                                            
+                                                        
+                                                            
+                                                            
+                                                                <li class=" no-icon"><a class="sidebar-nested-link" href="http://localhost:1313/zh/docs/app/device-view/logger/">添加采集器</a></li>
+                                                            
+                                                        
+                                                            
+                                                            
+                                                                <li class=" no-icon"><a class="sidebar-nested-link" href="http://localhost:1313/zh/docs/app/device-view/paramset/">参数设置</a></li>
+                                                            
+                                                        
+                                                            
+                                                            
+                                                                <li class=" no-icon"><a class="sidebar-nested-link" href="http://localhost:1313/zh/docs/app/device-view/alias/">设备别名</a></li>
+                                                            
+                                                        
+                                                            
+                                                            
+                                                                <li class=" no-icon"><a class="sidebar-nested-link" href="http://localhost:1313/zh/docs/app/device-view/unbind/">解绑设备</a></li>
+                                                            
                                                         
                                                     </ul>
                                                 </div>
@@ -416,6 +491,10 @@
 
 
 
+    
+    
+    <li><a class="dropdown-item" href="/en/docs/app/device-view/" role="button" rel="alternate" hreflang="en" lang="en">English</a></li>
+
 
 
 
@@ -424,7 +503,6 @@
     
         
         
-            <li><a class="dropdown-item" href="/en/docs" role="button" rel="alternate" hreflang="en" lang="en">English</a></li>
         
     
 
@@ -472,17 +550,31 @@
                                     
                                     <div class="row flex-xl-nowrap">
                                         
-                                        <div class="docs-toc col-xl-3 visually-hidden visually-hidden  d-xl-block"><toc>
+                                        <div class="docs-toc col-xl-3 visually-hidden   d-xl-block"><toc>
     <div class="fw-bold text-uppercase mb-2"></div>
-    <nav id="TableOfContents"></nav>
+    <nav id="TableOfContents">
+  <ul>
+    <li><a href="#视角说明">视角说明</a></li>
+    <li><a href="#进入后的界面">进入后的界面</a></li>
+    <li><a href="#本视角下的页面">本视角下的页面</a></li>
+    <li><a href="#与另外两个视角的差别">与另外两个视角的差别</a></li>
+  </ul>
+</nav>
     </toc></div>
                                         
                                         
-                                        <div class="docs-toc-mobile visually-hidden visually-hidden  d-print-none d-xl-none">
+                                        <div class="docs-toc-mobile visually-hidden   d-print-none d-xl-none">
                                             <button id="toc-dropdown-btn" class="btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" data-bs-offset="0,0" aria-expanded="false">
                                                 Table of Contents
                                             </button>
-<nav id="toc-mobile"></nav></div>
+<nav id="toc-mobile">
+  <ul class="dropdown-menu">
+    <li><a href="#视角说明">视角说明</a></li>
+    <li><a href="#进入后的界面">进入后的界面</a></li>
+    <li><a href="#本视角下的页面">本视角下的页面</a></li>
+    <li><a href="#与另外两个视角的差别">与另外两个视角的差别</a></li>
+  </ul>
+</nav></div>
                                         <div class="docs-content col-12  mt-0">
                                             <div class="mb-0 d-flex">
                                                 
@@ -495,6 +587,142 @@
                                             <div id="content" class="main-content" >
                                                 
     <div class="row flex-xl-wrap">
+        
+        <div id="list-item" class="col-md-4 col-12 mt-4 pt-2">
+            <a class="text-decoration-none text-reset" href="http://localhost:1313/zh/docs/app/device-view/realtime/">
+                <div class="card h-100 features feature-full-bg rounded p-4 position-relative overflow-hidden border-1">
+                    <span class="icon-color d-flex my-3">
+                        <i class="material-icons align-middle">article</i>
+                        
+                        
+                    </span>
+                    <div class="card-body p-0 content">
+                        <p class="fs-5 fw-semibold card-title mb-1">设备实时数据</p>
+                        <p class="para card-text mb-0">进入用户设备视角后的默认页面</p>
+                    </div>
+                    
+                </div>
+            </a>
+        </div>
+        
+        <div id="list-item" class="col-md-4 col-12 mt-4 pt-2">
+            <a class="text-decoration-none text-reset" href="http://localhost:1313/zh/docs/app/device-view/stat/">
+                <div class="card h-100 features feature-full-bg rounded p-4 position-relative overflow-hidden border-1">
+                    <span class="icon-color d-flex my-3">
+                        <i class="material-icons align-middle">article</i>
+                        
+                        
+                    </span>
+                    <div class="card-body p-0 content">
+                        <p class="fs-5 fw-semibold card-title mb-1">设备统计</p>
+                        <p class="para card-text mb-0">设备的历史数据统计</p>
+                    </div>
+                    
+                </div>
+            </a>
+        </div>
+        
+        <div id="list-item" class="col-md-4 col-12 mt-4 pt-2">
+            <a class="text-decoration-none text-reset" href="http://localhost:1313/zh/docs/app/device-view/deviceswitch/">
+                <div class="card h-100 features feature-full-bg rounded p-4 position-relative overflow-hidden border-1">
+                    <span class="icon-color d-flex my-3">
+                        <i class="material-icons align-middle">article</i>
+                        
+                        
+                    </span>
+                    <div class="card-body p-0 content">
+                        <p class="fs-5 fw-semibold card-title mb-1">设备切换</p>
+                        <p class="para card-text mb-0">切换到其他设备</p>
+                    </div>
+                    
+                </div>
+            </a>
+        </div>
+        
+        <div id="list-item" class="col-md-4 col-12 mt-4 pt-2">
+            <a class="text-decoration-none text-reset" href="http://localhost:1313/zh/docs/app/device-view/wifi/">
+                <div class="card h-100 features feature-full-bg rounded p-4 position-relative overflow-hidden border-1">
+                    <span class="icon-color d-flex my-3">
+                        <i class="material-icons align-middle">article</i>
+                        
+                        
+                    </span>
+                    <div class="card-body p-0 content">
+                        <p class="fs-5 fw-semibold card-title mb-1">配网</p>
+                        <p class="para card-text mb-0">给采集器配置 WiFi 网络</p>
+                    </div>
+                    
+                </div>
+            </a>
+        </div>
+        
+        <div id="list-item" class="col-md-4 col-12 mt-4 pt-2">
+            <a class="text-decoration-none text-reset" href="http://localhost:1313/zh/docs/app/device-view/logger/">
+                <div class="card h-100 features feature-full-bg rounded p-4 position-relative overflow-hidden border-1">
+                    <span class="icon-color d-flex my-3">
+                        <i class="material-icons align-middle">article</i>
+                        
+                        
+                    </span>
+                    <div class="card-body p-0 content">
+                        <p class="fs-5 fw-semibold card-title mb-1">添加采集器</p>
+                        <p class="para card-text mb-0">在用户设备视角下添加采集器</p>
+                    </div>
+                    
+                </div>
+            </a>
+        </div>
+        
+        <div id="list-item" class="col-md-4 col-12 mt-4 pt-2">
+            <a class="text-decoration-none text-reset" href="http://localhost:1313/zh/docs/app/device-view/paramset/">
+                <div class="card h-100 features feature-full-bg rounded p-4 position-relative overflow-hidden border-1">
+                    <span class="icon-color d-flex my-3">
+                        <i class="material-icons align-middle">article</i>
+                        
+                        
+                    </span>
+                    <div class="card-body p-0 content">
+                        <p class="fs-5 fw-semibold card-title mb-1">参数设置</p>
+                        <p class="para card-text mb-0">对设备下发参数</p>
+                    </div>
+                    
+                </div>
+            </a>
+        </div>
+        
+        <div id="list-item" class="col-md-4 col-12 mt-4 pt-2">
+            <a class="text-decoration-none text-reset" href="http://localhost:1313/zh/docs/app/device-view/alias/">
+                <div class="card h-100 features feature-full-bg rounded p-4 position-relative overflow-hidden border-1">
+                    <span class="icon-color d-flex my-3">
+                        <i class="material-icons align-middle">article</i>
+                        
+                        
+                    </span>
+                    <div class="card-body p-0 content">
+                        <p class="fs-5 fw-semibold card-title mb-1">设备别名</p>
+                        <p class="para card-text mb-0">修改设备名称</p>
+                    </div>
+                    
+                </div>
+            </a>
+        </div>
+        
+        <div id="list-item" class="col-md-4 col-12 mt-4 pt-2">
+            <a class="text-decoration-none text-reset" href="http://localhost:1313/zh/docs/app/device-view/unbind/">
+                <div class="card h-100 features feature-full-bg rounded p-4 position-relative overflow-hidden border-1">
+                    <span class="icon-color d-flex my-3">
+                        <i class="material-icons align-middle">article</i>
+                        
+                        
+                    </span>
+                    <div class="card-body p-0 content">
+                        <p class="fs-5 fw-semibold card-title mb-1">解绑设备</p>
+                        <p class="para card-text mb-0">解除设备与电站/采集器的绑定关系</p>
+                    </div>
+                    
+                </div>
+            </a>
+        </div>
         
     </div>
 

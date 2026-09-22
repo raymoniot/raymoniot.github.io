@@ -19,7 +19,7 @@
     <title>远程交互 | Soalrhub 帮助中心</title>
     <meta name="robots" content="noindex">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="对采集器进行远程交互功能，包括指令透传、固件升级（OTA）、参数设置、操作日志等">
+    <meta name="description" content="对采集器进行远程交互：指令透传、参数设置、固件升级（OTA）和操作日志">
     <meta name="keywords" content="Documentation, Hugo, Hugo Theme, Bootstrap" />
     <meta name="author" content="Colin Wilson - Lotus Labs" />
     <meta name="email" content="support@aigis.uk" />
@@ -33,14 +33,14 @@
 <link rel="icon" type="image/png" sizes="16x16" href="http://localhost:1313/favicon-16x16.png">
 <link rel="manifest" crossorigin="use-credentials" href="http://localhost:1313/site.webmanifest">
 <meta property="og:title" content="远程交互" />
-<meta property="og:description" content="对采集器进行远程交互功能，包括指令透传、固件升级（OTA）、参数设置、操作日志等" />
+<meta property="og:description" content="对采集器进行远程交互：指令透传、参数设置、固件升级（OTA）和操作日志" />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="http://localhost:1313/zh/docs/web/toolkits/remote/" /><meta property="og:image" content="http://localhost:1313/opengraph/card-base-2_hu06b1a92291a380a0d2e0ec03dab66b2f_17642_filter_8067857515333363220.png"/><meta property="article:section" content="docs" />
+<meta property="og:url" content="http://localhost:1313/zh/docs/web/toolkits/remote/" /><meta property="og:image" content="http://localhost:1313/opengraph/card-base-2_hu06b1a92291a380a0d2e0ec03dab66b2f_17642_filter_18337195812091080758.png"/><meta property="article:section" content="docs" />
 
 <meta name="twitter:card" content="summary_large_image"/>
-<meta name="twitter:image" content="http://localhost:1313/opengraph/card-base-2_hu06b1a92291a380a0d2e0ec03dab66b2f_17642_filter_8067857515333363220.png"/>
+<meta name="twitter:image" content="http://localhost:1313/opengraph/card-base-2_hu06b1a92291a380a0d2e0ec03dab66b2f_17642_filter_18337195812091080758.png"/>
 <meta name="twitter:title" content="远程交互"/>
-<meta name="twitter:description" content="对采集器进行远程交互功能，包括指令透传、固件升级（OTA）、参数设置、操作日志等"/>
+<meta name="twitter:description" content="对采集器进行远程交互：指令透传、参数设置、固件升级（OTA）和操作日志"/>
 
     
     <script>(()=>{var t=window.matchMedia&&window.matchMedia("(prefers-color-scheme: dark)").matches,e=localStorage.getItem("theme");t&&e===null&&(localStorage.setItem("theme","dark"),document.documentElement.setAttribute("data-dark-mode","")),t&&e==="dark"&&document.documentElement.setAttribute("data-dark-mode",""),e==="dark"&&document.documentElement.setAttribute("data-dark-mode","")})()</script>
@@ -601,22 +601,30 @@
                                                 
     
     <div data-prismjs-copy="" data-prismjs-copy-success="" data-prismjs-copy-error="">
-        <h1 id="功能概述">功能概述 <a href="#%e5%8a%9f%e8%83%bd%e6%a6%82%e8%bf%b0" class="anchor" aria-hidden="true"><i class="material-icons align-middle">link</i></a></h1><p>向采集器发送下行指令，包括固件升级，指令透传，参数设置</p>
+        <h1 id="功能概述">功能概述 <a href="#%e5%8a%9f%e8%83%bd%e6%a6%82%e8%bf%b0" class="anchor" aria-hidden="true"><i class="material-icons align-middle">link</i></a></h1><p>向采集器发送下行指令，包括固件升级（OTA）、指令透传、参数设置。</p>
 <img src="/../../zh/photo/docs/toolkits/remote-enter.png">
 <p>远程交互界面默认展示当前在线的采集器，也可以根据序列号、状态、所属电站、标签、固件版本号进行高级搜索</p>
+<p>列表中的每一行对应一台采集器，显示状态、序列号、品牌、型号、所属电站、信号强度、通讯类型、时区和数据更新时间；操作列提供四个入口：固件升级、操作日志、指令透传、参数设置。</p>
 <h2 id="1固件升级ota">1.固件升级（OTA） <a href="#1%e5%9b%ba%e4%bb%b6%e5%8d%87%e7%ba%a7ota" class="anchor" aria-hidden="true"><i class="material-icons align-middle">link</i></a></h2><img src="/../../zh/photo/docs/toolkits/remote-ota.png">
 <p>固件升级包括升级采集器和升级子设备，升级过程相同，两者设备的类型不同，使用的固件不同</p>
 <img src="/../../zh/photo/docs/toolkits/remote-ota1.png" width="700" height="550">
 <p>固件列表中展示当前账号权限下可见的所有固件，可以设置升级超时时间，如果设备在超时时间外无反馈回复，则认为此次OTA升级超时</p>
+<p>升级过程与结果可以在「操作日志」中查看；升级失败或超时的设备可以重新发起升级。</p>
 <h2 id="2指令透传">2.指令透传 <a href="#2%e6%8c%87%e4%bb%a4%e9%80%8f%e4%bc%a0" class="anchor" aria-hidden="true"><i class="material-icons align-middle">link</i></a></h2><img src="/../../zh/photo/docs/toolkits/remote-send.png">
 <img src="/../../zh/photo/docs/toolkits/remote-send1.png" width="700" height="550">
 <p>指令透传发送的指令格式有两种，发生标准Modbus协议的指令和自定义指令，输入指令后点击立即发生即可，旧版发送为旧版固件使用，忽略即可</p>
+<ul>
+<li><strong>标准Modbus协议</strong>：按地址、指令、数据域分别填写，工具会自动计算 CRC16 校验</li>
+<li><strong>自定义指令</strong>：按设备协议直接填写完整指令</li>
+</ul>
 <h2 id="3参数设置">3.参数设置 <a href="#3%e5%8f%82%e6%95%b0%e8%ae%be%e7%bd%ae" class="anchor" aria-hidden="true"><i class="material-icons align-middle">link</i></a></h2><img src="/../../zh/photo/docs/toolkits/remote-set.png">
 <img src="/../../zh/photo/docs/toolkits/remote-set1.png">
 <p>可以进行单个参数的设置与发送，也可以点击批量设置，同时设置多个参数</p>
+<p>每个参数显示为一张卡片，包含测点编号、参数名称和输入框，修改后点击卡片上的下发按钮单独下发；多个参数一起修改时，点击底部的「批量设置」统一下发。</p>
 <h2 id="4操作日志">4.操作日志 <a href="#4%e6%93%8d%e4%bd%9c%e6%97%a5%e5%bf%97" class="anchor" aria-hidden="true"><i class="material-icons align-middle">link</i></a></h2><img src="/../../zh/photo/docs/toolkits/remote-logs.png">
 <img src="/../../zh/photo/docs/toolkits/remote-logs1.png">
 <p>操作日志可以查询某个设备在一个时间段所有的远程交互记录，也可以按照操作类型搜索</p>
+<p>日志中会记录每次交互的创建时间、处理时间、响应时间、处理结果、响应代码和响应结果，便于确认指令是否执行成功。</p>
 
     </div>
 

@@ -36,11 +36,11 @@
       <description> 步骤 link 在电站列表选择电站进入电站概览页 在电站概览页点击右上角切换电站进入切换电站界面 选择切换的电站完成切换 </description>
     </item>
     <item>
-      <title>电站历史</title>
+      <title>电站统计</title>
       <link>http://localhost:1313/zh/docs/app/manager-view/plant/history/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/zh/docs/app/manager-view/plant/history/</guid>
-      <description> 步骤 link 在电站列表选择电站进入电站概览界面 在底部选择历史进入历史界面 通过按压图表可以查看某一个时间点的数据 通过上方箭头可以切换前一天或者后一天的历史数据，点击时间可以手动选择时间 </description>
+      <description> 步骤 link 在电站列表选择电站进入电站概览界面 在底部选择统计进入统计界面（版本更新前该标签名为「历史」） 通过按压图表可以查看某一个时间点的数据 通过上方箭头可以切换前一天或者后一天的数据，点击时间可以手动选择时间；图表右上角的放大按钮可以全屏查看 </description>
     </item>
     <item>
       <title>电站布局</title>

@@ -19,7 +19,7 @@
     <title>汇总数据 | Soalrhub 帮助中心</title>
     <meta name="robots" content="noindex">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="平台电站，设备数据汇总，可以导出电站报表、设备报表">
+    <meta name="description" content="电站报表与设备报表：按日、月、年、总统计电站和设备的运行数据，并导出为 Excel">
     <meta name="keywords" content="Documentation, Hugo, Hugo Theme, Bootstrap" />
     <meta name="author" content="Colin Wilson - Lotus Labs" />
     <meta name="email" content="support@aigis.uk" />
@@ -33,14 +33,14 @@
 <link rel="icon" type="image/png" sizes="16x16" href="http://localhost:1313/favicon-16x16.png">
 <link rel="manifest" crossorigin="use-credentials" href="http://localhost:1313/site.webmanifest">
 <meta property="og:title" content="汇总数据" />
-<meta property="og:description" content="平台电站，设备数据汇总，可以导出电站报表、设备报表" />
+<meta property="og:description" content="电站报表与设备报表：按日、月、年、总统计电站和设备的运行数据，并导出为 Excel" />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="http://localhost:1313/zh/docs/web/report/total/" /><meta property="og:image" content="http://localhost:1313/opengraph/card-base-2_hu06b1a92291a380a0d2e0ec03dab66b2f_17642_filter_5111432220304976961.png"/><meta property="article:section" content="docs" />
+<meta property="og:url" content="http://localhost:1313/zh/docs/web/report/total/" /><meta property="og:image" content="http://localhost:1313/opengraph/card-base-2_hu06b1a92291a380a0d2e0ec03dab66b2f_17642_filter_17667698836451860557.png"/><meta property="article:section" content="docs" />
 
 <meta name="twitter:card" content="summary_large_image"/>
-<meta name="twitter:image" content="http://localhost:1313/opengraph/card-base-2_hu06b1a92291a380a0d2e0ec03dab66b2f_17642_filter_5111432220304976961.png"/>
+<meta name="twitter:image" content="http://localhost:1313/opengraph/card-base-2_hu06b1a92291a380a0d2e0ec03dab66b2f_17642_filter_17667698836451860557.png"/>
 <meta name="twitter:title" content="汇总数据"/>
-<meta name="twitter:description" content="平台电站，设备数据汇总，可以导出电站报表、设备报表"/>
+<meta name="twitter:description" content="电站报表与设备报表：按日、月、年、总统计电站和设备的运行数据，并导出为 Excel"/>
 
     
     <script>(()=>{var t=window.matchMedia&&window.matchMedia("(prefers-color-scheme: dark)").matches,e=localStorage.getItem("theme");t&&e===null&&(localStorage.setItem("theme","dark"),document.documentElement.setAttribute("data-dark-mode","")),t&&e==="dark"&&document.documentElement.setAttribute("data-dark-mode",""),e==="dark"&&document.documentElement.setAttribute("data-dark-mode","")})()</script>
@@ -607,9 +607,19 @@
     <div data-prismjs-copy="" data-prismjs-copy-success="" data-prismjs-copy-error="">
         <h1 id="功能概述">功能概述 <a href="#%e5%8a%9f%e8%83%bd%e6%a6%82%e8%bf%b0" class="anchor" aria-hidden="true"><i class="material-icons align-middle">link</i></a></h1><p>汇总数据会汇总所有电站，所有设备日月年总的数据情况，可以根据条件筛选目标数据后导出为Excel表格</p>
 <img src="/../../zh/photo/docs/report/report-enter.png">
+<p>左侧在「电站报表」和「设备报表」之间切换，两个页面共用的筛选方式是：</p>
+<ul>
+<li><strong>业务类型</strong>：选择要统计的业务类型（光伏系统、电池系统、户用储能等）</li>
+<li><strong>报表种类</strong>：日、月、年、总，决定统计的粒度和展示的数据</li>
+<li><strong>时间</strong>：按报表种类选择对应日期或时间段</li>
+</ul>
 <h2 id="1电站报表">1.电站报表 <a href="#1%e7%94%b5%e7%ab%99%e6%8a%a5%e8%a1%a8" class="anchor" aria-hidden="true"><i class="material-icons align-middle">link</i></a></h2><img src="/../../zh/photo/docs/report/report-plant.png">
+<p>电站报表按电站逐行统计，包含电站名称、电站地址、电站业主、联系人，以及所选报表种类对应的发电量和收益等数据；报表种类为「日」「月」「年」时，每行是一个电站在该时间范围内的汇总值。</p>
+<p>筛选条件中的「电站」可以指定单个电站，不选时统计范围内的所有电站。</p>
 <h3 id="11导出">1.1导出 <a href="#11%e5%af%bc%e5%87%ba" class="anchor" aria-hidden="true"><i class="material-icons align-middle">link</i></a></h3><img src="/../../zh/photo/docs/report/export.png">
+<p>点击右上角「导出」，把当前筛选条件下的报表数据导出为 Excel 表格。</p>
 <h2 id="2设备报表">2.设备报表 <a href="#2%e8%ae%be%e5%a4%87%e6%8a%a5%e8%a1%a8" class="anchor" aria-hidden="true"><i class="material-icons align-middle">link</i></a></h2><img src="/../../zh/photo/docs/report/report-device.png">
+<p>设备报表按设备统计运行数据，需要选择设备类型和<strong>设备序列号</strong>，报表内容包括固件版本号、总运行时间、本次上电时间、数据上传间隔、数据采集间隔、连接数量、信号强度、心跳等设备侧参数，用于核对设备的运行状态和配置。查询结果同样可以导出。</p>
 
     </div>
 

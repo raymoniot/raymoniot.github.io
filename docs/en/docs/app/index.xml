@@ -19,7 +19,7 @@
       <link>http://localhost:1313/en/docs/app/quickstart/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/en/docs/app/quickstart/</guid>
-      <description>Solarhub App Overview link1. Registration and Login linkFor details, please refer to Registration and Login&#xA;2. Creating a Device linkNewly registered accounts need to create a device first.&#xA;Click Create Device&#xA;Add the device by scanning a QR code or manually entering the serial number.&#xA;Enter the network configuration interface&#xA;Enter the Wi-Fi password to configure the network. During configuration, please ensure that the device and the phone being configured are on the same 2.</description>
+      <description>Solarhub App Overview link1. Registration and Login linkFor details, please refer to Registration and Login&#xA;2. Creating a Device linkNewly registered accounts need to create a device first.&#xA;Click Create Device Add the device by scanning a QR code or entering the serial number manually Enter the network configuration interface Enter the Wi-Fi password to configure the network. During configuration, please make sure the device and the configuring phone are on the same 2.</description>
     </item>
   </channel>
 </rss>

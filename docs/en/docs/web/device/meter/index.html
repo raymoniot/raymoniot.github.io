@@ -19,6 +19,7 @@
     <title>Smart Meter | Solarhub Help Center</title>
     <meta name="robots" content="noindex">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Meter list and details page: meter info (voltage, current, power, energy) and micro-inverter data.">
     <meta name="keywords" content="Documentation, Hugo, Hugo Theme, Bootstrap" />
     <meta name="author" content="Colin Wilson - Lotus Labs" />
     <meta name="email" content="support@aigis.uk" />
@@ -32,22 +33,14 @@
 <link rel="icon" type="image/png" sizes="16x16" href="http://localhost:1313/favicon-16x16.png">
 <link rel="manifest" crossorigin="use-credentials" href="http://localhost:1313/site.webmanifest">
 <meta property="og:title" content="Smart Meter" />
-<meta property="og:description" content="Function Overview link1. Device List link The device list can view online, faulty, offline and all device information.
-2. Meter details page link You can enter the device details page from the device in the device list
-The meter details page displays meter information and micro-inverter devices
-3.1 Alarm linkRefer to Collector Alarm
-3.2 Unbinding linkRefer to Collector Unbinding, Unbinding a sub-device will delete the sub-device from the collector and clear the sub-device data." />
+<meta property="og:description" content="Meter list and details page: meter info (voltage, current, power, energy) and micro-inverter data." />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="http://localhost:1313/en/docs/web/device/meter/" /><meta property="og:image" content="http://localhost:1313/opengraph/card-base-2_hu06b1a92291a380a0d2e0ec03dab66b2f_17642_filter_14432043902248998570.png"/><meta property="article:section" content="docs" />
+<meta property="og:url" content="http://localhost:1313/en/docs/web/device/meter/" /><meta property="og:image" content="http://localhost:1313/opengraph/card-base-2_hu06b1a92291a380a0d2e0ec03dab66b2f_17642_filter_9392808131660297540.png"/><meta property="article:section" content="docs" />
 
 <meta name="twitter:card" content="summary_large_image"/>
-<meta name="twitter:image" content="http://localhost:1313/opengraph/card-base-2_hu06b1a92291a380a0d2e0ec03dab66b2f_17642_filter_14432043902248998570.png"/>
+<meta name="twitter:image" content="http://localhost:1313/opengraph/card-base-2_hu06b1a92291a380a0d2e0ec03dab66b2f_17642_filter_9392808131660297540.png"/>
 <meta name="twitter:title" content="Smart Meter"/>
-<meta name="twitter:description" content="Function Overview link1. Device List link The device list can view online, faulty, offline and all device information.
-2. Meter details page link You can enter the device details page from the device in the device list
-The meter details page displays meter information and micro-inverter devices
-3.1 Alarm linkRefer to Collector Alarm
-3.2 Unbinding linkRefer to Collector Unbinding, Unbinding a sub-device will delete the sub-device from the collector and clear the sub-device data."/>
+<meta name="twitter:description" content="Meter list and details page: meter info (voltage, current, power, energy) and micro-inverter data."/>
 
     
     <script>(()=>{var t=window.matchMedia&&window.matchMedia("(prefers-color-scheme: dark)").matches,e=localStorage.getItem("theme");t&&e===null&&(localStorage.setItem("theme","dark"),document.documentElement.setAttribute("data-dark-mode","")),t&&e==="dark"&&document.documentElement.setAttribute("data-dark-mode",""),e==="dark"&&document.documentElement.setAttribute("data-dark-mode","")})()</script>
@@ -150,17 +143,17 @@ The meter details page displays meter information and micro-inverter devices
                                                         
                                                             
                                                             
-                                                                <li class=" no-icon"><a class="sidebar-nested-link" href="http://localhost:1313/en/docs/web/plant-center/bess/">BESS</a></li>
+                                                                <li class=" no-icon"><a class="sidebar-nested-link" href="http://localhost:1313/en/docs/web/plant-center/bess/">Battery System</a></li>
                                                             
                                                         
                                                             
                                                             
-                                                                <li class=" no-icon"><a class="sidebar-nested-link" href="http://localhost:1313/en/docs/web/plant-center/hess/">HESS</a></li>
+                                                                <li class=" no-icon"><a class="sidebar-nested-link" href="http://localhost:1313/en/docs/web/plant-center/hess/">Residential Storage</a></li>
                                                             
                                                         
                                                             
                                                             
-                                                                <li class=" no-icon"><a class="sidebar-nested-link" href="http://localhost:1313/en/docs/web/plant-center/ems/">EMS</a></li>
+                                                                <li class=" no-icon"><a class="sidebar-nested-link" href="http://localhost:1313/en/docs/web/plant-center/ems/">Commercial Plant</a></li>
                                                             
                                                         
                                                             
@@ -180,7 +173,7 @@ The meter details page displays meter information and micro-inverter devices
                                                         
                                                             
                                                             
-                                                                <li class=" no-icon"><a class="sidebar-nested-link" href="http://localhost:1313/en/docs/web/plant-center/add-logger/">Add Logger</a></li>
+                                                                <li class=" no-icon"><a class="sidebar-nested-link" href="http://localhost:1313/en/docs/web/plant-center/add-logger/">Add Collector</a></li>
                                                             
                                                         
                                                     </ul>
@@ -328,6 +321,11 @@ The meter details page displays meter information and micro-inverter devices
                                                                 <li class=" no-icon"><a class="sidebar-nested-link" href="http://localhost:1313/en/docs/web/toolkits/notification/">Notice Announcement</a></li>
                                                             
                                                         
+                                                            
+                                                            
+                                                                <li class=" no-icon"><a class="sidebar-nested-link" href="http://localhost:1313/en/docs/web/toolkits/test/">Production Test</a></li>
+                                                            
+                                                        
                                                     </ul>
                                                 </div>
                                             </li>
@@ -345,6 +343,30 @@ The meter details page displays meter information and micro-inverter devices
                                                             
                                                             
                                                                 <li class=" no-icon"><a class="sidebar-nested-link" href="http://localhost:1313/en/docs/web/organization/tree/">Organizational Structure</a></li>
+                                                            
+                                                        
+                                                    </ul>
+                                                </div>
+                                            </li>
+                                        
+                                    
+                                        
+                                        
+                                            <li class="sidebar-dropdown nested no-icon ">
+                                                <button class="btn">
+                                                    Frequently Asked Questions and Answers
+                                                </button>
+                                                <div class="sidebar-submenu ">
+                                                    <ul>
+                                                        
+                                                            
+                                                            
+                                                                <li class=" no-icon"><a class="sidebar-nested-link" href="http://localhost:1313/en/docs/web/faq/1.network-tools/">Network Search Tool</a></li>
+                                                            
+                                                        
+                                                            
+                                                            
+                                                                <li class=" no-icon"><a class="sidebar-nested-link" href="http://localhost:1313/en/docs/web/faq/2.device-offline/">Collector not online at first power-on</a></li>
                                                             
                                                         
                                                     </ul>
@@ -546,14 +568,14 @@ The meter details page displays meter information and micro-inverter devices
     <nav id="TableOfContents">
   <ul>
     <li><a href="#1-device-list">1. Device List</a></li>
-    <li><a href="#2-meter-details-page">2. Meter details page</a>
+    <li><a href="#2-meter-details-page">2. Meter Details Page</a>
       <ul>
         <li><a href="#31-alarm">3.1 Alarm</a></li>
         <li><a href="#32-unbinding">3.2 Unbinding</a></li>
-        <li><a href="#33-create-a-new-work-order">3.3 Create a new work order</a></li>
-        <li><a href="#34-parameter-settings">3.4 Parameter settings</a></li>
-        <li><a href="#35-alias-editing">3.5 Alias ​​editing</a></li>
-        <li><a href="#36-operation-log">3.6 Operation log</a></li>
+        <li><a href="#33-create-a-new-work-order">3.3 Create a New Work Order</a></li>
+        <li><a href="#34-parameter-settings">3.4 Parameter Settings</a></li>
+        <li><a href="#35-alias-editing">3.5 Alias Editing</a></li>
+        <li><a href="#36-operation-log">3.6 Operation Log</a></li>
       </ul>
     </li>
   </ul>
@@ -568,14 +590,14 @@ The meter details page displays meter information and micro-inverter devices
 <nav id="toc-mobile">
   <ul class="dropdown-menu">
     <li><a href="#1-device-list">1. Device List</a></li>
-    <li><a href="#2-meter-details-page">2. Meter details page</a>
+    <li><a href="#2-meter-details-page">2. Meter Details Page</a>
       <ul>
         <li><a href="#31-alarm">3.1 Alarm</a></li>
         <li><a href="#32-unbinding">3.2 Unbinding</a></li>
-        <li><a href="#33-create-a-new-work-order">3.3 Create a new work order</a></li>
-        <li><a href="#34-parameter-settings">3.4 Parameter settings</a></li>
-        <li><a href="#35-alias-editing">3.5 Alias ​​editing</a></li>
-        <li><a href="#36-operation-log">3.6 Operation log</a></li>
+        <li><a href="#33-create-a-new-work-order">3.3 Create a New Work Order</a></li>
+        <li><a href="#34-parameter-settings">3.4 Parameter Settings</a></li>
+        <li><a href="#35-alias-editing">3.5 Alias Editing</a></li>
+        <li><a href="#36-operation-log">3.6 Operation Log</a></li>
       </ul>
     </li>
   </ul>
@@ -593,18 +615,25 @@ The meter details page displays meter information and micro-inverter devices
                                                 
     
     <div data-prismjs-copy="" data-prismjs-copy-success="" data-prismjs-copy-error="">
-        <h1 id="function-overview">Function Overview <a href="#function-overview" class="anchor" aria-hidden="true"><i class="material-icons align-middle">link</i></a></h1><h2 id="1-device-list">1. Device List <a href="#1-device-list" class="anchor" aria-hidden="true"><i class="material-icons align-middle">link</i></a></h2><img src="../../../../photo/docs/device/meter/device-list.png">
-<p>The device list can view online, faulty, offline and all device information.</p>
-<h2 id="2-meter-details-page">2. Meter details page <a href="#2-meter-details-page" class="anchor" aria-hidden="true"><i class="material-icons align-middle">link</i></a></h2><img src="../../../../photo/docs/device/meter/detail-enter.png">
+        <h1 id="function-overview">Function Overview <a href="#function-overview" class="anchor" aria-hidden="true"><i class="material-icons align-middle">link</i></a></h1><p>The meter is used to measure the energy data of a plant such as the grid connection and the load; it usually hangs under a collector as a sub-device, and the collector collects and reports its data to the platform.</p>
+<h2 id="1-device-list">1. Device List <a href="#1-device-list" class="anchor" aria-hidden="true"><i class="material-icons align-middle">link</i></a></h2><img src="../../../../photo/docs/device/meter/device-list.png">
+<p>The device list can view online, faulty, offline and all device information; the status tabs at the top also show the device count of each status, and clicking a tab shows only the devices in that status.</p>
+<p>The list shows the serial number, alias, plant, collector, timezone, data update time and so on; click the serial number to enter the meter details page.</p>
+<h2 id="2-meter-details-page">2. Meter Details Page <a href="#2-meter-details-page" class="anchor" aria-hidden="true"><i class="material-icons align-middle">link</i></a></h2><img src="../../../../photo/docs/device/meter/detail-enter.png">
 <p>You can enter the device details page from the device in the device list</p>
 <img src="../../../../photo/docs/device/meter/detail.png">
-<p>The meter details page displays meter information and micro-inverter devices</p>
-<h3 id="31-alarm">3.1 Alarm <a href="#31-alarm" class="anchor" aria-hidden="true"><i class="material-icons align-middle">link</i></a></h3><p>Refer to <a href="http://localhost:1313/en/docs/web/device/collector/#81 Alarm" title="Collector Alarm">Collector Alarm</a></p>
-<h3 id="32-unbinding">3.2 Unbinding <a href="#32-unbinding" class="anchor" aria-hidden="true"><i class="material-icons align-middle">link</i></a></h3><p>Refer to <a href="http://localhost:1313/en/docs/web/device/collector/#82 Unbinding" title="Collector Unbinding">Collector Unbinding</a>, <strong>Unbinding a sub-device will delete the sub-device from the collector and clear the sub-device data</strong>.</p>
-<h3 id="33-create-a-new-work-order">3.3 Create a new work order <a href="#33-create-a-new-work-order" class="anchor" aria-hidden="true"><i class="material-icons align-middle">link</i></a></h3><p>Refer to <a href="http://localhost:1313/en/docs/web/device/collector/#832 Create a new work order" title="Create a new work order">Create a new work order for the collector</a></p>
-<h3 id="34-parameter-settings">3.4 Parameter settings <a href="#34-parameter-settings" class="anchor" aria-hidden="true"><i class="material-icons align-middle">link</i></a></h3><p>Refer to <a href="http://localhost:1313/en/docs/web/device/inveter/#34 Parameter settings" title="Inverter parameter settings">Inverter parameter settings</a></p>
-<h3 id="35-alias-editing">3.5 Alias ​​editing <a href="#35-alias-editing" class="anchor" aria-hidden="true"><i class="material-icons align-middle">link</i></a></h3><p>Refer to <a href="http://localhost:1313/en/docs/web/device/collector/#833 Alias ​​editing" title="Collector alias editing">Collector alias editing</a></p>
-<h3 id="36-operation-log">3.6 Operation log <a href="#36-operation-log" class="anchor" aria-hidden="true"><i class="material-icons align-middle">link</i></a></h3><p>Refer to <a href="http://localhost:1313/en/docs/web/device/collector/#835 Operation log" title="Operation log">Collector operation log</a></p>
+<p>The meter details page displays meter information and micro-inverter devices.</p>
+<p>The top of the page shows the device name and the time of the latest data update (including the timezone where the device is located); &ldquo;Alarm&rdquo; and &ldquo;Unbind&rdquo; on the right are the common operations, and the other operations are in the &ldquo;…&rdquo; menu. The page content is divided into two parts:</p>
+<ul>
+<li><strong>Basic information</strong>: smart meter series number, phase A voltage, phase A current, instantaneous total active power, instantaneous total reactive power, grid frequency, forward active total energy, reverse active total energy</li>
+<li><strong>Micro-inverter devices</strong>: the number of micro-inverter devices under this meter and the serial number of every micro-inverter (SN0, SN1…)</li>
+</ul>
+<h3 id="31-alarm">3.1 Alarm <a href="#31-alarm" class="anchor" aria-hidden="true"><i class="material-icons align-middle">link</i></a></h3><p>Refer to <a href="http://localhost:1313/en/docs/web/device/collector/#81-alarm" title="Collector Alarm">Collector Alarm</a></p>
+<h3 id="32-unbinding">3.2 Unbinding <a href="#32-unbinding" class="anchor" aria-hidden="true"><i class="material-icons align-middle">link</i></a></h3><p>Refer to <a href="http://localhost:1313/en/docs/web/device/collector/#82-unbinding" title="Collector Unbinding">Collector Unbinding</a>, <strong>unbinding a sub-device will delete the sub-device from the collector and clear the data of the sub-device</strong>.</p>
+<h3 id="33-create-a-new-work-order">3.3 Create a New Work Order <a href="#33-create-a-new-work-order" class="anchor" aria-hidden="true"><i class="material-icons align-middle">link</i></a></h3><p>Refer to <a href="http://localhost:1313/en/docs/web/device/collector/#832-create-a-new-work-order" title="Create a New Work Order">Create a new work order for the collector</a></p>
+<h3 id="34-parameter-settings">3.4 Parameter Settings <a href="#34-parameter-settings" class="anchor" aria-hidden="true"><i class="material-icons align-middle">link</i></a></h3><p>Refer to <a href="http://localhost:1313/en/docs/web/device/inveter/#34-parameter-settings" title="Inverter Parameter Settings">Inverter Parameter Settings</a></p>
+<h3 id="35-alias-editing">3.5 Alias Editing <a href="#35-alias-editing" class="anchor" aria-hidden="true"><i class="material-icons align-middle">link</i></a></h3><p>Refer to <a href="http://localhost:1313/en/docs/web/device/collector/#833-alias-editing" title="Collector Alias Editing">Edit the collector alias</a></p>
+<h3 id="36-operation-log">3.6 Operation Log <a href="#36-operation-log" class="anchor" aria-hidden="true"><i class="material-icons align-middle">link</i></a></h3><p>Refer to <a href="http://localhost:1313/en/docs/web/device/collector/#835-operation-log" title="Operation Log">Operation log for the collector</a></p>
 
     </div>
 
@@ -617,20 +646,20 @@ The meter details page displays meter information and micro-inverter devices
 
 	<div class="row flex-xl-nowrap ">
 	<div class="col-sm-6 pt-2 doc-next">
-		<a href="/en/docs/app/plant/history/">
+		<a href="/en/docs/web/toolkits/test/">
 			<div class="card h-100 my-1">
 				<div class="card-body py-2">
-                    <p class="card-title fs-5 fw-semibold lh-base mb-0"><i class="material-icons align-middle">navigate_before</i> Plant History</p>
+                    <p class="card-title fs-5 fw-semibold lh-base mb-0"><i class="material-icons align-middle">navigate_before</i> Production Test</p>
 					
 				</div>
 			</div>
 		</a>
         </div>
 	<div class="col-sm-6 pt-2 doc-prev">
-		<a class="ms-auto" href="/en/docs/app/my/bledebug/">
+		<a class="ms-auto" href="/en/docs/app/plant-view/logger/">
 			<div class="card h-100 my-1 text-end">
 				<div class="card-body py-2">
-                    <p class="card-title fs-5 fw-semibold lh-base mb-0">Local Debugging <i class="material-icons align-middle">navigate_next</i></p>
+                    <p class="card-title fs-5 fw-semibold lh-base mb-0">Add Logger <i class="material-icons align-middle">navigate_next</i></p>
 					
 				</div>
 			</div>

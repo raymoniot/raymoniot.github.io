@@ -19,6 +19,7 @@
     <title>逆变器 | Soalrhub 帮助中心</title>
     <meta name="robots" content="noindex">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="逆变器的列表查询与详情页：基本信息、运行数据、故障信息、参数设置、历史数据图表、参数选择与导出报表">
     <meta name="keywords" content="Documentation, Hugo, Hugo Theme, Bootstrap" />
     <meta name="author" content="Colin Wilson - Lotus Labs" />
     <meta name="email" content="support@aigis.uk" />
@@ -32,40 +33,14 @@
 <link rel="icon" type="image/png" sizes="16x16" href="http://localhost:1313/favicon-16x16.png">
 <link rel="manifest" crossorigin="use-credentials" href="http://localhost:1313/site.webmanifest">
 <meta property="og:title" content="逆变器" />
-<meta property="og:description" content="功能概述 link1.设备列表 link 设备列表可以查看在线、故障、离线和全部的设备信息。
-2.设备高级搜索 link 3.逆变器详情页 link 从设备列表中的设备可以进入设备详情页
-逆变器详情页展示逆变器信息和历史数据图表
-3.1报警 link参考采集器报警
-3.2解绑 link参考采集器解绑，子设备的解绑将会从采集器下删除该子设备，清空子设备的数据。
-3.3新建工单 link参考采集器新建工单
-3.4参数设置 link 通过绿色按钮进行测点参数设置下发，或者点击批量设置下发，详细请参考远程交互链接
-3.5别名编辑 link参考采集器别名编辑
-3.6固件升级 link参考采集器固件升级
-3.7操作日志 link参考采集器操作日志
-3.8历史数据图表 link 历史数据支持日、周、月、年、总级别的数据展示和时间范围选择，其中不同的时间维度展示的参数不同
-日：通过参数选择用户可以自定义参数展示 周：通过参数选择用户可以自定义参数展示 月：展示发电量 年：展示发电量 总：展示发电量 3.8.1参数选择 link 用户可以选择想要展示的参数，点击确定查看
-用户也可以自定义模板，每个模板可以保存自定的参数
-3.8.2导出报表 link 将图表数据导出为Excel表格" />
+<meta property="og:description" content="逆变器的列表查询与详情页：基本信息、运行数据、故障信息、参数设置、历史数据图表、参数选择与导出报表" />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="http://localhost:1313/zh/docs/web/device/inveter/" /><meta property="og:image" content="http://localhost:1313/opengraph/card-base-2_hu06b1a92291a380a0d2e0ec03dab66b2f_17642_filter_16929279458235438043.png"/><meta property="article:section" content="docs" />
+<meta property="og:url" content="http://localhost:1313/zh/docs/web/device/inveter/" /><meta property="og:image" content="http://localhost:1313/opengraph/card-base-2_hu06b1a92291a380a0d2e0ec03dab66b2f_17642_filter_12914432044858548832.png"/><meta property="article:section" content="docs" />
 
 <meta name="twitter:card" content="summary_large_image"/>
-<meta name="twitter:image" content="http://localhost:1313/opengraph/card-base-2_hu06b1a92291a380a0d2e0ec03dab66b2f_17642_filter_16929279458235438043.png"/>
+<meta name="twitter:image" content="http://localhost:1313/opengraph/card-base-2_hu06b1a92291a380a0d2e0ec03dab66b2f_17642_filter_12914432044858548832.png"/>
 <meta name="twitter:title" content="逆变器"/>
-<meta name="twitter:description" content="功能概述 link1.设备列表 link 设备列表可以查看在线、故障、离线和全部的设备信息。
-2.设备高级搜索 link 3.逆变器详情页 link 从设备列表中的设备可以进入设备详情页
-逆变器详情页展示逆变器信息和历史数据图表
-3.1报警 link参考采集器报警
-3.2解绑 link参考采集器解绑，子设备的解绑将会从采集器下删除该子设备，清空子设备的数据。
-3.3新建工单 link参考采集器新建工单
-3.4参数设置 link 通过绿色按钮进行测点参数设置下发，或者点击批量设置下发，详细请参考远程交互链接
-3.5别名编辑 link参考采集器别名编辑
-3.6固件升级 link参考采集器固件升级
-3.7操作日志 link参考采集器操作日志
-3.8历史数据图表 link 历史数据支持日、周、月、年、总级别的数据展示和时间范围选择，其中不同的时间维度展示的参数不同
-日：通过参数选择用户可以自定义参数展示 周：通过参数选择用户可以自定义参数展示 月：展示发电量 年：展示发电量 总：展示发电量 3.8.1参数选择 link 用户可以选择想要展示的参数，点击确定查看
-用户也可以自定义模板，每个模板可以保存自定的参数
-3.8.2导出报表 link 将图表数据导出为Excel表格"/>
+<meta name="twitter:description" content="逆变器的列表查询与详情页：基本信息、运行数据、故障信息、参数设置、历史数据图表、参数选择与导出报表"/>
 
     
     <script>(()=>{var t=window.matchMedia&&window.matchMedia("(prefers-color-scheme: dark)").matches,e=localStorage.getItem("theme");t&&e===null&&(localStorage.setItem("theme","dark"),document.documentElement.setAttribute("data-dark-mode","")),t&&e==="dark"&&document.documentElement.setAttribute("data-dark-mode",""),e==="dark"&&document.documentElement.setAttribute("data-dark-mode","")})()</script>
@@ -650,18 +625,24 @@
                                                 
     
     <div data-prismjs-copy="" data-prismjs-copy-success="" data-prismjs-copy-error="">
-        <h1 id="功能概述">功能概述 <a href="#%e5%8a%9f%e8%83%bd%e6%a6%82%e8%bf%b0" class="anchor" aria-hidden="true"><i class="material-icons align-middle">link</i></a></h1><h2 id="1设备列表">1.设备列表 <a href="#1%e8%ae%be%e5%a4%87%e5%88%97%e8%a1%a8" class="anchor" aria-hidden="true"><i class="material-icons align-middle">link</i></a></h2><img src="/../../zh/photo/docs/device/inveter/device-list.png">
-<p>设备列表可以查看在线、故障、离线和全部的设备信息。</p>
+        <h1 id="功能概述">功能概述 <a href="#%e5%8a%9f%e8%83%bd%e6%a6%82%e8%bf%b0" class="anchor" aria-hidden="true"><i class="material-icons align-middle">link</i></a></h1><p>逆变器是把直流电转换为交流电的发电设备，通常作为子设备挂在采集器下，由采集器采集并上报运行数据到平台。</p>
+<h2 id="1设备列表">1.设备列表 <a href="#1%e8%ae%be%e5%a4%87%e5%88%97%e8%a1%a8" class="anchor" aria-hidden="true"><i class="material-icons align-middle">link</i></a></h2><img src="/../../zh/photo/docs/device/inveter/device-list.png">
+<p>设备列表可以查看在线、故障、离线和全部的设备信息，上方的状态标签会同时显示各状态的设备数量，点击标签可以只看该状态的设备。</p>
+<p>列表中会显示序列号、今日发电量、实时功率、所属电站、所属采集器、别名、时区、数据更新时间等，点击序列号进入逆变器详情页，「所属电站」「所属采集器」可以跳转到对应页面。</p>
 <h2 id="2设备高级搜索">2.设备高级搜索 <a href="#2%e8%ae%be%e5%a4%87%e9%ab%98%e7%ba%a7%e6%90%9c%e7%b4%a2" class="anchor" aria-hidden="true"><i class="material-icons align-middle">link</i></a></h2><img src="/../../zh/photo/docs/device/inveter/search.png">
+<p>搜索框支持按序列号、别名等关键字搜索设备；点击搜索图标展开高级搜索，可以按多个设备参数组合查询，具体可用的查询字段由平台配置。</p>
 <h2 id="3逆变器详情页">3.逆变器详情页 <a href="#3%e9%80%86%e5%8f%98%e5%99%a8%e8%af%a6%e6%83%85%e9%a1%b5" class="anchor" aria-hidden="true"><i class="material-icons align-middle">link</i></a></h2><img src="/../../zh/photo/docs/device/inveter/detail-enter.png">
 <p>从设备列表中的设备可以进入设备详情页</p>
 <img src="/../../zh/photo/docs/device/inveter/detail.png">
-<p>逆变器详情页展示逆变器信息和历史数据图表</p>
+<p>逆变器详情页展示逆变器信息和历史数据图表。</p>
+<p>页面顶部显示设备名称和最近一次数据更新时间（含设备所在时区），右侧的「报警」「解绑」是常用操作，其余操作在「…」菜单中，包括变更、新建工单、别名编辑、固件升级、参数设置、操作日志。</p>
+<p>页面上方的信息卡片中，除平台按设备类型配置的参数卡片外，还有运行数据卡片（展示直流/交流侧的电压、电流、功率等实时数据）；参数卡片的具体内容由平台配置，不同型号的逆变器可能不同，账号能看到的参数还受授权的测点组限制（见「组织管理 → 组织架构」中的测点组说明）。</p>
 <h3 id="31报警">3.1报警 <a href="#31%e6%8a%a5%e8%ad%a6" class="anchor" aria-hidden="true"><i class="material-icons align-middle">link</i></a></h3><p>参考<a href="http://localhost:1313/zh/docs/web/device/collector/#81报警" title="采集器报警">采集器报警</a></p>
 <h3 id="32解绑">3.2解绑 <a href="#32%e8%a7%a3%e7%bb%91" class="anchor" aria-hidden="true"><i class="material-icons align-middle">link</i></a></h3><p>参考<a href="http://localhost:1313/zh/docs/web/device/collector/#82解绑" title="采集器解绑">采集器解绑</a>，<strong>子设备的解绑将会从采集器下删除该子设备，清空子设备的数据</strong>。</p>
 <h3 id="33新建工单">3.3新建工单 <a href="#33%e6%96%b0%e5%bb%ba%e5%b7%a5%e5%8d%95" class="anchor" aria-hidden="true"><i class="material-icons align-middle">link</i></a></h3><p>参考<a href="http://localhost:1313/zh/docs/web/device/collector/#832新建工单" title="新建工单">采集器新建工单</a></p>
 <h3 id="34参数设置">3.4参数设置 <a href="#34%e5%8f%82%e6%95%b0%e8%ae%be%e7%bd%ae" class="anchor" aria-hidden="true"><i class="material-icons align-middle">link</i></a></h3><img src="/../../zh/photo/docs/device/inveter/set.png">
-<p>通过绿色按钮进行测点参数设置下发，或者点击批量设置下发，详细请参考远程交互链接</p>
+<p>通过绿色按钮进行测点参数设置下发，或者点击批量设置下发，详细请参考远程交互链接。</p>
+<p>参数设置用于向逆变器下发可写参数，下发结果记录在设备的操作日志中。</p>
 <h3 id="35别名编辑">3.5别名编辑 <a href="#35%e5%88%ab%e5%90%8d%e7%bc%96%e8%be%91" class="anchor" aria-hidden="true"><i class="material-icons align-middle">link</i></a></h3><p>参考<a href="http://localhost:1313/zh/docs/web/device/collector/#833别名编辑" title="采集器别名编辑">采集器别名编辑</a></p>
 <h3 id="36固件升级">3.6固件升级 <a href="#36%e5%9b%ba%e4%bb%b6%e5%8d%87%e7%ba%a7" class="anchor" aria-hidden="true"><i class="material-icons align-middle">link</i></a></h3><p>参考<a href="http://localhost:1313/zh/docs/web/device/collector/#834固件升级" title="固件升级">采集器固件升级</a></p>
 <h3 id="37操作日志">3.7操作日志 <a href="#37%e6%93%8d%e4%bd%9c%e6%97%a5%e5%bf%97" class="anchor" aria-hidden="true"><i class="material-icons align-middle">link</i></a></h3><p>参考<a href="http://localhost:1313/zh/docs/web/device/collector/#835操作日志" title="操作日志">采集器操作日志</a></p>
@@ -674,11 +655,14 @@
 <li><strong>年</strong>：展示发电量</li>
 <li><strong>总</strong>：展示发电量</li>
 </ul>
+<p>图表上方可以选择日期或时间范围，切换维度后会自动按对应的时间粒度展示数据。</p>
 <h3 id="381参数选择">3.8.1参数选择 <a href="#381%e5%8f%82%e6%95%b0%e9%80%89%e6%8b%a9" class="anchor" aria-hidden="true"><i class="material-icons align-middle">link</i></a></h3><img src="/../../zh/photo/docs/device/inveter/param-select.png">
 <img src="/../../zh/photo/docs/device/inveter/param-select1.png">
 <p>用户可以选择想要展示的参数，点击确定查看</p>
+<p>参数按参数组分类展示，勾选后点击确定即可更新图表</p>
 <img src="/../../zh/photo/docs/device/inveter/param-select3.png">
 <p>用户也可以自定义模板，每个模板可以保存自定的参数</p>
+<p>模板可以保存常用的参数组合，下次直接选择模板即可；自定义模板可以双击名称修改，也可以删除。可选择的参数范围同样受账号被授权的测点组限制。</p>
 <h3 id="382导出报表">3.8.2导出报表 <a href="#382%e5%af%bc%e5%87%ba%e6%8a%a5%e8%a1%a8" class="anchor" aria-hidden="true"><i class="material-icons align-middle">link</i></a></h3><img src="/../../zh/photo/docs/device/inveter/export.png">
 <p>将图表数据导出为Excel表格</p>
 

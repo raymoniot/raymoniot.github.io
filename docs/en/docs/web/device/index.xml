@@ -12,35 +12,35 @@
       <link>http://localhost:1313/en/docs/web/device/collector/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/en/docs/web/device/collector/</guid>
-      <description>Function Overview link1. Device List link The device list can view online, faulty, offline and all device information.&#xA;For collector devices, there are two additional states&#xA;Installed: The collector is bound to a plant after entering the warehouse&#xA;Not Installed: The collector is not bound to a plant after entering the warehouse&#xA;2. Collector entry link There are two ways to enter the collector&#xA;Single import: import a single collector, import one collector at a time</description>
+      <description>Function Overview linkThe collector is the core device for platform data access: on-site inverters, batteries, meters, optimizers and other sub-devices all hang under the collector, and the collector collects and reports their data to the platform in a unified way. So the collector must be imported first and then bound to a plant, and only then can the data of the sub-devices under it be displayed normally.&#xA;1. Device List link The device list can view online, faulty, offline and all device information.</description>
     </item>
     <item>
       <title>Inverter</title>
       <link>http://localhost:1313/en/docs/web/device/inveter/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/en/docs/web/device/inveter/</guid>
-      <description>Function Overview link1. Device List link The device list can view online, faulty, offline and all device information.&#xA;2. Advanced device search link 3. Inverter details page link You can enter the device details page from the device in the device list&#xA;The inverter details page displays inverter information and historical data charts&#xA;3.1 Alarm linkRefer to Collector Alarm&#xA;3.2 Unbinding linkRefer to Collector Unbinding, unbinding the sub-device will delete the sub-device from the collector and clear the sub-device data.</description>
+      <description>Function Overview linkThe inverter is the power generation device that converts DC power into AC power; it usually hangs under a collector as a sub-device, and the collector collects and reports its operation data to the platform.&#xA;1. Device List link The device list can view online, faulty, offline and all device information; the status tabs at the top also show the device count of each status, and clicking a tab shows only the devices in that status.</description>
     </item>
     <item>
       <title>Battery System</title>
       <link>http://localhost:1313/en/docs/web/device/battery/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/en/docs/web/device/battery/</guid>
-      <description>Function Overview link1. Device List link The device list can view online, faulty, offline and all device information.&#xA;2. Battery details page link You can enter the device details page from the device in the device list&#xA;The battery details page displays BMS information and battery information and historical data charts under BMS&#xA;3.1 Alarm linkRefer to Collector Alarm&#xA;3.2 Unbinding linkRefer to Collector Unbinding, Unbinding a sub-device will delete the sub-device from the collector and clear the sub-device data.</description>
+      <description>Function Overview linkThe Battery System (BMS) is the core device of an energy storage system; it usually hangs under a collector as a sub-device, and the collector collects and reports the operation data of the battery clusters and battery packs to the platform.&#xA;1. Device List link The device list can view online, faulty, offline and all device information; the status tabs at the top also show the device count of each status, and clicking a tab shows only the devices in that status.</description>
     </item>
     <item>
       <title>Optimizer</title>
       <link>http://localhost:1313/en/docs/web/device/optimizer/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/en/docs/web/device/optimizer/</guid>
-      <description>Function Overview link1. Device List link The device list can view online, faulty, offline and all device information.&#xA;2. Optimizer controller details page link You can enter the device details page from the device in the device list&#xA;The optimizer controller details page displays the optimizer controller information and the optimizer switch status&#xA;3.1 Alarm linkRefer to Collector Alarm&#xA;3.2 Unbinding linkRefer to Collector Unbinding, Unbinding a sub-device will delete the sub-device from the collector and clear the sub-device data.</description>
+      <description>Function Overview linkThe optimizer (MLPE) is used to perform independent maximum power point tracking for every module in a PV string; it usually hangs under a collector as a sub-device, and the collector collects and reports its data to the platform.&#xA;1. Device List link The device list can view online, faulty, offline and all device information; the status tabs at the top also show the device count of each status, and clicking a tab shows only the devices in that status.</description>
     </item>
     <item>
       <title>Smart Meter</title>
       <link>http://localhost:1313/en/docs/web/device/meter/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/en/docs/web/device/meter/</guid>
-      <description>Function Overview link1. Device List link The device list can view online, faulty, offline and all device information.&#xA;2. Meter details page link You can enter the device details page from the device in the device list&#xA;The meter details page displays meter information and micro-inverter devices&#xA;3.1 Alarm linkRefer to Collector Alarm&#xA;3.2 Unbinding linkRefer to Collector Unbinding, Unbinding a sub-device will delete the sub-device from the collector and clear the sub-device data.</description>
+      <description>Function Overview linkThe meter is used to measure the energy data of a plant such as the grid connection and the load; it usually hangs under a collector as a sub-device, and the collector collects and reports its data to the platform.&#xA;1. Device List link The device list can view online, faulty, offline and all device information; the status tabs at the top also show the device count of each status, and clicking a tab shows only the devices in that status.</description>
     </item>
   </channel>
 </rss>

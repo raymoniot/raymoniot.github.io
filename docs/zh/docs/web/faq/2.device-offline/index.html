@@ -19,7 +19,7 @@
     <title>采集器首次上电不在线 | Soalrhub 帮助中心</title>
     <meta name="robots" content="noindex">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="采集器安装后在平台不在线，通过检查采集器信号灯、">
+    <meta name="description" content="采集器安装后在平台不在线时的排查：检查采集器信号灯、用网络搜索配置工具检查服务器地址配置">
     <meta name="keywords" content="Documentation, Hugo, Hugo Theme, Bootstrap" />
     <meta name="author" content="Colin Wilson - Lotus Labs" />
     <meta name="email" content="support@aigis.uk" />
@@ -33,14 +33,14 @@
 <link rel="icon" type="image/png" sizes="16x16" href="http://localhost:1313/favicon-16x16.png">
 <link rel="manifest" crossorigin="use-credentials" href="http://localhost:1313/site.webmanifest">
 <meta property="og:title" content="采集器首次上电不在线" />
-<meta property="og:description" content="采集器安装后在平台不在线，通过检查采集器信号灯、" />
+<meta property="og:description" content="采集器安装后在平台不在线时的排查：检查采集器信号灯、用网络搜索配置工具检查服务器地址配置" />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="http://localhost:1313/zh/docs/web/faq/2.device-offline/" /><meta property="og:image" content="http://localhost:1313/opengraph/card-base-2_hu06b1a92291a380a0d2e0ec03dab66b2f_17642_filter_2490848798564312431.png"/><meta property="article:section" content="docs" />
+<meta property="og:url" content="http://localhost:1313/zh/docs/web/faq/2.device-offline/" /><meta property="og:image" content="http://localhost:1313/opengraph/card-base-2_hu06b1a92291a380a0d2e0ec03dab66b2f_17642_filter_6367808411578025526.png"/><meta property="article:section" content="docs" />
 
 <meta name="twitter:card" content="summary_large_image"/>
-<meta name="twitter:image" content="http://localhost:1313/opengraph/card-base-2_hu06b1a92291a380a0d2e0ec03dab66b2f_17642_filter_2490848798564312431.png"/>
+<meta name="twitter:image" content="http://localhost:1313/opengraph/card-base-2_hu06b1a92291a380a0d2e0ec03dab66b2f_17642_filter_6367808411578025526.png"/>
 <meta name="twitter:title" content="采集器首次上电不在线"/>
-<meta name="twitter:description" content="采集器安装后在平台不在线，通过检查采集器信号灯、"/>
+<meta name="twitter:description" content="采集器安装后在平台不在线时的排查：检查采集器信号灯、用网络搜索配置工具检查服务器地址配置"/>
 
     
     <script>(()=>{var t=window.matchMedia&&window.matchMedia("(prefers-color-scheme: dark)").matches,e=localStorage.getItem("theme");t&&e===null&&(localStorage.setItem("theme","dark"),document.documentElement.setAttribute("data-dark-mode","")),t&&e==="dark"&&document.documentElement.setAttribute("data-dark-mode",""),e==="dark"&&document.documentElement.setAttribute("data-dark-mode","")})()</script>
@@ -496,6 +496,10 @@
 
 
 
+    
+    
+    <li><a class="dropdown-item" href="/en/docs/web/faq/2.device-offline/" role="button" rel="alternate" hreflang="en" lang="en">English</a></li>
+
 
 
 
@@ -504,7 +508,6 @@
     
         
         
-            <li><a class="dropdown-item" href="/en/docs" role="button" rel="alternate" hreflang="en" lang="en">English</a></li>
         
     
 
@@ -600,7 +603,9 @@
                                                 
     
     <div data-prismjs-copy="" data-prismjs-copy-success="" data-prismjs-copy-error="">
-        <h1 id="1检查采集器信号灯">1.检查采集器信号灯 <a href="#1%e6%a3%80%e6%9f%a5%e9%87%87%e9%9b%86%e5%99%a8%e4%bf%a1%e5%8f%b7%e7%81%af" class="anchor" aria-hidden="true"><i class="material-icons align-middle">link</i></a></h1><h1 id="2使用网络搜索配置工具检查配置">2.使用网络搜索配置工具检查配置 <a href="#2%e4%bd%bf%e7%94%a8%e7%bd%91%e7%bb%9c%e6%90%9c%e7%b4%a2%e9%85%8d%e7%bd%ae%e5%b7%a5%e5%85%b7%e6%a3%80%e6%9f%a5%e9%85%8d%e7%bd%ae" class="anchor" aria-hidden="true"><i class="material-icons align-middle">link</i></a></h1><p>网络搜索配置工具的使用方法参考<a href="http://localhost:1313/zh/docs/web/faq/1.network-tools/" title="网络搜索配置工具">网络搜索配置工具</a></p>
+        <h1 id="功能概述">功能概述 <a href="#%e5%8a%9f%e8%83%bd%e6%a6%82%e8%bf%b0" class="anchor" aria-hidden="true"><i class="material-icons align-middle">link</i></a></h1><p>采集器安装、上电后在平台上始终显示离线时，按下面的顺序排查：先看设备本体的指示灯确认设备已经正常启动，再用网络搜索配置工具检查采集器的服务器地址配置是否正确。</p>
+<h1 id="1检查采集器信号灯">1.检查采集器信号灯 <a href="#1%e6%a3%80%e6%9f%a5%e9%87%87%e9%9b%86%e5%99%a8%e4%bf%a1%e5%8f%b7%e7%81%af" class="anchor" aria-hidden="true"><i class="material-icons align-middle">link</i></a></h1><p>采集器上电后先观察设备上的指示灯，确认设备已经正常上电并启动（各指示灯的具体含义见设备随附的说明书）。如果指示灯状态异常（例如完全不亮），先检查供电和接线是否正常，再继续下面的配置检查。</p>
+<h1 id="2使用网络搜索配置工具检查配置">2.使用网络搜索配置工具检查配置 <a href="#2%e4%bd%bf%e7%94%a8%e7%bd%91%e7%bb%9c%e6%90%9c%e7%b4%a2%e9%85%8d%e7%bd%ae%e5%b7%a5%e5%85%b7%e6%a3%80%e6%9f%a5%e9%85%8d%e7%bd%ae" class="anchor" aria-hidden="true"><i class="material-icons align-middle">link</i></a></h1><p>网络搜索配置工具的使用方法参考<a href="http://localhost:1313/zh/docs/web/faq/1.network-tools/" title="网络搜索配置工具">网络搜索配置工具</a></p>
 <h1 id="3检查方法">3.检查方法 <a href="#3%e6%a3%80%e6%9f%a5%e6%96%b9%e6%b3%95" class="anchor" aria-hidden="true"><i class="material-icons align-middle">link</i></a></h1><h2 id="1查询服务器选择">1.查询服务器选择 <a href="#1%e6%9f%a5%e8%af%a2%e6%9c%8d%e5%8a%a1%e5%99%a8%e9%80%89%e6%8b%a9" class="anchor" aria-hidden="true"><i class="material-icons align-middle">link</i></a></h2><img src="/../../zh/photo/docs/faq/2/check1.png" width="700" height="550">
 <p>发送AT+SERVERSELECT指令查询服务区选择的URL，3.0版本以后的固件默认指向URL2地址，为各家网关服务的地址，如地址不清楚请联系我们，如图返回ok=2则说明采集器指向URL2</p>
 <h2 id="2查询服务器地址">2.查询服务器地址 <a href="#2%e6%9f%a5%e8%af%a2%e6%9c%8d%e5%8a%a1%e5%99%a8%e5%9c%b0%e5%9d%80" class="anchor" aria-hidden="true"><i class="material-icons align-middle">link</i></a></h2><img src="/../../zh/photo/docs/faq/2/check2.png" width="700" height="550">
@@ -611,6 +616,7 @@
 <p>发送AT+FSET保存配置</p>
 <h2 id="5重启">5.重启 <a href="#5%e9%87%8d%e5%90%af" class="anchor" aria-hidden="true"><i class="material-icons align-middle">link</i></a></h2><img src="/../../zh/photo/docs/faq/2/check5.png" width="700" height="550">
 <p>发送AT+RST重启采集器生效，重启后可以观察设备在平台是否在线</p>
+<p>地址确认正确并重启后，设备通常会在几分钟内上报数据并在平台显示在线；如果仍未在线，请把设备序列号和上面的查询结果一起反馈给我们。</p>
 
     </div>
 
@@ -633,10 +639,10 @@
 		</a>
         </div>
 	<div class="col-sm-6 pt-2 doc-prev">
-		<a class="ms-auto" href="/zh/docs/web/ops/ticket/dashboard/">
+		<a class="ms-auto" href="/zh/docs/app/plant-view/stat/">
 			<div class="card h-100 my-1 text-end">
 				<div class="card-body py-2">
-                    <p class="card-title fs-5 fw-semibold lh-base mb-0">工单看板 <i class="material-icons align-middle">navigate_next</i></p>
+                    <p class="card-title fs-5 fw-semibold lh-base mb-0">电站统计 <i class="material-icons align-middle">navigate_next</i></p>
 					
 				</div>
 			</div>

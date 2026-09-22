@@ -1,23 +1,27 @@
 ---
 title: Login
-description: Log in to the Solarhub platform through the login portal
+description: Log in to the Solarhub platform through the login entry
 weight: 3
 ---
 
-1. You can access the Solarhub login page through [Solarhub](https://cloud.raymoniot.com), enter the correct account and password and log in
+# Function Overview
 
-<img src="../../../../photo/docs/overview.png" width="80%">
+Log in to Solarhub (Web) with a platform account. After a successful login the data dashboard page is shown.
 
-- APP download: The APP download QR code is provided in the upper right corner of the login page. Use your mobile phone to scan the code to download the latest APP released by the platform
+1. Visit the Solarhub login page through [Solarhub](https://cloud.raymoniot.com), enter the correct account and password and log in
 
-- Multi-language switching: Multiple languages ​​can be switched in the upper right corner of the login page
+   <img src="../../../../photo/docs/overview.png" width="80%">
 
-2. After successful login, enter the data dashboard page
+   - App download: the upper right corner of the login page provides the App download QR code; scan it with your phone to download the latest App released by the platform
+   - Multi-language switch: the upper right corner of the login page allows you to switch the display language
 
-<img src="../../../../photo/docs/login/login-success.png" width="80%">
+2. After a successful login the data dashboard page is shown
 
-The data dashboard provides the following data support:
+   <img src="../../../../photo/docs/login/login-success.png" width="80%">
+   
+   The data dashboard provides the following data:
+   
+   - Plant count: shows the total number of plants and the number of plants of each type on the platform
+   - Plant distribution: shows the distribution of plants in different regions on a map; the map can be zoomed, and the distribution is displayed in different dimensions according to the zoom level
 
-- Number of plants: Display the total number of plants and the number of various types of plants on the platform
-
-plant distribution: Display the distribution of plants in different regions on the map. The map can be scaled, and the distribution will be displayed in different dimensions according to the scaling ratio.
+Which plants, devices and parameters can be seen after logging in depends on the **Data Permissions**, **Role** and **Measurement Group** of the organization the account belongs to; see [Organizational Structure]({{< ref "../organization/tree" >}} "Organizational Structure").

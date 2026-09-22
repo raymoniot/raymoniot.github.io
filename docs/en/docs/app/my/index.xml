@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>My on Solarhub Help Center</title>
+    <title>Me on Solarhub Help Center</title>
     <link>http://localhost:1313/en/docs/app/my/</link>
-    <description>Recent content in My on Solarhub Help Center</description>
+    <description>Recent content in Me on Solarhub Help Center</description>
     <generator>Hugo</generator>
     <language>en</language>
     <atom:link href="http://localhost:1313/en/docs/app/my/index.xml" rel="self" type="application/rss+xml" />
@@ -12,7 +12,7 @@
       <link>http://localhost:1313/en/docs/app/my/switch/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/en/docs/app/my/switch/</guid>
-      <description> Select My in the menu bar at the bottom of the APP, and you can switch the access mode of the App in Switch perspective There are two access perspectives, professional consultant and end user Professional consultant: Use the APP as an equipment manufacturer or dealer, focusing on all plants and equipment under the platform End user: Use the APP as a plant owner, focusing on my plant and equipment </description>
+      <description>What is a perspective linkThe App provides three usage perspectives and the same account can switch between them at any time. The perspective decides what you see and what you can do: the landing page, the bottom navigation and the available entries are all different.&#xA;Perspective Description in the App Who it is for Professional Consultant I am an equipment manufacturer, dealer, installer or professional consultant People who manage all plants and devices on the platform Plant User Focus on data with the plant as the focus People who only care about the data of a plant (e.</description>
     </item>
     <item>
       <title>User Information</title>

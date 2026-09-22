@@ -19,6 +19,7 @@
     <title>Battery System | Solarhub Help Center</title>
     <meta name="robots" content="noindex">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Battery System list and details page: BMS and battery info, charge/discharge, voltage, temperature.">
     <meta name="keywords" content="Documentation, Hugo, Hugo Theme, Bootstrap" />
     <meta name="author" content="Colin Wilson - Lotus Labs" />
     <meta name="email" content="support@aigis.uk" />
@@ -32,22 +33,14 @@
 <link rel="icon" type="image/png" sizes="16x16" href="http://localhost:1313/favicon-16x16.png">
 <link rel="manifest" crossorigin="use-credentials" href="http://localhost:1313/site.webmanifest">
 <meta property="og:title" content="Battery System" />
-<meta property="og:description" content="Function Overview link1. Device List link The device list can view online, faulty, offline and all device information.
-2. Battery details page link You can enter the device details page from the device in the device list
-The battery details page displays BMS information and battery information and historical data charts under BMS
-3.1 Alarm linkRefer to Collector Alarm
-3.2 Unbinding linkRefer to Collector Unbinding, Unbinding a sub-device will delete the sub-device from the collector and clear the sub-device data." />
+<meta property="og:description" content="Battery System list and details page: BMS and battery info, charge/discharge, voltage, temperature." />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="http://localhost:1313/en/docs/web/device/battery/" /><meta property="og:image" content="http://localhost:1313/opengraph/card-base-2_hu06b1a92291a380a0d2e0ec03dab66b2f_17642_filter_11072033624205344157.png"/><meta property="article:section" content="docs" />
+<meta property="og:url" content="http://localhost:1313/en/docs/web/device/battery/" /><meta property="og:image" content="http://localhost:1313/opengraph/card-base-2_hu06b1a92291a380a0d2e0ec03dab66b2f_17642_filter_15832064088034355463.png"/><meta property="article:section" content="docs" />
 
 <meta name="twitter:card" content="summary_large_image"/>
-<meta name="twitter:image" content="http://localhost:1313/opengraph/card-base-2_hu06b1a92291a380a0d2e0ec03dab66b2f_17642_filter_11072033624205344157.png"/>
+<meta name="twitter:image" content="http://localhost:1313/opengraph/card-base-2_hu06b1a92291a380a0d2e0ec03dab66b2f_17642_filter_15832064088034355463.png"/>
 <meta name="twitter:title" content="Battery System"/>
-<meta name="twitter:description" content="Function Overview link1. Device List link The device list can view online, faulty, offline and all device information.
-2. Battery details page link You can enter the device details page from the device in the device list
-The battery details page displays BMS information and battery information and historical data charts under BMS
-3.1 Alarm linkRefer to Collector Alarm
-3.2 Unbinding linkRefer to Collector Unbinding, Unbinding a sub-device will delete the sub-device from the collector and clear the sub-device data."/>
+<meta name="twitter:description" content="Battery System list and details page: BMS and battery info, charge/discharge, voltage, temperature."/>
 
     
     <script>(()=>{var t=window.matchMedia&&window.matchMedia("(prefers-color-scheme: dark)").matches,e=localStorage.getItem("theme");t&&e===null&&(localStorage.setItem("theme","dark"),document.documentElement.setAttribute("data-dark-mode","")),t&&e==="dark"&&document.documentElement.setAttribute("data-dark-mode",""),e==="dark"&&document.documentElement.setAttribute("data-dark-mode","")})()</script>
@@ -150,17 +143,17 @@ The battery details page displays BMS information and battery information and hi
                                                         
                                                             
                                                             
-                                                                <li class=" no-icon"><a class="sidebar-nested-link" href="http://localhost:1313/en/docs/web/plant-center/bess/">BESS</a></li>
+                                                                <li class=" no-icon"><a class="sidebar-nested-link" href="http://localhost:1313/en/docs/web/plant-center/bess/">Battery System</a></li>
                                                             
                                                         
                                                             
                                                             
-                                                                <li class=" no-icon"><a class="sidebar-nested-link" href="http://localhost:1313/en/docs/web/plant-center/hess/">HESS</a></li>
+                                                                <li class=" no-icon"><a class="sidebar-nested-link" href="http://localhost:1313/en/docs/web/plant-center/hess/">Residential Storage</a></li>
                                                             
                                                         
                                                             
                                                             
-                                                                <li class=" no-icon"><a class="sidebar-nested-link" href="http://localhost:1313/en/docs/web/plant-center/ems/">EMS</a></li>
+                                                                <li class=" no-icon"><a class="sidebar-nested-link" href="http://localhost:1313/en/docs/web/plant-center/ems/">Commercial Plant</a></li>
                                                             
                                                         
                                                             
@@ -180,7 +173,7 @@ The battery details page displays BMS information and battery information and hi
                                                         
                                                             
                                                             
-                                                                <li class=" no-icon"><a class="sidebar-nested-link" href="http://localhost:1313/en/docs/web/plant-center/add-logger/">Add Logger</a></li>
+                                                                <li class=" no-icon"><a class="sidebar-nested-link" href="http://localhost:1313/en/docs/web/plant-center/add-logger/">Add Collector</a></li>
                                                             
                                                         
                                                     </ul>
@@ -328,6 +321,11 @@ The battery details page displays BMS information and battery information and hi
                                                                 <li class=" no-icon"><a class="sidebar-nested-link" href="http://localhost:1313/en/docs/web/toolkits/notification/">Notice Announcement</a></li>
                                                             
                                                         
+                                                            
+                                                            
+                                                                <li class=" no-icon"><a class="sidebar-nested-link" href="http://localhost:1313/en/docs/web/toolkits/test/">Production Test</a></li>
+                                                            
+                                                        
                                                     </ul>
                                                 </div>
                                             </li>
@@ -345,6 +343,30 @@ The battery details page displays BMS information and battery information and hi
                                                             
                                                             
                                                                 <li class=" no-icon"><a class="sidebar-nested-link" href="http://localhost:1313/en/docs/web/organization/tree/">Organizational Structure</a></li>
+                                                            
+                                                        
+                                                    </ul>
+                                                </div>
+                                            </li>
+                                        
+                                    
+                                        
+                                        
+                                            <li class="sidebar-dropdown nested no-icon ">
+                                                <button class="btn">
+                                                    Frequently Asked Questions and Answers
+                                                </button>
+                                                <div class="sidebar-submenu ">
+                                                    <ul>
+                                                        
+                                                            
+                                                            
+                                                                <li class=" no-icon"><a class="sidebar-nested-link" href="http://localhost:1313/en/docs/web/faq/1.network-tools/">Network Search Tool</a></li>
+                                                            
+                                                        
+                                                            
+                                                            
+                                                                <li class=" no-icon"><a class="sidebar-nested-link" href="http://localhost:1313/en/docs/web/faq/2.device-offline/">Collector not online at first power-on</a></li>
                                                             
                                                         
                                                     </ul>
@@ -546,18 +568,18 @@ The battery details page displays BMS information and battery information and hi
     <nav id="TableOfContents">
   <ul>
     <li><a href="#1-device-list">1. Device List</a></li>
-    <li><a href="#2-battery-details-page">2. Battery details page</a>
+    <li><a href="#2-battery-details-page">2. Battery Details Page</a>
       <ul>
         <li><a href="#31-alarm">3.1 Alarm</a></li>
         <li><a href="#32-unbinding">3.2 Unbinding</a></li>
-        <li><a href="#33-create-a-new-work-order">3.3 Create a new work order</a></li>
-        <li><a href="#34-parameter-settings">3.4 Parameter settings</a></li>
-        <li><a href="#35-alias-editing">3.5 Alias ​​editing</a></li>
-        <li><a href="#36-firmware-upgrade">3.6 Firmware upgrade</a></li>
-        <li><a href="#37-operation-log">3.7 Operation log</a></li>
-        <li><a href="#38-historical-data-chart">3.8 Historical data chart</a></li>
-        <li><a href="#381-parameter-selection">3.8.1 Parameter selection</a></li>
-        <li><a href="#382-export-report">3.8.2 Export report</a></li>
+        <li><a href="#33-create-a-new-work-order">3.3 Create a New Work Order</a></li>
+        <li><a href="#34-parameter-settings">3.4 Parameter Settings</a></li>
+        <li><a href="#35-alias-editing">3.5 Alias Editing</a></li>
+        <li><a href="#36-firmware-upgrade">3.6 Firmware Upgrade</a></li>
+        <li><a href="#37-operation-log">3.7 Operation Log</a></li>
+        <li><a href="#38-historical-data-chart">3.8 Historical Data Chart</a></li>
+        <li><a href="#381-parameter-selection">3.8.1 Parameter Selection</a></li>
+        <li><a href="#382-export-report">3.8.2 Export Report</a></li>
       </ul>
     </li>
   </ul>
@@ -572,18 +594,18 @@ The battery details page displays BMS information and battery information and hi
 <nav id="toc-mobile">
   <ul class="dropdown-menu">
     <li><a href="#1-device-list">1. Device List</a></li>
-    <li><a href="#2-battery-details-page">2. Battery details page</a>
+    <li><a href="#2-battery-details-page">2. Battery Details Page</a>
       <ul>
         <li><a href="#31-alarm">3.1 Alarm</a></li>
         <li><a href="#32-unbinding">3.2 Unbinding</a></li>
-        <li><a href="#33-create-a-new-work-order">3.3 Create a new work order</a></li>
-        <li><a href="#34-parameter-settings">3.4 Parameter settings</a></li>
-        <li><a href="#35-alias-editing">3.5 Alias ​​editing</a></li>
-        <li><a href="#36-firmware-upgrade">3.6 Firmware upgrade</a></li>
-        <li><a href="#37-operation-log">3.7 Operation log</a></li>
-        <li><a href="#38-historical-data-chart">3.8 Historical data chart</a></li>
-        <li><a href="#381-parameter-selection">3.8.1 Parameter selection</a></li>
-        <li><a href="#382-export-report">3.8.2 Export report</a></li>
+        <li><a href="#33-create-a-new-work-order">3.3 Create a New Work Order</a></li>
+        <li><a href="#34-parameter-settings">3.4 Parameter Settings</a></li>
+        <li><a href="#35-alias-editing">3.5 Alias Editing</a></li>
+        <li><a href="#36-firmware-upgrade">3.6 Firmware Upgrade</a></li>
+        <li><a href="#37-operation-log">3.7 Operation Log</a></li>
+        <li><a href="#38-historical-data-chart">3.8 Historical Data Chart</a></li>
+        <li><a href="#381-parameter-selection">3.8.1 Parameter Selection</a></li>
+        <li><a href="#382-export-report">3.8.2 Export Report</a></li>
       </ul>
     </li>
   </ul>
@@ -601,31 +623,37 @@ The battery details page displays BMS information and battery information and hi
                                                 
     
     <div data-prismjs-copy="" data-prismjs-copy-success="" data-prismjs-copy-error="">
-        <h1 id="function-overview">Function Overview <a href="#function-overview" class="anchor" aria-hidden="true"><i class="material-icons align-middle">link</i></a></h1><h2 id="1-device-list">1. Device List <a href="#1-device-list" class="anchor" aria-hidden="true"><i class="material-icons align-middle">link</i></a></h2><img src="../../../../photo/docs/device/battery/device-list.png">
-<p>The device list can view online, faulty, offline and all device information.</p>
-<h2 id="2-battery-details-page">2. Battery details page <a href="#2-battery-details-page" class="anchor" aria-hidden="true"><i class="material-icons align-middle">link</i></a></h2><img src="../../../../photo/docs/device/battery/detail-enter.png">
+        <h1 id="function-overview">Function Overview <a href="#function-overview" class="anchor" aria-hidden="true"><i class="material-icons align-middle">link</i></a></h1><p>The Battery System (BMS) is the core device of an energy storage system; it usually hangs under a collector as a sub-device, and the collector collects and reports the operation data of the battery clusters and battery packs to the platform.</p>
+<h2 id="1-device-list">1. Device List <a href="#1-device-list" class="anchor" aria-hidden="true"><i class="material-icons align-middle">link</i></a></h2><img src="../../../../photo/docs/device/battery/device-list.png">
+<p>The device list can view online, faulty, offline and all device information; the status tabs at the top also show the device count of each status, and clicking a tab shows only the devices in that status.</p>
+<p>The list shows the serial number, alias, average SOC, plant, collector, timezone, data update time and so on; click the serial number to enter the battery details page.</p>
+<h2 id="2-battery-details-page">2. Battery Details Page <a href="#2-battery-details-page" class="anchor" aria-hidden="true"><i class="material-icons align-middle">link</i></a></h2><img src="../../../../photo/docs/device/battery/detail-enter.png">
 <p>You can enter the device details page from the device in the device list</p>
 <img src="../../../../photo/docs/device/battery/detail.png">
-<p>The battery details page displays BMS information and battery information and historical data charts under BMS</p>
-<h3 id="31-alarm">3.1 Alarm <a href="#31-alarm" class="anchor" aria-hidden="true"><i class="material-icons align-middle">link</i></a></h3><p>Refer to <a href="http://localhost:1313/en/docs/web/device/collector/#81 Alarm" title="Collector Alarm">Collector Alarm</a></p>
-<h3 id="32-unbinding">3.2 Unbinding <a href="#32-unbinding" class="anchor" aria-hidden="true"><i class="material-icons align-middle">link</i></a></h3><p>Refer to <a href="http://localhost:1313/en/docs/web/device/collector/#82 Unbinding" title="Collector Unbinding">Collector Unbinding</a>, <strong>Unbinding a sub-device will delete the sub-device from the collector and clear the sub-device data</strong>.</p>
-<h3 id="33-create-a-new-work-order">3.3 Create a new work order <a href="#33-create-a-new-work-order" class="anchor" aria-hidden="true"><i class="material-icons align-middle">link</i></a></h3><p>Refer to <a href="http://localhost:1313/en/docs/web/device/collector/#832 Create a new work order" title="Create a new work order">Create a new work order for the collector</a></p>
-<h3 id="34-parameter-settings">3.4 Parameter settings <a href="#34-parameter-settings" class="anchor" aria-hidden="true"><i class="material-icons align-middle">link</i></a></h3><p>Refer to <a href="http://localhost:1313/en/docs/web/device/inveter/#34 Parameter settings" title="Inverter parameter settings">Inverter parameter settings</a></p>
-<h3 id="35-alias-editing">3.5 Alias ​​editing <a href="#35-alias-editing" class="anchor" aria-hidden="true"><i class="material-icons align-middle">link</i></a></h3><p>Refer to <a href="http://localhost:1313/en/docs/web/device/collector/#833 Alias ​​editing" title="Collector alias editing">Collector alias editing</a></p>
-<h3 id="36-firmware-upgrade">3.6 Firmware upgrade <a href="#36-firmware-upgrade" class="anchor" aria-hidden="true"><i class="material-icons align-middle">link</i></a></h3><p>Refer to <a href="http://localhost:1313/en/docs/web/device/collector/#834 Firmware upgrade" title="Firmware upgrade">Collector firmware upgrade</a></p>
-<h3 id="37-operation-log">3.7 Operation log <a href="#37-operation-log" class="anchor" aria-hidden="true"><i class="material-icons align-middle">link</i></a></h3><p>Refer to <a href="http://localhost:1313/en/docs/web/device/collector/#835 Operation log" title="Operation log">Collector operation log</a></p>
-<h3 id="38-historical-data-chart">3.8 Historical data chart <a href="#38-historical-data-chart" class="anchor" aria-hidden="true"><i class="material-icons align-middle">link</i></a></h3><img src="../../../../photo/docs/device/battery/chart.png">
-<p>Battery historical data supports daily and weekly data display and time range selection</p>
+<p>The battery details page displays the BMS information, the battery information under its BMS, and historical data charts.</p>
+<p>The top of the page shows the device name and the time of the latest data update (including the timezone where the device is located); &ldquo;Alarm&rdquo; and &ldquo;Unbind&rdquo; on the right are the common operations, and the other operations are in the &ldquo;…&rdquo; menu. The page content is grouped by cards:</p>
 <ul>
-<li>
-<p><strong>Daily</strong>: Users can customize parameter display through <a href="http://localhost:1313/en/docs/web/device/battery/#381 Parameter selection" title="Parameter selection">Parameter selection</a></p>
-</li>
-<li>
-<p><strong>Weekly</strong>: Users can customize parameter display through <a href="http://localhost:1313/en/docs/web/device/battery/#381 Parameter selection" title="Parameter selection">Parameter selection</a></p>
-</li>
+<li><strong>Basic information</strong>: serial number, host device name, host manufacturer name, host software version, total quantity of batteries</li>
+<li><strong>Charge/Discharge</strong>: average SOC, minimum SOH, charge/discharge status</li>
+<li><strong>Voltage &amp; Current</strong>: average voltage, total current, maximum cell voltage, minimum cell voltage, maximum charge current, maximum discharge current</li>
+<li><strong>Temperature</strong>: BMS maximum temperature, BMS minimum temperature, maximum cell temperature, minimum cell temperature</li>
+<li><strong>Battery</strong>: each battery (battery pack) has its own card, showing information such as the software version and the voltage details of every cell, and the card can be collapsed; the upper right corner allows unbinding this battery separately</li>
 </ul>
-<h3 id="381-parameter-selection">3.8.1 Parameter selection <a href="#381-parameter-selection" class="anchor" aria-hidden="true"><i class="material-icons align-middle">link</i></a></h3><p>Refer to <a href="http://localhost:1313/en/docs/web/device/battery/#381 Parameter selection" title="Parameter selection">Inverter parameter selection</a></p>
-<h3 id="382-export-report">3.8.2 Export report <a href="#382-export-report" class="anchor" aria-hidden="true"><i class="material-icons align-middle">link</i></a></h3><p>Refer to <a href="http://localhost:1313/en/docs/web/device/battery/#382 Export report" title="Export report">Inverter export report</a></p>
+<h3 id="31-alarm">3.1 Alarm <a href="#31-alarm" class="anchor" aria-hidden="true"><i class="material-icons align-middle">link</i></a></h3><p>Refer to <a href="http://localhost:1313/en/docs/web/device/collector/#81-alarm" title="Collector Alarm">Collector Alarm</a></p>
+<h3 id="32-unbinding">3.2 Unbinding <a href="#32-unbinding" class="anchor" aria-hidden="true"><i class="material-icons align-middle">link</i></a></h3><p>Refer to <a href="http://localhost:1313/en/docs/web/device/collector/#82-unbinding" title="Collector Unbinding">Collector Unbinding</a>, <strong>unbinding a sub-device will delete the sub-device from the collector and clear the data of the sub-device</strong>.</p>
+<h3 id="33-create-a-new-work-order">3.3 Create a New Work Order <a href="#33-create-a-new-work-order" class="anchor" aria-hidden="true"><i class="material-icons align-middle">link</i></a></h3><p>Refer to <a href="http://localhost:1313/en/docs/web/device/collector/#832-create-a-new-work-order" title="Create a New Work Order">Create a new work order for the collector</a></p>
+<h3 id="34-parameter-settings">3.4 Parameter Settings <a href="#34-parameter-settings" class="anchor" aria-hidden="true"><i class="material-icons align-middle">link</i></a></h3><p>Refer to <a href="http://localhost:1313/en/docs/web/device/inveter/#34-parameter-settings" title="Inverter Parameter Settings">Inverter Parameter Settings</a></p>
+<h3 id="35-alias-editing">3.5 Alias Editing <a href="#35-alias-editing" class="anchor" aria-hidden="true"><i class="material-icons align-middle">link</i></a></h3><p>Refer to <a href="http://localhost:1313/en/docs/web/device/collector/#833-alias-editing" title="Collector Alias Editing">Edit the collector alias</a></p>
+<h3 id="36-firmware-upgrade">3.6 Firmware Upgrade <a href="#36-firmware-upgrade" class="anchor" aria-hidden="true"><i class="material-icons align-middle">link</i></a></h3><p>Refer to <a href="http://localhost:1313/en/docs/web/device/collector/#834-firmware-upgrade" title="Firmware Upgrade">Firmware upgrade for the collector</a></p>
+<h3 id="37-operation-log">3.7 Operation Log <a href="#37-operation-log" class="anchor" aria-hidden="true"><i class="material-icons align-middle">link</i></a></h3><p>Refer to <a href="http://localhost:1313/en/docs/web/device/collector/#835-operation-log" title="Operation Log">Operation log for the collector</a></p>
+<h3 id="38-historical-data-chart">3.8 Historical Data Chart <a href="#38-historical-data-chart" class="anchor" aria-hidden="true"><i class="material-icons align-middle">link</i></a></h3><img src="../../../../photo/docs/device/battery/chart.png">
+<p>Battery historical data supports data display and time range selection at the daily and weekly levels</p>
+<ul>
+<li><strong>Daily</strong>: users can customize the parameter display through <a href="http://localhost:1313/en/docs/web/device/battery/#381-parameter-selection" title="Parameter Selection">Parameter Selection</a></li>
+<li><strong>Weekly</strong>: users can customize the parameter display through <a href="http://localhost:1313/en/docs/web/device/battery/#381-parameter-selection" title="Parameter Selection">Parameter Selection</a></li>
+</ul>
+<h3 id="381-parameter-selection">3.8.1 Parameter Selection <a href="#381-parameter-selection" class="anchor" aria-hidden="true"><i class="material-icons align-middle">link</i></a></h3><p>Parameter selection is the same as for the inverter; refer to <a href="http://localhost:1313/en/docs/web/device/inveter/#381-parameter-selection" title="Parameter Selection">Inverter Parameter Selection</a></p>
+<h3 id="382-export-report">3.8.2 Export Report <a href="#382-export-report" class="anchor" aria-hidden="true"><i class="material-icons align-middle">link</i></a></h3><p>The export method is the same as for the inverter; refer to <a href="http://localhost:1313/en/docs/web/device/inveter/#382-export-report" title="Export Report">Inverter Export Report</a></p>
 
     </div>
 
@@ -638,7 +666,7 @@ The battery details page displays BMS information and battery information and hi
 
 	<div class="row flex-xl-nowrap ">
 	<div class="col-sm-6 pt-2 doc-next">
-		<a href="/en/docs/app/plant/logger/">
+		<a href="/en/docs/app/manager-view/plant/logger/">
 			<div class="card h-100 my-1">
 				<div class="card-body py-2">
                     <p class="card-title fs-5 fw-semibold lh-base mb-0"><i class="material-icons align-middle">navigate_before</i> Add Logger</p>

@@ -12,21 +12,21 @@
       <link>http://localhost:1313/zh/docs/web/ops/ticket/dashboard/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/zh/docs/web/ops/ticket/dashboard/</guid>
-      <description>功能概述 link 1.最近活动 link 工单系统的操作记录</description>
+      <description>功能概述 link工单看板用于快速了解当前工单的整体情况：顶部是四个关键指标，中间是工单趋势图，下方是待办和评分统计。&#xA;未解决：尚未解决的工单数 逾期：已经超过首次响应或关闭截止时间仍未处理的工单数，需要优先处理 处理中：正在处理中的工单数 未指派：还没有指派处理人的工单数 今日趋势对比昨天和今天的工单数量变化，鼠标悬停可以看具体时段的数值，用于判断当天的处理压力。&#xA;待办列出需要当前账号处理的工单，点击可以直接进入该工单。&#xA;评分统计用户对工单处理结果的评价（正面、负面、中立、未评），反映服务质量。&#xA;1.最近活动 link 工单系统的操作记录&#xA;点击右上角「最近活动」打开抽屉，按时间倒序展示工单的操作记录，包括工单编号、操作时间、操作人和变更的状态（如打开、待定、已解决、已关闭），便于追溯谁在什么时候处理了哪张工单。</description>
     </item>
     <item>
       <title>工单列表</title>
       <link>http://localhost:1313/zh/docs/web/ops/ticket/list/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/zh/docs/web/ops/ticket/list/</guid>
-      <description>功能概述 link 1.工单状态变更 link 2.工单修改 link 3.待办 link 4.与我相关 link </description>
+      <description>功能概述 link工单列表展示所有工单，并按与当前账号的关系分成几个标签页：&#xA;我发起的：当前账号创建的工单 待办：需要当前账号处理的工单 与我相关：当前账号参与过的工单（如被回复或被抄送） 全部：当前账号数据权限内的所有工单 列表中的信息包括工单编号、主题、工单类型、在手人（或发起人）、首次响应截止、关闭截止、优先级、状态和操作。上方的「快捷查找」可以按关键词快速定位工单。&#xA;1.工单状态变更 link 工单处理过程中需要及时更新状态，状态分为：&#xA;打开：工单已建立，等待处理 待定：需要等待用户确认或补充信息 已解决：问题已处理完成 已关闭：工单结束 2.工单修改 link 3.待办 link 待办中的工单会显示优先级（高、中、低），可以按优先级先处理紧急的问题。&#xA;4.与我相关 link 5.工单评分 link工单解决后可以对处理结果评分（正面、中立、负面），评分结果会统计到工单看板的评分板块。</description>
     </item>
     <item>
       <title>客户团队</title>
       <link>http://localhost:1313/zh/docs/web/ops/ticket/team/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/zh/docs/web/ops/ticket/team/</guid>
-      <description>功能概述 link 1.新建团队 link 2.修改 link 3.解散 link </description>
+      <description>功能概述 link客服团队用于划分处理工单的团队：每个团队有名称、描述、主要职责和主要成员，工单会按团队的主要职责分派给对应的团队处理。&#xA;列表展示团队名称、描述、主要职责（投诉、问题、退换等标签）和主要成员，操作列可以修改或解散团队。&#xA;1.新建团队 link 新建团队需要填写：&#xA;团队名称：必填，便于识别的名字 描述：团队的补充说明 主要职责：选择一个或多个工单类型（如投诉、问题、退换），工单会按类型分派给负责该类型的团队 主要成员：至少选择一名成员，成员即这个团队的处理人 2.修改 link 修改团队信息与成员，人员变动时在这里调整。&#xA;3.解散 link 解散后该团队不再参与工单分派，团队已有的工单不受影响。</description>
     </item>
   </channel>
 </rss>

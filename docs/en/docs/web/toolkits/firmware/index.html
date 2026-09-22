@@ -19,7 +19,7 @@
     <title>Firmware Management | Solarhub Help Center</title>
     <meta name="robots" content="noindex">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Device OTA firmware management, including firmware search, adding firmware, modifying firmware, downloading firmware, access authorization, generating redemption codes, etc.">
+    <meta name="description" content="Device OTA firmware management: search, add, modify, download, access authorization, redemption code">
     <meta name="keywords" content="Documentation, Hugo, Hugo Theme, Bootstrap" />
     <meta name="author" content="Colin Wilson - Lotus Labs" />
     <meta name="email" content="support@aigis.uk" />
@@ -33,14 +33,14 @@
 <link rel="icon" type="image/png" sizes="16x16" href="http://localhost:1313/favicon-16x16.png">
 <link rel="manifest" crossorigin="use-credentials" href="http://localhost:1313/site.webmanifest">
 <meta property="og:title" content="Firmware Management" />
-<meta property="og:description" content="Device OTA firmware management, including firmware search, adding firmware, modifying firmware, downloading firmware, access authorization, generating redemption codes, etc." />
+<meta property="og:description" content="Device OTA firmware management: search, add, modify, download, access authorization, redemption code" />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="http://localhost:1313/en/docs/web/toolkits/firmware/" /><meta property="og:image" content="http://localhost:1313/opengraph/card-base-2_hu06b1a92291a380a0d2e0ec03dab66b2f_17642_filter_6369993159196073260.png"/><meta property="article:section" content="docs" />
+<meta property="og:url" content="http://localhost:1313/en/docs/web/toolkits/firmware/" /><meta property="og:image" content="http://localhost:1313/opengraph/card-base-2_hu06b1a92291a380a0d2e0ec03dab66b2f_17642_filter_13947029104763983427.png"/><meta property="article:section" content="docs" />
 
 <meta name="twitter:card" content="summary_large_image"/>
-<meta name="twitter:image" content="http://localhost:1313/opengraph/card-base-2_hu06b1a92291a380a0d2e0ec03dab66b2f_17642_filter_6369993159196073260.png"/>
+<meta name="twitter:image" content="http://localhost:1313/opengraph/card-base-2_hu06b1a92291a380a0d2e0ec03dab66b2f_17642_filter_13947029104763983427.png"/>
 <meta name="twitter:title" content="Firmware Management"/>
-<meta name="twitter:description" content="Device OTA firmware management, including firmware search, adding firmware, modifying firmware, downloading firmware, access authorization, generating redemption codes, etc."/>
+<meta name="twitter:description" content="Device OTA firmware management: search, add, modify, download, access authorization, redemption code"/>
 
     
     <script>(()=>{var t=window.matchMedia&&window.matchMedia("(prefers-color-scheme: dark)").matches,e=localStorage.getItem("theme");t&&e===null&&(localStorage.setItem("theme","dark"),document.documentElement.setAttribute("data-dark-mode","")),t&&e==="dark"&&document.documentElement.setAttribute("data-dark-mode",""),e==="dark"&&document.documentElement.setAttribute("data-dark-mode","")})()</script>
@@ -143,17 +143,17 @@
                                                         
                                                             
                                                             
-                                                                <li class=" no-icon"><a class="sidebar-nested-link" href="http://localhost:1313/en/docs/web/plant-center/bess/">BESS</a></li>
+                                                                <li class=" no-icon"><a class="sidebar-nested-link" href="http://localhost:1313/en/docs/web/plant-center/bess/">Battery System</a></li>
                                                             
                                                         
                                                             
                                                             
-                                                                <li class=" no-icon"><a class="sidebar-nested-link" href="http://localhost:1313/en/docs/web/plant-center/hess/">HESS</a></li>
+                                                                <li class=" no-icon"><a class="sidebar-nested-link" href="http://localhost:1313/en/docs/web/plant-center/hess/">Residential Storage</a></li>
                                                             
                                                         
                                                             
                                                             
-                                                                <li class=" no-icon"><a class="sidebar-nested-link" href="http://localhost:1313/en/docs/web/plant-center/ems/">EMS</a></li>
+                                                                <li class=" no-icon"><a class="sidebar-nested-link" href="http://localhost:1313/en/docs/web/plant-center/ems/">Commercial Plant</a></li>
                                                             
                                                         
                                                             
@@ -173,7 +173,7 @@
                                                         
                                                             
                                                             
-                                                                <li class=" no-icon"><a class="sidebar-nested-link" href="http://localhost:1313/en/docs/web/plant-center/add-logger/">Add Logger</a></li>
+                                                                <li class=" no-icon"><a class="sidebar-nested-link" href="http://localhost:1313/en/docs/web/plant-center/add-logger/">Add Collector</a></li>
                                                             
                                                         
                                                     </ul>
@@ -321,6 +321,11 @@
                                                                 <li class=" no-icon"><a class="sidebar-nested-link" href="http://localhost:1313/en/docs/web/toolkits/notification/">Notice Announcement</a></li>
                                                             
                                                         
+                                                            
+                                                            
+                                                                <li class=" no-icon"><a class="sidebar-nested-link" href="http://localhost:1313/en/docs/web/toolkits/test/">Production Test</a></li>
+                                                            
+                                                        
                                                     </ul>
                                                 </div>
                                             </li>
@@ -338,6 +343,30 @@
                                                             
                                                             
                                                                 <li class=" no-icon"><a class="sidebar-nested-link" href="http://localhost:1313/en/docs/web/organization/tree/">Organizational Structure</a></li>
+                                                            
+                                                        
+                                                    </ul>
+                                                </div>
+                                            </li>
+                                        
+                                    
+                                        
+                                        
+                                            <li class="sidebar-dropdown nested no-icon ">
+                                                <button class="btn">
+                                                    Frequently Asked Questions and Answers
+                                                </button>
+                                                <div class="sidebar-submenu ">
+                                                    <ul>
+                                                        
+                                                            
+                                                            
+                                                                <li class=" no-icon"><a class="sidebar-nested-link" href="http://localhost:1313/en/docs/web/faq/1.network-tools/">Network Search Tool</a></li>
+                                                            
+                                                        
+                                                            
+                                                            
+                                                                <li class=" no-icon"><a class="sidebar-nested-link" href="http://localhost:1313/en/docs/web/faq/2.device-offline/">Collector not online at first power-on</a></li>
                                                             
                                                         
                                                     </ul>
@@ -539,14 +568,14 @@
     <nav id="TableOfContents">
   <ul>
     <li><a href="#1-firmware-search">1. Firmware Search</a></li>
-    <li><a href="#2-add-firmware">2. Add firmware</a></li>
-    <li><a href="#3-other-operations">3. Other operations</a>
+    <li><a href="#2-add-firmware">2. Add Firmware</a></li>
+    <li><a href="#3-other-operations">3. Other Operations</a>
       <ul>
-        <li><a href="#31-modify-firmware">3.1 Modify firmware</a></li>
-        <li><a href="#32-delete-firmware">3.2 Delete firmware</a></li>
-        <li><a href="#33-download-firmware">3.3 Download firmware</a></li>
-        <li><a href="#34-firmware-access-authorization">3.4 Firmware access authorization</a></li>
-        <li><a href="#35-firmware-redemption-code-generation">3.5 Firmware redemption code generation</a></li>
+        <li><a href="#31-modify-firmware">3.1 Modify Firmware</a></li>
+        <li><a href="#32-delete-firmware">3.2 Delete Firmware</a></li>
+        <li><a href="#33-download-firmware">3.3 Download Firmware</a></li>
+        <li><a href="#34-firmware-access-authorization">3.4 Firmware Access Authorization</a></li>
+        <li><a href="#35-firmware-redemption-code-generation">3.5 Firmware Redemption Code Generation</a></li>
       </ul>
     </li>
   </ul>
@@ -561,14 +590,14 @@
 <nav id="toc-mobile">
   <ul class="dropdown-menu">
     <li><a href="#1-firmware-search">1. Firmware Search</a></li>
-    <li><a href="#2-add-firmware">2. Add firmware</a></li>
-    <li><a href="#3-other-operations">3. Other operations</a>
+    <li><a href="#2-add-firmware">2. Add Firmware</a></li>
+    <li><a href="#3-other-operations">3. Other Operations</a>
       <ul>
-        <li><a href="#31-modify-firmware">3.1 Modify firmware</a></li>
-        <li><a href="#32-delete-firmware">3.2 Delete firmware</a></li>
-        <li><a href="#33-download-firmware">3.3 Download firmware</a></li>
-        <li><a href="#34-firmware-access-authorization">3.4 Firmware access authorization</a></li>
-        <li><a href="#35-firmware-redemption-code-generation">3.5 Firmware redemption code generation</a></li>
+        <li><a href="#31-modify-firmware">3.1 Modify Firmware</a></li>
+        <li><a href="#32-delete-firmware">3.2 Delete Firmware</a></li>
+        <li><a href="#33-download-firmware">3.3 Download Firmware</a></li>
+        <li><a href="#34-firmware-access-authorization">3.4 Firmware Access Authorization</a></li>
+        <li><a href="#35-firmware-redemption-code-generation">3.5 Firmware Redemption Code Generation</a></li>
       </ul>
     </li>
   </ul>
@@ -588,23 +617,32 @@
     <div data-prismjs-copy="" data-prismjs-copy-success="" data-prismjs-copy-error="">
         <h1 id="function-overview">Function Overview <a href="#function-overview" class="anchor" aria-hidden="true"><i class="material-icons align-middle">link</i></a></h1><p>Platform device firmware management, including firmware search, adding firmware, modifying firmware, downloading firmware, access authorization, generating redemption codes, etc.</p>
 <img src="../../../../photo/docs/toolkits/firmware-enter.png">
+<p>Firmware is maintained separately by device type (collector, inverter, battery system, battery PACK, micro inverter, etc.). The list displays firmware name, firmware version, extended info, remark, file size and update time. When performing firmware upgrade in remote interaction and on the device details page, only the firmware that the current account has permission for and that matches the target device type will be seen.</p>
 <h2 id="1-firmware-search">1. Firmware Search <a href="#1-firmware-search" class="anchor" aria-hidden="true"><i class="material-icons align-middle">link</i></a></h2><img src="../../../../photo/docs/toolkits/firmware-search1.png">
 <img src="../../../../photo/docs/toolkits/firmware-search.png" width="700" height="550">
-<p>Advanced search can be performed based on device type or firmware name</p>
-<h2 id="2-add-firmware">2. Add firmware <a href="#2-add-firmware" class="anchor" aria-hidden="true"><i class="material-icons align-middle">link</i></a></h2><img src="../../../../photo/docs/toolkits/firmware-add.png">
+<p>Advanced search can be performed based on device type or firmware name.</p>
+<h2 id="2-add-firmware">2. Add Firmware <a href="#2-add-firmware" class="anchor" aria-hidden="true"><i class="material-icons align-middle">link</i></a></h2><img src="../../../../photo/docs/toolkits/firmware-add.png">
 <img src="../../../../photo/docs/toolkits/firmware-add1.png" width="600" height="450">
-<p><strong>Firmware version</strong> should not be too long, please make sure <strong>firmware file is legal</strong>, otherwise it will not be added</p>
-<h2 id="3-other-operations">3. Other operations <a href="#3-other-operations" class="anchor" aria-hidden="true"><i class="material-icons align-middle">link</i></a></h2><img src="../../../../photo/docs/toolkits/firmware-other.png">
-<h3 id="31-modify-firmware">3.1 Modify firmware <a href="#31-modify-firmware" class="anchor" aria-hidden="true"><i class="material-icons align-middle">link</i></a></h3><img src="../../../../photo/docs/toolkits/firmware-update1.png">
+<ul>
+<li><strong>Device type</strong>: required, selected in three levels by device type/brand/model; the firmware can only be used for the selected model</li>
+<li><strong>Firmware name, Firmware version</strong>: required, <strong>firmware version</strong> should not be too long</li>
+<li><strong>Extended info</strong>: used to distinguish firmware differences under the same model (for example, whether the serial chip is distinguished)</li>
+<li><strong>Firmware file</strong>: required, the file size cannot exceed 2MB; please make sure the <strong>firmware file is legal</strong>, otherwise it cannot be added</li>
+<li><strong>Authorize to members of the same department</strong>: after checking, members of the same department can also see and download this firmware</li>
+</ul>
+<h2 id="3-other-operations">3. Other Operations <a href="#3-other-operations" class="anchor" aria-hidden="true"><i class="material-icons align-middle">link</i></a></h2><img src="../../../../photo/docs/toolkits/firmware-other.png">
+<h3 id="31-modify-firmware">3.1 Modify Firmware <a href="#31-modify-firmware" class="anchor" aria-hidden="true"><i class="material-icons align-middle">link</i></a></h3><img src="../../../../photo/docs/toolkits/firmware-update1.png">
 <img src="../../../../photo/docs/toolkits/firmware-update.png" width="600" height="450">
-<h3 id="32-delete-firmware">3.2 Delete firmware <a href="#32-delete-firmware" class="anchor" aria-hidden="true"><i class="material-icons align-middle">link</i></a></h3><img src="../../../../photo/docs/toolkits/firmware-delete.png">
-<h3 id="33-download-firmware">3.3 Download firmware <a href="#33-download-firmware" class="anchor" aria-hidden="true"><i class="material-icons align-middle">link</i></a></h3><img src="../../../../photo/docs/toolkits/firmware-download.png">
-<h3 id="34-firmware-access-authorization">3.4 Firmware access authorization <a href="#34-firmware-access-authorization" class="anchor" aria-hidden="true"><i class="material-icons align-middle">link</i></a></h3><img src="../../../../photo/docs/toolkits/firmware-access1.png">
+<h3 id="32-delete-firmware">3.2 Delete Firmware <a href="#32-delete-firmware" class="anchor" aria-hidden="true"><i class="material-icons align-middle">link</i></a></h3><img src="../../../../photo/docs/toolkits/firmware-delete.png">
+<p>After deletion, the firmware no longer appears in the firmware list, and devices that have already been upgraded are not affected.</p>
+<h3 id="33-download-firmware">3.3 Download Firmware <a href="#33-download-firmware" class="anchor" aria-hidden="true"><i class="material-icons align-middle">link</i></a></h3><img src="../../../../photo/docs/toolkits/firmware-download.png">
+<h3 id="34-firmware-access-authorization">3.4 Firmware Access Authorization <a href="#34-firmware-access-authorization" class="anchor" aria-hidden="true"><i class="material-icons align-middle">link</i></a></h3><img src="../../../../photo/docs/toolkits/firmware-access1.png">
 <img src="../../../../photo/docs/toolkits/firmware-access.png" width="600" height="450">
-<p>By entering the email address of the platform account, the platform account will be automatically retrieved. Selecting the corresponding account can authorize firmware access to the account, and the same is true for the authorized organization</p>
-<h3 id="35-firmware-redemption-code-generation">3.5 Firmware redemption code generation <a href="#35-firmware-redemption-code-generation" class="anchor" aria-hidden="true"><i class="material-icons align-middle">link</i></a></h3><img src="../../../../photo/docs/toolkits/firmware-code1.png">
+<p>By entering the email of a platform account, the platform account is automatically retrieved. Selecting the corresponding account can authorize firmware access to that account; the same is true for authorizing an organization.</p>
+<p>Only the authorized account (and the members of the authorized organization) can see and use this firmware.</p>
+<h3 id="35-firmware-redemption-code-generation">3.5 Firmware Redemption Code Generation <a href="#35-firmware-redemption-code-generation" class="anchor" aria-hidden="true"><i class="material-icons align-middle">link</i></a></h3><img src="../../../../photo/docs/toolkits/firmware-code1.png">
 <img src="../../../../photo/docs/toolkits/firmware-code.png" width="600" height="450">
-<p>The firmware redemption code is generated for upgrading using OTA Assistant in APP. For details, please refer to OTA Assistant on the APP page</p>
+<p>Firmware redemption code generation is used for upgrading with OTA Assistant in the APP. For details, please refer to OTA Assistant on the APP page.</p>
 
     </div>
 

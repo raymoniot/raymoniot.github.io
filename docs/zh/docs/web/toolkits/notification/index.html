@@ -19,7 +19,7 @@
     <title>通知公告 | Soalrhub 帮助中心</title>
     <meta name="robots" content="noindex">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="在Web或App上推送公告消息，主要功能有新增公告、修改公告、删除公告">
+    <meta name="description" content="在Web或App上推送公告消息：新增公告、修改公告、删除公告，可按推送范围发送">
     <meta name="keywords" content="Documentation, Hugo, Hugo Theme, Bootstrap" />
     <meta name="author" content="Colin Wilson - Lotus Labs" />
     <meta name="email" content="support@aigis.uk" />
@@ -33,14 +33,14 @@
 <link rel="icon" type="image/png" sizes="16x16" href="http://localhost:1313/favicon-16x16.png">
 <link rel="manifest" crossorigin="use-credentials" href="http://localhost:1313/site.webmanifest">
 <meta property="og:title" content="通知公告" />
-<meta property="og:description" content="在Web或App上推送公告消息，主要功能有新增公告、修改公告、删除公告" />
+<meta property="og:description" content="在Web或App上推送公告消息：新增公告、修改公告、删除公告，可按推送范围发送" />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="http://localhost:1313/zh/docs/web/toolkits/notification/" /><meta property="og:image" content="http://localhost:1313/opengraph/card-base-2_hu06b1a92291a380a0d2e0ec03dab66b2f_17642_filter_15155318233100389298.png"/><meta property="article:section" content="docs" />
+<meta property="og:url" content="http://localhost:1313/zh/docs/web/toolkits/notification/" /><meta property="og:image" content="http://localhost:1313/opengraph/card-base-2_hu06b1a92291a380a0d2e0ec03dab66b2f_17642_filter_5051880757954584978.png"/><meta property="article:section" content="docs" />
 
 <meta name="twitter:card" content="summary_large_image"/>
-<meta name="twitter:image" content="http://localhost:1313/opengraph/card-base-2_hu06b1a92291a380a0d2e0ec03dab66b2f_17642_filter_15155318233100389298.png"/>
+<meta name="twitter:image" content="http://localhost:1313/opengraph/card-base-2_hu06b1a92291a380a0d2e0ec03dab66b2f_17642_filter_5051880757954584978.png"/>
 <meta name="twitter:title" content="通知公告"/>
-<meta name="twitter:description" content="在Web或App上推送公告消息，主要功能有新增公告、修改公告、删除公告"/>
+<meta name="twitter:description" content="在Web或App上推送公告消息：新增公告、修改公告、删除公告，可按推送范围发送"/>
 
     
     <script>(()=>{var t=window.matchMedia&&window.matchMedia("(prefers-color-scheme: dark)").matches,e=localStorage.getItem("theme");t&&e===null&&(localStorage.setItem("theme","dark"),document.documentElement.setAttribute("data-dark-mode","")),t&&e==="dark"&&document.documentElement.setAttribute("data-dark-mode",""),e==="dark"&&document.documentElement.setAttribute("data-dark-mode","")})()</script>
@@ -587,8 +587,19 @@
                                                 
     
     <div data-prismjs-copy="" data-prismjs-copy-success="" data-prismjs-copy-error="">
-        <h1 id="功能概述">功能概述 <a href="#%e5%8a%9f%e8%83%bd%e6%a6%82%e8%bf%b0" class="anchor" aria-hidden="true"><i class="material-icons align-middle">link</i></a></h1><img src="/../../zh/photo/docs/toolkits/remote-notice.png">
+        <h1 id="功能概述">功能概述 <a href="#%e5%8a%9f%e8%83%bd%e6%a6%82%e8%bf%b0" class="anchor" aria-hidden="true"><i class="material-icons align-middle">link</i></a></h1><p>在 Web 或 App 上推送公告消息，用于向用户发布通知（例如维护通知、活动通知）。</p>
+<img src="/../../zh/photo/docs/toolkits/remote-notice.png">
+<p>列表中显示已发布公告的标题、类型、状态、创建者和创建时间，支持按标题、发布者、类型搜索；操作列可以修改或删除公告。</p>
 <img src="/../../zh/photo/docs/toolkits/remote-notice1.png">
+<p>点击「新增」创建公告，需要填写：</p>
+<ul>
+<li><strong>标题</strong>：公告的标题，必填</li>
+<li><strong>类型</strong>：App 通知推送（推送到 App）或系统公告（在平台上展示）</li>
+<li><strong>发布者</strong>：公告的发布方名称</li>
+<li><strong>内容</strong>：公告正文</li>
+<li><strong>推送范围</strong>：全量推送（所有用户）、终端用户组（仅终端用户）或特定用户（指定账号）</li>
+</ul>
+<p>保存后公告会按所选范围推送给对应用户。</p>
 
     </div>
 

@@ -14,7 +14,17 @@
                 href="http://localhost:1313/en/docs/web/device/collector/"
                 />
   </url><url>
-    <loc>http://localhost:1313/en/docs/app/plant/create/</loc>
+    <loc>http://localhost:1313/en/docs/app/manager-view/plant/create/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="http://localhost:1313/zh/docs/app/manager-view/plant/create/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/en/docs/app/manager-view/plant/create/"
+                />
   </url><url>
     <loc>http://localhost:1313/en/docs/web/ops/events/</loc>
     <xhtml:link
@@ -52,6 +62,18 @@
                 href="http://localhost:1313/en/docs/kit/1.network-tools/"
                 />
   </url><url>
+    <loc>http://localhost:1313/en/docs/web/faq/1.network-tools/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="http://localhost:1313/zh/docs/web/faq/1.network-tools/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/en/docs/web/faq/1.network-tools/"
+                />
+  </url><url>
     <loc>http://localhost:1313/en/docs/web/organization/tree/</loc>
     <xhtml:link
                 rel="alternate"
@@ -76,6 +98,18 @@
                 href="http://localhost:1313/en/docs/web/overview/"
                 />
   </url><url>
+    <loc>http://localhost:1313/en/docs/app/plant-view/overview/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="http://localhost:1313/zh/docs/app/plant-view/overview/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/en/docs/app/plant-view/overview/"
+                />
+  </url><url>
     <loc>http://localhost:1313/en/docs/web/toolkits/point-query/</loc>
     <xhtml:link
                 rel="alternate"
@@ -86,6 +120,18 @@
                 rel="alternate"
                 hreflang="en"
                 href="http://localhost:1313/en/docs/web/toolkits/point-query/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/en/docs/app/device-view/realtime/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="http://localhost:1313/zh/docs/app/device-view/realtime/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/en/docs/app/device-view/realtime/"
                 />
   </url><url>
     <loc>http://localhost:1313/en/docs/app/login-register/</loc>
@@ -148,6 +194,30 @@
                 href="http://localhost:1313/en/docs/web/toolkits/batch/"
                 />
   </url><url>
+    <loc>http://localhost:1313/en/docs/web/faq/2.device-offline/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="http://localhost:1313/zh/docs/web/faq/2.device-offline/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/en/docs/web/faq/2.device-offline/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/en/docs/app/device-view/stat/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="http://localhost:1313/zh/docs/app/device-view/stat/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/en/docs/app/device-view/stat/"
+                />
+  </url><url>
     <loc>http://localhost:1313/en/docs/web/device/inveter/</loc>
     <xhtml:link
                 rel="alternate"
@@ -158,6 +228,18 @@
                 rel="alternate"
                 hreflang="en"
                 href="http://localhost:1313/en/docs/web/device/inveter/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/en/docs/app/plant-view/stat/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="http://localhost:1313/zh/docs/app/plant-view/stat/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/en/docs/app/plant-view/stat/"
                 />
   </url><url>
     <loc>http://localhost:1313/en/docs/app/quickstart/</loc>
@@ -184,11 +266,41 @@
                 href="http://localhost:1313/en/docs/web/quickstart/"
                 />
   </url><url>
-    <loc>http://localhost:1313/en/docs/app/device/search/</loc>
+    <loc>http://localhost:1313/en/docs/app/manager-view/device/search/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="http://localhost:1313/zh/docs/app/manager-view/device/search/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/en/docs/app/manager-view/device/search/"
+                />
   </url><url>
-    <loc>http://localhost:1313/en/docs/app/event/search/</loc>
+    <loc>http://localhost:1313/en/docs/app/manager-view/event/search/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="http://localhost:1313/zh/docs/app/manager-view/event/search/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/en/docs/app/manager-view/event/search/"
+                />
   </url><url>
-    <loc>http://localhost:1313/en/docs/app/plant/search/</loc>
+    <loc>http://localhost:1313/en/docs/app/manager-view/plant/search/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="http://localhost:1313/zh/docs/app/manager-view/plant/search/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/en/docs/app/manager-view/plant/search/"
+                />
   </url><url>
     <loc>http://localhost:1313/en/docs/app/</loc>
     <xhtml:link
@@ -250,7 +362,17 @@
                 href="http://localhost:1313/en/docs/web/ops/ticket/"
                 />
   </url><url>
-    <loc>http://localhost:1313/en/docs/app/plant/logger/</loc>
+    <loc>http://localhost:1313/en/docs/app/manager-view/plant/logger/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="http://localhost:1313/zh/docs/app/manager-view/plant/logger/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/en/docs/app/manager-view/plant/logger/"
+                />
   </url><url>
     <loc>http://localhost:1313/en/docs/web/device/battery/</loc>
     <xhtml:link
@@ -276,9 +398,29 @@
                 href="http://localhost:1313/en/docs/app/my/modify/"
                 />
   </url><url>
-    <loc>http://localhost:1313/en/docs/app/device/detail/</loc>
+    <loc>http://localhost:1313/en/docs/app/manager-view/device/detail/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="http://localhost:1313/zh/docs/app/manager-view/device/detail/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/en/docs/app/manager-view/device/detail/"
+                />
   </url><url>
-    <loc>http://localhost:1313/en/docs/app/event/detail/</loc>
+    <loc>http://localhost:1313/en/docs/app/manager-view/event/detail/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="http://localhost:1313/zh/docs/app/manager-view/event/detail/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/en/docs/app/manager-view/event/detail/"
+                />
   </url><url>
     <loc>http://localhost:1313/en/docs/web/login/</loc>
     <xhtml:link
@@ -304,7 +446,53 @@
                 href="http://localhost:1313/en/docs/web/login/login/"
                 />
   </url><url>
-    <loc>http://localhost:1313/en/docs/app/plant/</loc>
+    <loc>http://localhost:1313/en/docs/app/manager-view/plant/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="http://localhost:1313/zh/docs/app/manager-view/plant/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/en/docs/app/manager-view/plant/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/en/docs/app/plant-view/layout/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="http://localhost:1313/zh/docs/app/plant-view/layout/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/en/docs/app/plant-view/layout/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/en/docs/app/manager-view/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="http://localhost:1313/zh/docs/app/manager-view/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/en/docs/app/manager-view/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/en/docs/app/device-view/deviceswitch/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="http://localhost:1313/zh/docs/app/device-view/deviceswitch/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/en/docs/app/device-view/deviceswitch/"
+                />
   </url><url>
     <loc>http://localhost:1313/en/docs/web/ops/ticket/list/</loc>
     <xhtml:link
@@ -330,6 +518,18 @@
                 href="http://localhost:1313/en/docs/app/my/cancel/"
                 />
   </url><url>
+    <loc>http://localhost:1313/en/docs/app/device-view/logger/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="http://localhost:1313/zh/docs/app/device-view/logger/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/en/docs/app/device-view/logger/"
+                />
+  </url><url>
     <loc>http://localhost:1313/en/docs/web/ops/ticket/team/</loc>
     <xhtml:link
                 rel="alternate"
@@ -342,9 +542,29 @@
                 href="http://localhost:1313/en/docs/web/ops/ticket/team/"
                 />
   </url><url>
-    <loc>http://localhost:1313/en/docs/app/device/</loc>
+    <loc>http://localhost:1313/en/docs/app/manager-view/device/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="http://localhost:1313/zh/docs/app/manager-view/device/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/en/docs/app/manager-view/device/"
+                />
   </url><url>
-    <loc>http://localhost:1313/en/docs/app/device/history/</loc>
+    <loc>http://localhost:1313/en/docs/app/manager-view/device/history/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="http://localhost:1313/zh/docs/app/manager-view/device/history/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/en/docs/app/manager-view/device/history/"
+                />
   </url><url>
     <loc>http://localhost:1313/en/docs/web/login/languages/</loc>
     <xhtml:link
@@ -356,6 +576,18 @@
                 rel="alternate"
                 hreflang="en"
                 href="http://localhost:1313/en/docs/web/login/languages/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/en/docs/app/device-view/wifi/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="http://localhost:1313/zh/docs/app/device-view/wifi/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/en/docs/app/device-view/wifi/"
                 />
   </url><url>
     <loc>http://localhost:1313/en/docs/web/device/optimizer/</loc>
@@ -370,6 +602,18 @@
                 href="http://localhost:1313/en/docs/web/device/optimizer/"
                 />
   </url><url>
+    <loc>http://localhost:1313/en/docs/app/plant-view/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="http://localhost:1313/zh/docs/app/plant-view/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/en/docs/app/plant-view/"
+                />
+  </url><url>
     <loc>http://localhost:1313/en/docs/web/toolkits/remote/</loc>
     <xhtml:link
                 rel="alternate"
@@ -382,7 +626,41 @@
                 href="http://localhost:1313/en/docs/web/toolkits/remote/"
                 />
   </url><url>
-    <loc>http://localhost:1313/en/docs/app/plant/switch/</loc>
+    <loc>http://localhost:1313/en/docs/app/manager-view/plant/switch/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="http://localhost:1313/zh/docs/app/manager-view/plant/switch/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/en/docs/app/manager-view/plant/switch/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/en/docs/app/plant-view/switch/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="http://localhost:1313/zh/docs/app/plant-view/switch/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/en/docs/app/plant-view/switch/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/en/docs/app/plant-view/create/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="http://localhost:1313/zh/docs/app/plant-view/create/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/en/docs/app/plant-view/create/"
+                />
   </url><url>
     <loc>http://localhost:1313/en/docs/web/dashboard/</loc>
     <xhtml:link
@@ -396,9 +674,41 @@
                 href="http://localhost:1313/en/docs/web/dashboard/"
                 />
   </url><url>
-    <loc>http://localhost:1313/en/docs/app/device/event/</loc>
+    <loc>http://localhost:1313/en/docs/app/manager-view/device/event/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="http://localhost:1313/zh/docs/app/manager-view/device/event/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/en/docs/app/manager-view/device/event/"
+                />
   </url><url>
-    <loc>http://localhost:1313/en/docs/app/event/</loc>
+    <loc>http://localhost:1313/en/docs/app/device-view/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="http://localhost:1313/zh/docs/app/device-view/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/en/docs/app/device-view/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/en/docs/app/manager-view/event/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="http://localhost:1313/zh/docs/app/manager-view/event/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/en/docs/app/manager-view/event/"
+                />
   </url><url>
     <loc>http://localhost:1313/en/docs/app/my/config/</loc>
     <xhtml:link
@@ -424,7 +734,41 @@
                 href="http://localhost:1313/en/docs/web/toolkits/notification/"
                 />
   </url><url>
-    <loc>http://localhost:1313/en/docs/app/plant/history/</loc>
+    <loc>http://localhost:1313/en/docs/app/device-view/paramset/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="http://localhost:1313/zh/docs/app/device-view/paramset/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/en/docs/app/device-view/paramset/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/en/docs/app/manager-view/plant/history/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="http://localhost:1313/zh/docs/app/manager-view/plant/history/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/en/docs/app/manager-view/plant/history/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/en/docs/web/toolkits/test/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="http://localhost:1313/zh/docs/web/toolkits/test/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/en/docs/web/toolkits/test/"
+                />
   </url><url>
     <loc>http://localhost:1313/en/docs/web/device/meter/</loc>
     <xhtml:link
@@ -438,6 +782,30 @@
                 href="http://localhost:1313/en/docs/web/device/meter/"
                 />
   </url><url>
+    <loc>http://localhost:1313/en/docs/app/plant-view/logger/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="http://localhost:1313/zh/docs/app/plant-view/logger/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/en/docs/app/plant-view/logger/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/en/docs/app/device-view/alias/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="http://localhost:1313/zh/docs/app/device-view/alias/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/en/docs/app/device-view/alias/"
+                />
+  </url><url>
     <loc>http://localhost:1313/en/docs/app/my/bledebug/</loc>
     <xhtml:link
                 rel="alternate"
@@ -448,18 +816,6 @@
                 rel="alternate"
                 hreflang="en"
                 href="http://localhost:1313/en/docs/app/my/bledebug/"
-                />
-  </url><url>
-    <loc>http://localhost:1313/en/docs/app/my/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="http://localhost:1313/zh/docs/app/my/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="http://localhost:1313/en/docs/app/my/"
                 />
   </url><url>
     <loc>http://localhost:1313/en/docs/app/my/ota/</loc>
@@ -486,7 +842,17 @@
                 href="http://localhost:1313/en/docs/web/plant-center/"
                 />
   </url><url>
-    <loc>http://localhost:1313/en/docs/app/plant/layout/</loc>
+    <loc>http://localhost:1313/en/docs/app/manager-view/plant/layout/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="http://localhost:1313/zh/docs/app/manager-view/plant/layout/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/en/docs/app/manager-view/plant/layout/"
+                />
   </url><url>
     <loc>http://localhost:1313/en/docs/web/plant-center/pvs/</loc>
     <xhtml:link
@@ -536,16 +902,40 @@
                 href="http://localhost:1313/en/docs/web/device/"
                 />
   </url><url>
-    <loc>http://localhost:1313/en/docs/web/plant-center/hess/</loc>
+    <loc>http://localhost:1313/en/docs/app/my/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
-                href="http://localhost:1313/zh/docs/web/plant-center/hess/"
+                href="http://localhost:1313/zh/docs/app/my/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/en/docs/web/plant-center/hess/"
+                href="http://localhost:1313/en/docs/app/my/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/en/docs/app/plant-view/devicelist/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="http://localhost:1313/zh/docs/app/plant-view/devicelist/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/en/docs/app/plant-view/devicelist/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/en/docs/app/device-view/unbind/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="http://localhost:1313/zh/docs/app/device-view/unbind/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/en/docs/app/device-view/unbind/"
                 />
   </url><url>
     <loc>http://localhost:1313/en/docs/web/ops/</loc>
@@ -558,6 +948,18 @@
                 rel="alternate"
                 hreflang="en"
                 href="http://localhost:1313/en/docs/web/ops/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/en/docs/web/plant-center/hess/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="http://localhost:1313/zh/docs/web/plant-center/hess/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/en/docs/web/plant-center/hess/"
                 />
   </url><url>
     <loc>http://localhost:1313/en/docs/web/plant-center/ems/</loc>
@@ -642,6 +1044,18 @@
                 rel="alternate"
                 hreflang="en"
                 href="http://localhost:1313/en/docs/kit/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/en/docs/web/faq/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="http://localhost:1313/zh/docs/web/faq/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/en/docs/web/faq/"
                 />
   </url><url>
     <loc>http://localhost:1313/en/docs/web/plant-center/guest-access/</loc>

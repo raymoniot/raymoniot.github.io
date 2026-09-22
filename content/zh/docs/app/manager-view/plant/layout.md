@@ -8,7 +8,7 @@ description: 电站布局
 
 <img src="/../../zh/photo/docs/app/plant/switch.png" style="margin-right: 24px" width="300">
 
-<img src="/../../zh/photo/docs/app/plant/layout.png" style="margin-right: 24px" width="300">
+<img src="/../../zh/photo/docs/app/view/plant-root.png" style="margin-right: 24px" width="300">
 
 <img src="/../../zh/photo/docs/app/plant/layout1.png" style="margin-right: 24px" width="300">
 
@@ -40,7 +40,7 @@ description: 电站布局
 
 ## 3.布局数据查看
 
-<img src="/../../zh/photo/docs/app/plant/layout6.png" style="margin-right: 24x" width="300">
+<img src="/../../zh/photo/docs/app/plant/layout6.png" style="margin-right: 24px" width="300">
 
 <img src="/../../zh/photo/docs/app/plant/layout8.png" style="margin-right: 24px" width="300">
 

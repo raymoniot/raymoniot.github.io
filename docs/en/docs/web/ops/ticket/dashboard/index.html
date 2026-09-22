@@ -19,7 +19,7 @@
     <title>Work Order Dashboard | Solarhub Help Center</title>
     <meta name="robots" content="noindex">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Processing status of work orders in the system, work order trend chart, and scoring status">
+    <meta name="description" content="Work Order Dashboard: key counts, today&#39;s trend, to-dos and scores">
     <meta name="keywords" content="Documentation, Hugo, Hugo Theme, Bootstrap" />
     <meta name="author" content="Colin Wilson - Lotus Labs" />
     <meta name="email" content="support@aigis.uk" />
@@ -33,14 +33,14 @@
 <link rel="icon" type="image/png" sizes="16x16" href="http://localhost:1313/favicon-16x16.png">
 <link rel="manifest" crossorigin="use-credentials" href="http://localhost:1313/site.webmanifest">
 <meta property="og:title" content="Work Order Dashboard" />
-<meta property="og:description" content="Processing status of work orders in the system, work order trend chart, and scoring status" />
+<meta property="og:description" content="Work Order Dashboard: key counts, today&#39;s trend, to-dos and scores" />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="http://localhost:1313/en/docs/web/ops/ticket/dashboard/" /><meta property="og:image" content="http://localhost:1313/opengraph/card-base-2_hu06b1a92291a380a0d2e0ec03dab66b2f_17642_filter_10347608143230717662.png"/><meta property="article:section" content="docs" />
+<meta property="og:url" content="http://localhost:1313/en/docs/web/ops/ticket/dashboard/" /><meta property="og:image" content="http://localhost:1313/opengraph/card-base-2_hu06b1a92291a380a0d2e0ec03dab66b2f_17642_filter_12404862213249175766.png"/><meta property="article:section" content="docs" />
 
 <meta name="twitter:card" content="summary_large_image"/>
-<meta name="twitter:image" content="http://localhost:1313/opengraph/card-base-2_hu06b1a92291a380a0d2e0ec03dab66b2f_17642_filter_10347608143230717662.png"/>
+<meta name="twitter:image" content="http://localhost:1313/opengraph/card-base-2_hu06b1a92291a380a0d2e0ec03dab66b2f_17642_filter_12404862213249175766.png"/>
 <meta name="twitter:title" content="Work Order Dashboard"/>
-<meta name="twitter:description" content="Processing status of work orders in the system, work order trend chart, and scoring status"/>
+<meta name="twitter:description" content="Work Order Dashboard: key counts, today&#39;s trend, to-dos and scores"/>
 
     
     <script>(()=>{var t=window.matchMedia&&window.matchMedia("(prefers-color-scheme: dark)").matches,e=localStorage.getItem("theme");t&&e===null&&(localStorage.setItem("theme","dark"),document.documentElement.setAttribute("data-dark-mode","")),t&&e==="dark"&&document.documentElement.setAttribute("data-dark-mode",""),e==="dark"&&document.documentElement.setAttribute("data-dark-mode","")})()</script>
@@ -143,17 +143,17 @@
                                                         
                                                             
                                                             
-                                                                <li class=" no-icon"><a class="sidebar-nested-link" href="http://localhost:1313/en/docs/web/plant-center/bess/">BESS</a></li>
+                                                                <li class=" no-icon"><a class="sidebar-nested-link" href="http://localhost:1313/en/docs/web/plant-center/bess/">Battery System</a></li>
                                                             
                                                         
                                                             
                                                             
-                                                                <li class=" no-icon"><a class="sidebar-nested-link" href="http://localhost:1313/en/docs/web/plant-center/hess/">HESS</a></li>
+                                                                <li class=" no-icon"><a class="sidebar-nested-link" href="http://localhost:1313/en/docs/web/plant-center/hess/">Residential Storage</a></li>
                                                             
                                                         
                                                             
                                                             
-                                                                <li class=" no-icon"><a class="sidebar-nested-link" href="http://localhost:1313/en/docs/web/plant-center/ems/">EMS</a></li>
+                                                                <li class=" no-icon"><a class="sidebar-nested-link" href="http://localhost:1313/en/docs/web/plant-center/ems/">Commercial Plant</a></li>
                                                             
                                                         
                                                             
@@ -173,7 +173,7 @@
                                                         
                                                             
                                                             
-                                                                <li class=" no-icon"><a class="sidebar-nested-link" href="http://localhost:1313/en/docs/web/plant-center/add-logger/">Add Logger</a></li>
+                                                                <li class=" no-icon"><a class="sidebar-nested-link" href="http://localhost:1313/en/docs/web/plant-center/add-logger/">Add Collector</a></li>
                                                             
                                                         
                                                     </ul>
@@ -321,6 +321,11 @@
                                                                 <li class=" no-icon"><a class="sidebar-nested-link" href="http://localhost:1313/en/docs/web/toolkits/notification/">Notice Announcement</a></li>
                                                             
                                                         
+                                                            
+                                                            
+                                                                <li class=" no-icon"><a class="sidebar-nested-link" href="http://localhost:1313/en/docs/web/toolkits/test/">Production Test</a></li>
+                                                            
+                                                        
                                                     </ul>
                                                 </div>
                                             </li>
@@ -338,6 +343,30 @@
                                                             
                                                             
                                                                 <li class=" no-icon"><a class="sidebar-nested-link" href="http://localhost:1313/en/docs/web/organization/tree/">Organizational Structure</a></li>
+                                                            
+                                                        
+                                                    </ul>
+                                                </div>
+                                            </li>
+                                        
+                                    
+                                        
+                                        
+                                            <li class="sidebar-dropdown nested no-icon ">
+                                                <button class="btn">
+                                                    Frequently Asked Questions and Answers
+                                                </button>
+                                                <div class="sidebar-submenu ">
+                                                    <ul>
+                                                        
+                                                            
+                                                            
+                                                                <li class=" no-icon"><a class="sidebar-nested-link" href="http://localhost:1313/en/docs/web/faq/1.network-tools/">Network Search Tool</a></li>
+                                                            
+                                                        
+                                                            
+                                                            
+                                                                <li class=" no-icon"><a class="sidebar-nested-link" href="http://localhost:1313/en/docs/web/faq/2.device-offline/">Collector not online at first power-on</a></li>
                                                             
                                                         
                                                     </ul>
@@ -574,10 +603,21 @@
                                                 
     
     <div data-prismjs-copy="" data-prismjs-copy-success="" data-prismjs-copy-error="">
-        <h1 id="function-overview">Function Overview <a href="#function-overview" class="anchor" aria-hidden="true"><i class="material-icons align-middle">link</i></a></h1><img src="../../../../../photo/docs/ops/ticket/ticket.png">
+        <h1 id="function-overview">Function Overview <a href="#function-overview" class="anchor" aria-hidden="true"><i class="material-icons align-middle">link</i></a></h1><p>The Work Order Dashboard is used to quickly understand the overall status of work orders: four key metrics at the top, a work order trend chart in the middle, and to-dos and score statistics below.</p>
+<img src="../../../../../photo/docs/ops/ticket/ticket.png">
+<ul>
+<li><strong>Unresolved</strong>: the number of work orders that are not yet resolved</li>
+<li><strong>Overdue</strong>: the number of work orders that have passed the first response or close deadline and are still unhandled, which need to be handled first</li>
+<li><strong>Processing</strong>: the number of work orders being processed</li>
+<li><strong>Unassigned</strong>: the number of work orders that have not been assigned to a handler</li>
+</ul>
+<p><strong>Today&rsquo;s Trend</strong> compares the change in the number of work orders between yesterday and today. Hover to see the value of a specific period, which helps judge the processing pressure of the day.</p>
+<p><strong>To-do</strong> lists the work orders that need to be handled by the current account; click one to enter that work order directly.</p>
+<p><strong>Score</strong> counts users&rsquo; evaluations of work order handling results (positive, negative, neutral, unrated), reflecting service quality.</p>
 <h2 id="1-recent-activities">1. Recent Activities <a href="#1-recent-activities" class="anchor" aria-hidden="true"><i class="material-icons align-middle">link</i></a></h2><img src="../../../../../photo/docs/ops/ticket/active.png">
 <img src="../../../../../photo/docs/ops/ticket/active-expand.png">
-<p>Operation Records of the Work Order System</p>
+<p>Operation records of the work order system</p>
+<p>Click &ldquo;Recent Activities&rdquo; in the upper right corner to open the drawer, which displays the operation records of work orders in reverse chronological order, including the work order number, operation time, operator and the changed status (such as Open, Pending, Resolved, Closed), making it easy to trace who handled which work order and when.</p>
 
     </div>
 
@@ -600,7 +640,7 @@
 		</a>
         </div>
 	<div class="col-sm-6 pt-2 doc-prev">
-		<a class="ms-auto" href="/en/docs/app/plant/logger/">
+		<a class="ms-auto" href="/en/docs/app/manager-view/plant/logger/">
 			<div class="card h-100 my-1 text-end">
 				<div class="card-body py-2">
                     <p class="card-title fs-5 fw-semibold lh-base mb-0">Add Logger <i class="material-icons align-middle">navigate_next</i></p>

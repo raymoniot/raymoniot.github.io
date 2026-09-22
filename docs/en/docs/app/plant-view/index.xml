@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Plant User Perspective on Solarhub Help Center</title>
+    <link>http://localhost:1313/en/docs/app/plant-view/</link>
+    <description>Recent content in Plant User Perspective on Solarhub Help Center</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <atom:link href="http://localhost:1313/en/docs/app/plant-view/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Plant Overview</title>
+      <link>http://localhost:1313/en/docs/app/plant-view/overview/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/en/docs/app/plant-view/overview/</guid>
+      <description>Function Overview linkAfter entering the Plant User Perspective, the Plant Overview opens by default, showing the real-time power, generation, and estimated revenue of this plant.&#xA;Page Content link Top: plant name, time of the latest data update (with time zone) Plant diagram: shows the current real-time power and the operating status of components such as PV and grid Generation: generation (kWh) for the four dimensions of today, this month, this year, and all Estimated Revenue: estimated revenue for today, this month, this year, and all (displayed in the currency unit configured on the platform) Common Operations link Upper right menu: Create Plant, Switch Plant, Add Logger, Network Configuration, Device List The bottom tabs switch among Overview, Statistics, Layout, and My Pull down the page to refresh the data Note: the overview data comes from the logger bound to this plant and its sub-devices.</description>
+    </item>
+    <item>
+      <title>Plant Statistics</title>
+      <link>http://localhost:1313/en/docs/app/plant-view/stat/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/en/docs/app/plant-view/stat/</guid>
+      <description>Function Overview linkPlant Statistics is used to view the historical data of this plant: you can switch the statistical dimension by day, month, year, or all, and select a specific date or time range.&#xA;Steps link On the plant overview page, tap the &amp;ldquo;Statistics&amp;rdquo; tab at the bottom Select the statistical dimension: day, month, year, or all (the selectable time range changes accordingly when you switch the dimension) Switch the date to view through the date selector; the chart will show the data curve of that time range Tap the zoom button in the upper right corner of the chart to view it in full screen Tap a point on the curve with the mouse/finger to view the specific value at that point Page Content link Chart area: the data curve of the selected dimension Below the chart: summary indicators such as peak power and full-load hours Note: after entering the details page of a plant in the Professional Consultant Perspective, there is also the same &amp;ldquo;Statistics&amp;rdquo; tab, with the same usage.</description>
+    </item>
+    <item>
+      <title>Plant Layout</title>
+      <link>http://localhost:1313/en/docs/app/plant-view/layout/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/en/docs/app/plant-view/layout/</guid>
+      <description>Function Overview linkPlant Layout is used to view the physical layout and connection relationships of the modules/devices in this plant, as well as the power curve corresponding to the layout.&#xA;1. Create Layout link Steps link On the plant overview page, tap the &amp;ldquo;Layout&amp;rdquo; tab at the bottom When the plant has no layout yet, the page shows a &amp;ldquo;Create Layout&amp;rdquo; button; after tapping it, the platform automatically generates the corresponding components based on the devices under the plant After generation, you can drag components to adjust their positions, or tap &amp;ldquo;Edit&amp;rdquo; below to edit a single component (adjust its direction and angle).</description>
+    </item>
+    <item>
+      <title>Switch Plant</title>
+      <link>http://localhost:1313/en/docs/app/plant-view/switch/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/en/docs/app/plant-view/switch/</guid>
+      <description>Function Overview linkThe Plant User Perspective focuses on only one plant at a time. When you need to view another plant, use &amp;ldquo;Switch Plant&amp;rdquo; to switch.&#xA;Steps link On the plant overview page, tap the menu in the upper right corner Select &amp;ldquo;Switch Plant&amp;rdquo; Select the plant to switch to in the plant list, and you will enter that plant&amp;rsquo;s overview page Note: the list only shows plants within the data permissions of the current account.</description>
+    </item>
+    <item>
+      <title>Create Plant</title>
+      <link>http://localhost:1313/en/docs/app/plant-view/create/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/en/docs/app/plant-view/create/</guid>
+      <description>Function Overview linkYou can also create a plant in the Plant User Perspective: the entry is in the menu in the upper right corner of the plant overview page.&#xA;Steps link On the plant overview page, tap the menu in the upper right corner and select &amp;ldquo;Create Plant&amp;rdquo; Fill in basic information such as the plant name Tap the save button in the upper right corner to complete creation After successful creation, you can switch to the newly created plant in &amp;ldquo;Switch Plant&amp;rdquo; For more complete instructions on creating a plant (including fields such as plant type, installed capacity, and location), see Create Plant.</description>
+    </item>
+    <item>
+      <title>Add Logger</title>
+      <link>http://localhost:1313/en/docs/app/plant-view/logger/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/en/docs/app/plant-view/logger/</guid>
+      <description>Function Overview linkBind the logger to the current plant, and only then will the plant start to have data. The entry is in the menu in the upper right corner of the plant overview page.&#xA;Steps link On the plant overview page, tap the menu in the upper right corner and select &amp;ldquo;Add Logger&amp;rdquo; After entering the scan page, scan the QR code on the logger with your phone; if you cannot find the QR code on the logger, you can tap &amp;ldquo;Didn&amp;rsquo;t find the serial number?</description>
+    </item>
+    <item>
+      <title>Plant Device List</title>
+      <link>http://localhost:1313/en/docs/app/plant-view/devicelist/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/en/docs/app/plant-view/devicelist/</guid>
+      <description>Function Overview linkTo view devices in the Plant User Perspective: select &amp;ldquo;Device List&amp;rdquo; in the menu in the upper right corner of the plant overview page.&#xA;Difference from the Professional Consultant Perspective link Plant User Perspective: the device list only shows the devices under the current plant, suitable for users who only view the devices of their own plant Professional Consultant Perspective: the &amp;ldquo;Device&amp;rdquo; tab at the bottom shows all devices, allowing filtering across plants by logger and device status, and searching by serial number Steps link On the plant overview page, tap the menu in the upper right corner and select &amp;ldquo;Device List&amp;rdquo; The page shows the devices under the current plant (loggers and their sub-devices), which can be filtered by device type and status Tap a device card to enter the details page of that device Note: if there are no devices under the plant yet, the page will show &amp;ldquo;No data&amp;rdquo;; in that case you need to bind a logger to the plant through &amp;ldquo;Add Logger&amp;rdquo;.</description>
+    </item>
+  </channel>
+</rss>

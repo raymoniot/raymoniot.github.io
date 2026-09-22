@@ -1,14 +1,26 @@
 ---
 title: Quick Start
-description: Quickly use Solarhub, from collector network configuration, collector storage, plant creation, collector addition, network configuration, to data viewing
+description: "Quick start with Solarhub: collector network configuration, collector import, create plant, add collector, and view data"
 weight: 2
 ---
 
+# Function Overview
+
+If you are new to the platform, follow the five steps below to connect the on-site devices and see the data:
+
+1. Collector network configuration (use the App to connect the collector to the on-site WiFi)
+2. Collector import (add the collector to the platform)
+3. Create a plant
+4. Add collector (bind the collector to the plant)
+5. View plant and device data
+
 ## 1. Collector network configuration
 
-Use SolarhubApp to perform collector network configuration operations. When configuring the network, please ensure that the collector and the network configuration mobile phone are under the **same 2.4Ghz** WiFi.
+Use the Solarhub App to configure the network of the collector. During configuration, make sure the collector and the phone are in the **same 2.4GHz** WiFi.
 
-**Note**: During the operation, please allow the application to obtain Bluetooth, positioning, data and other permissions, and turn on Bluetooth, WiFi, and positioning services, otherwise it may cause **devices to be unable to be selected**, or **network configuration fails**.
+**Note**: during the operation, please allow the application to get the Bluetooth, location and data permissions, and turn on Bluetooth, WiFi and location services, otherwise the **device may not be selectable** or the **network configuration may fail**.
+
+
 
 <img src="../../../photo/docs/quickStart/wifi.png" style="margin-right: 50px" width="300">
 
@@ -16,7 +28,7 @@ Use SolarhubApp to perform collector network configuration operations. When conf
 
 <img src="../../../photo/docs/quickStart/wifi2.png" style="margin-right: 50px" width="300">
 
-Click Add Device after Network Configuration, and add network configuration devices by scanning the QR code of the collector/manually entering the collector serial number.
+Click network configuration and then add a device: add the device to be configured by scanning the QR code of the collector or by entering the serial number of the collector manually.
 
 <img src="../../../photo/docs/quickStart/wifi3.png" style="margin-right: 50px" width="300">
 
@@ -24,38 +36,40 @@ Click Add Device after Network Configuration, and add network configuration devi
 
 <img src="../../../photo/docs/quickStart/wifi5.png" style="margin-right: 50px" width="300">
 
-Select the device and start configuration. Select the same 2.4Ghz network as the collector, enter the WiFi password, and start network configuration.
+After selecting the device, start the configuration: choose the same 2.4GHz network as the collector, enter the WiFi password and start the network configuration.
 
 <img src="../../../photo/docs/quickStart/wifi6.png" style="margin: 0 auto" width="300">
 
-After the network configuration is successful, the collector will be online on the platform. You can use the platform's [point query]({{< ref "./toolkits/point-query" >}} "point query") to verify whether the device is online. If the point data can be found and the latest data update time is close to the current time, it means that the device is online normally.
+After the network configuration succeeds, the collector goes online on the platform. You can verify whether the device is online with [Point Query]({{< ref "./toolkits/point-query" >}} "Point Query"): if measurement point data can be queried and the last data update time in it is close to the current time, the device is online normally.
 
-## 2. Add the collector to the library
+## 2. Collector import
 
-After the network configuration is completed, add the collector to the library and you can view the device in the device list
+After the network configuration, import the collector so that the device can be seen in the device list
 
 <img src="../../../photo/docs/quickStart/import.png">
 
-You can use [single import]({{< ref "./device/collector/#21 single import" >}} "import") or [batch import]({{< ref "./device/collector/#22 batch import" >}} "import")
+You can use [Single import]({{< ref "./device/collector/#21-single-import" >}} "import") or [Batch import]({{< ref "./device/collector/#22-batch-import" >}} "import")
 
 <img src="../../../photo/docs/quickStart/import1.png">
 
-After importing, you can see the imported device. At this time, the device is not installed
+After the import the device can be seen, and it is in the not installed state
 
 ## 3. Create a plant
 
 <img src="../../../photo/docs/quickStart/add-plant.png">
 
-Select the required business type and create the corresponding  plant. For details, please refer to [Create a  plant]({{< ref "./plant-center/create-plant" >}} "Create a  plant")
+Choose the required business type and create the corresponding plant; for details refer to [Create Plant]({{< ref "./plant-center/create-plant" >}} "Create Plant")
 
-## 4. Add a logger
+## 4. Add collector
 
-For details, refer to [Add a logger]({{< ref "./plant-center/add-logger" >}} "Add a logger")
+For details refer to [Add Collector]({{< ref "./plant-center/add-logger" >}} "Add Collector")
 
-## 5. View the details of the  plant/device
+## 5. View plant/device details
 
 <img src="../../../photo/docs/quickStart/plant.png">
 
 <img src="../../../photo/docs/quickStart/device.png">
 
 <img src="../../../photo/docs/quickStart/device1.png">
+
+After the steps above, the plant and device data are updated automatically with the reports of the collector. If you need to assign accounts to colleagues and control which parameters they can see, refer to [Organization management]({{< ref "./organization/tree" >}} "Organizational Structure").

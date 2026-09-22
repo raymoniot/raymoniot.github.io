@@ -19,6 +19,7 @@
     <title>电池系统 | Soalrhub 帮助中心</title>
     <meta name="robots" content="noindex">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="电池系统的列表查询与详情页：BMS 与电池包信息、充放电数据、电压电流与温度、单体电压明细和历史数据图表">
     <meta name="keywords" content="Documentation, Hugo, Hugo Theme, Bootstrap" />
     <meta name="author" content="Colin Wilson - Lotus Labs" />
     <meta name="email" content="support@aigis.uk" />
@@ -32,38 +33,14 @@
 <link rel="icon" type="image/png" sizes="16x16" href="http://localhost:1313/favicon-16x16.png">
 <link rel="manifest" crossorigin="use-credentials" href="http://localhost:1313/site.webmanifest">
 <meta property="og:title" content="电池系统" />
-<meta property="og:description" content="功能概述 link1.设备列表 link 设备列表可以查看在线、故障、离线和全部的设备信息。
-2.电池详情页 link 从设备列表中的设备可以进入设备详情页
-电池详情页展示BMS信息及其BMS下的电池信息和历史数据图表
-3.1报警 link参考采集器报警
-3.2解绑 link参考采集器解绑，子设备的解绑将会从采集器下删除该子设备，清空子设备的数据。
-3.3新建工单 link参考采集器新建工单
-3.4参数设置 link参考逆变器参数设置
-3.5别名编辑 link参考采集器别名编辑
-3.6固件升级 link参考采集器固件升级
-3.7操作日志 link参考采集器操作日志
-3.8历史数据图表 link 电池历史数据支持日、周级别的数据展示和时间范围选择
-日：通过参数选择用户可以自定义参数展示 周：通过参数选择用户可以自定义参数展示 3.8.1参数选择 link参考逆变器参数选择
-3.8.2导出报表 link参考逆变器导出报表" />
+<meta property="og:description" content="电池系统的列表查询与详情页：BMS 与电池包信息、充放电数据、电压电流与温度、单体电压明细和历史数据图表" />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="http://localhost:1313/zh/docs/web/device/battery/" /><meta property="og:image" content="http://localhost:1313/opengraph/card-base-2_hu06b1a92291a380a0d2e0ec03dab66b2f_17642_filter_17065460268217410688.png"/><meta property="article:section" content="docs" />
+<meta property="og:url" content="http://localhost:1313/zh/docs/web/device/battery/" /><meta property="og:image" content="http://localhost:1313/opengraph/card-base-2_hu06b1a92291a380a0d2e0ec03dab66b2f_17642_filter_16247375670720654549.png"/><meta property="article:section" content="docs" />
 
 <meta name="twitter:card" content="summary_large_image"/>
-<meta name="twitter:image" content="http://localhost:1313/opengraph/card-base-2_hu06b1a92291a380a0d2e0ec03dab66b2f_17642_filter_17065460268217410688.png"/>
+<meta name="twitter:image" content="http://localhost:1313/opengraph/card-base-2_hu06b1a92291a380a0d2e0ec03dab66b2f_17642_filter_16247375670720654549.png"/>
 <meta name="twitter:title" content="电池系统"/>
-<meta name="twitter:description" content="功能概述 link1.设备列表 link 设备列表可以查看在线、故障、离线和全部的设备信息。
-2.电池详情页 link 从设备列表中的设备可以进入设备详情页
-电池详情页展示BMS信息及其BMS下的电池信息和历史数据图表
-3.1报警 link参考采集器报警
-3.2解绑 link参考采集器解绑，子设备的解绑将会从采集器下删除该子设备，清空子设备的数据。
-3.3新建工单 link参考采集器新建工单
-3.4参数设置 link参考逆变器参数设置
-3.5别名编辑 link参考采集器别名编辑
-3.6固件升级 link参考采集器固件升级
-3.7操作日志 link参考采集器操作日志
-3.8历史数据图表 link 电池历史数据支持日、周级别的数据展示和时间范围选择
-日：通过参数选择用户可以自定义参数展示 周：通过参数选择用户可以自定义参数展示 3.8.1参数选择 link参考逆变器参数选择
-3.8.2导出报表 link参考逆变器导出报表"/>
+<meta name="twitter:description" content="电池系统的列表查询与详情页：BMS 与电池包信息、充放电数据、电压电流与温度、单体电压明细和历史数据图表"/>
 
     
     <script>(()=>{var t=window.matchMedia&&window.matchMedia("(prefers-color-scheme: dark)").matches,e=localStorage.getItem("theme");t&&e===null&&(localStorage.setItem("theme","dark"),document.documentElement.setAttribute("data-dark-mode","")),t&&e==="dark"&&document.documentElement.setAttribute("data-dark-mode",""),e==="dark"&&document.documentElement.setAttribute("data-dark-mode","")})()</script>
@@ -646,12 +623,22 @@
                                                 
     
     <div data-prismjs-copy="" data-prismjs-copy-success="" data-prismjs-copy-error="">
-        <h1 id="功能概述">功能概述 <a href="#%e5%8a%9f%e8%83%bd%e6%a6%82%e8%bf%b0" class="anchor" aria-hidden="true"><i class="material-icons align-middle">link</i></a></h1><h2 id="1设备列表">1.设备列表 <a href="#1%e8%ae%be%e5%a4%87%e5%88%97%e8%a1%a8" class="anchor" aria-hidden="true"><i class="material-icons align-middle">link</i></a></h2><img src="/../../zh/photo/docs/device/battery/device-list.png">
-<p>设备列表可以查看在线、故障、离线和全部的设备信息。</p>
+        <h1 id="功能概述">功能概述 <a href="#%e5%8a%9f%e8%83%bd%e6%a6%82%e8%bf%b0" class="anchor" aria-hidden="true"><i class="material-icons align-middle">link</i></a></h1><p>电池系统（BMS）是储能系统的核心设备，通常作为子设备挂在采集器下，由采集器采集并上报电池组、电池包的运行数据到平台。</p>
+<h2 id="1设备列表">1.设备列表 <a href="#1%e8%ae%be%e5%a4%87%e5%88%97%e8%a1%a8" class="anchor" aria-hidden="true"><i class="material-icons align-middle">link</i></a></h2><img src="/../../zh/photo/docs/device/battery/device-list.png">
+<p>设备列表可以查看在线、故障、离线和全部的设备信息，上方的状态标签会同时显示各状态的设备数量，点击标签可以只看该状态的设备。</p>
+<p>列表中会显示序列号、别名、平均SOC、所属电站、所属采集器、时区、数据更新时间等，点击序列号进入电池详情页。</p>
 <h2 id="2电池详情页">2.电池详情页 <a href="#2%e7%94%b5%e6%b1%a0%e8%af%a6%e6%83%85%e9%a1%b5" class="anchor" aria-hidden="true"><i class="material-icons align-middle">link</i></a></h2><img src="/../../zh/photo/docs/device/battery/detail-enter.png">
 <p>从设备列表中的设备可以进入设备详情页</p>
 <img src="/../../zh/photo/docs/device/battery/detail.png">
-<p>电池详情页展示BMS信息及其BMS下的电池信息和历史数据图表</p>
+<p>电池详情页展示BMS信息及其BMS下的电池信息和历史数据图表。</p>
+<p>页面顶部显示设备名称和最近一次数据更新时间（含设备所在时区），右侧的「报警」「解绑」是常用操作，其余操作在「…」菜单中。页面内容按卡片分组：</p>
+<ul>
+<li><strong>基本信息</strong>：序列号、主机设备名称、主机厂商名称、主机软件版本、电池的总数量</li>
+<li><strong>充放电</strong>：平均 SOC、最小 SOH、充放电状态</li>
+<li><strong>电压&amp;电流</strong>：平均电压、总电流、单芯最高电压、单芯最低电压、最大充电电流、最大放电电流</li>
+<li><strong>温度</strong>：BMS 最高温度、BMS 最低温度、单芯最高温度、单芯最低温度</li>
+<li><strong>电池</strong>：每块电池（电池包）单独一张卡片，展示软件版本等信息和每节电芯的电压明细，卡片可以折叠；右上角可以对这块电池单独解绑</li>
+</ul>
 <h3 id="31报警">3.1报警 <a href="#31%e6%8a%a5%e8%ad%a6" class="anchor" aria-hidden="true"><i class="material-icons align-middle">link</i></a></h3><p>参考<a href="http://localhost:1313/zh/docs/web/device/collector/#81报警" title="采集器报警">采集器报警</a></p>
 <h3 id="32解绑">3.2解绑 <a href="#32%e8%a7%a3%e7%bb%91" class="anchor" aria-hidden="true"><i class="material-icons align-middle">link</i></a></h3><p>参考<a href="http://localhost:1313/zh/docs/web/device/collector/#82解绑" title="采集器解绑">采集器解绑</a>，<strong>子设备的解绑将会从采集器下删除该子设备，清空子设备的数据</strong>。</p>
 <h3 id="33新建工单">3.3新建工单 <a href="#33%e6%96%b0%e5%bb%ba%e5%b7%a5%e5%8d%95" class="anchor" aria-hidden="true"><i class="material-icons align-middle">link</i></a></h3><p>参考<a href="http://localhost:1313/zh/docs/web/device/collector/#832新建工单" title="新建工单">采集器新建工单</a></p>
@@ -665,8 +652,8 @@
 <li><strong>日</strong>：通过<a href="http://localhost:1313/zh/docs/web/device/battery/#381参数选择" title="参数选择">参数选择</a>用户可以自定义参数展示</li>
 <li><strong>周</strong>：通过<a href="http://localhost:1313/zh/docs/web/device/battery/#381参数选择" title="参数选择">参数选择</a>用户可以自定义参数展示</li>
 </ul>
-<h3 id="381参数选择">3.8.1参数选择 <a href="#381%e5%8f%82%e6%95%b0%e9%80%89%e6%8b%a9" class="anchor" aria-hidden="true"><i class="material-icons align-middle">link</i></a></h3><p>参考<a href="http://localhost:1313/zh/docs/web/device/battery/#381参数选择" title="参数选择">逆变器参数选择</a></p>
-<h3 id="382导出报表">3.8.2导出报表 <a href="#382%e5%af%bc%e5%87%ba%e6%8a%a5%e8%a1%a8" class="anchor" aria-hidden="true"><i class="material-icons align-middle">link</i></a></h3><p>参考<a href="http://localhost:1313/zh/docs/web/device/battery/#382导出报表" title="导出报表">逆变器导出报表</a></p>
+<h3 id="381参数选择">3.8.1参数选择 <a href="#381%e5%8f%82%e6%95%b0%e9%80%89%e6%8b%a9" class="anchor" aria-hidden="true"><i class="material-icons align-middle">link</i></a></h3><p>参数选择与逆变器一致，参考<a href="http://localhost:1313/zh/docs/web/device/inveter/#381参数选择" title="参数选择">逆变器参数选择</a></p>
+<h3 id="382导出报表">3.8.2导出报表 <a href="#382%e5%af%bc%e5%87%ba%e6%8a%a5%e8%a1%a8" class="anchor" aria-hidden="true"><i class="material-icons align-middle">link</i></a></h3><p>导出方式与逆变器一致，参考<a href="http://localhost:1313/zh/docs/web/device/inveter/#382导出报表" title="导出报表">逆变器导出报表</a></p>
 
     </div>
 
@@ -689,10 +676,10 @@
 		</a>
         </div>
 	<div class="col-sm-6 pt-2 doc-prev">
-		<a class="ms-auto" href="/zh/docs/web/ops/ticket/list/">
+		<a class="ms-auto" href="/zh/docs/app/plant-view/layout/">
 			<div class="card h-100 my-1 text-end">
 				<div class="card-body py-2">
-                    <p class="card-title fs-5 fw-semibold lh-base mb-0">工单列表 <i class="material-icons align-middle">navigate_next</i></p>
+                    <p class="card-title fs-5 fw-semibold lh-base mb-0">电站布局 <i class="material-icons align-middle">navigate_next</i></p>
 					
 				</div>
 			</div>

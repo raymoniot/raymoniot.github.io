@@ -12,7 +12,7 @@
       <link>http://localhost:1313/en/docs/web/report/total/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/en/docs/web/report/total/</guid>
-      <description>Function overview linkSummary data will summarize the daily, monthly and annual data of all power plants and all equipment. You can filter the target data according to the conditions and export it to Excel table&#xA;1. Power plant report link 1.1 Export link 2. Equipment report link</description>
+      <description>Function Overview linkSummary Data summarizes the day, month, year and total data of all plants and all devices, and you can filter the target data by conditions and then export it as an Excel sheet&#xA;On the left you switch between &amp;ldquo;Plant report&amp;rdquo; and &amp;ldquo;Device report&amp;rdquo;. The filters shared by both pages are:&#xA;Business Type: Select the business type to be counted (PV system, battery system, Residential Storage, etc.) Report Type: Day, month, year, total, which determines the granularity of the statistics and the data displayed Time: Select the corresponding date or time range according to the report type 1.</description>
     </item>
   </channel>
 </rss>

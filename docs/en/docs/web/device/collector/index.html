@@ -19,6 +19,7 @@
     <title>Collector | Solarhub Help Center</title>
     <meta name="robots" content="noindex">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Collector import and list management, and its details page: alarms, unbinding, changes, upgrade.">
     <meta name="keywords" content="Documentation, Hugo, Hugo Theme, Bootstrap" />
     <meta name="author" content="Colin Wilson - Lotus Labs" />
     <meta name="email" content="support@aigis.uk" />
@@ -32,24 +33,14 @@
 <link rel="icon" type="image/png" sizes="16x16" href="http://localhost:1313/favicon-16x16.png">
 <link rel="manifest" crossorigin="use-credentials" href="http://localhost:1313/site.webmanifest">
 <meta property="og:title" content="Collector" />
-<meta property="og:description" content="Function Overview link1. Device List link The device list can view online, faulty, offline and all device information.
-For collector devices, there are two additional states
-Installed: The collector is bound to a plant after entering the warehouse
-Not Installed: The collector is not bound to a plant after entering the warehouse
-2. Collector entry link There are two ways to enter the collector
-Single import: import a single collector, import one collector at a time" />
+<meta property="og:description" content="Collector import and list management, and its details page: alarms, unbinding, changes, upgrade." />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="http://localhost:1313/en/docs/web/device/collector/" /><meta property="og:image" content="http://localhost:1313/opengraph/card-base-2_hu06b1a92291a380a0d2e0ec03dab66b2f_17642_filter_699881714202876968.png"/><meta property="article:section" content="docs" />
+<meta property="og:url" content="http://localhost:1313/en/docs/web/device/collector/" /><meta property="og:image" content="http://localhost:1313/opengraph/card-base-2_hu06b1a92291a380a0d2e0ec03dab66b2f_17642_filter_11991875686810839852.png"/><meta property="article:section" content="docs" />
 
 <meta name="twitter:card" content="summary_large_image"/>
-<meta name="twitter:image" content="http://localhost:1313/opengraph/card-base-2_hu06b1a92291a380a0d2e0ec03dab66b2f_17642_filter_699881714202876968.png"/>
+<meta name="twitter:image" content="http://localhost:1313/opengraph/card-base-2_hu06b1a92291a380a0d2e0ec03dab66b2f_17642_filter_11991875686810839852.png"/>
 <meta name="twitter:title" content="Collector"/>
-<meta name="twitter:description" content="Function Overview link1. Device List link The device list can view online, faulty, offline and all device information.
-For collector devices, there are two additional states
-Installed: The collector is bound to a plant after entering the warehouse
-Not Installed: The collector is not bound to a plant after entering the warehouse
-2. Collector entry link There are two ways to enter the collector
-Single import: import a single collector, import one collector at a time"/>
+<meta name="twitter:description" content="Collector import and list management, and its details page: alarms, unbinding, changes, upgrade."/>
 
     
     <script>(()=>{var t=window.matchMedia&&window.matchMedia("(prefers-color-scheme: dark)").matches,e=localStorage.getItem("theme");t&&e===null&&(localStorage.setItem("theme","dark"),document.documentElement.setAttribute("data-dark-mode","")),t&&e==="dark"&&document.documentElement.setAttribute("data-dark-mode",""),e==="dark"&&document.documentElement.setAttribute("data-dark-mode","")})()</script>
@@ -152,17 +143,17 @@ Single import: import a single collector, import one collector at a time"/>
                                                         
                                                             
                                                             
-                                                                <li class=" no-icon"><a class="sidebar-nested-link" href="http://localhost:1313/en/docs/web/plant-center/bess/">BESS</a></li>
+                                                                <li class=" no-icon"><a class="sidebar-nested-link" href="http://localhost:1313/en/docs/web/plant-center/bess/">Battery System</a></li>
                                                             
                                                         
                                                             
                                                             
-                                                                <li class=" no-icon"><a class="sidebar-nested-link" href="http://localhost:1313/en/docs/web/plant-center/hess/">HESS</a></li>
+                                                                <li class=" no-icon"><a class="sidebar-nested-link" href="http://localhost:1313/en/docs/web/plant-center/hess/">Residential Storage</a></li>
                                                             
                                                         
                                                             
                                                             
-                                                                <li class=" no-icon"><a class="sidebar-nested-link" href="http://localhost:1313/en/docs/web/plant-center/ems/">EMS</a></li>
+                                                                <li class=" no-icon"><a class="sidebar-nested-link" href="http://localhost:1313/en/docs/web/plant-center/ems/">Commercial Plant</a></li>
                                                             
                                                         
                                                             
@@ -182,7 +173,7 @@ Single import: import a single collector, import one collector at a time"/>
                                                         
                                                             
                                                             
-                                                                <li class=" no-icon"><a class="sidebar-nested-link" href="http://localhost:1313/en/docs/web/plant-center/add-logger/">Add Logger</a></li>
+                                                                <li class=" no-icon"><a class="sidebar-nested-link" href="http://localhost:1313/en/docs/web/plant-center/add-logger/">Add Collector</a></li>
                                                             
                                                         
                                                     </ul>
@@ -330,6 +321,11 @@ Single import: import a single collector, import one collector at a time"/>
                                                                 <li class=" no-icon"><a class="sidebar-nested-link" href="http://localhost:1313/en/docs/web/toolkits/notification/">Notice Announcement</a></li>
                                                             
                                                         
+                                                            
+                                                            
+                                                                <li class=" no-icon"><a class="sidebar-nested-link" href="http://localhost:1313/en/docs/web/toolkits/test/">Production Test</a></li>
+                                                            
+                                                        
                                                     </ul>
                                                 </div>
                                             </li>
@@ -347,6 +343,30 @@ Single import: import a single collector, import one collector at a time"/>
                                                             
                                                             
                                                                 <li class=" no-icon"><a class="sidebar-nested-link" href="http://localhost:1313/en/docs/web/organization/tree/">Organizational Structure</a></li>
+                                                            
+                                                        
+                                                    </ul>
+                                                </div>
+                                            </li>
+                                        
+                                    
+                                        
+                                        
+                                            <li class="sidebar-dropdown nested no-icon ">
+                                                <button class="btn">
+                                                    Frequently Asked Questions and Answers
+                                                </button>
+                                                <div class="sidebar-submenu ">
+                                                    <ul>
+                                                        
+                                                            
+                                                            
+                                                                <li class=" no-icon"><a class="sidebar-nested-link" href="http://localhost:1313/en/docs/web/faq/1.network-tools/">Network Search Tool</a></li>
+                                                            
+                                                        
+                                                            
+                                                            
+                                                                <li class=" no-icon"><a class="sidebar-nested-link" href="http://localhost:1313/en/docs/web/faq/2.device-offline/">Collector not online at first power-on</a></li>
                                                             
                                                         
                                                     </ul>
@@ -548,27 +568,27 @@ Single import: import a single collector, import one collector at a time"/>
     <nav id="TableOfContents">
   <ul>
     <li><a href="#1-device-list">1. Device List</a></li>
-    <li><a href="#2-collector-entry">2. Collector entry</a>
+    <li><a href="#2-collector-import">2. Collector Import</a>
       <ul>
-        <li><a href="#21-single-import">2.1 Single import</a></li>
-        <li><a href="#22-batch-import">2.2 Batch import</a></li>
+        <li><a href="#21-single-import">2.1 Single Import</a></li>
+        <li><a href="#22-batch-import">2.2 Batch Import</a></li>
       </ul>
     </li>
-    <li><a href="#3-batch-set-access-authorization">3. Batch set access authorization</a></li>
-    <li><a href="#4-batch-set-tags">4. Batch set tags</a></li>
-    <li><a href="#5-batch-delete">5. Batch delete</a></li>
-    <li><a href="#6-single-access-authorizationset-tagdelete">6. Single access authorization/set tag/delete</a></li>
-    <li><a href="#7-firmware-version-number-search">7. Firmware version number search</a></li>
-    <li><a href="#8-collector-details-page">8. Collector details page</a>
+    <li><a href="#3-batch-set-access-authorization">3. Batch Set Access Authorization</a></li>
+    <li><a href="#4-batch-set-tags">4. Batch Set Tags</a></li>
+    <li><a href="#5-batch-delete">5. Batch Delete</a></li>
+    <li><a href="#6-single-access-authorizationset-tagdelete">6. Single Access Authorization/Set Tag/Delete</a></li>
+    <li><a href="#7-firmware-version-number-search">7. Firmware Version Number Search</a></li>
+    <li><a href="#8-collector-details-page">8. Collector Details Page</a>
       <ul>
         <li><a href="#81-alarm">8.1 Alarm</a></li>
         <li><a href="#82-unbinding">8.2 Unbinding</a></li>
-        <li><a href="#83-other-functions">8.3 Other functions</a></li>
+        <li><a href="#83-other-functions">8.3 Other Functions</a></li>
         <li><a href="#831-changes">8.3.1 Changes</a></li>
-        <li><a href="#832-create-a-new-work-order">8.3.2 Create a new work order</a></li>
-        <li><a href="#833-alias-editing">8.3.3 Alias ​​editing</a></li>
-        <li><a href="#834-firmware-upgrade">8.3.4 Firmware upgrade</a></li>
-        <li><a href="#835-operation-log">8.3.5 Operation log</a></li>
+        <li><a href="#832-create-a-new-work-order">8.3.2 Create a New Work Order</a></li>
+        <li><a href="#833-alias-editing">8.3.3 Alias Editing</a></li>
+        <li><a href="#834-firmware-upgrade">8.3.4 Firmware Upgrade</a></li>
+        <li><a href="#835-operation-log">8.3.5 Operation Log</a></li>
       </ul>
     </li>
   </ul>
@@ -583,27 +603,27 @@ Single import: import a single collector, import one collector at a time"/>
 <nav id="toc-mobile">
   <ul class="dropdown-menu">
     <li><a href="#1-device-list">1. Device List</a></li>
-    <li><a href="#2-collector-entry">2. Collector entry</a>
+    <li><a href="#2-collector-import">2. Collector Import</a>
       <ul>
-        <li><a href="#21-single-import">2.1 Single import</a></li>
-        <li><a href="#22-batch-import">2.2 Batch import</a></li>
+        <li><a href="#21-single-import">2.1 Single Import</a></li>
+        <li><a href="#22-batch-import">2.2 Batch Import</a></li>
       </ul>
     </li>
-    <li><a href="#3-batch-set-access-authorization">3. Batch set access authorization</a></li>
-    <li><a href="#4-batch-set-tags">4. Batch set tags</a></li>
-    <li><a href="#5-batch-delete">5. Batch delete</a></li>
-    <li><a href="#6-single-access-authorizationset-tagdelete">6. Single access authorization/set tag/delete</a></li>
-    <li><a href="#7-firmware-version-number-search">7. Firmware version number search</a></li>
-    <li><a href="#8-collector-details-page">8. Collector details page</a>
+    <li><a href="#3-batch-set-access-authorization">3. Batch Set Access Authorization</a></li>
+    <li><a href="#4-batch-set-tags">4. Batch Set Tags</a></li>
+    <li><a href="#5-batch-delete">5. Batch Delete</a></li>
+    <li><a href="#6-single-access-authorizationset-tagdelete">6. Single Access Authorization/Set Tag/Delete</a></li>
+    <li><a href="#7-firmware-version-number-search">7. Firmware Version Number Search</a></li>
+    <li><a href="#8-collector-details-page">8. Collector Details Page</a>
       <ul>
         <li><a href="#81-alarm">8.1 Alarm</a></li>
         <li><a href="#82-unbinding">8.2 Unbinding</a></li>
-        <li><a href="#83-other-functions">8.3 Other functions</a></li>
+        <li><a href="#83-other-functions">8.3 Other Functions</a></li>
         <li><a href="#831-changes">8.3.1 Changes</a></li>
-        <li><a href="#832-create-a-new-work-order">8.3.2 Create a new work order</a></li>
-        <li><a href="#833-alias-editing">8.3.3 Alias ​​editing</a></li>
-        <li><a href="#834-firmware-upgrade">8.3.4 Firmware upgrade</a></li>
-        <li><a href="#835-operation-log">8.3.5 Operation log</a></li>
+        <li><a href="#832-create-a-new-work-order">8.3.2 Create a New Work Order</a></li>
+        <li><a href="#833-alias-editing">8.3.3 Alias Editing</a></li>
+        <li><a href="#834-firmware-upgrade">8.3.4 Firmware Upgrade</a></li>
+        <li><a href="#835-operation-log">8.3.5 Operation Log</a></li>
       </ul>
     </li>
   </ul>
@@ -621,68 +641,87 @@ Single import: import a single collector, import one collector at a time"/>
                                                 
     
     <div data-prismjs-copy="" data-prismjs-copy-success="" data-prismjs-copy-error="">
-        <h1 id="function-overview">Function Overview <a href="#function-overview" class="anchor" aria-hidden="true"><i class="material-icons align-middle">link</i></a></h1><h2 id="1-device-list">1. Device List <a href="#1-device-list" class="anchor" aria-hidden="true"><i class="material-icons align-middle">link</i></a></h2><img src="../../../../photo/docs/device/collector/device-list.png">
-<p>The device list can view online, faulty, offline and all device information.</p>
+        <h1 id="function-overview">Function Overview <a href="#function-overview" class="anchor" aria-hidden="true"><i class="material-icons align-middle">link</i></a></h1><p>The collector is the core device for platform data access: on-site inverters, batteries, meters, optimizers and other <strong>sub-devices</strong> all hang under the collector, and the collector collects and reports their data to the platform in a unified way. So the collector must be imported first and then bound to a plant, and only then can the data of the sub-devices under it be displayed normally.</p>
+<h2 id="1-device-list">1. Device List <a href="#1-device-list" class="anchor" aria-hidden="true"><i class="material-icons align-middle">link</i></a></h2><img src="../../../../photo/docs/device/collector/device-list.png">
+<p>The device list can view online, faulty, offline and all device information. The status tabs at the top also show the device count of each status, and clicking a tab shows only the devices in that status:</p>
+<ul>
+<li><strong>Online</strong>: the device reports data normally</li>
+<li><strong>Fault</strong>: the device has an unrecovered alarm</li>
+<li><strong>Offline</strong>: the device has not reported data for a long time</li>
+</ul>
 <img src="../../../../photo/docs/device/collector/collector-uninstall.png">
 <img src="../../../../photo/docs/device/collector/collector-install.png">
-<p>For collector devices, there are two additional states</p>
+<p>For collector devices, there are two additional statuses</p>
 <ul>
-<li>
-<p><strong>Installed</strong>: The collector is bound to a plant after entering the warehouse</p>
-</li>
-<li>
-<p><strong>Not Installed</strong>: The collector is not bound to a plant after entering the warehouse</p>
-</li>
+<li><strong>Installed</strong>: the collector has been bound to a plant after being imported</li>
+<li><strong>Not Installed</strong>: the collector has not been bound to a plant after being imported</li>
 </ul>
-<h2 id="2-collector-entry">2. Collector entry <a href="#2-collector-entry" class="anchor" aria-hidden="true"><i class="material-icons align-middle">link</i></a></h2><img src="../../../../photo/docs/device/collector/import-one.png">
-<p>There are two ways to enter the collector</p>
+<p>The list also shows the serial number, firmware version, signal strength, plant, alias, timezone, data update time and so on; click the serial number to enter the collector details page.</p>
+<p>Signal strength can be used to judge the network quality on site; refer to the following values:</p>
 <ul>
-<li>
-<p>Single import: import a single collector, import one collector at a time</p>
-</li>
-<li>
-<p>Batch import: import multiple collectors at one time by writing the collector SN into the template file</p>
-</li>
+<li>Above 80%: good network</li>
+<li>50%~79%: normal network</li>
+<li>31%~49%: poor network, barely usable</li>
+<li>11%~30%: very poor network, optimize it as soon as possible</li>
+<li>Below 10%: disconnected, the network needs to be configured again</li>
 </ul>
-<h3 id="21-single-import">2.1 Single import <a href="#21-single-import" class="anchor" aria-hidden="true"><i class="material-icons align-middle">link</i></a></h3><img src="../../../../photo/docs/device/collector/import-one1.png" width="600" height="450">
-<p>Generally, select WI-FI Stick as the collector type. Fill in the authorized user to authorize the device to other users. The user has the right to view and manage the device. If it is not filled in, the current logged-in user will be used by default. Filling in the label will add notes to the collector.</p>
-<h3 id="22-batch-import">2.2 Batch import <a href="#22-batch-import" class="anchor" aria-hidden="true"><i class="material-icons align-middle">link</i></a></h3><img src="../../../../photo/docs/device/collector/import-more1.png" width="600" height="450">
+<h2 id="2-collector-import">2. Collector Import <a href="#2-collector-import" class="anchor" aria-hidden="true"><i class="material-icons align-middle">link</i></a></h2><img src="../../../../photo/docs/device/collector/import-one.png">
+<p>The collector import records the collector into the platform, and there are two ways</p>
+<ul>
+<li>Single import: import a single collector, one collector at a time</li>
+<li>Batch import: import multiple collectors at one time by writing the collector SNs into a template file</li>
+</ul>
+<h3 id="21-single-import">2.1 Single Import <a href="#21-single-import" class="anchor" aria-hidden="true"><i class="material-icons align-middle">link</i></a></h3><img src="../../../../photo/docs/device/collector/import-one1.png" width="600" height="450">
+<p>Generally, select WI-FI Stick as the collector type.</p>
+<ul>
+<li><strong>Authorized user</strong>: after filling it in, this user has the view and management permission of the device; if it is left blank, the current logged-in user is used by default</li>
+<li><strong>Tag</strong>: add remarks to the collector for easy daily classification</li>
+</ul>
+<h3 id="22-batch-import">2.2 Batch Import <a href="#22-batch-import" class="anchor" aria-hidden="true"><i class="material-icons align-middle">link</i></a></h3><img src="../../../../photo/docs/device/collector/import-more1.png" width="600" height="450">
 <p>Download the collector import template</p>
 <img src="../../../../photo/docs/device/collector/import-more.png">
 <p>You can fill in multiple collector SNs, Owner is the authorized user, Keywords is the tag</p>
 <img src="../../../../photo/docs/device/collector/import-more2.png" width="700" height="550">
-<p>Select WI-FI Stick as the type, upload and read the verification, and the addition will be successful. If the wrong SN is uploaded or the SN has been stored, an error message will be listed</p>
-<h2 id="3-batch-set-access-authorization">3. Batch set access authorization <a href="#3-batch-set-access-authorization" class="anchor" aria-hidden="true"><i class="material-icons align-middle">link</i></a></h2><img src="../../../../photo/docs/device/collector/access.png">
-<p>You can select a single device or multiple devices</p>
+<p>Select WI-FI Stick as the type, upload and read it for verification, and the addition succeeds; if a wrong SN or an SN that has already been imported is uploaded, the error messages will be listed</p>
+<h2 id="3-batch-set-access-authorization">3. Batch Set Access Authorization <a href="#3-batch-set-access-authorization" class="anchor" aria-hidden="true"><i class="material-icons align-middle">link</i></a></h2><img src="../../../../photo/docs/device/collector/access.png">
+<p>You can check a single device or multiple devices</p>
 <img src="../../../../photo/docs/device/collector/access1.png" width="700" height="550">
-<p>Enter the email address of the platform account. If it exists, the corresponding platform account will pop up</p>
+<p>Enter the email address of the platform account; if it exists, the corresponding platform account will pop up</p>
 <img src="../../../../photo/docs/device/collector/access2.png" width="700" height="550">
 <p>Select the platform account and click OK to set it successfully</p>
-<h2 id="4-batch-set-tags">4. Batch set tags <a href="#4-batch-set-tags" class="anchor" aria-hidden="true"><i class="material-icons align-middle">link</i></a></h2><img src="../../../../photo/docs/device/collector/tag.png">
+<p>Access authorization grants the view and management permission of the device to other accounts; the authorized accounts can see and manage these devices in their own device lists. The authorized users and management users of a device can perform access authorization, tag and delete on the device in the operation column of the list.</p>
+<h2 id="4-batch-set-tags">4. Batch Set Tags <a href="#4-batch-set-tags" class="anchor" aria-hidden="true"><i class="material-icons align-middle">link</i></a></h2><img src="../../../../photo/docs/device/collector/tag.png">
 <img src="../../../../photo/docs/device/collector/tag2.png">
-<h2 id="5-batch-delete">5. Batch delete <a href="#5-batch-delete" class="anchor" aria-hidden="true"><i class="material-icons align-middle">link</i></a></h2><img src="../../../../photo/docs/device/collector/batch-delete.png">
-<h2 id="6-single-access-authorizationset-tagdelete">6. Single access authorization/set tag/delete <a href="#6-single-access-authorizationset-tagdelete" class="anchor" aria-hidden="true"><i class="material-icons align-middle">link</i></a></h2><img src="../../../../photo/docs/device/collector/single.png">
-<h2 id="7-firmware-version-number-search">7. Firmware version number search <a href="#7-firmware-version-number-search" class="anchor" aria-hidden="true"><i class="material-icons align-middle">link</i></a></h2><img src="../../../../photo/docs/device/collector/search.png">
-<h2 id="8-collector-details-page">8. Collector details page <a href="#8-collector-details-page" class="anchor" aria-hidden="true"><i class="material-icons align-middle">link</i></a></h2><img src="../../../../photo/docs/device/collector/detail-enter.png">
+<p>Tag multiple collectors in a unified way; tags are used to add remarks to devices (for example the installation area and the purpose), which makes daily classification and searching easier.</p>
+<h2 id="5-batch-delete">5. Batch Delete <a href="#5-batch-delete" class="anchor" aria-hidden="true"><i class="material-icons align-middle">link</i></a></h2><img src="../../../../photo/docs/device/collector/tag.png">
+<p>After checking multiple collectors, you can delete them in batches. <strong>An installed collector (already bound to a plant) cannot be deleted directly</strong>; you need to unbind it on the details page first. After deletion, the device and its data will no longer be displayed, so please operate with caution.</p>
+<h2 id="6-single-access-authorizationset-tagdelete">6. Single Access Authorization/Set Tag/Delete <a href="#6-single-access-authorizationset-tagdelete" class="anchor" aria-hidden="true"><i class="material-icons align-middle">link</i></a></h2><img src="../../../../photo/docs/device/collector/single.png">
+<p>The operation column on the right side of the list has three icon buttons, which are &ldquo;Access Authorization&rdquo;, &ldquo;Tag&rdquo; and &ldquo;Delete&rdquo; in order; only the authorized users and management users of the device can see and operate them.</p>
+<h2 id="7-firmware-version-number-search">7. Firmware Version Number Search <a href="#7-firmware-version-number-search" class="anchor" aria-hidden="true"><i class="material-icons align-middle">link</i></a></h2><img src="../../../../photo/docs/device/collector/search.png">
+<p>Filter devices by firmware version, which makes it easy to confirm which devices need a firmware upgrade.</p>
+<h2 id="8-collector-details-page">8. Collector Details Page <a href="#8-collector-details-page" class="anchor" aria-hidden="true"><i class="material-icons align-middle">link</i></a></h2><img src="../../../../photo/docs/device/collector/detail-enter.png">
 <p>You can enter the device details page from the device in the device list</p>
 <img src="../../../../photo/docs/device/collector/detail.png">
-<p>The collector details page includes the basic information of the collector and its sub-devices. The supported sub-devices include inverters, BMS, optimizers, meters, etc.</p>
+<p>The collector details page includes the basic information of the collector and its sub-devices; the supported sub-devices include inverters, BMS, optimizers, meters, etc.</p>
+<p>The top of the page shows the device name and the time of the latest data update (including the timezone where the device is located); &ldquo;Alarm&rdquo; and &ldquo;Unbind&rdquo; on the right are the common operations, and the other operations are in the &ldquo;…&rdquo; menu. The basic information includes the serial number, alias, status, plant, firmware version, model, communication type, maximum connection quantity, status code, data upload interval and so on.</p>
 <h3 id="81-alarm">8.1 Alarm <a href="#81-alarm" class="anchor" aria-hidden="true"><i class="material-icons align-middle">link</i></a></h3><img src="../../../../photo/docs/device/collector/alert.png">
-<p>The alarm will open the device event page of the device, where you can see all the alarms generated by the device</p>
+<p>Alarm opens the device event page of the device, where you can see all the alarms and faults generated by the device, and filter by event grade, event time, event code, event content and other conditions; each event can be viewed in detail, or you can directly create a work order to follow it up.</p>
 <img src="../../../../photo/docs/device/collector/alert1.png">
 <h3 id="82-unbinding">8.2 Unbinding <a href="#82-unbinding" class="anchor" aria-hidden="true"><i class="material-icons align-middle">link</i></a></h3><img src="../../../../photo/docs/device/collector/unbind.png">
-<p>The unbinding of the collector will unbind the plant bound to the collector. <strong>The unbinding of the sub-device will delete the sub-device from the collector and clear the data of the sub-device</strong>.</p>
-<h3 id="83-other-functions">8.3 Other functions <a href="#83-other-functions" class="anchor" aria-hidden="true"><i class="material-icons align-middle">link</i></a></h3><img src="../../../../photo/docs/device/collector/other-function.png">
+<p>Unbinding a collector unbinds the plant bound to the collector; <strong>unbinding a sub-device will delete the sub-device from the collector and clear the data of the sub-device</strong>.</p>
+<p>A collector that is not bound to a plant has nothing to unbind, and the unbind button is not clickable.</p>
+<h3 id="83-other-functions">8.3 Other Functions <a href="#83-other-functions" class="anchor" aria-hidden="true"><i class="material-icons align-middle">link</i></a></h3><img src="../../../../photo/docs/device/collector/other-function.png">
+<p>Click &ldquo;…&rdquo; in the upper right corner to expand the remaining operations, including changes, create a new work order, alias editing, firmware upgrade, parameter settings and operation log.</p>
 <h3 id="831-changes">8.3.1 Changes <a href="#831-changes" class="anchor" aria-hidden="true"><i class="material-icons align-middle">link</i></a></h3><img src="../../../../photo/docs/device/collector/update.png" width="600" height="450">
-<p>Change the model and serial number of the collector</p>
-<h3 id="832-create-a-new-work-order">8.3.2 Create a new work order <a href="#832-create-a-new-work-order" class="anchor" aria-hidden="true"><i class="material-icons align-middle">link</i></a></h3><img src="../../../../photo/docs/device/collector/ticket.png" width="600" height="450">
-<p>Create a work order for the collector</p>
-<h3 id="833-alias-editing">8.3.3 Alias ​​editing <a href="#833-alias-editing" class="anchor" aria-hidden="true"><i class="material-icons align-middle">link</i></a></h3><img src="../../../../photo/docs/device/collector/name.png" width="600" height="450">
-<p>You can name the collector</p>
-<h3 id="834-firmware-upgrade">8.3.4 Firmware upgrade <a href="#834-firmware-upgrade" class="anchor" aria-hidden="true"><i class="material-icons align-middle">link</i></a></h3><img src="../../../../photo/docs/device/collector/ota.png">
-<p>Perform OTA upgrade on the collector. After uploading the firmware, select the firmware and click Upgrade Now</p>
-<h3 id="835-operation-log">8.3.5 Operation log <a href="#835-operation-log" class="anchor" aria-hidden="true"><i class="material-icons align-middle">link</i></a></h3><img src="../../../../photo/docs/device/collector/ops.png">
-<p>The operation log saves the recent remote interaction records of the device, including OTA, parameter settings, and command transmission</p>
+<p>Change the model and serial number of the collector. If the model or the serial number was filled in incorrectly when importing, you can correct it through changes.</p>
+<h3 id="832-create-a-new-work-order">8.3.2 Create a New Work Order <a href="#832-create-a-new-work-order" class="anchor" aria-hidden="true"><i class="material-icons align-middle">link</i></a></h3><img src="../../../../photo/docs/device/collector/ticket.png" width="600" height="450">
+<p>Create a work order for this collector. The work order carries the device information, and the created work order can be viewed and processed in &ldquo;Operation and Maintenance Center → Work Order System&rdquo;.</p>
+<h3 id="833-alias-editing">8.3.3 Alias Editing <a href="#833-alias-editing" class="anchor" aria-hidden="true"><i class="material-icons align-middle">link</i></a></h3><img src="../../../../photo/docs/device/collector/name.png" width="600" height="450">
+<p>You can name the collector. The alias is displayed in the device list, the details page and other places; it is recommended to fill in a name that is easy to identify (for example the installation location), and the serial number of the device is not affected.</p>
+<h3 id="834-firmware-upgrade">8.3.4 Firmware Upgrade <a href="#834-firmware-upgrade" class="anchor" aria-hidden="true"><i class="material-icons align-middle">link</i></a></h3><img src="../../../../photo/docs/device/collector/ota.png">
+<p>Perform an OTA upgrade on the collector: upload the firmware, select the firmware and click Upgrade Now. For the description of the upgrade process and the timeout, refer to the firmware upgrade in &ldquo;Toolbox → Remote Interaction&rdquo;.</p>
+<h3 id="835-operation-log">8.3.5 Operation Log <a href="#835-operation-log" class="anchor" aria-hidden="true"><i class="material-icons align-middle">link</i></a></h3><img src="../../../../photo/docs/device/collector/ops.png">
+<p>The operation log saves the recent remote interaction records of the device, including OTA, parameter settings and command transmission</p>
 
     </div>
 
@@ -695,7 +734,7 @@ Single import: import a single collector, import one collector at a time"/>
 
 	<div class="row flex-xl-nowrap flex-row-reverse">
 	<div class="col-sm-6 pt-2 doc-prev">
-		<a class="ms-auto" href="/en/docs/app/plant/create/">
+		<a class="ms-auto" href="/en/docs/app/manager-view/plant/create/">
 			<div class="card h-100 my-1 text-end">
 				<div class="card-body py-2">
                     <p class="card-title fs-5 fw-semibold lh-base mb-0">Create Plant <i class="material-icons align-middle">navigate_next</i></p>

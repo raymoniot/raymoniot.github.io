@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Device User Perspective on Solarhub Help Center</title>
+    <link>http://localhost:1313/en/docs/app/device-view/</link>
+    <description>Recent content in Device User Perspective on Solarhub Help Center</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <atom:link href="http://localhost:1313/en/docs/app/device-view/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Real-time Data</title>
+      <link>http://localhost:1313/en/docs/app/device-view/realtime/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/en/docs/app/device-view/realtime/</guid>
+      <description>Function Overview linkAfter entering the Device User Perspective, the device details real-time data page opens by default, showing the current working status and parameters of this device.&#xA;Page Content linkThe parameters shown differ by device type; take a Battery System as an example:&#xA;SN: the device serial number SOC Status: remaining capacity, total voltage, etc. State of Health (SOH): battery health, cycle count System Power: current power and charge/discharge status (Charging/Discharging) Total Voltage, Battery Current and other real-time parameters Common Operations link Upper right menu: Refresh, Switch Device, Add Logger, Network Configuration, Parameter Settings, Device Alias, Unbind Device The bottom tabs switch among Real-time, Statistics, and My Pull down the page to refresh the data Note: the parameters an account can see are limited by the Measurement Group.</description>
+    </item>
+    <item>
+      <title>Device Statistics</title>
+      <link>http://localhost:1313/en/docs/app/device-view/stat/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/en/docs/app/device-view/stat/</guid>
+      <description>Function Overview linkDevice Statistics is used to view the historical data curves of this device.&#xA;Steps link On the device details page, tap the &amp;ldquo;Statistics&amp;rdquo; tab at the bottom Select the statistical dimension (such as day, month, year, or all) and the date The chart shows the data curve of this device in the selected time range; you can tap a data point to view the specific value Note: the selectable parameters are also limited by the measurement groups authorized to the account.</description>
+    </item>
+    <item>
+      <title>Switch Device</title>
+      <link>http://localhost:1313/en/docs/app/device-view/deviceswitch/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/en/docs/app/device-view/deviceswitch/</guid>
+      <description>Function Overview linkThe Device User Perspective focuses on only one device at a time. When you need to view another device, use &amp;ldquo;Switch Device&amp;rdquo;.&#xA;Steps link On the device details page, tap the menu in the upper right corner Select &amp;ldquo;Switch Device&amp;rdquo; Select the device you want to view in the device list, and you will enter the details page of that device Note: this is an entry unique to the Device User Perspective.</description>
+    </item>
+    <item>
+      <title>Add Logger</title>
+      <link>http://localhost:1313/en/docs/app/device-view/logger/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/en/docs/app/device-view/logger/</guid>
+      <description>Function Overview linkYou can also add a logger directly in the Device User Perspective: the entry is in the menu in the upper right corner of the device details page.&#xA;Steps link On the device details page, tap the menu in the upper right corner and select &amp;ldquo;Add Logger&amp;rdquo; Scan the logger QR code, or tap the keyboard icon to manually enter the logger serial number After entering it, tap &amp;ldquo;Add Device&amp;rdquo; Note: this is an entry unique to the Device User Perspective (there is no Add Logger in the device details of the Professional Consultant Perspective); the logger must first be imported on the platform.</description>
+    </item>
+    <item>
+      <title>Network Configuration</title>
+      <link>http://localhost:1313/en/docs/app/device-view/wifi/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/en/docs/app/device-view/wifi/</guid>
+      <description>Function Overview linkTap &amp;ldquo;Network Configuration&amp;rdquo; in the menu in the upper right corner of the device details page to configure the WiFi network the logger should connect to. The logger can connect to the server and report data only after the network configuration succeeds.&#xA;How to Use link On the device details page, tap the menu in the upper right corner and select &amp;ldquo;Network Configuration&amp;rdquo; to enter the network configuration interface Tap add device in the upper right corner, and add the logger to be configured by scanning the code or manually entering the serial number The device can be checked only when the logger has entered the network configuration state; after checking it, you enter the Wi-Fi selection interface Select the 2.</description>
+    </item>
+    <item>
+      <title>Parameter Settings</title>
+      <link>http://localhost:1313/en/docs/app/device-view/paramset/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/en/docs/app/device-view/paramset/</guid>
+      <description>Function Overview linkTap &amp;ldquo;Parameter Settings&amp;rdquo; in the menu in the upper right corner of the device details page to deliver writable parameters to the current device (different device types support different parameters).&#xA;Steps link On the device details page, tap the menu in the upper right corner Select &amp;ldquo;Parameter Settings&amp;rdquo; Select or enter the parameters to be delivered on the parameter page Tap the deliver button to execute (multiple parameters can be delivered at one time) Notes link Parameters are delivered directly to the device on site; please make sure the device is online and the parameter values are correct The delivery result can be viewed on the device details page of the Web platform (or in the device operation log) Delivery fails or times out when the device is offline </description>
+    </item>
+    <item>
+      <title>Device Alias</title>
+      <link>http://localhost:1313/en/docs/app/device-view/alias/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/en/docs/app/device-view/alias/</guid>
+      <description>Function Overview linkTap &amp;ldquo;Device Alias&amp;rdquo; in the menu in the upper right corner of the device details page to give the device an easily recognizable name. The alias is shown in the device list, the device details and other places.&#xA;Steps link On the device details page, tap the menu in the upper right corner Select &amp;ldquo;Device Alias&amp;rdquo; Enter the new alias Tap save in the upper right corner; the alias takes effect immediately Note: the alias only affects the displayed name and does not change the device serial number.</description>
+    </item>
+    <item>
+      <title>Unbind Device</title>
+      <link>http://localhost:1313/en/docs/app/device-view/unbind/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/en/docs/app/device-view/unbind/</guid>
+      <description>Function Overview linkTap &amp;ldquo;Unbind Device&amp;rdquo; in the menu in the upper right corner of the device details page to remove the binding relationship between the device and the plant (or between a sub-device and the logger).&#xA;Steps link On the device details page, tap the menu in the upper right corner Select &amp;ldquo;Unbind Device&amp;rdquo; Confirm the prompt to complete unbinding Notes link Unbinding a sub-device deletes the sub-device from the logger and clears the data of the sub-device; please operate with care After a logger is unbound, its binding relationship with the plant is removed, and it needs to be added again to continue reporting data Unbinding cannot be undone </description>
+    </item>
+  </channel>
+</rss>

@@ -12,14 +12,14 @@
       <link>http://localhost:1313/en/docs/web/login/login/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/en/docs/web/login/login/</guid>
-      <description>You can access the Solarhub login page through Solarhub, enter the correct account and password and log in APP download: The APP download QR code is provided in the upper right corner of the login page. Use your mobile phone to scan the code to download the latest APP released by the platform&#xA;Multi-language switching: Multiple languages ​​can be switched in the upper right corner of the login page</description>
+      <description>Function Overview linkLog in to Solarhub (Web) with a platform account. After a successful login the data dashboard page is shown.&#xA;Visit the Solarhub login page through Solarhub, enter the correct account and password and log in&#xA;App download: the upper right corner of the login page provides the App download QR code; scan it with your phone to download the latest App released by the platform Multi-language switch: the upper right corner of the login page allows you to switch the display language After a successful login the data dashboard page is shown</description>
     </item>
     <item>
       <title>Multi-language Switch</title>
       <link>http://localhost:1313/en/docs/web/login/languages/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/en/docs/web/login/languages/</guid>
-      <description> Switch the language through the icon in the upper right corner when not logged in After logging in, switch the language next to the user in the upper right corner </description>
+      <description>Function Overview linkThe platform supports multiple interface languages, which can be switched at any time before or after login; the switch takes effect immediately.&#xA;Before login, switch the language through the icon in the upper right corner&#xA;After login, switch the language next to the user in the upper right corner&#xA;Multi-language texts on the platform (for example the name of a measurement group or the name of a device parameter) are shown in the corresponding language when the interface language is switched; if a name is not filled in for that language, the default name is shown.</description>
     </item>
   </channel>
 </rss>

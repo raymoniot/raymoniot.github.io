@@ -16,10 +16,10 @@
 
 <html lang="en"><head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
     <meta charset="utf-8" />
-    <title>Add Logger | Solarhub Help Center</title>
+    <title>Add Collector | Solarhub Help Center</title>
     <meta name="robots" content="noindex">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Add a logger under a plant">
+    <meta name="description" content="Bind a collector to a plant: add by serial number or import in bulk via a template file">
     <meta name="keywords" content="Documentation, Hugo, Hugo Theme, Bootstrap" />
     <meta name="author" content="Colin Wilson - Lotus Labs" />
     <meta name="email" content="support@aigis.uk" />
@@ -32,15 +32,15 @@
 <link rel="icon" type="image/png" sizes="32x32" href="http://localhost:1313/favicon-32x32.png">
 <link rel="icon" type="image/png" sizes="16x16" href="http://localhost:1313/favicon-16x16.png">
 <link rel="manifest" crossorigin="use-credentials" href="http://localhost:1313/site.webmanifest">
-<meta property="og:title" content="Add Logger" />
-<meta property="og:description" content="Add a logger under a plant" />
+<meta property="og:title" content="Add Collector" />
+<meta property="og:description" content="Bind a collector to a plant: add by serial number or import in bulk via a template file" />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="http://localhost:1313/en/docs/web/plant-center/add-logger/" /><meta property="og:image" content="http://localhost:1313/opengraph/card-base-2_hu06b1a92291a380a0d2e0ec03dab66b2f_17642_filter_17711036088631323249.png"/><meta property="article:section" content="docs" />
+<meta property="og:url" content="http://localhost:1313/en/docs/web/plant-center/add-logger/" /><meta property="og:image" content="http://localhost:1313/opengraph/card-base-2_hu06b1a92291a380a0d2e0ec03dab66b2f_17642_filter_7512603522512581805.png"/><meta property="article:section" content="docs" />
 
 <meta name="twitter:card" content="summary_large_image"/>
-<meta name="twitter:image" content="http://localhost:1313/opengraph/card-base-2_hu06b1a92291a380a0d2e0ec03dab66b2f_17642_filter_17711036088631323249.png"/>
-<meta name="twitter:title" content="Add Logger"/>
-<meta name="twitter:description" content="Add a logger under a plant"/>
+<meta name="twitter:image" content="http://localhost:1313/opengraph/card-base-2_hu06b1a92291a380a0d2e0ec03dab66b2f_17642_filter_7512603522512581805.png"/>
+<meta name="twitter:title" content="Add Collector"/>
+<meta name="twitter:description" content="Bind a collector to a plant: add by serial number or import in bulk via a template file"/>
 
     
     <script>(()=>{var t=window.matchMedia&&window.matchMedia("(prefers-color-scheme: dark)").matches,e=localStorage.getItem("theme");t&&e===null&&(localStorage.setItem("theme","dark"),document.documentElement.setAttribute("data-dark-mode","")),t&&e==="dark"&&document.documentElement.setAttribute("data-dark-mode",""),e==="dark"&&document.documentElement.setAttribute("data-dark-mode","")})()</script>
@@ -143,17 +143,17 @@
                                                         
                                                             
                                                             
-                                                                <li class=" no-icon"><a class="sidebar-nested-link" href="http://localhost:1313/en/docs/web/plant-center/bess/">BESS</a></li>
+                                                                <li class=" no-icon"><a class="sidebar-nested-link" href="http://localhost:1313/en/docs/web/plant-center/bess/">Battery System</a></li>
                                                             
                                                         
                                                             
                                                             
-                                                                <li class=" no-icon"><a class="sidebar-nested-link" href="http://localhost:1313/en/docs/web/plant-center/hess/">HESS</a></li>
+                                                                <li class=" no-icon"><a class="sidebar-nested-link" href="http://localhost:1313/en/docs/web/plant-center/hess/">Residential Storage</a></li>
                                                             
                                                         
                                                             
                                                             
-                                                                <li class=" no-icon"><a class="sidebar-nested-link" href="http://localhost:1313/en/docs/web/plant-center/ems/">EMS</a></li>
+                                                                <li class=" no-icon"><a class="sidebar-nested-link" href="http://localhost:1313/en/docs/web/plant-center/ems/">Commercial Plant</a></li>
                                                             
                                                         
                                                             
@@ -173,7 +173,7 @@
                                                         
                                                             
                                                             
-                                                                <li class="current no-icon"><a class="sidebar-nested-link" href="http://localhost:1313/en/docs/web/plant-center/add-logger/">Add Logger</a></li>
+                                                                <li class="current no-icon"><a class="sidebar-nested-link" href="http://localhost:1313/en/docs/web/plant-center/add-logger/">Add Collector</a></li>
                                                             
                                                         
                                                     </ul>
@@ -321,6 +321,11 @@
                                                                 <li class=" no-icon"><a class="sidebar-nested-link" href="http://localhost:1313/en/docs/web/toolkits/notification/">Notice Announcement</a></li>
                                                             
                                                         
+                                                            
+                                                            
+                                                                <li class=" no-icon"><a class="sidebar-nested-link" href="http://localhost:1313/en/docs/web/toolkits/test/">Production Test</a></li>
+                                                            
+                                                        
                                                     </ul>
                                                 </div>
                                             </li>
@@ -338,6 +343,30 @@
                                                             
                                                             
                                                                 <li class=" no-icon"><a class="sidebar-nested-link" href="http://localhost:1313/en/docs/web/organization/tree/">Organizational Structure</a></li>
+                                                            
+                                                        
+                                                    </ul>
+                                                </div>
+                                            </li>
+                                        
+                                    
+                                        
+                                        
+                                            <li class="sidebar-dropdown nested no-icon ">
+                                                <button class="btn">
+                                                    Frequently Asked Questions and Answers
+                                                </button>
+                                                <div class="sidebar-submenu ">
+                                                    <ul>
+                                                        
+                                                            
+                                                            
+                                                                <li class=" no-icon"><a class="sidebar-nested-link" href="http://localhost:1313/en/docs/web/faq/1.network-tools/">Network Search Tool</a></li>
+                                                            
+                                                        
+                                                            
+                                                            
+                                                                <li class=" no-icon"><a class="sidebar-nested-link" href="http://localhost:1313/en/docs/web/faq/2.device-offline/">Collector not online at first power-on</a></li>
                                                             
                                                         
                                                     </ul>
@@ -525,7 +554,7 @@
             
         
             <li class="breadcrumb-item text-capitalize active" itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
-                <span itemprop="name">Add Logger</span>
+                <span itemprop="name">Add Collector</span>
                 <meta itemprop="position" content='4' />
             </li>
         
@@ -538,11 +567,11 @@
     <div class="fw-bold text-uppercase mb-2"></div>
     <nav id="TableOfContents">
   <ul>
-    <li><a href="#1-add-a-collector-entry">1. Add a collector entry</a></li>
+    <li><a href="#1-add-collector-entry">1. Add Collector Entry</a></li>
     <li><a href="#2-function-overview">2. Function Overview</a>
       <ul>
-        <li><a href="#21-enter-the-collector-serial-number-to-add">2.1 Enter the collector serial number to add</a></li>
-        <li><a href="#22-add-through-template-file">2.2 Add through template file</a></li>
+        <li><a href="#21-add-by-entering-the-collector-serial-number">2.1 Add by Entering the Collector Serial Number</a></li>
+        <li><a href="#22-add-via-template-file">2.2 Add via Template File</a></li>
       </ul>
     </li>
   </ul>
@@ -556,11 +585,11 @@
                                             </button>
 <nav id="toc-mobile">
   <ul class="dropdown-menu">
-    <li><a href="#1-add-a-collector-entry">1. Add a collector entry</a></li>
+    <li><a href="#1-add-collector-entry">1. Add Collector Entry</a></li>
     <li><a href="#2-function-overview">2. Function Overview</a>
       <ul>
-        <li><a href="#21-enter-the-collector-serial-number-to-add">2.1 Enter the collector serial number to add</a></li>
-        <li><a href="#22-add-through-template-file">2.2 Add through template file</a></li>
+        <li><a href="#21-add-by-entering-the-collector-serial-number">2.1 Add by Entering the Collector Serial Number</a></li>
+        <li><a href="#22-add-via-template-file">2.2 Add via Template File</a></li>
       </ul>
     </li>
   </ul>
@@ -569,7 +598,7 @@
                                             <div class="mb-0 d-flex">
                                                 
                                                 <h1 class="content-title mb-0">
-                                                    Add Logger
+                                                    Add Collector
                                                     
                                                 </h1>
                                             </div>
@@ -578,7 +607,14 @@
                                                 
     
     <div data-prismjs-copy="" data-prismjs-copy-success="" data-prismjs-copy-error="">
-        <h2 id="1-add-a-collector-entry">1. Add a collector entry <a href="#1-add-a-collector-entry" class="anchor" aria-hidden="true"><i class="material-icons align-middle">link</i></a></h2><p>Enter the <a href="http://localhost:1313/en/docs/web/plant-center/pvs/#Power Station Details Page" title="Plant Details Page">Plant Details Page</a> of the plant from the plant list, and add a collector in the upper right corner</p>
+        <h1 id="function-overview">Function Overview <a href="#function-overview" class="anchor" aria-hidden="true"><i class="material-icons align-middle">link</i></a></h1><p>Adding a collector means binding a collector to a plant. The data reported by the collector is attributed to this plant, and only then do indicators such as the plant&rsquo;s Real-time Power and Power Generation have data.</p>
+<p>Two conditions must be met before adding:</p>
+<ul>
+<li>The collector has already completed <a href="http://localhost:1313/en/docs/web/device/collector/#2-collector-import" title="Collector import">Collector import</a> in &ldquo;Device Center → Collector&rdquo;; a serial number that has not been imported will prompt &ldquo;SN verification failed&rdquo;</li>
+<li>The serial number is not duplicated; a serial number that has already been added will prompt &ldquo;Serial number already exists&rdquo;</li>
+</ul>
+<p>There are two ways to add: enter a single serial number, or add in bulk via a template file.</p>
+<h2 id="1-add-collector-entry">1. Add Collector Entry <a href="#1-add-collector-entry" class="anchor" aria-hidden="true"><i class="material-icons align-middle">link</i></a></h2><p>From the Plant List, enter the plant&rsquo;s <a href="http://localhost:1313/en/docs/web/plant-center/pvs/#plant-details-page" title="Plant details page">Plant details page</a>, and add a collector in the upper right corner</p>
 <p>
 
 
@@ -593,25 +629,25 @@
 </p>
 <h2 id="2-function-overview">2. Function Overview <a href="#2-function-overview" class="anchor" aria-hidden="true"><i class="material-icons align-middle">link</i></a></h2><ul>
 <li>
-<h3 id="21-enter-the-collector-serial-number-to-add">2.1 Enter the collector serial number to add <a href="#21-enter-the-collector-serial-number-to-add" class="anchor" aria-hidden="true"><i class="material-icons align-middle">link</i></a></h3></li>
-</ul>
-<img src="../../../../photo/docs/add-logger/add-one1.png" width="550" height="400">
-<p>Add a serial number. Before adding, you must first <a href="http://localhost:1313/en/docs/web/device/collector/#2Enter the Collector" title="Collector into the library">Enter the Collector</a>, if already in the library, ignore</p>
+<h3 id="21-add-by-entering-the-collector-serial-number">2.1 Add by Entering the Collector Serial Number <a href="#21-add-by-entering-the-collector-serial-number" class="anchor" aria-hidden="true"><i class="material-icons align-middle">link</i></a></h3><img src="../../../../photo/docs/add-logger/add-one1.png" width="550" height="400">
+<p>Add the serial number. Before adding, the collector must first undergo <a href="http://localhost:1313/en/docs/web/device/collector/#2-collector-import" title="Collector import">Collector import</a>; ignore this if it has already been imported</p>
 <img src="../../../../photo/docs/add-logger/add-one2.png" width="550" height="400">
-<p>Click the Submit button to complete the collector addition</p>
+<p>Click the Submit button to complete adding the collector</p>
 <img src="../../../../photo/docs/add-logger/add-one3.png" width="550" height="400">
-<ul>
+</li>
 <li>
-<h3 id="22-add-through-template-file">2.2 Add through template file <a href="#22-add-through-template-file" class="anchor" aria-hidden="true"><i class="material-icons align-middle">link</i></a></h3></li>
-</ul>
-<p>Download template collector-import-template.xlsx</p>
+<h3 id="22-add-via-template-file">2.2 Add via Template File <a href="#22-add-via-template-file" class="anchor" aria-hidden="true"><i class="material-icons align-middle">link</i></a></h3><p>Download the template collector-import-template.xlsx</p>
 <img src="../../../../photo/docs/add-logger/add-more1.png" width="550" height="400">
-<p>Add serial number in the template</p>
+<p>Add serial numbers in the template</p>
 <img src="../../../../photo/docs/add-logger/add-more.png" width="550" height="400">
-<p>Add via template file</p>
+<p>Add via the template file</p>
 <img src="../../../../photo/docs/add-logger/add-more2.png" width="550" height="400">
 <p>Submit after confirmation</p>
 <img src="../../../../photo/docs/add-logger/add-more3.png" width="550" height="400">
+</li>
+</ul>
+<p>Once submitted successfully, the binding is complete, and the plant starts to have data after the collector goes online. There will be a delay of a few minutes between the device being powered on for the first time and the data being reported normally; wait a moment and refresh the page to see the data.</p>
+
     </div>
 
     

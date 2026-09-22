@@ -19,7 +19,7 @@
     <title>客户团队 | Soalrhub 帮助中心</title>
     <meta name="robots" content="noindex">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="客户团队新建，修改，解散">
+    <meta name="description" content="客户团队的维护：新建团队、指定主要职责与主要成员、修改和解散团队">
     <meta name="keywords" content="Documentation, Hugo, Hugo Theme, Bootstrap" />
     <meta name="author" content="Colin Wilson - Lotus Labs" />
     <meta name="email" content="support@aigis.uk" />
@@ -33,14 +33,14 @@
 <link rel="icon" type="image/png" sizes="16x16" href="http://localhost:1313/favicon-16x16.png">
 <link rel="manifest" crossorigin="use-credentials" href="http://localhost:1313/site.webmanifest">
 <meta property="og:title" content="客户团队" />
-<meta property="og:description" content="客户团队新建，修改，解散" />
+<meta property="og:description" content="客户团队的维护：新建团队、指定主要职责与主要成员、修改和解散团队" />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="http://localhost:1313/zh/docs/web/ops/ticket/team/" /><meta property="og:image" content="http://localhost:1313/opengraph/card-base-2_hu06b1a92291a380a0d2e0ec03dab66b2f_17642_filter_4262100642245395117.png"/><meta property="article:section" content="docs" />
+<meta property="og:url" content="http://localhost:1313/zh/docs/web/ops/ticket/team/" /><meta property="og:image" content="http://localhost:1313/opengraph/card-base-2_hu06b1a92291a380a0d2e0ec03dab66b2f_17642_filter_15015004469150991409.png"/><meta property="article:section" content="docs" />
 
 <meta name="twitter:card" content="summary_large_image"/>
-<meta name="twitter:image" content="http://localhost:1313/opengraph/card-base-2_hu06b1a92291a380a0d2e0ec03dab66b2f_17642_filter_4262100642245395117.png"/>
+<meta name="twitter:image" content="http://localhost:1313/opengraph/card-base-2_hu06b1a92291a380a0d2e0ec03dab66b2f_17642_filter_15015004469150991409.png"/>
 <meta name="twitter:title" content="客户团队"/>
-<meta name="twitter:description" content="客户团队新建，修改，解散"/>
+<meta name="twitter:description" content="客户团队的维护：新建团队、指定主要职责与主要成员、修改和解散团队"/>
 
     
     <script>(()=>{var t=window.matchMedia&&window.matchMedia("(prefers-color-scheme: dark)").matches,e=localStorage.getItem("theme");t&&e===null&&(localStorage.setItem("theme","dark"),document.documentElement.setAttribute("data-dark-mode","")),t&&e==="dark"&&document.documentElement.setAttribute("data-dark-mode",""),e==="dark"&&document.documentElement.setAttribute("data-dark-mode","")})()</script>
@@ -607,12 +607,23 @@
                                                 
     
     <div data-prismjs-copy="" data-prismjs-copy-success="" data-prismjs-copy-error="">
-        <h1 id="功能概述">功能概述 <a href="#%e5%8a%9f%e8%83%bd%e6%a6%82%e8%bf%b0" class="anchor" aria-hidden="true"><i class="material-icons align-middle">link</i></a></h1><img src="/../../zh/photo/docs/ops/team.png">
+        <h1 id="功能概述">功能概述 <a href="#%e5%8a%9f%e8%83%bd%e6%a6%82%e8%bf%b0" class="anchor" aria-hidden="true"><i class="material-icons align-middle">link</i></a></h1><p>客服团队用于划分处理工单的团队：每个团队有名称、描述、主要职责和主要成员，工单会按团队的主要职责分派给对应的团队处理。</p>
+<img src="/../../zh/photo/docs/ops/team.png">
+<p>列表展示团队名称、描述、主要职责（投诉、问题、退换等标签）和主要成员，操作列可以修改或解散团队。</p>
 <h2 id="1新建团队">1.新建团队 <a href="#1%e6%96%b0%e5%bb%ba%e5%9b%a2%e9%98%9f" class="anchor" aria-hidden="true"><i class="material-icons align-middle">link</i></a></h2><img src="/../../zh/photo/docs/ops/team1.png">
 <img src="/../../zh/photo/docs/ops/team2.png">
+<p>新建团队需要填写：</p>
+<ul>
+<li><strong>团队名称</strong>：必填，便于识别的名字</li>
+<li><strong>描述</strong>：团队的补充说明</li>
+<li><strong>主要职责</strong>：选择一个或多个工单类型（如投诉、问题、退换），工单会按类型分派给负责该类型的团队</li>
+<li><strong>主要成员</strong>：至少选择一名成员，成员即这个团队的处理人</li>
+</ul>
 <h2 id="2修改">2.修改 <a href="#2%e4%bf%ae%e6%94%b9" class="anchor" aria-hidden="true"><i class="material-icons align-middle">link</i></a></h2><img src="/../../zh/photo/docs/ops/team-update.png">
 <img src="/../../zh/photo/docs/ops/team-update1.png">
+<p>修改团队信息与成员，人员变动时在这里调整。</p>
 <h2 id="3解散">3.解散 <a href="#3%e8%a7%a3%e6%95%a3" class="anchor" aria-hidden="true"><i class="material-icons align-middle">link</i></a></h2><img src="/../../zh/photo/docs/ops/team-delete.png">
+<p>解散后该团队不再参与工单分派，团队已有的工单不受影响。</p>
 
     </div>
 
@@ -635,10 +646,10 @@
 		</a>
         </div>
 	<div class="col-sm-6 pt-2 doc-prev">
-		<a class="ms-auto" href="/zh/docs/app/manager-view/plant/switch/">
+		<a class="ms-auto" href="/zh/docs/app/device-view/wifi/">
 			<div class="card h-100 my-1 text-end">
 				<div class="card-body py-2">
-                    <p class="card-title fs-5 fw-semibold lh-base mb-0">切换电站 <i class="material-icons align-middle">navigate_next</i></p>
+                    <p class="card-title fs-5 fw-semibold lh-base mb-0">配网 <i class="material-icons align-middle">navigate_next</i></p>
 					
 				</div>
 			</div>

@@ -19,6 +19,7 @@
     <title>Inverter | Solarhub Help Center</title>
     <meta name="robots" content="noindex">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Inverter list and details page: basic info, operation data, faults, parameter settings, charts.">
     <meta name="keywords" content="Documentation, Hugo, Hugo Theme, Bootstrap" />
     <meta name="author" content="Colin Wilson - Lotus Labs" />
     <meta name="email" content="support@aigis.uk" />
@@ -32,22 +33,14 @@
 <link rel="icon" type="image/png" sizes="16x16" href="http://localhost:1313/favicon-16x16.png">
 <link rel="manifest" crossorigin="use-credentials" href="http://localhost:1313/site.webmanifest">
 <meta property="og:title" content="Inverter" />
-<meta property="og:description" content="Function Overview link1. Device List link The device list can view online, faulty, offline and all device information.
-2. Advanced device search link 3. Inverter details page link You can enter the device details page from the device in the device list
-The inverter details page displays inverter information and historical data charts
-3.1 Alarm linkRefer to Collector Alarm
-3.2 Unbinding linkRefer to Collector Unbinding, unbinding the sub-device will delete the sub-device from the collector and clear the sub-device data." />
+<meta property="og:description" content="Inverter list and details page: basic info, operation data, faults, parameter settings, charts." />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="http://localhost:1313/en/docs/web/device/inveter/" /><meta property="og:image" content="http://localhost:1313/opengraph/card-base-2_hu06b1a92291a380a0d2e0ec03dab66b2f_17642_filter_13552049267380800397.png"/><meta property="article:section" content="docs" />
+<meta property="og:url" content="http://localhost:1313/en/docs/web/device/inveter/" /><meta property="og:image" content="http://localhost:1313/opengraph/card-base-2_hu06b1a92291a380a0d2e0ec03dab66b2f_17642_filter_7622269543878596998.png"/><meta property="article:section" content="docs" />
 
 <meta name="twitter:card" content="summary_large_image"/>
-<meta name="twitter:image" content="http://localhost:1313/opengraph/card-base-2_hu06b1a92291a380a0d2e0ec03dab66b2f_17642_filter_13552049267380800397.png"/>
+<meta name="twitter:image" content="http://localhost:1313/opengraph/card-base-2_hu06b1a92291a380a0d2e0ec03dab66b2f_17642_filter_7622269543878596998.png"/>
 <meta name="twitter:title" content="Inverter"/>
-<meta name="twitter:description" content="Function Overview link1. Device List link The device list can view online, faulty, offline and all device information.
-2. Advanced device search link 3. Inverter details page link You can enter the device details page from the device in the device list
-The inverter details page displays inverter information and historical data charts
-3.1 Alarm linkRefer to Collector Alarm
-3.2 Unbinding linkRefer to Collector Unbinding, unbinding the sub-device will delete the sub-device from the collector and clear the sub-device data."/>
+<meta name="twitter:description" content="Inverter list and details page: basic info, operation data, faults, parameter settings, charts."/>
 
     
     <script>(()=>{var t=window.matchMedia&&window.matchMedia("(prefers-color-scheme: dark)").matches,e=localStorage.getItem("theme");t&&e===null&&(localStorage.setItem("theme","dark"),document.documentElement.setAttribute("data-dark-mode","")),t&&e==="dark"&&document.documentElement.setAttribute("data-dark-mode",""),e==="dark"&&document.documentElement.setAttribute("data-dark-mode","")})()</script>
@@ -150,17 +143,17 @@ The inverter details page displays inverter information and historical data char
                                                         
                                                             
                                                             
-                                                                <li class=" no-icon"><a class="sidebar-nested-link" href="http://localhost:1313/en/docs/web/plant-center/bess/">BESS</a></li>
+                                                                <li class=" no-icon"><a class="sidebar-nested-link" href="http://localhost:1313/en/docs/web/plant-center/bess/">Battery System</a></li>
                                                             
                                                         
                                                             
                                                             
-                                                                <li class=" no-icon"><a class="sidebar-nested-link" href="http://localhost:1313/en/docs/web/plant-center/hess/">HESS</a></li>
+                                                                <li class=" no-icon"><a class="sidebar-nested-link" href="http://localhost:1313/en/docs/web/plant-center/hess/">Residential Storage</a></li>
                                                             
                                                         
                                                             
                                                             
-                                                                <li class=" no-icon"><a class="sidebar-nested-link" href="http://localhost:1313/en/docs/web/plant-center/ems/">EMS</a></li>
+                                                                <li class=" no-icon"><a class="sidebar-nested-link" href="http://localhost:1313/en/docs/web/plant-center/ems/">Commercial Plant</a></li>
                                                             
                                                         
                                                             
@@ -180,7 +173,7 @@ The inverter details page displays inverter information and historical data char
                                                         
                                                             
                                                             
-                                                                <li class=" no-icon"><a class="sidebar-nested-link" href="http://localhost:1313/en/docs/web/plant-center/add-logger/">Add Logger</a></li>
+                                                                <li class=" no-icon"><a class="sidebar-nested-link" href="http://localhost:1313/en/docs/web/plant-center/add-logger/">Add Collector</a></li>
                                                             
                                                         
                                                     </ul>
@@ -328,6 +321,11 @@ The inverter details page displays inverter information and historical data char
                                                                 <li class=" no-icon"><a class="sidebar-nested-link" href="http://localhost:1313/en/docs/web/toolkits/notification/">Notice Announcement</a></li>
                                                             
                                                         
+                                                            
+                                                            
+                                                                <li class=" no-icon"><a class="sidebar-nested-link" href="http://localhost:1313/en/docs/web/toolkits/test/">Production Test</a></li>
+                                                            
+                                                        
                                                     </ul>
                                                 </div>
                                             </li>
@@ -345,6 +343,30 @@ The inverter details page displays inverter information and historical data char
                                                             
                                                             
                                                                 <li class=" no-icon"><a class="sidebar-nested-link" href="http://localhost:1313/en/docs/web/organization/tree/">Organizational Structure</a></li>
+                                                            
+                                                        
+                                                    </ul>
+                                                </div>
+                                            </li>
+                                        
+                                    
+                                        
+                                        
+                                            <li class="sidebar-dropdown nested no-icon ">
+                                                <button class="btn">
+                                                    Frequently Asked Questions and Answers
+                                                </button>
+                                                <div class="sidebar-submenu ">
+                                                    <ul>
+                                                        
+                                                            
+                                                            
+                                                                <li class=" no-icon"><a class="sidebar-nested-link" href="http://localhost:1313/en/docs/web/faq/1.network-tools/">Network Search Tool</a></li>
+                                                            
+                                                        
+                                                            
+                                                            
+                                                                <li class=" no-icon"><a class="sidebar-nested-link" href="http://localhost:1313/en/docs/web/faq/2.device-offline/">Collector not online at first power-on</a></li>
                                                             
                                                         
                                                     </ul>
@@ -546,19 +568,19 @@ The inverter details page displays inverter information and historical data char
     <nav id="TableOfContents">
   <ul>
     <li><a href="#1-device-list">1. Device List</a></li>
-    <li><a href="#2-advanced-device-search">2. Advanced device search</a></li>
-    <li><a href="#3-inverter-details-page">3. Inverter details page</a>
+    <li><a href="#2-advanced-device-search">2. Advanced Device Search</a></li>
+    <li><a href="#3-inverter-details-page">3. Inverter Details Page</a>
       <ul>
         <li><a href="#31-alarm">3.1 Alarm</a></li>
         <li><a href="#32-unbinding">3.2 Unbinding</a></li>
-        <li><a href="#33-create-a-new-work-order">3.3 Create a new work order</a></li>
-        <li><a href="#34-parameter-settings">3.4 Parameter settings</a></li>
-        <li><a href="#35-alias-editing">3.5 Alias ​​editing</a></li>
-        <li><a href="#36-firmware-upgrade">3.6 Firmware upgrade</a></li>
-        <li><a href="#37-operation-log">3.7 Operation log</a></li>
-        <li><a href="#38-historical-data-chart">3.8 Historical data chart</a></li>
-        <li><a href="#381-parameter-selection">3.8.1 Parameter selection</a></li>
-        <li><a href="#382-export-report">3.8.2 Export report</a></li>
+        <li><a href="#33-create-a-new-work-order">3.3 Create a New Work Order</a></li>
+        <li><a href="#34-parameter-settings">3.4 Parameter Settings</a></li>
+        <li><a href="#35-alias-editing">3.5 Alias Editing</a></li>
+        <li><a href="#36-firmware-upgrade">3.6 Firmware Upgrade</a></li>
+        <li><a href="#37-operation-log">3.7 Operation Log</a></li>
+        <li><a href="#38-historical-data-chart">3.8 Historical Data Chart</a></li>
+        <li><a href="#381-parameter-selection">3.8.1 Parameter Selection</a></li>
+        <li><a href="#382-export-report">3.8.2 Export Report</a></li>
       </ul>
     </li>
   </ul>
@@ -573,19 +595,19 @@ The inverter details page displays inverter information and historical data char
 <nav id="toc-mobile">
   <ul class="dropdown-menu">
     <li><a href="#1-device-list">1. Device List</a></li>
-    <li><a href="#2-advanced-device-search">2. Advanced device search</a></li>
-    <li><a href="#3-inverter-details-page">3. Inverter details page</a>
+    <li><a href="#2-advanced-device-search">2. Advanced Device Search</a></li>
+    <li><a href="#3-inverter-details-page">3. Inverter Details Page</a>
       <ul>
         <li><a href="#31-alarm">3.1 Alarm</a></li>
         <li><a href="#32-unbinding">3.2 Unbinding</a></li>
-        <li><a href="#33-create-a-new-work-order">3.3 Create a new work order</a></li>
-        <li><a href="#34-parameter-settings">3.4 Parameter settings</a></li>
-        <li><a href="#35-alias-editing">3.5 Alias ​​editing</a></li>
-        <li><a href="#36-firmware-upgrade">3.6 Firmware upgrade</a></li>
-        <li><a href="#37-operation-log">3.7 Operation log</a></li>
-        <li><a href="#38-historical-data-chart">3.8 Historical data chart</a></li>
-        <li><a href="#381-parameter-selection">3.8.1 Parameter selection</a></li>
-        <li><a href="#382-export-report">3.8.2 Export report</a></li>
+        <li><a href="#33-create-a-new-work-order">3.3 Create a New Work Order</a></li>
+        <li><a href="#34-parameter-settings">3.4 Parameter Settings</a></li>
+        <li><a href="#35-alias-editing">3.5 Alias Editing</a></li>
+        <li><a href="#36-firmware-upgrade">3.6 Firmware Upgrade</a></li>
+        <li><a href="#37-operation-log">3.7 Operation Log</a></li>
+        <li><a href="#38-historical-data-chart">3.8 Historical Data Chart</a></li>
+        <li><a href="#381-parameter-selection">3.8.1 Parameter Selection</a></li>
+        <li><a href="#382-export-report">3.8.2 Export Report</a></li>
       </ul>
     </li>
   </ul>
@@ -603,47 +625,46 @@ The inverter details page displays inverter information and historical data char
                                                 
     
     <div data-prismjs-copy="" data-prismjs-copy-success="" data-prismjs-copy-error="">
-        <h1 id="function-overview">Function Overview <a href="#function-overview" class="anchor" aria-hidden="true"><i class="material-icons align-middle">link</i></a></h1><h2 id="1-device-list">1. Device List <a href="#1-device-list" class="anchor" aria-hidden="true"><i class="material-icons align-middle">link</i></a></h2><img src="../../../../photo/docs/device/inveter/device-list.png">
-<p>The device list can view online, faulty, offline and all device information.</p>
-<h2 id="2-advanced-device-search">2. Advanced device search <a href="#2-advanced-device-search" class="anchor" aria-hidden="true"><i class="material-icons align-middle">link</i></a></h2><img src="../../../../photo/docs/device/inveter/search.png">
-<h2 id="3-inverter-details-page">3. Inverter details page <a href="#3-inverter-details-page" class="anchor" aria-hidden="true"><i class="material-icons align-middle">link</i></a></h2><img src="../../../../photo/docs/device/inveter/detail-enter.png">
+        <h1 id="function-overview">Function Overview <a href="#function-overview" class="anchor" aria-hidden="true"><i class="material-icons align-middle">link</i></a></h1><p>The inverter is the power generation device that converts DC power into AC power; it usually hangs under a collector as a sub-device, and the collector collects and reports its operation data to the platform.</p>
+<h2 id="1-device-list">1. Device List <a href="#1-device-list" class="anchor" aria-hidden="true"><i class="material-icons align-middle">link</i></a></h2><img src="../../../../photo/docs/device/inveter/device-list.png">
+<p>The device list can view online, faulty, offline and all device information; the status tabs at the top also show the device count of each status, and clicking a tab shows only the devices in that status.</p>
+<p>The list shows the serial number, today&rsquo;s power generation, real-time power, plant, collector, alias, timezone, data update time and so on; click the serial number to enter the inverter details page, and &ldquo;Plant&rdquo; and &ldquo;Collector&rdquo; can jump to the corresponding pages.</p>
+<h2 id="2-advanced-device-search">2. Advanced Device Search <a href="#2-advanced-device-search" class="anchor" aria-hidden="true"><i class="material-icons align-middle">link</i></a></h2><img src="../../../../photo/docs/device/inveter/search.png">
+<p>The search box supports searching devices by serial number, alias and other keywords; click the search icon to expand the advanced search, where you can query by a combination of multiple device parameters; the specific available query fields are configured by the platform.</p>
+<h2 id="3-inverter-details-page">3. Inverter Details Page <a href="#3-inverter-details-page" class="anchor" aria-hidden="true"><i class="material-icons align-middle">link</i></a></h2><img src="../../../../photo/docs/device/inveter/detail-enter.png">
 <p>You can enter the device details page from the device in the device list</p>
 <img src="../../../../photo/docs/device/inveter/detail.png">
-<p>The inverter details page displays inverter information and historical data charts</p>
-<h3 id="31-alarm">3.1 Alarm <a href="#31-alarm" class="anchor" aria-hidden="true"><i class="material-icons align-middle">link</i></a></h3><p>Refer to <a href="http://localhost:1313/en/docs/web/device/collector/#81 Alarm" title="Collector Alarm">Collector Alarm</a></p>
-<h3 id="32-unbinding">3.2 Unbinding <a href="#32-unbinding" class="anchor" aria-hidden="true"><i class="material-icons align-middle">link</i></a></h3><p>Refer to <a href="http://localhost:1313/en/docs/web/device/collector/#82 Unbinding" title="Unbind the collector">Collector Unbinding</a>, <strong>unbinding the sub-device will delete the sub-device from the collector and clear the sub-device data</strong>.</p>
-<h3 id="33-create-a-new-work-order">3.3 Create a new work order <a href="#33-create-a-new-work-order" class="anchor" aria-hidden="true"><i class="material-icons align-middle">link</i></a></h3><p>Refer to <a href="http://localhost:1313/en/docs/web/device/collector/#832Create a new work order" title="Create a new work order">Create a new work order for the collector</a></p>
-<h3 id="34-parameter-settings">3.4 Parameter settings <a href="#34-parameter-settings" class="anchor" aria-hidden="true"><i class="material-icons align-middle">link</i></a></h3><img src="../../../../photo/docs/device/inveter/set.png">
-<p>Use the green button to send the measurement point parameter settings, or click on batch settings to send. For details, please refer to the remote interactive link</p>
-<h3 id="35-alias-editing">3.5 Alias ​​editing <a href="#35-alias-editing" class="anchor" aria-hidden="true"><i class="material-icons align-middle">link</i></a></h3><p>Refer to <a href="http://localhost:1313/en/docs/web/device/collector/#833Edit alias" title="Edit alias for collector">Edit alias for collector</a></p>
-<h3 id="36-firmware-upgrade">3.6 Firmware upgrade <a href="#36-firmware-upgrade" class="anchor" aria-hidden="true"><i class="material-icons align-middle">link</i></a></h3><p>Refer to <a href="http://localhost:1313/en/docs/web/device/collector/#834Firmware upgrade" title="Firmware upgrade">Firmware upgrade for collector</a></p>
-<h3 id="37-operation-log">3.7 Operation log <a href="#37-operation-log" class="anchor" aria-hidden="true"><i class="material-icons align-middle">link</i></a></h3><p>Refer to <a href="http://localhost:1313/en/docs/web/device/collector/#835Operation log" title="Operation log">Operation log for collector</a></p>
-<h3 id="38-historical-data-chart">3.8 Historical data chart <a href="#38-historical-data-chart" class="anchor" aria-hidden="true"><i class="material-icons align-middle">link</i></a></h3><img src="../../../../photo/docs/device/inveter/chart.png">
-<p>Historical data supports data display and time range selection at daily, weekly, monthly, annual and total levels, where different time dimensions display different parameters</p>
+<p>The inverter details page displays inverter information and historical data charts.</p>
+<p>The top of the page shows the device name and the time of the latest data update (including the timezone where the device is located); &ldquo;Alarm&rdquo; and &ldquo;Unbind&rdquo; on the right are the common operations, and the other operations are in the &ldquo;…&rdquo; menu, including changes, create a new work order, alias editing, firmware upgrade, parameter settings and operation log.</p>
+<p>Among the information cards at the top of the page, besides the parameter cards configured by the platform according to the device type, there is also an operation data card (displaying real-time data such as the voltage, current and power of the DC/AC side); the specific content of the parameter cards is configured by the platform and may differ between inverter models, and the parameters an account can see are also limited by the authorized measurement groups (see the description of measurement groups in &ldquo;Organization Management → Organizational Structure&rdquo;).</p>
+<h3 id="31-alarm">3.1 Alarm <a href="#31-alarm" class="anchor" aria-hidden="true"><i class="material-icons align-middle">link</i></a></h3><p>Refer to <a href="http://localhost:1313/en/docs/web/device/collector/#81-alarm" title="Collector Alarm">Collector Alarm</a></p>
+<h3 id="32-unbinding">3.2 Unbinding <a href="#32-unbinding" class="anchor" aria-hidden="true"><i class="material-icons align-middle">link</i></a></h3><p>Refer to <a href="http://localhost:1313/en/docs/web/device/collector/#82-unbinding" title="Collector Unbinding">Collector Unbinding</a>, <strong>unbinding a sub-device will delete the sub-device from the collector and clear the data of the sub-device</strong>.</p>
+<h3 id="33-create-a-new-work-order">3.3 Create a New Work Order <a href="#33-create-a-new-work-order" class="anchor" aria-hidden="true"><i class="material-icons align-middle">link</i></a></h3><p>Refer to <a href="http://localhost:1313/en/docs/web/device/collector/#832-create-a-new-work-order" title="Create a New Work Order">Create a new work order for the collector</a></p>
+<h3 id="34-parameter-settings">3.4 Parameter Settings <a href="#34-parameter-settings" class="anchor" aria-hidden="true"><i class="material-icons align-middle">link</i></a></h3><img src="../../../../photo/docs/device/inveter/set.png">
+<p>Send the measurement point parameter settings through the green button, or click batch settings to send; for details, please refer to the remote interaction link.</p>
+<p>Parameter settings are used to deliver writable parameters to the inverter, and the delivery result is recorded in the operation log of the device.</p>
+<h3 id="35-alias-editing">3.5 Alias Editing <a href="#35-alias-editing" class="anchor" aria-hidden="true"><i class="material-icons align-middle">link</i></a></h3><p>Refer to <a href="http://localhost:1313/en/docs/web/device/collector/#833-alias-editing" title="Collector Alias Editing">Edit the collector alias</a></p>
+<h3 id="36-firmware-upgrade">3.6 Firmware Upgrade <a href="#36-firmware-upgrade" class="anchor" aria-hidden="true"><i class="material-icons align-middle">link</i></a></h3><p>Refer to <a href="http://localhost:1313/en/docs/web/device/collector/#834-firmware-upgrade" title="Firmware Upgrade">Firmware upgrade for the collector</a></p>
+<h3 id="37-operation-log">3.7 Operation Log <a href="#37-operation-log" class="anchor" aria-hidden="true"><i class="material-icons align-middle">link</i></a></h3><p>Refer to <a href="http://localhost:1313/en/docs/web/device/collector/#835-operation-log" title="Operation Log">Operation log for the collector</a></p>
+<h3 id="38-historical-data-chart">3.8 Historical Data Chart <a href="#38-historical-data-chart" class="anchor" aria-hidden="true"><i class="material-icons align-middle">link</i></a></h3><img src="../../../../photo/docs/device/inveter/chart.png">
+<p>Historical data supports data display and time range selection at the daily, weekly, monthly, yearly and total levels, where different time dimensions display different parameters</p>
 <ul>
-<li>
-<p><strong>Daily</strong>: Users can customize parameter display through <a href="http://localhost:1313/en/docs/web/device/inveter/#381Parameter selection" title="Parameter selection">parameter selection</a></p>
-</li>
-<li>
-<p><strong>Weekly</strong>: Users can customize parameter display through <a href="http://localhost:1313/en/docs/web/device/inveter/#381Parameter selection" title="Parameter selection">parameter selection</a></p>
-</li>
-<li>
-<p><strong>Month</strong>: Display power generation</p>
-</li>
-<li>
-<p><strong>Year</strong>: Display power generation</p>
-</li>
-<li>
-<p><strong>Total</strong>: Display power generation</p>
-</li>
+<li><strong>Daily</strong>: users can customize the parameter display through <a href="http://localhost:1313/en/docs/web/device/inveter/#381-parameter-selection" title="Parameter Selection">Parameter Selection</a></li>
+<li><strong>Weekly</strong>: users can customize the parameter display through <a href="http://localhost:1313/en/docs/web/device/inveter/#381-parameter-selection" title="Parameter Selection">Parameter Selection</a></li>
+<li><strong>Monthly</strong>: display power generation</li>
+<li><strong>Yearly</strong>: display power generation</li>
+<li><strong>Total</strong>: display power generation</li>
 </ul>
-<h3 id="381-parameter-selection">3.8.1 Parameter selection <a href="#381-parameter-selection" class="anchor" aria-hidden="true"><i class="material-icons align-middle">link</i></a></h3><img src="../../../../photo/docs/device/inveter/param-select.png">
+<p>Above the chart you can select a date or a time range; after switching the dimension, the data is automatically displayed at the corresponding time granularity.</p>
+<h3 id="381-parameter-selection">3.8.1 Parameter Selection <a href="#381-parameter-selection" class="anchor" aria-hidden="true"><i class="material-icons align-middle">link</i></a></h3><img src="../../../../photo/docs/device/inveter/param-select.png">
 <img src="../../../../photo/docs/device/inveter/param-select1.png">
-<p>Users can select the parameters they want to display and click OK to view</p>
+<p>Users can select the parameters they want to display and click OK to view them</p>
+<p>Parameters are displayed classified by parameter group; check them and click OK to update the chart</p>
 <img src="../../../../photo/docs/device/inveter/param-select3.png">
-<p>Users can also customize templates, and each template can save customized parameters</p>
-<h3 id="382-export-report">3.8.2 Export report <a href="#382-export-report" class="anchor" aria-hidden="true"><i class="material-icons align-middle">link</i></a></h3><img src="../../../../photo/docs/device/inveter/export.png">
-<p>Export chart data to Excel table</p>
+<p>Users can also customize templates, and each template can save its own parameters</p>
+<p>A template can save commonly used parameter combinations, so that you can directly select the template next time; a custom template can be renamed by double-clicking its name, and can also be deleted. The range of selectable parameters is likewise limited by the measurement groups authorized to the account.</p>
+<h3 id="382-export-report">3.8.2 Export Report <a href="#382-export-report" class="anchor" aria-hidden="true"><i class="material-icons align-middle">link</i></a></h3><img src="../../../../photo/docs/device/inveter/export.png">
+<p>Export the chart data to an Excel table</p>
 
     </div>
 
@@ -656,20 +677,20 @@ The inverter details page displays inverter information and historical data char
 
 	<div class="row flex-xl-nowrap ">
 	<div class="col-sm-6 pt-2 doc-next">
-		<a href="/en/docs/web/toolkits/batch/">
+		<a href="/en/docs/app/device-view/stat/">
 			<div class="card h-100 my-1">
 				<div class="card-body py-2">
-                    <p class="card-title fs-5 fw-semibold lh-base mb-0"><i class="material-icons align-middle">navigate_before</i> Batch Operation</p>
+                    <p class="card-title fs-5 fw-semibold lh-base mb-0"><i class="material-icons align-middle">navigate_before</i> Device Statistics</p>
 					
 				</div>
 			</div>
 		</a>
         </div>
 	<div class="col-sm-6 pt-2 doc-prev">
-		<a class="ms-auto" href="/en/docs/app/quickstart/">
+		<a class="ms-auto" href="/en/docs/app/plant-view/stat/">
 			<div class="card h-100 my-1 text-end">
 				<div class="card-body py-2">
-                    <p class="card-title fs-5 fw-semibold lh-base mb-0">Quick Start <i class="material-icons align-middle">navigate_next</i></p>
+                    <p class="card-title fs-5 fw-semibold lh-base mb-0">Plant Statistics <i class="material-icons align-middle">navigate_next</i></p>
 					
 				</div>
 			</div>

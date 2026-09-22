@@ -12,14 +12,14 @@
       <link>http://localhost:1313/en/docs/web/faq/1.network-tools/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/en/docs/web/faq/1.network-tools/</guid>
-      <description>Function Overview linkThe network search configuration tool is mainly used to configure the WiFi data stick (collector). Using the network search tool to send commands to the collector can modify the parameters of the collector&#xA;Usage link1. Prerequisites linkThe PC using the network search tool must be in the same network as the collector, otherwise the collector will not be searched&#xA;2. Search for all collector devices in the current network link After opening the software, the network search tool will automatically find the gateway address of the current network as the search address by default.</description>
+      <description>Function Overview linkThe network search configuration tool is mainly used to configure the WiFi stick (collector). Sending commands to the collector with the network search tool can modify the parameters of the collector.&#xA;The tool is a stand-alone program running on a PC (it is not a page of the platform). It is usually used for the configuration of a newly delivered collector and for on-site troubleshooting: first search for the collectors in the same network, then send AT commands to query or modify the configuration.</description>
     </item>
     <item>
-      <title>The collector is not online when powered on for the first time</title>
+      <title>Collector not online at first power-on</title>
       <link>http://localhost:1313/en/docs/web/faq/2.device-offline/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/en/docs/web/faq/2.device-offline/</guid>
-      <description>1. Check the collector signal light link2. Use the network search configuration tool to check the configuration linkFor the usage of the network search configuration tool, refer to Network Search Configuration Tool&#xA;3. Check method link1. Query server selection link Send AT+SERVERSELECT command to query the URL selected in the service area. The firmware after version 3.0 points to URL2 by default, which is the address of each gateway service. If the address is unclear, please contact us.</description>
+      <description>Function Overview linkWhen the collector stays offline on the platform after installation and power-on, troubleshoot in the following order: first check the indicator lights of the device to make sure it starts normally, then use the network search configuration tool to check whether the server address configuration of the collector is correct.&#xA;1. Check the indicator light of the collector linkAfter power-on, first observe the indicator lights on the device to make sure it is powered and started normally (the meaning of each indicator light is described in the manual delivered with the device).</description>
     </item>
   </channel>
 </rss>

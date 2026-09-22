@@ -19,7 +19,7 @@
     <title>工单列表 | Soalrhub 帮助中心</title>
     <meta name="robots" content="noindex">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="所有工单的概况列表，可以进行工单状态变更，工单的修改和评分">
+    <meta name="description" content="所有工单的概况列表，可以进行工单状态变更、工单修改和评分，并区分我发起的、待办、与我相关">
     <meta name="keywords" content="Documentation, Hugo, Hugo Theme, Bootstrap" />
     <meta name="author" content="Colin Wilson - Lotus Labs" />
     <meta name="email" content="support@aigis.uk" />
@@ -33,14 +33,14 @@
 <link rel="icon" type="image/png" sizes="16x16" href="http://localhost:1313/favicon-16x16.png">
 <link rel="manifest" crossorigin="use-credentials" href="http://localhost:1313/site.webmanifest">
 <meta property="og:title" content="工单列表" />
-<meta property="og:description" content="所有工单的概况列表，可以进行工单状态变更，工单的修改和评分" />
+<meta property="og:description" content="所有工单的概况列表，可以进行工单状态变更、工单修改和评分，并区分我发起的、待办、与我相关" />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="http://localhost:1313/zh/docs/web/ops/ticket/list/" /><meta property="og:image" content="http://localhost:1313/opengraph/card-base-2_hu06b1a92291a380a0d2e0ec03dab66b2f_17642_filter_1650539700058521234.png"/><meta property="article:section" content="docs" />
+<meta property="og:url" content="http://localhost:1313/zh/docs/web/ops/ticket/list/" /><meta property="og:image" content="http://localhost:1313/opengraph/card-base-2_hu06b1a92291a380a0d2e0ec03dab66b2f_17642_filter_3403391698631663838.png"/><meta property="article:section" content="docs" />
 
 <meta name="twitter:card" content="summary_large_image"/>
-<meta name="twitter:image" content="http://localhost:1313/opengraph/card-base-2_hu06b1a92291a380a0d2e0ec03dab66b2f_17642_filter_1650539700058521234.png"/>
+<meta name="twitter:image" content="http://localhost:1313/opengraph/card-base-2_hu06b1a92291a380a0d2e0ec03dab66b2f_17642_filter_3403391698631663838.png"/>
 <meta name="twitter:title" content="工单列表"/>
-<meta name="twitter:description" content="所有工单的概况列表，可以进行工单状态变更，工单的修改和评分"/>
+<meta name="twitter:description" content="所有工单的概况列表，可以进行工单状态变更、工单修改和评分，并区分我发起的、待办、与我相关"/>
 
     
     <script>(()=>{var t=window.matchMedia&&window.matchMedia("(prefers-color-scheme: dark)").matches,e=localStorage.getItem("theme");t&&e===null&&(localStorage.setItem("theme","dark"),document.documentElement.setAttribute("data-dark-mode","")),t&&e==="dark"&&document.documentElement.setAttribute("data-dark-mode",""),e==="dark"&&document.documentElement.setAttribute("data-dark-mode","")})()</script>
@@ -579,6 +579,7 @@
     <li><a href="#2工单修改">2.工单修改</a></li>
     <li><a href="#3待办">3.待办</a></li>
     <li><a href="#4与我相关">4.与我相关</a></li>
+    <li><a href="#5工单评分">5.工单评分</a></li>
   </ul>
 </nav>
     </toc></div>
@@ -594,6 +595,7 @@
     <li><a href="#2工单修改">2.工单修改</a></li>
     <li><a href="#3待办">3.待办</a></li>
     <li><a href="#4与我相关">4.与我相关</a></li>
+    <li><a href="#5工单评分">5.工单评分</a></li>
   </ul>
 </nav></div>
                                         <div class="docs-content col-12 col-xl-9 mt-0">
@@ -609,12 +611,29 @@
                                                 
     
     <div data-prismjs-copy="" data-prismjs-copy-success="" data-prismjs-copy-error="">
-        <h1 id="功能概述">功能概述 <a href="#%e5%8a%9f%e8%83%bd%e6%a6%82%e8%bf%b0" class="anchor" aria-hidden="true"><i class="material-icons align-middle">link</i></a></h1><img src="/../../zh/photo/docs/ops/ticket/ticket-list.png">
+        <h1 id="功能概述">功能概述 <a href="#%e5%8a%9f%e8%83%bd%e6%a6%82%e8%bf%b0" class="anchor" aria-hidden="true"><i class="material-icons align-middle">link</i></a></h1><p>工单列表展示所有工单，并按与当前账号的关系分成几个标签页：</p>
+<ul>
+<li><strong>我发起的</strong>：当前账号创建的工单</li>
+<li><strong>待办</strong>：需要当前账号处理的工单</li>
+<li><strong>与我相关</strong>：当前账号参与过的工单（如被回复或被抄送）</li>
+<li><strong>全部</strong>：当前账号数据权限内的所有工单</li>
+</ul>
+<img src="/../../zh/photo/docs/ops/ticket/ticket-list.png">
+<p>列表中的信息包括工单编号、主题、工单类型、在手人（或发起人）、首次响应截止、关闭截止、优先级、状态和操作。上方的「快捷查找」可以按关键词快速定位工单。</p>
 <h2 id="1工单状态变更">1.工单状态变更 <a href="#1%e5%b7%a5%e5%8d%95%e7%8a%b6%e6%80%81%e5%8f%98%e6%9b%b4" class="anchor" aria-hidden="true"><i class="material-icons align-middle">link</i></a></h2><img src="/../../zh/photo/docs/ops/ticket/ticket-status.png">
+<p>工单处理过程中需要及时更新状态，状态分为：</p>
+<ul>
+<li><strong>打开</strong>：工单已建立，等待处理</li>
+<li><strong>待定</strong>：需要等待用户确认或补充信息</li>
+<li><strong>已解决</strong>：问题已处理完成</li>
+<li><strong>已关闭</strong>：工单结束</li>
+</ul>
 <h2 id="2工单修改">2.工单修改 <a href="#2%e5%b7%a5%e5%8d%95%e4%bf%ae%e6%94%b9" class="anchor" aria-hidden="true"><i class="material-icons align-middle">link</i></a></h2><img src="/../../zh/photo/docs/ops/ticket/ticket-update.png">
 <img src="/../../zh/photo/docs/ops/ticket/ticket-update1.png">
 <h2 id="3待办">3.待办 <a href="#3%e5%be%85%e5%8a%9e" class="anchor" aria-hidden="true"><i class="material-icons align-middle">link</i></a></h2><img src="/../../zh/photo/docs/ops/ticket/ticket-undeal.png">
+<p>待办中的工单会显示优先级（高、中、低），可以按优先级先处理紧急的问题。</p>
 <h2 id="4与我相关">4.与我相关 <a href="#4%e4%b8%8e%e6%88%91%e7%9b%b8%e5%85%b3" class="anchor" aria-hidden="true"><i class="material-icons align-middle">link</i></a></h2><img src="/../../zh/photo/docs/ops/ticket/ticket-me.png">
+<h2 id="5工单评分">5.工单评分 <a href="#5%e5%b7%a5%e5%8d%95%e8%af%84%e5%88%86" class="anchor" aria-hidden="true"><i class="material-icons align-middle">link</i></a></h2><p>工单解决后可以对处理结果评分（正面、中立、负面），评分结果会统计到<a href="http://localhost:1313/zh/docs/web/ops/ticket/dashboard/" title="工单看板">工单看板</a>的评分板块。</p>
 
     </div>
 
@@ -627,20 +646,20 @@
 
 	<div class="row flex-xl-nowrap ">
 	<div class="col-sm-6 pt-2 doc-next">
-		<a href="/zh/docs/web/device/battery/">
+		<a href="/zh/docs/app/plant-view/layout/">
 			<div class="card h-100 my-1">
 				<div class="card-body py-2">
-                    <p class="card-title fs-5 fw-semibold lh-base mb-0"><i class="material-icons align-middle">navigate_before</i> 电池系统</p>
+                    <p class="card-title fs-5 fw-semibold lh-base mb-0"><i class="material-icons align-middle">navigate_before</i> 电站布局</p>
 					
 				</div>
 			</div>
 		</a>
         </div>
 	<div class="col-sm-6 pt-2 doc-prev">
-		<a class="ms-auto" href="/zh/docs/app/manager-view/device/detail/">
+		<a class="ms-auto" href="/zh/docs/app/device-view/deviceswitch/">
 			<div class="card h-100 my-1 text-end">
 				<div class="card-body py-2">
-                    <p class="card-title fs-5 fw-semibold lh-base mb-0">设备详情 <i class="material-icons align-middle">navigate_next</i></p>
+                    <p class="card-title fs-5 fw-semibold lh-base mb-0">设备切换 <i class="material-icons align-middle">navigate_next</i></p>
 					
 				</div>
 			</div>
