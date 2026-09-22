@@ -1,46 +1,6 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Device Center on Solarhub Help Center</title>
-    <link>http://localhost:1313/en/docs/web/device/</link>
-    <description>Recent content in Device Center on Solarhub Help Center</description>
-    <generator>Hugo</generator>
-    <language>en</language>
-    <atom:link href="http://localhost:1313/en/docs/web/device/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Collector</title>
-      <link>http://localhost:1313/en/docs/web/device/collector/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/en/docs/web/device/collector/</guid>
-      <description>Function Overview linkThe collector is the core device for platform data access: on-site inverters, batteries, meters, optimizers and other sub-devices all hang under the collector, and the collector collects and reports their data to the platform in a unified way. So the collector must be imported first and then bound to a plant, and only then can the data of the sub-devices under it be displayed normally.&#xA;1. Device List link The device list can view online, faulty, offline and all device information.</description>
-    </item>
-    <item>
-      <title>Inverter</title>
-      <link>http://localhost:1313/en/docs/web/device/inveter/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/en/docs/web/device/inveter/</guid>
-      <description>Function Overview linkThe inverter is the power generation device that converts DC power into AC power; it usually hangs under a collector as a sub-device, and the collector collects and reports its operation data to the platform.&#xA;1. Device List link The device list can view online, faulty, offline and all device information; the status tabs at the top also show the device count of each status, and clicking a tab shows only the devices in that status.</description>
-    </item>
-    <item>
-      <title>Battery System</title>
-      <link>http://localhost:1313/en/docs/web/device/battery/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/en/docs/web/device/battery/</guid>
-      <description>Function Overview linkThe Battery System (BMS) is the core device of an energy storage system; it usually hangs under a collector as a sub-device, and the collector collects and reports the operation data of the battery clusters and battery packs to the platform.&#xA;1. Device List link The device list can view online, faulty, offline and all device information; the status tabs at the top also show the device count of each status, and clicking a tab shows only the devices in that status.</description>
-    </item>
-    <item>
-      <title>Optimizer</title>
-      <link>http://localhost:1313/en/docs/web/device/optimizer/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/en/docs/web/device/optimizer/</guid>
-      <description>Function Overview linkThe optimizer (MLPE) is used to perform independent maximum power point tracking for every module in a PV string; it usually hangs under a collector as a sub-device, and the collector collects and reports its data to the platform.&#xA;1. Device List link The device list can view online, faulty, offline and all device information; the status tabs at the top also show the device count of each status, and clicking a tab shows only the devices in that status.</description>
-    </item>
-    <item>
-      <title>Smart Meter</title>
-      <link>http://localhost:1313/en/docs/web/device/meter/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/en/docs/web/device/meter/</guid>
-      <description>Function Overview linkThe meter is used to measure the energy data of a plant such as the grid connection and the load; it usually hangs under a collector as a sub-device, and the collector collects and reports its data to the platform.&#xA;1. Device List link The device list can view online, faulty, offline and all device information; the status tabs at the top also show the device count of each status, and clicking a tab shows only the devices in that status.</description>
-    </item>
-  </channel>
-</rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Device Center on Solarhub Help Center</title><link>https://raymoniot.github.io/en/docs/web/device/</link><description>Recent content in Device Center on Solarhub Help Center</description><generator>Hugo</generator><language>en</language><atom:link href="https://raymoniot.github.io/en/docs/web/device/index.xml" rel="self" type="application/rss+xml"/><item><title>Collector</title><link>https://raymoniot.github.io/en/docs/web/device/collector/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://raymoniot.github.io/en/docs/web/device/collector/</guid><description>Function Overview linkThe collector is the core device for platform data access: on-site inverters, batteries, meters, optimizers and other sub-devices all hang under the collector, and the collector collects and reports their data to the platform in a unified way. So the collector must be imported first and then bound to a plant, and only then can the data of the sub-devices under it be displayed normally.
+1. Device List link The device list can view online, faulty, offline and all device information.</description></item><item><title>Inverter</title><link>https://raymoniot.github.io/en/docs/web/device/inveter/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://raymoniot.github.io/en/docs/web/device/inveter/</guid><description>Function Overview linkThe inverter is the power generation device that converts DC power into AC power; it usually hangs under a collector as a sub-device, and the collector collects and reports its operation data to the platform.
+1. Device List link The device list can view online, faulty, offline and all device information; the status tabs at the top also show the device count of each status, and clicking a tab shows only the devices in that status.</description></item><item><title>Battery System</title><link>https://raymoniot.github.io/en/docs/web/device/battery/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://raymoniot.github.io/en/docs/web/device/battery/</guid><description>Function Overview linkThe Battery System (BMS) is the core device of an energy storage system; it usually hangs under a collector as a sub-device, and the collector collects and reports the operation data of the battery clusters and battery packs to the platform.
+1. Device List link The device list can view online, faulty, offline and all device information; the status tabs at the top also show the device count of each status, and clicking a tab shows only the devices in that status.</description></item><item><title>Optimizer</title><link>https://raymoniot.github.io/en/docs/web/device/optimizer/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://raymoniot.github.io/en/docs/web/device/optimizer/</guid><description>Function Overview linkThe optimizer (MLPE) is used to perform independent maximum power point tracking for every module in a PV string; it usually hangs under a collector as a sub-device, and the collector collects and reports its data to the platform.
+1. Device List link The device list can view online, faulty, offline and all device information; the status tabs at the top also show the device count of each status, and clicking a tab shows only the devices in that status.</description></item><item><title>Smart Meter</title><link>https://raymoniot.github.io/en/docs/web/device/meter/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://raymoniot.github.io/en/docs/web/device/meter/</guid><description>Function Overview linkThe meter is used to measure the energy data of a plant such as the grid connection and the load; it usually hangs under a collector as a sub-device, and the collector collects and reports its data to the platform.
+1. Device List link The device list can view online, faulty, offline and all device information; the status tabs at the top also show the device count of each status, and clicking a tab shows only the devices in that status.</description></item></channel></rss>

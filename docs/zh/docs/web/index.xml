@@ -1,32 +1,21 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Solarhub(Web) on Soalrhub 帮助中心</title>
-    <link>http://localhost:1313/zh/docs/web/</link>
-    <description>Recent content in Solarhub(Web) on Soalrhub 帮助中心</description>
-    <generator>Hugo</generator>
-    <language>zh</language>
-    <atom:link href="http://localhost:1313/zh/docs/web/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>概述</title>
-      <link>http://localhost:1313/zh/docs/web/overview/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/zh/docs/web/overview/</guid>
-      <description>Solarhub Web概述 linkSolarhub Web提供光伏、风电、储能等综合能源监控服务，面向中大型电站、设备厂商、运维商、户用电站业主提供专业、高效的综合能源云监控平台服务。&#xA;平台的主要使用流程：&#xA;用账号登录平台（账号由平台方或你所在组织的管理员创建），见登录 如果你负责现场安装：先用 App 给采集器配网、再把采集器入库，见快速开始 创建电站并把采集器绑定到电站，见创建电站、添加采集器 电站和设备开始上报数据后，在日常使用中查看数据看板、电站中心、设备中心，在运维中心处理告警和工单 拥有Solarhub账号 link 体验账号：为了方便您快速体验Solarhub的功能，我们开通了客户体验账号，您可以向商务对接负责人沟通后输入体验账号及密码即可体验Solarhub。目前支持主流的浏览器，推荐您使用Chrome58、Firefox49、IE9以上版本。&#xA;操作步骤：通过访问Solarhub（Web），选择“登录方式”后，输入体验账号和密码即可登录Solarhub。&#xA;正式账号：账号由平台方或你所在组织的管理员在「组织管理 → 组织架构」中创建，账号的可见数据范围由成员的数据权限、角色和测点组共同决定。&#xA;业务板块简介 link登录平台后，左侧菜单按业务板块划分，常用的几个是：&#xA;数据看板：电站总数与分布的地图总览，见数据看板 电站中心：按业务类型（光伏系统、电池系统、户用储能、商业电站等）管理电站，见电站中心 设备中心：按设备类型（采集器、逆变器、电池系统、优化器、智能电表等）管理设备，见设备中心 运维中心：查看设备告警事件并处理工单，见运维中心 报表中心：按电站、设备导出日月年总统计数据，见报表中心 工具箱：固件管理、批量操作、测点查询、远程交互、生产测试、通知公告，见工具箱 组织管理：组织、成员账号与测点组管理，见组织管理 平台还提供内部管理、系统管理等管理员使用的板块，一般由平台运维人员使用。</description>
-    </item>
-    <item>
-      <title>快速开始</title>
-      <link>http://localhost:1313/zh/docs/web/quickstart/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/zh/docs/web/quickstart/</guid>
-      <description>功能概述 link如果你刚开始使用平台，按下面五步就能把现场设备接入并看到数据：&#xA;采集器配网（用 App 让采集器连上现场的 WiFi） 采集器入库（把采集器录入平台） 创建电站 添加采集器（把采集器绑定到电站） 查看电站和设备数据 1.采集器配网 link使用SolarhubApp进行采集器配网操作，配网时请保证采集器和配网手机在同一个2.4Ghz的WiFi下。&#xA;注意：操作过程中请允许应用程序获取蓝牙、定位、数据等权限，并开启蓝牙、WiFi、定位服务，否则可能会导致设备无法选择，或者配网失败。&#xA;点击配网后添加设备，通过扫码采集器二维码/手动收入采集器序列号来进行添加配网设备。&#xA;勾选设备后开始配置，选择与采集器相同的2.4Ghz网络，输入WiFi密码，开始配网。&#xA;配网成功后采集器将在平台在线，可以通过平台的测点查询来验证设备是否在线，如果可以查到测点数据并且其中最新数据更新时间与当前时间接近，则说明设备正常在线。&#xA;2.采集器入库 link配网完成后将采集器入库后即可在设备列表中查看该设备&#xA;可以通过单个导入或批量导入两种方式&#xA;导入后即可看到导入设备，此时设备是未安装状态&#xA;3.创建电站 link 选择需要的业务类型，创建对应的电站，详细请参考创建电站&#xA;4.添加采集器 link详细参考添加采集器&#xA;5.查看电站/设备详情信息 link 完成以上步骤后，电站和设备的数据会随采集器上报自动更新；如果需要给其他同事分配账号并控制他们能看到哪些参数，参考组织管理。</description>
-    </item>
-    <item>
-      <title>数据看板</title>
-      <link>http://localhost:1313/zh/docs/web/dashboard/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/zh/docs/web/dashboard/</guid>
-      <description>功能概述 link数据看板是登录后的默认首页，用于从宏观视角查看当前账号数据权限下的电站情况：电站总数和各类型电站的数量、以及电站的地理分布。&#xA;页面右上角还有两个快捷入口：&#xA;我的工单：进入工单列表，查看与自己相关的工单 我的收藏：快速进入已关注的电站（在电站列表点击电站名称前的星标即可关注） 业务使用 link 作为运维商或安装商，需要了解自身公司名下关联电站的分类数量情况和设备分布情况，改页面展示电站总数，以及平台中各种类型电站的数量&#xA;在地图中显示不同地区电站的分布情况，地图可以进行比例缩放，分布情况会根据缩放比例进行不同维度的分布展示</description>
-    </item>
-  </channel>
-</rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Solarhub(Web) on Soalrhub 帮助中心</title><link>https://raymoniot.github.io/zh/docs/web/</link><description>Recent content in Solarhub(Web) on Soalrhub 帮助中心</description><generator>Hugo</generator><language>zh</language><atom:link href="https://raymoniot.github.io/zh/docs/web/index.xml" rel="self" type="application/rss+xml"/><item><title>概述</title><link>https://raymoniot.github.io/zh/docs/web/overview/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://raymoniot.github.io/zh/docs/web/overview/</guid><description>Solarhub Web概述 linkSolarhub Web提供光伏、风电、储能等综合能源监控服务，面向中大型电站、设备厂商、运维商、户用电站业主提供专业、高效的综合能源云监控平台服务。
+平台的主要使用流程：
+用账号登录平台（账号由平台方或你所在组织的管理员创建），见登录 如果你负责现场安装：先用 App 给采集器配网、再把采集器入库，见快速开始 创建电站并把采集器绑定到电站，见创建电站、添加采集器 电站和设备开始上报数据后，在日常使用中查看数据看板、电站中心、设备中心，在运维中心处理告警和工单 拥有Solarhub账号 link 体验账号：为了方便您快速体验Solarhub的功能，我们开通了客户体验账号，您可以向商务对接负责人沟通后输入体验账号及密码即可体验Solarhub。目前支持主流的浏览器，推荐您使用Chrome58、Firefox49、IE9以上版本。
+操作步骤：通过访问Solarhub（Web），选择“登录方式”后，输入体验账号和密码即可登录Solarhub。
+正式账号：账号由平台方或你所在组织的管理员在「组织管理 → 组织架构」中创建，账号的可见数据范围由成员的数据权限、角色和测点组共同决定。
+业务板块简介 link登录平台后，左侧菜单按业务板块划分，常用的几个是：
+数据看板：电站总数与分布的地图总览，见数据看板 电站中心：按业务类型（光伏系统、电池系统、户用储能、商业电站等）管理电站，见电站中心 设备中心：按设备类型（采集器、逆变器、电池系统、优化器、智能电表等）管理设备，见设备中心 运维中心：查看设备告警事件并处理工单，见运维中心 报表中心：按电站、设备导出日月年总统计数据，见报表中心 工具箱：固件管理、批量操作、测点查询、远程交互、生产测试、通知公告，见工具箱 组织管理：组织、成员账号与测点组管理，见组织管理 平台还提供内部管理、系统管理等管理员使用的板块，一般由平台运维人员使用。</description></item><item><title>快速开始</title><link>https://raymoniot.github.io/zh/docs/web/quickstart/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://raymoniot.github.io/zh/docs/web/quickstart/</guid><description>功能概述 link如果你刚开始使用平台，按下面五步就能把现场设备接入并看到数据：
+采集器配网（用 App 让采集器连上现场的 WiFi） 采集器入库（把采集器录入平台） 创建电站 添加采集器（把采集器绑定到电站） 查看电站和设备数据 1.采集器配网 link使用SolarhubApp进行采集器配网操作，配网时请保证采集器和配网手机在同一个2.4Ghz的WiFi下。
+注意：操作过程中请允许应用程序获取蓝牙、定位、数据等权限，并开启蓝牙、WiFi、定位服务，否则可能会导致设备无法选择，或者配网失败。
+点击配网后添加设备，通过扫码采集器二维码/手动收入采集器序列号来进行添加配网设备。
+勾选设备后开始配置，选择与采集器相同的2.4Ghz网络，输入WiFi密码，开始配网。
+配网成功后采集器将在平台在线，可以通过平台的测点查询来验证设备是否在线，如果可以查到测点数据并且其中最新数据更新时间与当前时间接近，则说明设备正常在线。
+2.采集器入库 link配网完成后将采集器入库后即可在设备列表中查看该设备
+可以通过单个导入或批量导入两种方式
+导入后即可看到导入设备，此时设备是未安装状态
+3.创建电站 link 选择需要的业务类型，创建对应的电站，详细请参考创建电站
+4.添加采集器 link详细参考添加采集器
+5.查看电站/设备详情信息 link 完成以上步骤后，电站和设备的数据会随采集器上报自动更新；如果需要给其他同事分配账号并控制他们能看到哪些参数，参考组织管理。</description></item><item><title>数据看板</title><link>https://raymoniot.github.io/zh/docs/web/dashboard/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://raymoniot.github.io/zh/docs/web/dashboard/</guid><description>功能概述 link数据看板是登录后的默认首页，用于从宏观视角查看当前账号数据权限下的电站情况：电站总数和各类型电站的数量、以及电站的地理分布。
+页面右上角还有两个快捷入口：
+我的工单：进入工单列表，查看与自己相关的工单 我的收藏：快速进入已关注的电站（在电站列表点击电站名称前的星标即可关注） 业务使用 link 作为运维商或安装商，需要了解自身公司名下关联电站的分类数量情况和设备分布情况，改页面展示电站总数，以及平台中各种类型电站的数量
+在地图中显示不同地区电站的分布情况，地图可以进行比例缩放，分布情况会根据缩放比例进行不同维度的分布展示</description></item></channel></rss>
