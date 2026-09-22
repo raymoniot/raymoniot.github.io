@@ -1,25 +1,3 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Frequently Asked Questions and Answers on Solarhub Help Center</title>
-    <link>http://localhost:1313/en/docs/web/faq/</link>
-    <description>Recent content in Frequently Asked Questions and Answers on Solarhub Help Center</description>
-    <generator>Hugo</generator>
-    <language>en</language>
-    <atom:link href="http://localhost:1313/en/docs/web/faq/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Network Search Tool</title>
-      <link>http://localhost:1313/en/docs/web/faq/1.network-tools/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/en/docs/web/faq/1.network-tools/</guid>
-      <description>Function Overview linkThe network search configuration tool is mainly used to configure the WiFi stick (collector). Sending commands to the collector with the network search tool can modify the parameters of the collector.&#xA;The tool is a stand-alone program running on a PC (it is not a page of the platform). It is usually used for the configuration of a newly delivered collector and for on-site troubleshooting: first search for the collectors in the same network, then send AT commands to query or modify the configuration.</description>
-    </item>
-    <item>
-      <title>Collector not online at first power-on</title>
-      <link>http://localhost:1313/en/docs/web/faq/2.device-offline/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/en/docs/web/faq/2.device-offline/</guid>
-      <description>Function Overview linkWhen the collector stays offline on the platform after installation and power-on, troubleshoot in the following order: first check the indicator lights of the device to make sure it starts normally, then use the network search configuration tool to check whether the server address configuration of the collector is correct.&#xA;1. Check the indicator light of the collector linkAfter power-on, first observe the indicator lights on the device to make sure it is powered and started normally (the meaning of each indicator light is described in the manual delivered with the device).</description>
-    </item>
-  </channel>
-</rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Frequently Asked Questions and Answers on Solarhub Help Center</title><link>https://raymoniot.github.io/en/docs/web/faq/</link><description>Recent content in Frequently Asked Questions and Answers on Solarhub Help Center</description><generator>Hugo</generator><language>en</language><atom:link href="https://raymoniot.github.io/en/docs/web/faq/index.xml" rel="self" type="application/rss+xml"/><item><title>Network Search Tool</title><link>https://raymoniot.github.io/en/docs/web/faq/1.network-tools/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://raymoniot.github.io/en/docs/web/faq/1.network-tools/</guid><description>Function Overview linkThe network search configuration tool is mainly used to configure the WiFi stick (collector). Sending commands to the collector with the network search tool can modify the parameters of the collector.
+The tool is a stand-alone program running on a PC (it is not a page of the platform). It is usually used for the configuration of a newly delivered collector and for on-site troubleshooting: first search for the collectors in the same network, then send AT commands to query or modify the configuration.</description></item><item><title>Collector not online at first power-on</title><link>https://raymoniot.github.io/en/docs/web/faq/2.device-offline/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://raymoniot.github.io/en/docs/web/faq/2.device-offline/</guid><description>Function Overview linkWhen the collector stays offline on the platform after installation and power-on, troubleshoot in the following order: first check the indicator lights of the device to make sure it starts normally, then use the network search configuration tool to check whether the server address configuration of the collector is correct.
+1. Check the indicator light of the collector linkAfter power-on, first observe the indicator lights on the device to make sure it is powered and started normally (the meaning of each indicator light is described in the manual delivered with the device).</description></item></channel></rss>

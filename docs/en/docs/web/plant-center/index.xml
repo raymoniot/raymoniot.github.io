@@ -1,67 +1,9 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Plant Center on Solarhub Help Center</title>
-    <link>http://localhost:1313/en/docs/web/plant-center/</link>
-    <description>Recent content in Plant Center on Solarhub Help Center</description>
-    <generator>Hugo</generator>
-    <language>en</language>
-    <atom:link href="http://localhost:1313/en/docs/web/plant-center/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>PVS</title>
-      <link>http://localhost:1313/en/docs/web/plant-center/pvs/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/en/docs/web/plant-center/pvs/</guid>
-      <description>Function Overview linkThe PVS page is used to manage plants whose business type is PVS: the plant overview metrics are at the top, and below you can view and find plants through the two tabs &amp;ldquo;Plant List&amp;rdquo; and &amp;ldquo;Plant Map&amp;rdquo;; click a plant to enter its details page. &amp;ldquo;Add Plant&amp;rdquo; and &amp;ldquo;System large screen&amp;rdquo; in the upper right corner of the page are used to create a plant and display in full screen respectively.</description>
-    </item>
-    <item>
-      <title>Battery System</title>
-      <link>http://localhost:1313/en/docs/web/plant-center/bess/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/en/docs/web/plant-center/bess/</guid>
-      <description>Function Overview linkThe Battery System page is used to manage plants whose business type is Battery System. Its page structure is the same as the PVS (overview, list, map, System large screen, details page); the difference is that the overview metrics and the details page charts summarize charge and discharge data.&#xA;Plant Overview link The plant overview of the Battery System includes four sections: real-time power, Charge/Discharge Statistics, social benefits, and online plants.</description>
-    </item>
-    <item>
-      <title>Residential Storage</title>
-      <link>http://localhost:1313/en/docs/web/plant-center/hess/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/en/docs/web/plant-center/hess/</guid>
-      <description>Function Overview linkThe Residential Storage page is used to manage plants whose business type is Residential Storage. This type of plant contains both photovoltaic power generation and battery storage, so the overview and charts display the data of power generation, power consumption, power grid and battery at the same time.&#xA;Plant Overview link The plant overview of the Residential Storage includes four sections: power generation, power grid, battery, and power consumption.</description>
-    </item>
-    <item>
-      <title>Commercial Plant</title>
-      <link>http://localhost:1313/en/docs/web/plant-center/ems/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/en/docs/web/plant-center/ems/</guid>
-      <description>Function Overview linkThe Commercial Plant page is used to manage plants whose business type is Commercial Plant (EMS). Its page structure is exactly the same as the PVS: the plant overview is at the top, the plant list and plant map are below, you can add a plant and enter the System large screen in the upper right corner, and click a plant to enter its details page.&#xA;For the specific description of each section, please refer to the corresponding chapter; this section only lists the differences from the PVS and Residential Storage.</description>
-    </item>
-    <item>
-      <title>Create Plant</title>
-      <link>http://localhost:1313/en/docs/web/plant-center/create-plant/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/en/docs/web/plant-center/create-plant/</guid>
-      <description>Function Overview linkCreating a plant means entering a plant into the platform and filling in its Installed Capacity, address coordinates, owner, visitors, and other information. After creation, the plant appears in the Plant List, and once a collector is bound, the Power Generation data becomes available.&#xA;1. Create Entry link Click &amp;ldquo;Add Plant&amp;rdquo; in the upper right corner of the page for the corresponding business type in the Plant Center, and complete the wizard in four steps: Basic Information → Geographic Location → Stakeholders → Photos.</description>
-    </item>
-    <item>
-      <title>Modify Plant</title>
-      <link>http://localhost:1313/en/docs/web/plant-center/edit-plant/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/en/docs/web/plant-center/edit-plant/</guid>
-      <description>Function Overview linkModifying a plant is used to update the plant&amp;rsquo;s basic information, location, stakeholders and photos. Errors made when creating the plant, or changes that occur later (for example, a changed contact, or the need to authorize a new visitor), are all adjusted here.&#xA;1. Modify Plant Entry link Click &amp;ldquo;Modify&amp;rdquo; in the operation column on the right side of the Plant List (you can also enter from the plant details page)</description>
-    </item>
-    <item>
-      <title>Visitor Authorization</title>
-      <link>http://localhost:1313/en/docs/web/plant-center/guest-access/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/en/docs/web/plant-center/guest-access/</guid>
-      <description>Function Overview linkVisitor Authorization grants the viewing permission of a plant to other accounts on the platform. The authorized account (visitor) can see this plant in its own Plant List and view its data, but cannot modify or delete the plant — management operations such as modifying, deleting and adding a collector can still only be performed by the plant owner.&#xA;Multiple visitors can be added to one plant; deleting a visitor revokes that account&amp;rsquo;s viewing permission.</description>
-    </item>
-    <item>
-      <title>Add Collector</title>
-      <link>http://localhost:1313/en/docs/web/plant-center/add-logger/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/en/docs/web/plant-center/add-logger/</guid>
-      <description>Function Overview linkAdding a collector means binding a collector to a plant. The data reported by the collector is attributed to this plant, and only then do indicators such as the plant&amp;rsquo;s Real-time Power and Power Generation have data.&#xA;Two conditions must be met before adding:&#xA;The collector has already completed Collector import in &amp;ldquo;Device Center → Collector&amp;rdquo;; a serial number that has not been imported will prompt &amp;ldquo;SN verification failed&amp;rdquo; The serial number is not duplicated; a serial number that has already been added will prompt &amp;ldquo;Serial number already exists&amp;rdquo; There are two ways to add: enter a single serial number, or add in bulk via a template file.</description>
-    </item>
-  </channel>
-</rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Plant Center on Solarhub Help Center</title><link>https://raymoniot.github.io/en/docs/web/plant-center/</link><description>Recent content in Plant Center on Solarhub Help Center</description><generator>Hugo</generator><language>en</language><atom:link href="https://raymoniot.github.io/en/docs/web/plant-center/index.xml" rel="self" type="application/rss+xml"/><item><title>PVS</title><link>https://raymoniot.github.io/en/docs/web/plant-center/pvs/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://raymoniot.github.io/en/docs/web/plant-center/pvs/</guid><description>Function Overview linkThe PVS page is used to manage plants whose business type is PVS: the plant overview metrics are at the top, and below you can view and find plants through the two tabs &amp;ldquo;Plant List&amp;rdquo; and &amp;ldquo;Plant Map&amp;rdquo;; click a plant to enter its details page. &amp;ldquo;Add Plant&amp;rdquo; and &amp;ldquo;System large screen&amp;rdquo; in the upper right corner of the page are used to create a plant and display in full screen respectively.</description></item><item><title>Battery System</title><link>https://raymoniot.github.io/en/docs/web/plant-center/bess/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://raymoniot.github.io/en/docs/web/plant-center/bess/</guid><description>Function Overview linkThe Battery System page is used to manage plants whose business type is Battery System. Its page structure is the same as the PVS (overview, list, map, System large screen, details page); the difference is that the overview metrics and the details page charts summarize charge and discharge data.
+Plant Overview link The plant overview of the Battery System includes four sections: real-time power, Charge/Discharge Statistics, social benefits, and online plants.</description></item><item><title>Residential Storage</title><link>https://raymoniot.github.io/en/docs/web/plant-center/hess/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://raymoniot.github.io/en/docs/web/plant-center/hess/</guid><description>Function Overview linkThe Residential Storage page is used to manage plants whose business type is Residential Storage. This type of plant contains both photovoltaic power generation and battery storage, so the overview and charts display the data of power generation, power consumption, power grid and battery at the same time.
+Plant Overview link The plant overview of the Residential Storage includes four sections: power generation, power grid, battery, and power consumption.</description></item><item><title>Commercial Plant</title><link>https://raymoniot.github.io/en/docs/web/plant-center/ems/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://raymoniot.github.io/en/docs/web/plant-center/ems/</guid><description>Function Overview linkThe Commercial Plant page is used to manage plants whose business type is Commercial Plant (EMS). Its page structure is exactly the same as the PVS: the plant overview is at the top, the plant list and plant map are below, you can add a plant and enter the System large screen in the upper right corner, and click a plant to enter its details page.
+For the specific description of each section, please refer to the corresponding chapter; this section only lists the differences from the PVS and Residential Storage.</description></item><item><title>Create Plant</title><link>https://raymoniot.github.io/en/docs/web/plant-center/create-plant/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://raymoniot.github.io/en/docs/web/plant-center/create-plant/</guid><description>Function Overview linkCreating a plant means entering a plant into the platform and filling in its Installed Capacity, address coordinates, owner, visitors, and other information. After creation, the plant appears in the Plant List, and once a collector is bound, the Power Generation data becomes available.
+1. Create Entry link Click &amp;ldquo;Add Plant&amp;rdquo; in the upper right corner of the page for the corresponding business type in the Plant Center, and complete the wizard in four steps: Basic Information → Geographic Location → Stakeholders → Photos.</description></item><item><title>Modify Plant</title><link>https://raymoniot.github.io/en/docs/web/plant-center/edit-plant/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://raymoniot.github.io/en/docs/web/plant-center/edit-plant/</guid><description>Function Overview linkModifying a plant is used to update the plant&amp;rsquo;s basic information, location, stakeholders and photos. Errors made when creating the plant, or changes that occur later (for example, a changed contact, or the need to authorize a new visitor), are all adjusted here.
+1. Modify Plant Entry link Click &amp;ldquo;Modify&amp;rdquo; in the operation column on the right side of the Plant List (you can also enter from the plant details page)</description></item><item><title>Visitor Authorization</title><link>https://raymoniot.github.io/en/docs/web/plant-center/guest-access/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://raymoniot.github.io/en/docs/web/plant-center/guest-access/</guid><description>Function Overview linkVisitor Authorization grants the viewing permission of a plant to other accounts on the platform. The authorized account (visitor) can see this plant in its own Plant List and view its data, but cannot modify or delete the plant — management operations such as modifying, deleting and adding a collector can still only be performed by the plant owner.
+Multiple visitors can be added to one plant; deleting a visitor revokes that account&amp;rsquo;s viewing permission.</description></item><item><title>Add Collector</title><link>https://raymoniot.github.io/en/docs/web/plant-center/add-logger/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://raymoniot.github.io/en/docs/web/plant-center/add-logger/</guid><description>Function Overview linkAdding a collector means binding a collector to a plant. The data reported by the collector is attributed to this plant, and only then do indicators such as the plant&amp;rsquo;s Real-time Power and Power Generation have data.
+Two conditions must be met before adding:
+The collector has already completed Collector import in &amp;ldquo;Device Center → Collector&amp;rdquo;; a serial number that has not been imported will prompt &amp;ldquo;SN verification failed&amp;rdquo; The serial number is not duplicated; a serial number that has already been added will prompt &amp;ldquo;Serial number already exists&amp;rdquo; There are two ways to add: enter a single serial number, or add in bulk via a template file.</description></item></channel></rss>

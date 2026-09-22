@@ -1,18 +1,5 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>运维中心 on Soalrhub 帮助中心</title>
-    <link>http://localhost:1313/zh/docs/web/ops/</link>
-    <description>Recent content in 运维中心 on Soalrhub 帮助中心</description>
-    <generator>Hugo</generator>
-    <language>zh</language>
-    <atom:link href="http://localhost:1313/zh/docs/web/ops/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>事件中心</title>
-      <link>http://localhost:1313/zh/docs/web/ops/events/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/zh/docs/web/ops/events/</guid>
-      <description>功能概述 link事件中心汇总平台上发生了告警的电站和设备：设备上报的告警和故障会在这里生成一条事件记录，可以按条件检索，并对需要处理的事件新建工单跟进。&#xA;列表展示事件的电站名称、设备序列号、事件时间、事件级别、事件代码和事件内容。最上方的搜索框可以按事件内容或设备序列号快速搜索。&#xA;1.高级搜索 link 支持通过事件级别、事件时间、电站名名称、设备序列号、事件代码、事件内容作为条件搜索&#xA;事件级别：1、2、3 分别对应低级、警告、严重，可多选；账号能看到哪些级别的事件由成员的「事件可视级别」决定（见「组织管理 → 组织架构」） 事件时间：按事件开始时间的区间筛选 2.新建工单 link 对单个事件进行工单创建&#xA;工单会自动带上事件所在的电站、设备、事件代码和发生时间，提交后在工单列表中跟踪处理。</description>
-    </item>
-  </channel>
-</rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>运维中心 on Soalrhub 帮助中心</title><link>https://raymoniot.github.io/zh/docs/web/ops/</link><description>Recent content in 运维中心 on Soalrhub 帮助中心</description><generator>Hugo</generator><language>zh</language><atom:link href="https://raymoniot.github.io/zh/docs/web/ops/index.xml" rel="self" type="application/rss+xml"/><item><title>事件中心</title><link>https://raymoniot.github.io/zh/docs/web/ops/events/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://raymoniot.github.io/zh/docs/web/ops/events/</guid><description>功能概述 link事件中心汇总平台上发生了告警的电站和设备：设备上报的告警和故障会在这里生成一条事件记录，可以按条件检索，并对需要处理的事件新建工单跟进。
+列表展示事件的电站名称、设备序列号、事件时间、事件级别、事件代码和事件内容。最上方的搜索框可以按事件内容或设备序列号快速搜索。
+1.高级搜索 link 支持通过事件级别、事件时间、电站名名称、设备序列号、事件代码、事件内容作为条件搜索
+事件级别：1、2、3 分别对应低级、警告、严重，可多选；账号能看到哪些级别的事件由成员的「事件可视级别」决定（见「组织管理 → 组织架构」） 事件时间：按事件开始时间的区间筛选 2.新建工单 link 对单个事件进行工单创建
+工单会自动带上事件所在的电站、设备、事件代码和发生时间，提交后在工单列表中跟踪处理。</description></item></channel></rss>
