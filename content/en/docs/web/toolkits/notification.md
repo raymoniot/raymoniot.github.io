@@ -8,11 +8,11 @@ weight: 5
 
 Push announcement messages on the Web or App, used to publish notices to users (such as maintenance notices and activity notices).
 
-<img src="../../../../photo/docs/toolkits/remote-notice.png">
+<img src="../../../../photo/docs/toolkits/remote-notice.webp">
 
 The list displays the title, type, status, creator and creation time of published announcements, and supports searching by title, publisher and type; the operation column allows you to modify or delete an announcement.
 
-<img src="../../../../photo/docs/toolkits/remote-notice1.png">
+<img src="../../../../photo/docs/toolkits/remote-notice1.webp">
 
 Click "Add" to create an announcement, which requires filling in:
 

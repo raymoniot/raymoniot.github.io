@@ -10,7 +10,7 @@ weight: 10
 
 ## 1.创建入口
 
-<img src="/../../zh/photo/docs/add-plant/add-plant.png">
+<img src="/../../zh/photo/docs/add-plant/add-plant.webp">
 
 在电站中心对应业务类型页面的右上角点击「添加电站」，按向导分四步完成：基本信息 → 地理位置 → 干系人 → 照片。
 
@@ -18,7 +18,7 @@ weight: 10
 
 ### 2.1填写基本信息
 
-<img src="/../../zh/photo/docs/add-plant/add-plant1.png">
+<img src="/../../zh/photo/docs/add-plant/add-plant1.webp">
 
 - **业务类型**：决定电站属于光伏系统、电池系统、户用储能还是商业电站，创建后电站会出现在对应页面，不能修改
 - **电站类型**：如家庭户用等，用于进一步区分场景
@@ -30,11 +30,11 @@ weight: 10
 
 ### 2.2选择地理位置
 
-<img src="/../../zh/photo/docs/add-plant/location.png" width="30%">
+<img src="/../../zh/photo/docs/add-plant/location.webp" width="30%">
 
 允许网站进行定位可以快速获取当前位置
 
-<img src="/../../zh/photo/docs/add-plant/add-plant2.png">
+<img src="/../../zh/photo/docs/add-plant/add-plant2.webp">
 
 在地图上选择位置获取坐标信息作为电站位置
 
@@ -42,7 +42,7 @@ weight: 10
 
 ### 2.3添加干系人（访客）
 
-<img src="/../../zh/photo/docs/add-plant/add-plant3.png">
+<img src="/../../zh/photo/docs/add-plant/add-plant3.webp">
 
 输入访客邮箱即可将电站授权给平台其他账号从而使其拥有电站访问权限
 
@@ -52,11 +52,11 @@ weight: 10
 
 ### 2.4上传电站照片
 
-<img src="/../../zh/photo/docs/add-plant/add-plant4.png">
+<img src="/../../zh/photo/docs/add-plant/add-plant4.webp">
 
 ### 2.5提交
 
-<img src="/../../zh/photo/docs/add-plant/add-plant5.png">
+<img src="/../../zh/photo/docs/add-plant/add-plant5.webp">
 
 创建成功即可在电站列表中看到电站，同时也可以在列表操作一列中进行电站的[修改]({{< ref "/edit-plant" >}} "电站编辑")和删除
 

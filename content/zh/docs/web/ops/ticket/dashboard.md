@@ -8,7 +8,7 @@ weight: 2
 
 工单看板用于快速了解当前工单的整体情况：顶部是四个关键指标，中间是工单趋势图，下方是待办和评分统计。
 
-<img src="/../../zh/photo/docs/ops/ticket/ticket.png">
+<img src="/../../zh/photo/docs/ops/ticket/ticket.webp">
 
 - **未解决**：尚未解决的工单数
 - **逾期**：已经超过首次响应或关闭截止时间仍未处理的工单数，需要优先处理
@@ -23,9 +23,9 @@ weight: 2
 
 ## 1.最近活动
 
-<img src="/../../zh/photo/docs/ops/ticket/active.png">
+<img src="/../../zh/photo/docs/ops/ticket/active.webp">
 
-<img src="/../../zh/photo/docs/ops/ticket/active-expand.png">
+<img src="/../../zh/photo/docs/ops/ticket/active-expand.webp">
 
 工单系统的操作记录
 

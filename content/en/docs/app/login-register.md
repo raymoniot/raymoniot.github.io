@@ -5,13 +5,13 @@ description: Solarhub App registration, login
 ---
 
 ## 1. Account registration
-<img src="../../../photo/docs/app/registerLogin/register-enter.png" style="margin-right: 20px" width="300">
+<img src="../../../photo/docs/app/registerLogin/register-enter.webp" style="margin-right: 20px" width="300">
 
-<img src="../../../photo/docs/app/registerLogin/register.png" style="margin-right: 20px" width="300">
+<img src="../../../photo/docs/app/registerLogin/register.webp" style="margin-right: 20px" width="300">
 
-<img src="../../../photo/docs/app/registerLogin/register1.png" style="margin-right: 20px" width="300">
+<img src="../../../photo/docs/app/registerLogin/register1.webp" style="margin-right: 20px" width="300">
 
-<img src="../../../photo/docs/app/registerLogin/register2.png" style="margin-right: 20px" width="300">
+<img src="../../../photo/docs/app/registerLogin/register2.webp" style="margin-right: 20px" width="300">
 
 Registration information overview:
 
@@ -24,4 +24,4 @@ Registration information overview:
 
 ## 2. Login
 
-<img src="../../../photo/docs/app/registerLogin/login.png" style="margin-left: 400px" width="300">
+<img src="../../../photo/docs/app/registerLogin/login.webp" style="margin-left: 400px" width="300">

@@ -8,7 +8,7 @@ description: Account related functions
 
 The "Me" page has the same content in all three perspectives. It contains all account related functions:
 
-<img src="../../../photo/docs/app/my/info.png" style="margin-right: 50px" width="300">
+<img src="../../../photo/docs/app/my/info.webp" style="margin-right: 50px" width="300">
 
 - **Switch Perspective**: switch between the Professional Consultant, Plant User and Device User perspectives, see [Switch Perspective]({{< ref "switch" >}} "Switch Perspective")
 - **User Profile**: view the account information

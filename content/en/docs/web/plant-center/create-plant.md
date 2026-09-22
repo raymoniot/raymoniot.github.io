@@ -10,7 +10,7 @@ Creating a plant means entering a plant into the platform and filling in its Ins
 
 ## 1. Create Entry
 
-<img src="../../../../photo/docs/add-plant/add-plant.png">
+<img src="../../../../photo/docs/add-plant/add-plant.webp">
 
 Click "Add Plant" in the upper right corner of the page for the corresponding business type in the Plant Center, and complete the wizard in four steps: Basic Information → Geographic Location → Stakeholders → Photos.
 
@@ -18,7 +18,7 @@ Click "Add Plant" in the upper right corner of the page for the corresponding bu
 
 ### 2.1 Fill in Basic Information
 
-<img src="../../../../photo/docs/add-plant/add-plant1.png">
+<img src="../../../../photo/docs/add-plant/add-plant1.webp">
 
 - **Business Type**: Determines whether the plant belongs to a PV system, a battery system, Residential Storage or a Commercial Plant. After creation the plant appears on the corresponding page and cannot be modified
 - **Plant Type**: Such as household residential, used to further distinguish scenarios
@@ -30,11 +30,11 @@ Click "Add Plant" in the upper right corner of the page for the corresponding bu
 
 ### 2.2 Select the Geographic Location
 
-<img src="../../../../photo/docs/add-plant/location.png" width="30%">
+<img src="../../../../photo/docs/add-plant/location.webp" width="30%">
 
 Allowing the website to locate quickly obtains the current location
 
-<img src="../../../../photo/docs/add-plant/add-plant2.png">
+<img src="../../../../photo/docs/add-plant/add-plant2.webp">
 
 Select a location on the map to obtain the coordinate information as the plant location
 
@@ -42,7 +42,7 @@ The plant coordinates are used for the display on the Plant Map; it is recommend
 
 ### 2.3 Add Stakeholders (Visitors)
 
-<img src="../../../../photo/docs/add-plant/add-plant3.png">
+<img src="../../../../photo/docs/add-plant/add-plant3.webp">
 
 Entering the visitor's email address authorizes the plant to other accounts on the platform, so that they have access to the plant
 
@@ -52,11 +52,11 @@ Entering the visitor's email address authorizes the plant to other accounts on t
 
 ### 2.4 Upload Plant Photos
 
-<img src="../../../../photo/docs/add-plant/add-plant4.png">
+<img src="../../../../photo/docs/add-plant/add-plant4.webp">
 
 ### 2.5 Submit
 
-<img src="../../../../photo/docs/add-plant/add-plant5.png">
+<img src="../../../../photo/docs/add-plant/add-plant5.webp">
 
 After successful creation, you can see the plant in the Plant List, and you can also [modify]({{< ref "/edit-plant" >}} "Modify Plant") and delete the plant in the operation column of the list
 

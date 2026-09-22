@@ -8,7 +8,7 @@ description: 账号相关功能
 
 「我的」页面在三种视角下内容一致，包含账号相关的全部功能：
 
-<img src="/../../zh/photo/docs/app/my/info.png" style="margin-right: 50px" width="300">
+<img src="/../../zh/photo/docs/app/my/info.webp" style="margin-right: 50px" width="300">
 
 - **切换视角**：在专业顾问、用户电站、用户设备三种视角之间切换，见[切换视角]({{< ref "switch" >}} "切换视角")
 - **用户信息**：查看账号信息

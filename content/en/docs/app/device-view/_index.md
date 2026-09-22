@@ -14,9 +14,9 @@ After selecting "Device User" in "My → Switch Perspective", the App enters thi
 
 After entering the Device User Perspective, what you see directly is the **device details** (real-time data cards such as SOC, SOH, system power, current and voltage), with three tabs at the bottom:
 
-<img src="../../../photo/docs/app/view/device-root.png" style="margin-right: 24px" width="300">
+<img src="../../../photo/docs/app/view/device-root.webp" style="margin-right: 24px" width="300">
 
-<img src="../../../photo/docs/app/view/device-menu.png" style="margin-right: 0px" width="300">
+<img src="../../../photo/docs/app/view/device-menu.webp" style="margin-right: 0px" width="300">
 
 | Tab | Content |
 |---|---|

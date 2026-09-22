@@ -4,11 +4,11 @@ weight: 4
 description: Switch to other plant overview page
 ---
 
-<img src="../../../../../photo/docs/app/plant/switch.png" style="margin-right: 50px" width="300">
+<img src="../../../../../photo/docs/app/plant/switch.webp" style="margin-right: 50px" width="300">
 
-<img src="../../../../../photo/docs/app/plant/switch1.png" style="margin-right: 50px" width="300">
+<img src="../../../../../photo/docs/app/plant/switch1.webp" style="margin-right: 50px" width="300">
 
-<img src="../../../../../photo/docs/app/plant/switch3.png" style="margin-right: 50px" width="300">
+<img src="../../../../../photo/docs/app/plant/switch3.webp" style="margin-right: 50px" width="300">
 
 ### Steps
 

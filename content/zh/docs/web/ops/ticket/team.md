@@ -8,15 +8,15 @@ weight: 4
 
 客服团队用于划分处理工单的团队：每个团队有名称、描述、主要职责和主要成员，工单会按团队的主要职责分派给对应的团队处理。
 
-<img src="/../../zh/photo/docs/ops/team.png">
+<img src="/../../zh/photo/docs/ops/team.webp">
 
 列表展示团队名称、描述、主要职责（投诉、问题、退换等标签）和主要成员，操作列可以修改或解散团队。
 
 ## 1.新建团队
 
-<img src="/../../zh/photo/docs/ops/team1.png">
+<img src="/../../zh/photo/docs/ops/team1.webp">
 
-<img src="/../../zh/photo/docs/ops/team2.png">
+<img src="/../../zh/photo/docs/ops/team2.webp">
 
 新建团队需要填写：
 
@@ -27,14 +27,14 @@ weight: 4
 
 ## 2.修改
 
-<img src="/../../zh/photo/docs/ops/team-update.png">
+<img src="/../../zh/photo/docs/ops/team-update.webp">
 
-<img src="/../../zh/photo/docs/ops/team-update1.png">
+<img src="/../../zh/photo/docs/ops/team-update1.webp">
 
 修改团队信息与成员，人员变动时在这里调整。
 
 ## 3.解散
 
-<img src="/../../zh/photo/docs/ops/team-delete.png">
+<img src="/../../zh/photo/docs/ops/team-delete.webp">
 
 解散后该团队不再参与工单分派，团队已有的工单不受影响。

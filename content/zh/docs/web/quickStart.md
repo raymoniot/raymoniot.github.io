@@ -22,23 +22,23 @@ weight: 2
 
 
 
-<img src="/../../zh/photo/docs/quickStart/wifi.png" style="margin-right: 50px" width="300">
+<img src="/../../zh/photo/docs/quickStart/wifi.webp" style="margin-right: 50px" width="300">
 
-<img src="/../../zh/photo/docs/quickStart/wifi1.png" style="margin-right: 50px" width="300">
+<img src="/../../zh/photo/docs/quickStart/wifi1.webp" style="margin-right: 50px" width="300">
 
-<img src="/../../zh/photo/docs/quickStart/wifi2.png" style="margin-right: 50px" width="300">
+<img src="/../../zh/photo/docs/quickStart/wifi2.webp" style="margin-right: 50px" width="300">
 
 点击配网后添加设备，通过扫码采集器二维码/手动收入采集器序列号来进行添加配网设备。
 
-<img src="/../../zh/photo/docs/quickStart/wifi3.png" style="margin-right: 50px" width="300">
+<img src="/../../zh/photo/docs/quickStart/wifi3.webp" style="margin-right: 50px" width="300">
 
-<img src="/../../zh/photo/docs/quickStart/wifi4.png" style="margin-right: 50px" width="300">
+<img src="/../../zh/photo/docs/quickStart/wifi4.webp" style="margin-right: 50px" width="300">
 
-<img src="/../../zh/photo/docs/quickStart/wifi5.png" style="margin-right: 50px" width="300">
+<img src="/../../zh/photo/docs/quickStart/wifi5.webp" style="margin-right: 50px" width="300">
 
 勾选设备后开始配置，选择与采集器相同的2.4Ghz网络，输入WiFi密码，开始配网。
 
-<img src="/../../zh/photo/docs/quickStart/wifi6.png" style="margin: 0 auto" width="300">
+<img src="/../../zh/photo/docs/quickStart/wifi6.webp" style="margin: 0 auto" width="300">
 
 配网成功后采集器将在平台在线，可以通过平台的[测点查询]({{< ref "./toolkits/point-query" >}} "测点查询")来验证设备是否在线，如果可以查到测点数据并且其中最新数据更新时间与当前时间接近，则说明设备正常在线。
 
@@ -46,17 +46,17 @@ weight: 2
 
 配网完成后将采集器入库后即可在设备列表中查看该设备
 
-<img src="/../../zh/photo/docs/quickStart/import.png">
+<img src="/../../zh/photo/docs/quickStart/import.webp">
 
 可以通过[单个导入]({{< ref "./device/collector/#21单个导入" >}} "导入")或[批量导入]({{< ref "./device/collector/#22批量导入" >}} "导入")两种方式
 
-<img src="/../../zh/photo/docs/quickStart/import1.png">
+<img src="/../../zh/photo/docs/quickStart/import1.webp">
 
 导入后即可看到导入设备，此时设备是未安装状态
 
 ## 3.创建电站
 
-<img src="/../../zh/photo/docs/quickStart/add-plant.png">
+<img src="/../../zh/photo/docs/quickStart/add-plant.webp">
 
 选择需要的业务类型，创建对应的电站，详细请参考[创建电站]({{< ref "./plant-center/create-plant" >}} "创建电站")
 
@@ -66,10 +66,10 @@ weight: 2
 
 ## 5.查看电站/设备详情信息
 
-<img src="/../../zh/photo/docs/quickStart/plant.png">
+<img src="/../../zh/photo/docs/quickStart/plant.webp">
 
-<img src="/../../zh/photo/docs/quickStart/device.png">
+<img src="/../../zh/photo/docs/quickStart/device.webp">
 
-<img src="/../../zh/photo/docs/quickStart/device1.png">
+<img src="/../../zh/photo/docs/quickStart/device1.webp">
 
 完成以上步骤后，电站和设备的数据会随采集器上报自动更新；如果需要给其他同事分配账号并控制他们能看到哪些参数，参考[组织管理]({{< ref "./organization/tree" >}} "组织架构")。

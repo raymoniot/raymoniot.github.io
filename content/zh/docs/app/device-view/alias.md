@@ -8,7 +8,7 @@ description: 修改设备名称
 
 在设备详情页右上角菜单中点击「设备别名」，可以给设备起一个便于识别的名称，别名会显示在设备列表、设备详情等位置。
 
-<img src="/../../zh/photo/docs/app/device/deviceview-rename.png" style="margin-right: 50px" width="300">
+<img src="/../../zh/photo/docs/app/device/deviceview-rename.webp" style="margin-right: 50px" width="300">
 
 ## 步骤
 

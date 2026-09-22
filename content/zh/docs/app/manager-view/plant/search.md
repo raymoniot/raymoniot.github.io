@@ -6,19 +6,19 @@ description: 根据条件搜索电站
 
 ## 1.电站搜索
 
-<img src="/../../zh/photo/docs/app/plant/search.png" style="margin-right: 50px" width="300">
+<img src="/../../zh/photo/docs/app/plant/search.webp" style="margin-right: 50px" width="300">
 
-<img src="/../../zh/photo/docs/app/plant/search1.png" style="margin-right: 50px" width="300">
+<img src="/../../zh/photo/docs/app/plant/search1.webp" style="margin-right: 50px" width="300">
 
-<img src="/../../zh/photo/docs/app/plant/search2.png" style="margin-right: 0px" width="300">
+<img src="/../../zh/photo/docs/app/plant/search2.webp" style="margin-right: 0px" width="300">
 
 在APP的"电站"下，可以通过电站名称关键字来搜索电站
 
 ## 2.电站筛选
 
-<img src="/../../zh/photo/docs/app/plant/search-type.png" style="margin-right: 50px" width="300">
+<img src="/../../zh/photo/docs/app/plant/search-type.webp" style="margin-right: 50px" width="300">
 
-<img src="/../../zh/photo/docs/app/plant/search-status.png" style="margin-right: 50px" width="300">
+<img src="/../../zh/photo/docs/app/plant/search-status.webp" style="margin-right: 50px" width="300">
 
 ### 两种条件筛选
 

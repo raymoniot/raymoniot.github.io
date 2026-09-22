@@ -6,9 +6,9 @@ description: 创建电站
 
 ## 创建方式一
 
-<img src="/../../zh/photo/docs/app/plant/create.png" style="margin-right: 50px" width="300">
+<img src="/../../zh/photo/docs/app/plant/create.webp" style="margin-right: 50px" width="300">
 
-<img src="/../../zh/photo/docs/app/plant/create2.png" style="margin-right: 50px" width="300">
+<img src="/../../zh/photo/docs/app/plant/create2.webp" style="margin-right: 50px" width="300">
 
 ### 步骤
 
@@ -19,11 +19,11 @@ description: 创建电站
 
 ## 创建方式二
 
-<img src="/../../zh/photo/docs/app/plant/switch.png" style="margin-right: 50px" width="300">
+<img src="/../../zh/photo/docs/app/plant/switch.webp" style="margin-right: 50px" width="300">
 
-<img src="/../../zh/photo/docs/app/plant/create1.png" style="margin-right: 50px" width="300">
+<img src="/../../zh/photo/docs/app/plant/create1.webp" style="margin-right: 50px" width="300">
 
-<img src="/../../zh/photo/docs/app/plant/create2.png" style="margin-right: 50px" width="300">
+<img src="/../../zh/photo/docs/app/plant/create2.webp" style="margin-right: 50px" width="300">
 
 ### 步骤
 

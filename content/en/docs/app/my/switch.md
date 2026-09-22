@@ -8,7 +8,7 @@ description: Switch between the three user perspectives; each perspective has a 
 
 The App provides three usage perspectives and the same account can switch between them at any time. The perspective decides **what you see and what you can do**: the landing page, the bottom navigation and the available entries are all different.
 
-<img src="../../../../photo/docs/app/my/switch.png" style="margin-right: 50px" width="300">
+<img src="../../../../photo/docs/app/my/switch.webp" style="margin-right: 50px" width="300">
 
 | Perspective | Description in the App | Who it is for |
 |---|---|---|

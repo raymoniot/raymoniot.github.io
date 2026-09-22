@@ -6,13 +6,13 @@ description: 电站布局
 
 ## 1.创建布局
 
-<img src="/../../zh/photo/docs/app/plant/switch.png" style="margin-right: 24px" width="300">
+<img src="/../../zh/photo/docs/app/plant/switch.webp" style="margin-right: 24px" width="300">
 
-<img src="/../../zh/photo/docs/app/view/plant-root.png" style="margin-right: 24px" width="300">
+<img src="/../../zh/photo/docs/app/view/plant-root.webp" style="margin-right: 24px" width="300">
 
-<img src="/../../zh/photo/docs/app/plant/layout1.png" style="margin-right: 24px" width="300">
+<img src="/../../zh/photo/docs/app/plant/layout1.webp" style="margin-right: 24px" width="300">
 
-<img src="/../../zh/photo/docs/app/plant/layout2.png" style="margin-right: 0px" width="300">
+<img src="/../../zh/photo/docs/app/plant/layout2.webp" style="margin-right: 0px" width="300">
 
 ### 步骤
 
@@ -23,13 +23,13 @@ description: 电站布局
 
 ## 2.编辑布局
 
-<img src="/../../zh/photo/docs/app/plant/layout3.png" style="margin-right: 24px" width="300">
+<img src="/../../zh/photo/docs/app/plant/layout3.webp" style="margin-right: 24px" width="300">
 
-<img src="/../../zh/photo/docs/app/plant/layout4.png" style="margin-right: 24px" width="300">
+<img src="/../../zh/photo/docs/app/plant/layout4.webp" style="margin-right: 24px" width="300">
 
-<img src="/../../zh/photo/docs/app/plant/layout7.png" style="margin-right: 24px" width="300">
+<img src="/../../zh/photo/docs/app/plant/layout7.webp" style="margin-right: 24px" width="300">
 
-<img src="/../../zh/photo/docs/app/plant/layout5.png" style="margin-right: 0px" width="300">
+<img src="/../../zh/photo/docs/app/plant/layout5.webp" style="margin-right: 0px" width="300">
 
 ### 步骤
 
@@ -40,13 +40,13 @@ description: 电站布局
 
 ## 3.布局数据查看
 
-<img src="/../../zh/photo/docs/app/plant/layout6.png" style="margin-right: 24px" width="300">
+<img src="/../../zh/photo/docs/app/plant/layout6.webp" style="margin-right: 24px" width="300">
 
-<img src="/../../zh/photo/docs/app/plant/layout8.png" style="margin-right: 24px" width="300">
+<img src="/../../zh/photo/docs/app/plant/layout8.webp" style="margin-right: 24px" width="300">
 
-<img src="/../../zh/photo/docs/app/plant/layout9.png" style="margin-right: 24px" width="300">
+<img src="/../../zh/photo/docs/app/plant/layout9.webp" style="margin-right: 24px" width="300">
 
-<img src="/../../zh/photo/docs/app/plant/layout10.png" style="margin-right: 0px" width="300">
+<img src="/../../zh/photo/docs/app/plant/layout10.webp" style="margin-right: 0px" width="300">
 
 ### 功能概述
 

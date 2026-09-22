@@ -10,9 +10,9 @@ Plant Layout is used to view the physical layout and connection relationships of
 
 ## 1. Create Layout
 
-<img src="../../../../photo/docs/app/plant/layout1.png" style="margin-right: 24px" width="300">
+<img src="../../../../photo/docs/app/plant/layout1.webp" style="margin-right: 24px" width="300">
 
-<img src="../../../../photo/docs/app/plant/layout3.png" style="margin-right: 0px" width="300">
+<img src="../../../../photo/docs/app/plant/layout3.webp" style="margin-right: 0px" width="300">
 
 ### Steps
 
@@ -22,9 +22,9 @@ Plant Layout is used to view the physical layout and connection relationships of
 
 ## 2. View Layout Data
 
-<img src="../../../../photo/docs/app/plant/layout6.png" style="margin-right: 24px" width="300">
+<img src="../../../../photo/docs/app/plant/layout6.webp" style="margin-right: 24px" width="300">
 
-<img src="../../../../photo/docs/app/plant/layout9.png" style="margin-right: 0px" width="300">
+<img src="../../../../photo/docs/app/plant/layout9.webp" style="margin-right: 0px" width="300">
 
 ### Steps
 

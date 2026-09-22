@@ -8,7 +8,7 @@ description: 对设备下发参数
 
 在设备详情页右上角菜单中点击「参数设置」，可以对当前设备下发可写参数（不同设备类型支持的参数不同）。
 
-<img src="/../../zh/photo/docs/app/device/deviceview-set.png" style="margin-right: 50px" width="300">
+<img src="/../../zh/photo/docs/app/device/deviceview-set.webp" style="margin-right: 50px" width="300">
 
 ## 步骤
 

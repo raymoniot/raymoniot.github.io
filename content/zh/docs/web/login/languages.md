@@ -10,10 +10,10 @@ weight: 4
 
 1. 未登陆时通过右上角图标切换语言
 
-   <img src="/../../zh/photo/docs/login/language.png" width="80%">
+   <img src="/../../zh/photo/docs/login/language.webp" width="80%">
 
 2. 登陆后通过右上角用户旁边的语言切换
 
-   <img src="/../../zh/photo/docs/login/language2.png" width="80%">
+   <img src="/../../zh/photo/docs/login/language2.webp" width="80%">
 
 平台上的多语言文案（例如测点组的名称、设备参数名称）会随界面语言显示对应语言的名称；如果某项内容没有填写该语言的名称，则显示默认名称。

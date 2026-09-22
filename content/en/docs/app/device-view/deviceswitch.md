@@ -8,7 +8,7 @@ description: Switch to another device
 
 The Device User Perspective focuses on only one device at a time. When you need to view another device, use "Switch Device".
 
-<img src="../../../../photo/docs/app/view/device-switch.png" style="margin-right: 50px" width="300">
+<img src="../../../../photo/docs/app/view/device-switch.webp" style="margin-right: 50px" width="300">
 
 ## Steps
 

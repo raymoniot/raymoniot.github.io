@@ -10,14 +10,14 @@ Log in to Solarhub (Web) with a platform account. After a successful login the d
 
 1. Visit the Solarhub login page through [Solarhub](https://cloud.raymoniot.com), enter the correct account and password and log in
 
-   <img src="../../../../photo/docs/overview.png" width="80%">
+   <img src="../../../../photo/docs/overview.webp" width="80%">
 
    - App download: the upper right corner of the login page provides the App download QR code; scan it with your phone to download the latest App released by the platform
    - Multi-language switch: the upper right corner of the login page allows you to switch the display language
 
 2. After a successful login the data dashboard page is shown
 
-   <img src="../../../../photo/docs/login/login-success.png" width="80%">
+   <img src="../../../../photo/docs/login/login-success.webp" width="80%">
    
    The data dashboard provides the following data:
    

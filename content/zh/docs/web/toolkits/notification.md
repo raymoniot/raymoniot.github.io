@@ -8,11 +8,11 @@ weight: 5
 
 在 Web 或 App 上推送公告消息，用于向用户发布通知（例如维护通知、活动通知）。
 
-<img src="/../../zh/photo/docs/toolkits/remote-notice.png">
+<img src="/../../zh/photo/docs/toolkits/remote-notice.webp">
 
 列表中显示已发布公告的标题、类型、状态、创建者和创建时间，支持按标题、发布者、类型搜索；操作列可以修改或删除公告。
 
-<img src="/../../zh/photo/docs/toolkits/remote-notice1.png">
+<img src="/../../zh/photo/docs/toolkits/remote-notice1.webp">
 
 点击「新增」创建公告，需要填写：
 

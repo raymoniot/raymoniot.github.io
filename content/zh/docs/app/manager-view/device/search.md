@@ -6,19 +6,19 @@ description: 根据条件搜索设备
 
 ## 1.设备搜索
 
-<img src="/../../zh/photo/docs/app/device/search.png" style="margin-right: 50px" width="300">
+<img src="/../../zh/photo/docs/app/device/search.webp" style="margin-right: 50px" width="300">
 
-<img src="/../../zh/photo/docs/app/device/search1.png" style="margin-right: 50px" width="300">
+<img src="/../../zh/photo/docs/app/device/search1.webp" style="margin-right: 50px" width="300">
 
-<img src="/../../zh/photo/docs/app/device/search2.png" style="margin-right: 0px" width="300">
+<img src="/../../zh/photo/docs/app/device/search2.webp" style="margin-right: 0px" width="300">
 
 在APP的"设备"下，可以通过设备序列号来搜索设备
 
 ## 2.设备筛选
 
-<img src="/../../zh/photo/docs/app/plant/search-type.png" style="margin-right: 50px" width="300">
+<img src="/../../zh/photo/docs/app/plant/search-type.webp" style="margin-right: 50px" width="300">
 
-<img src="/../../zh/photo/docs/app/plant/search-status.png" style="margin-right: 50px" width="300">
+<img src="/../../zh/photo/docs/app/plant/search-status.webp" style="margin-right: 50px" width="300">
 
 ### 两种条件筛选
 

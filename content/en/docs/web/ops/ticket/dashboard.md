@@ -8,7 +8,7 @@ weight: 2
 
 The Work Order Dashboard is used to quickly understand the overall status of work orders: four key metrics at the top, a work order trend chart in the middle, and to-dos and score statistics below.
 
-<img src="../../../../../photo/docs/ops/ticket/ticket.png">
+<img src="../../../../../photo/docs/ops/ticket/ticket.webp">
 
 - **Unresolved**: the number of work orders that are not yet resolved
 - **Overdue**: the number of work orders that have passed the first response or close deadline and are still unhandled, which need to be handled first
@@ -23,9 +23,9 @@ The Work Order Dashboard is used to quickly understand the overall status of wor
 
 ## 1. Recent Activities
 
-<img src="../../../../../photo/docs/ops/ticket/active.png">
+<img src="../../../../../photo/docs/ops/ticket/active.webp">
 
-<img src="../../../../../photo/docs/ops/ticket/active-expand.png">
+<img src="../../../../../photo/docs/ops/ticket/active-expand.webp">
 
 Operation records of the work order system
 

@@ -14,9 +14,9 @@ description: 以电站为焦点关注数据
 
 进入用户电站视角后，直接看到的是**某个电站的概览**（概览页显示实时功率、发电量、预估收益等），底部有四个标签：
 
-<img src="/../../zh/photo/docs/app/view/plant-root.png" style="margin-right: 24px" width="300">
+<img src="/../../zh/photo/docs/app/view/plant-root.webp" style="margin-right: 24px" width="300">
 
-<img src="/../../zh/photo/docs/app/view/plant-menu.png" style="margin-right: 0px" width="300">
+<img src="/../../zh/photo/docs/app/view/plant-menu.webp" style="margin-right: 0px" width="300">
 
 | 标签 | 内容 |
 |---|---|

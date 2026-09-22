@@ -8,9 +8,9 @@ description: Bind a logger to the current plant
 
 Bind the logger to the current plant, and only then will the plant start to have data. The entry is in the menu in the upper right corner of the plant overview page.
 
-<img src="../../../../photo/docs/app/view/plant-logger.png" style="margin-right: 24px" width="300">
+<img src="../../../../photo/docs/app/view/plant-logger.webp" style="margin-right: 24px" width="300">
 
-<img src="../../../../photo/docs/app/view/plant-logger2.png" style="margin-right: 0px" width="300">
+<img src="../../../../photo/docs/app/view/plant-logger2.webp" style="margin-right: 0px" width="300">
 
 ## Steps
 

@@ -17,7 +17,7 @@ Solarhub Web提供光伏、风电、储能等综合能源监控服务，面向�
 
 ## 拥有Solarhub账号
 
-<img src="../../../photo/docs/overview.png">
+<img src="../../../photo/docs/overview.webp">
 
 - 体验账号：为了方便您快速体验Solarhub的功能，我们开通了客户体验账号，您可以向商务对接负责人沟通后输入体验账号及密码即可体验Solarhub。**目前支持主流的浏览器，推荐您使用Chrome58、Firefox49、IE9以上版本**。
 

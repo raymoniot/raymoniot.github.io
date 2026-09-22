@@ -10,7 +10,7 @@ The inverter is the power generation device that converts DC power into AC power
 
 ## 1. Device List
 
-<img src="../../../../photo/docs/device/inveter/device-list.png">
+<img src="../../../../photo/docs/device/inveter/device-list.webp">
 
 The device list can view online, faulty, offline and all device information; the status tabs at the top also show the device count of each status, and clicking a tab shows only the devices in that status.
 
@@ -18,17 +18,17 @@ The list shows the serial number, today's power generation, real-time power, pla
 
 ## 2. Advanced Device Search
 
-<img src="../../../../photo/docs/device/inveter/search.png">
+<img src="../../../../photo/docs/device/inveter/search.webp">
 
 The search box supports searching devices by serial number, alias and other keywords; click the search icon to expand the advanced search, where you can query by a combination of multiple device parameters; the specific available query fields are configured by the platform.
 
 ## 3. Inverter Details Page
 
-<img src="../../../../photo/docs/device/inveter/detail-enter.png">
+<img src="../../../../photo/docs/device/inveter/detail-enter.webp">
 
 You can enter the device details page from the device in the device list
 
-<img src="../../../../photo/docs/device/inveter/detail.png">
+<img src="../../../../photo/docs/device/inveter/detail.webp">
 
 The inverter details page displays inverter information and historical data charts.
 
@@ -50,7 +50,7 @@ Refer to [Create a new work order for the collector]({{< ref "/collector/#832-cr
 
 ### 3.4 Parameter Settings
 
-<img src="../../../../photo/docs/device/inveter/set.png">
+<img src="../../../../photo/docs/device/inveter/set.webp">
 
 Send the measurement point parameter settings through the green button, or click batch settings to send; for details, please refer to the remote interaction link.
 
@@ -70,7 +70,7 @@ Refer to [Operation log for the collector]({{< ref "/collector/#835-operation-lo
 
 ### 3.8 Historical Data Chart
 
-<img src="../../../../photo/docs/device/inveter/chart.png">
+<img src="../../../../photo/docs/device/inveter/chart.webp">
 
 Historical data supports data display and time range selection at the daily, weekly, monthly, yearly and total levels, where different time dimensions display different parameters
 
@@ -84,15 +84,15 @@ Above the chart you can select a date or a time range; after switching the dimen
 
 ### 3.8.1 Parameter Selection
 
-<img src="../../../../photo/docs/device/inveter/param-select.png">
+<img src="../../../../photo/docs/device/inveter/param-select.webp">
 
-<img src="../../../../photo/docs/device/inveter/param-select1.png">
+<img src="../../../../photo/docs/device/inveter/param-select1.webp">
 
 Users can select the parameters they want to display and click OK to view them
 
 Parameters are displayed classified by parameter group; check them and click OK to update the chart
 
-<img src="../../../../photo/docs/device/inveter/param-select3.png">
+<img src="../../../../photo/docs/device/inveter/param-select3.webp">
 
 Users can also customize templates, and each template can save its own parameters
 
@@ -100,6 +100,6 @@ A template can save commonly used parameter combinations, so that you can direct
 
 ### 3.8.2 Export Report
 
-<img src="../../../../photo/docs/device/inveter/export.png">
+<img src="../../../../photo/docs/device/inveter/export.webp">
 
 Export the chart data to an Excel table

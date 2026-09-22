@@ -8,7 +8,7 @@ description: Historical data statistics of the device
 
 Device Statistics is used to view the historical data curves of this device.
 
-<img src="../../../../photo/docs/app/view/device-stat.png" style="margin-right: 50px" width="300">
+<img src="../../../../photo/docs/app/view/device-stat.webp" style="margin-right: 50px" width="300">
 
 ## Steps
 

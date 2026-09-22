@@ -4,11 +4,11 @@ weight: 4
 description: 切换其他电站概览页
 ---
 
-<img src="/../../zh/photo/docs/app/plant/switch.png" style="margin-right: 50px" width="300">
+<img src="/../../zh/photo/docs/app/plant/switch.webp" style="margin-right: 50px" width="300">
 
-<img src="/../../zh/photo/docs/app/plant/switch1.png" style="margin-right: 50px" width="300">
+<img src="/../../zh/photo/docs/app/plant/switch1.webp" style="margin-right: 50px" width="300">
 
-<img src="/../../zh/photo/docs/app/plant/switch3.png" style="margin-right: 50px" width="300">
+<img src="/../../zh/photo/docs/app/plant/switch3.webp" style="margin-right: 50px" width="300">
 
 ### 步骤
 

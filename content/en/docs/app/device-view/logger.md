@@ -8,9 +8,9 @@ description: Add a logger in the Device User Perspective
 
 You can also add a logger directly in the Device User Perspective: the entry is in the menu in the upper right corner of the device details page.
 
-<img src="../../../../photo/docs/app/view/plant-logger.png" style="margin-right: 24px" width="300">
+<img src="../../../../photo/docs/app/view/plant-logger.webp" style="margin-right: 24px" width="300">
 
-<img src="../../../../photo/docs/app/view/plant-logger2.png" style="margin-right: 0px" width="300">
+<img src="../../../../photo/docs/app/view/plant-logger2.webp" style="margin-right: 0px" width="300">
 
 ## Steps
 

@@ -10,11 +10,11 @@ weight: 11
 
 ## 1.修改电站入口
 
-<img src="/../../zh/photo/docs/edit-plant/edit-plant.png">
+<img src="/../../zh/photo/docs/edit-plant/edit-plant.webp">
 
 在电站列表右侧操作列点击「修改」（也可以从电站详情页进入）
 
-<img src="/../../zh/photo/docs/edit-plant/edit-plant1.png">
+<img src="/../../zh/photo/docs/edit-plant/edit-plant1.webp">
 
 修改电站步骤请参考[完善电站信息]({{< ref "/create-plant/#2完善电站信息" >}} "创建电站")
 

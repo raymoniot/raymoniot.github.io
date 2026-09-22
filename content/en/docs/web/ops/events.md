@@ -8,13 +8,13 @@ weight: 1
 
 The Event Center summarizes the plants and devices that have alarmed on the platform: alarms and faults reported by devices generate an event record here. You can search by conditions, and [create a work order]({{< ref "ticket/list" >}} "Work Order List") to follow up on events that need handling.
 
-<img src="../../../../photo/docs/ops/event-enter.png">
+<img src="../../../../photo/docs/ops/event-enter.webp">
 
 The list shows the plant name, device serial number, event time, event level, event code and event content of each event. The search box at the very top allows quick search by event content or device serial number.
 
 ## 1. Advanced Search
 
-<img src="../../../../photo/docs/ops/search.png">
+<img src="../../../../photo/docs/ops/search.webp">
 
 Supports searching by event level, event time, plant name, device serial number, event code and event content
 
@@ -23,9 +23,9 @@ Supports searching by event level, event time, plant name, device serial number,
 
 ## 2. Create Work Order
 
-<img src="../../../../photo/docs/ops/ticket.png">
+<img src="../../../../photo/docs/ops/ticket.webp">
 
-<img src="../../../../photo/docs/ops/ticket1.png">
+<img src="../../../../photo/docs/ops/ticket1.webp">
 
 Create a work order for a single event
 

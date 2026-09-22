@@ -4,13 +4,13 @@ weight: 4
 description: Device History Data Statistics
 ---
 
-<img src="../../../../../photo/docs/app/device/history.png" style="margin-right: 24px" width="300">
+<img src="../../../../../photo/docs/app/device/history.webp" style="margin-right: 24px" width="300">
 
-<img src="../../../../../photo/docs/app/device/history1.png" style="margin-right: 24px" width="300">
+<img src="../../../../../photo/docs/app/device/history1.webp" style="margin-right: 24px" width="300">
 
-<img src="../../../../../photo/docs/app/device/history2.png" style="margin-right: 24px" width="300">
+<img src="../../../../../photo/docs/app/device/history2.webp" style="margin-right: 24px" width="300">
 
-<img src="../../../../../photo/docs/app/device/history3.png" style="margin-right: 0px" width="300">
+<img src="../../../../../photo/docs/app/device/history3.webp" style="margin-right: 0px" width="300">
 
 1. Click a device in the device list to enter the device details
 2. Click to enter **Statistics** from the menu below (before the version update, this tab was named "History")

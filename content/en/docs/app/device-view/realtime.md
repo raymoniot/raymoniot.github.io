@@ -8,7 +8,7 @@ description: Default page after entering the Device User Perspective
 
 After entering the Device User Perspective, the **device details** real-time data page opens by default, showing the current working status and parameters of this device.
 
-<img src="../../../../photo/docs/app/view/device-root.png" style="margin-right: 50px" width="300">
+<img src="../../../../photo/docs/app/view/device-root.webp" style="margin-right: 50px" width="300">
 
 ## Page Content
 

@@ -8,7 +8,7 @@ weight: 1
 
 组织架构用于管理平台上的组织、成员账号和测点组。左侧展示组织树，选中一个组织后，右侧可以在「成员列表」「组织信息」「测点组」三个页面之间切换。
 
-<img src="/../../zh/photo/docs/organization/enter.png">
+<img src="/../../zh/photo/docs/organization/enter.webp">
 
 - **成员列表**：查看和管理当前组织下的成员账号
 - **组织信息**：查看和修改当前组织的信息，新建下级组织
@@ -18,7 +18,7 @@ weight: 1
 
 ## 1.成员列表
 
-<img src="/../../zh/photo/docs/organization/member-list.png">
+<img src="/../../zh/photo/docs/organization/member-list.webp">
 
 查看当前组织下的所有成员，包括状态、用户名、姓名、角色、邮箱、手机号，组织负责人所在的行会高亮显示。
 
@@ -28,11 +28,11 @@ weight: 1
 
 ### 1.1添加成员
 
-<img src="/../../zh/photo/docs/organization/member-add.png">
+<img src="/../../zh/photo/docs/organization/member-add.webp">
 
 在选中的组织下添加成员
 
-<img src="/../../zh/photo/docs/organization/member-add1.png" width="700" height="550">
+<img src="/../../zh/photo/docs/organization/member-add1.webp" width="700" height="550">
 
 需要填写当前时区、用户名、姓名、性别、密码、确认密码和邮箱，其中密码长度必须介于 5 和 20 之间，用户名保存后不可再修改。
 
@@ -50,47 +50,47 @@ weight: 1
 
 ### 1.2修改成员
 
-<img src="/../../zh/photo/docs/organization/member-update.png">
+<img src="/../../zh/photo/docs/organization/member-update.webp">
 
-<img src="/../../zh/photo/docs/organization/member-update1.png" width="700" height="550">
+<img src="/../../zh/photo/docs/organization/member-update1.webp" width="700" height="550">
 
 成员的角色会影响成员在平台可进行的操作，测点组则影响成员在设备详情页能看到哪些参数。
 
 ### 1.3转移组织
 
-<img src="/../../zh/photo/docs/organization/member-transfer.png">
+<img src="/../../zh/photo/docs/organization/member-transfer.webp">
 
 通过输入组织代码，可以将成员转移到其他组织中
 
-<img src="/../../zh/photo/docs/organization/member-transfer1.png" width="400" height="250">
+<img src="/../../zh/photo/docs/organization/member-transfer1.webp" width="400" height="250">
 
 ### 1.4删除成员
 
-<img src="/../../zh/photo/docs/organization/member-delete.png">
+<img src="/../../zh/photo/docs/organization/member-delete.webp">
 
 组织负责人不能被直接删除或转移，会随组织一起被清理。
 
 ### 1.5重置密码
 
-<img src="/../../zh/photo/docs/organization/member-reset.png">
+<img src="/../../zh/photo/docs/organization/member-reset.webp">
 
 由管理员为成员设置新密码，设置完成后请将新密码告知成员本人。
 
 ## 2.组织信息
 
-<img src="/../../zh/photo/docs/organization/info-enter.png">
+<img src="/../../zh/photo/docs/organization/info-enter.webp">
 
 查看当前组织的组织代码、组织名称、负责人姓名、邮箱和手机号，并可以对组织进行修改、新建下级组织、转移组织、删除。
 
 ### 2.1修改组织
 
-<img src="/../../zh/photo/docs/organization/organization-update.png">
+<img src="/../../zh/photo/docs/organization/organization-update.webp">
 
 修改组织的名称；组织代码由平台生成，创建后不可修改。
 
 ### 2.2新建下级组织
 
-<img src="/../../zh/photo/docs/organization/organization-sub.png">
+<img src="/../../zh/photo/docs/organization/organization-sub.webp">
 
 在当前组织下新建一个下级组织，需要填写组织名称、负责人邮箱、负责人姓名和当前时区。组织代码由平台自动生成，也可以点击输入框右侧的刷新按钮重新生成。
 
@@ -103,19 +103,19 @@ weight: 1
 
 ### 2.3转移组织
 
-<img src="/../../zh/photo/docs/organization/organization-transfer.png">
+<img src="/../../zh/photo/docs/organization/organization-transfer.webp">
 
-<img src="/../../zh/photo/docs/organization/member-transfer1.png" width="400" height="250">
+<img src="/../../zh/photo/docs/organization/member-transfer1.webp" width="400" height="250">
 
 转移组织可以将子组织转移到其他组织下
 
 ### 2.4删除组织
 
-<img src="/../../zh/photo/docs/organization/organization-delete.png" width="600" height="450">
+<img src="/../../zh/photo/docs/organization/organization-delete.webp" width="600" height="450">
 
 ## 3.测点组
 
-<img src="/../../zh/photo/docs/organization/point-enter.png">
+<img src="/../../zh/photo/docs/organization/point-enter.webp">
 
 ### 3.1测点组是什么
 
@@ -151,18 +151,18 @@ weight: 1
 
 ### 3.3新建测点组
 
-<img src="/../../zh/photo/docs/organization/point-add.png">
+<img src="/../../zh/photo/docs/organization/point-add.webp">
 
-<img src="/../../zh/photo/docs/organization/point-add1.png" width="600" height="950">
+<img src="/../../zh/photo/docs/organization/point-add1.webp" width="600" height="950">
 
 - **名称（默认）**：必填，即测点组的名称，在成员授权等位置显示
 - 其他语言的名称：可选。平台切换到对应语言时，测点组会显示该语言的名称；未填写的语言沿用默认名称
 
 ### 3.4测点分配
 
-<img src="/../../zh/photo/docs/organization/point-set.png">
+<img src="/../../zh/photo/docs/organization/point-set.webp">
 
-<img src="/../../zh/photo/docs/organization/point-set1.png">
+<img src="/../../zh/photo/docs/organization/point-set1.webp">
 
 点击某一行的「测点分配」，为这个测点组配置测点。左侧是**未分配**的测点，右侧是**已分配**到该测点组的测点。
 
@@ -181,7 +181,7 @@ weight: 1
 
 在「成员列表」中点击「添加成员」或某一行的修改按钮，在「测点组」一项中勾选需要授权的测点组，点击「保存」即可。
 
-<img src="/../../zh/photo/docs/organization/member-update1.png" width="700" height="550">
+<img src="/../../zh/photo/docs/organization/member-update1.webp" width="700" height="550">
 
 - 已选中的测点组会高亮显示，可以多选
 - 如果成员没有被授权任何测点组，他登录后设备详情页将看不到参数，需要重新修改成员补上授权
@@ -190,21 +190,21 @@ weight: 1
 
 ### 3.6修改测点组
 
-<img src="/../../zh/photo/docs/organization/point-update.png">
+<img src="/../../zh/photo/docs/organization/point-update.webp">
 
-<img src="/../../zh/photo/docs/organization/point-set1.png">
+<img src="/../../zh/photo/docs/organization/point-set1.webp">
 
 修改测点组的名称（含各语言名称）。已分配测点的调整请在「测点分配」中操作。
 
 ### 3.7删除测点组
 
-<img src="/../../zh/photo/docs/organization/point-delete.png">
+<img src="/../../zh/photo/docs/organization/point-delete.webp">
 
 删除测点组后，组内已分配的测点、以及成员对该测点组的授权会一并清除，请谨慎操作。
 
 ### 3.8常见问题
 
-<img src="/../../zh/photo/docs/organization/point-no-param.png">
+<img src="/../../zh/photo/docs/organization/point-no-param.webp">
 
 **账号登录后，在设备详情页看不到参数**
 

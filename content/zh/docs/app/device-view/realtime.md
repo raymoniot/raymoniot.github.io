@@ -8,7 +8,7 @@ description: 进入用户设备视角后的默认页面
 
 用户设备视角进入后默认打开的是**设备详情**的实时数据页，展示这台设备当前的工作状态和参数。
 
-<img src="/../../zh/photo/docs/app/view/device-root.png" style="margin-right: 50px" width="300">
+<img src="/../../zh/photo/docs/app/view/device-root.webp" style="margin-right: 50px" width="300">
 
 ## 页面内容
 

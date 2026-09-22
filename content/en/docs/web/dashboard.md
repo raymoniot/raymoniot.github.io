@@ -17,8 +17,8 @@ There are also two shortcuts in the upper right corner of the page:
 
 - As an O&M provider or installer, you need to know the category and number of plants connected to your company and the device distribution. This page shows the total number of plants and the number of plants of each type on the platform.
 
-  <img src="../../../photo/docs/dashboard/dashboard.png">
+  <img src="../../../photo/docs/dashboard/dashboard.webp">
 
 - The distribution of plants in different regions is shown on the map. The map can be zoomed, and the distribution is displayed in different dimensions according to the zoom level.
 
-  <img src="../../../photo/docs/dashboard/dashboard2.png">
+  <img src="../../../photo/docs/dashboard/dashboard2.webp">

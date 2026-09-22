@@ -1,10 +1,67 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>用户设备视角 on Soalrhub 帮助中心</title><link>https://raymoniot.github.io/zh/docs/app/device-view/</link><description>Recent content in 用户设备视角 on Soalrhub 帮助中心</description><generator>Hugo</generator><language>zh</language><atom:link href="https://raymoniot.github.io/zh/docs/app/device-view/index.xml" rel="self" type="application/rss+xml"/><item><title>设备实时数据</title><link>https://raymoniot.github.io/zh/docs/app/device-view/realtime/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://raymoniot.github.io/zh/docs/app/device-view/realtime/</guid><description>功能概述 link用户设备视角进入后默认打开的是设备详情的实时数据页，展示这台设备当前的工作状态和参数。
-页面内容 link不同设备类型展示的参数不同，以电池系统为例：
-SN：设备序列号 SOC 状态：剩余电量、总电压等 健康状态 SOH：电池健康度、循环次数 系统功率：当前功率与充放电状态（充电中/放电中） 总电压、电池电流等实时参数 常用操作 link 右上角菜单：刷新、设备切换、添加采集器、配网、参数设置、设备别名、解绑设备 底部标签在 实时、统计、我的 之间切换 下拉页面可以刷新数据 说明：账号能看到的参数受测点组限制，如果这里看不到参数或参数不全，请在 Web 平台的「组织管理 → 组织架构」（见 Web 文档的组织架构）中检查测点组授权。</description></item><item><title>设备统计</title><link>https://raymoniot.github.io/zh/docs/app/device-view/stat/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://raymoniot.github.io/zh/docs/app/device-view/stat/</guid><description>功能概述 link设备统计用于查看这台设备的历史数据曲线。
-步骤 link 在设备详情的底部点击「统计」标签 选择统计维度（如日、月、年、全部）和日期 图表显示该设备在所选时间段的数据曲线，可以点击数据点查看具体数值 说明：能选择的参数同样受账号被授权的测点组限制。</description></item><item><title>设备切换</title><link>https://raymoniot.github.io/zh/docs/app/device-view/deviceswitch/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://raymoniot.github.io/zh/docs/app/device-view/deviceswitch/</guid><description>功能概述 link用户设备视角一次只聚焦一台设备，需要查看其他设备时用「设备切换」。
-步骤 link 在设备详情页点击右上角菜单 选择「设备切换」 在设备列表中选择要查看的设备，即可进入该设备的详情页 说明：这是用户设备视角独有的入口，专业顾问视角下没有「设备切换」，需要在「设备」标签中重新选择设备。</description></item><item><title>配网</title><link>https://raymoniot.github.io/zh/docs/app/device-view/wifi/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://raymoniot.github.io/zh/docs/app/device-view/wifi/</guid><description>功能概述 link在设备详情页右上角菜单中点击「配网」，可以给采集器配置要接入的 WiFi 网络。配网成功后采集器才能连上服务器并上报数据。
-使用方法 link 在设备详情页点击右上角菜单，选择「配网」进入配网界面 点击右上角添加设备，通过扫码或手动输入序列号添加要配网的采集器 采集器已进入配网状态时该设备才会显示为可勾选，勾选后进入 Wi-Fi 选择界面 选择要接入的 2.4GHz WiFi 并输入密码 点击开始配网，一般等待 10s–20s 即可配网成功；成功后采集器会在平台上在线并开始上报数据 注意事项 link 配网前请打开手机的蓝牙、WiFi、定位，并允许 App 获取蓝牙、定位等权限，否则可能搜索不到设备或配网失败 采集器只支持 2.4GHz WiFi，请确认手机连接的也是同一网络 配网时请保证采集器已有供电并处于配网状态（指示灯闪烁） 配网流程与「我的 → 配网」完全一致，也可以从「我的」进入配网，见配网 相关文档：快速开始（采集器配网、入库、绑定电站的完整流程）</description></item><item><title>添加采集器</title><link>https://raymoniot.github.io/zh/docs/app/device-view/logger/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://raymoniot.github.io/zh/docs/app/device-view/logger/</guid><description>功能概述 link用户设备视角下也可以直接添加采集器，入口在设备详情页右上角的菜单。
-步骤 link 在设备详情页点击右上角菜单，选择「添加采集器」 扫描采集器二维码，或点击键盘图标手动输入采集器序列号 输入完成后点击「添加设备」 说明：这是用户设备视角特有的入口（专业顾问视角的设备详情里没有添加采集器），采集器需要先在平台上入库。</description></item><item><title>参数设置</title><link>https://raymoniot.github.io/zh/docs/app/device-view/paramset/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://raymoniot.github.io/zh/docs/app/device-view/paramset/</guid><description>功能概述 link在设备详情页右上角菜单中点击「参数设置」，可以对当前设备下发可写参数（不同设备类型支持的参数不同）。
-步骤 link 在设备详情页点击右上角菜单 选择「参数设置」 在参数页面选择/填写需要下发的参数 点击下发按钮执行（支持一次下发多个参数） 注意事项 link 参数会直接下发到现场设备，请确认设备在线、参数值正确 下发结果可以在 Web 平台的设备详情页（或设备操作日志）中查看 设备离线时下发会失败或超时</description></item><item><title>设备别名</title><link>https://raymoniot.github.io/zh/docs/app/device-view/alias/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://raymoniot.github.io/zh/docs/app/device-view/alias/</guid><description>功能概述 link在设备详情页右上角菜单中点击「设备别名」，可以给设备起一个便于识别的名称，别名会显示在设备列表、设备详情等位置。
-步骤 link 在设备详情页点击右上角菜单 选择「设备别名」 输入新的别名 点击右上角保存，别名立即生效 说明：别名只影响显示名称，不会改变设备序列号。</description></item><item><title>解绑设备</title><link>https://raymoniot.github.io/zh/docs/app/device-view/unbind/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://raymoniot.github.io/zh/docs/app/device-view/unbind/</guid><description>功能概述 link在设备详情页右上角菜单中点击「解绑设备」，可以解除设备与电站（或子设备与采集器）的绑定关系。
-步骤 link 在设备详情页点击右上角菜单 选择「解绑设备」 确认提示后完成解绑 注意事项 link 解绑子设备会从采集器下删除该子设备，并清空该子设备的数据，请谨慎操作 采集器解绑后会解除与电站的绑定关系，需要重新添加才会继续上报数据 解绑操作不可撤销</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>用户设备视角 on Soalrhub 帮助中心</title>
+    <link>http://localhost:1313/zh/docs/app/device-view/</link>
+    <description>Recent content in 用户设备视角 on Soalrhub 帮助中心</description>
+    <generator>Hugo</generator>
+    <language>zh</language>
+    <atom:link href="http://localhost:1313/zh/docs/app/device-view/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>设备实时数据</title>
+      <link>http://localhost:1313/zh/docs/app/device-view/realtime/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/zh/docs/app/device-view/realtime/</guid>
+      <description>功能概述 link用户设备视角进入后默认打开的是设备详情的实时数据页，展示这台设备当前的工作状态和参数。&#xA;页面内容 link不同设备类型展示的参数不同，以电池系统为例：&#xA;SN：设备序列号 SOC 状态：剩余电量、总电压等 健康状态 SOH：电池健康度、循环次数 系统功率：当前功率与充放电状态（充电中/放电中） 总电压、电池电流等实时参数 常用操作 link 右上角菜单：刷新、设备切换、添加采集器、配网、参数设置、设备别名、解绑设备 底部标签在 实时、统计、我的 之间切换 下拉页面可以刷新数据 说明：账号能看到的参数受测点组限制，如果这里看不到参数或参数不全，请在 Web 平台的「组织管理 → 组织架构」（见 Web 文档的组织架构）中检查测点组授权。</description>
+    </item>
+    <item>
+      <title>设备统计</title>
+      <link>http://localhost:1313/zh/docs/app/device-view/stat/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/zh/docs/app/device-view/stat/</guid>
+      <description>功能概述 link设备统计用于查看这台设备的历史数据曲线。&#xA;步骤 link 在设备详情的底部点击「统计」标签 选择统计维度（如日、月、年、全部）和日期 图表显示该设备在所选时间段的数据曲线，可以点击数据点查看具体数值 说明：能选择的参数同样受账号被授权的测点组限制。</description>
+    </item>
+    <item>
+      <title>设备切换</title>
+      <link>http://localhost:1313/zh/docs/app/device-view/deviceswitch/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/zh/docs/app/device-view/deviceswitch/</guid>
+      <description>功能概述 link用户设备视角一次只聚焦一台设备，需要查看其他设备时用「设备切换」。&#xA;步骤 link 在设备详情页点击右上角菜单 选择「设备切换」 在设备列表中选择要查看的设备，即可进入该设备的详情页 说明：这是用户设备视角独有的入口，专业顾问视角下没有「设备切换」，需要在「设备」标签中重新选择设备。</description>
+    </item>
+    <item>
+      <title>配网</title>
+      <link>http://localhost:1313/zh/docs/app/device-view/wifi/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/zh/docs/app/device-view/wifi/</guid>
+      <description>功能概述 link在设备详情页右上角菜单中点击「配网」，可以给采集器配置要接入的 WiFi 网络。配网成功后采集器才能连上服务器并上报数据。&#xA;使用方法 link 在设备详情页点击右上角菜单，选择「配网」进入配网界面 点击右上角添加设备，通过扫码或手动输入序列号添加要配网的采集器 采集器已进入配网状态时该设备才会显示为可勾选，勾选后进入 Wi-Fi 选择界面 选择要接入的 2.4GHz WiFi 并输入密码 点击开始配网，一般等待 10s–20s 即可配网成功；成功后采集器会在平台上在线并开始上报数据 注意事项 link 配网前请打开手机的蓝牙、WiFi、定位，并允许 App 获取蓝牙、定位等权限，否则可能搜索不到设备或配网失败 采集器只支持 2.4GHz WiFi，请确认手机连接的也是同一网络 配网时请保证采集器已有供电并处于配网状态（指示灯闪烁） 配网流程与「我的 → 配网」完全一致，也可以从「我的」进入配网，见配网 相关文档：快速开始（采集器配网、入库、绑定电站的完整流程）</description>
+    </item>
+    <item>
+      <title>添加采集器</title>
+      <link>http://localhost:1313/zh/docs/app/device-view/logger/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/zh/docs/app/device-view/logger/</guid>
+      <description>功能概述 link用户设备视角下也可以直接添加采集器，入口在设备详情页右上角的菜单。&#xA;步骤 link 在设备详情页点击右上角菜单，选择「添加采集器」 扫描采集器二维码，或点击键盘图标手动输入采集器序列号 输入完成后点击「添加设备」 说明：这是用户设备视角特有的入口（专业顾问视角的设备详情里没有添加采集器），采集器需要先在平台上入库。</description>
+    </item>
+    <item>
+      <title>参数设置</title>
+      <link>http://localhost:1313/zh/docs/app/device-view/paramset/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/zh/docs/app/device-view/paramset/</guid>
+      <description>功能概述 link在设备详情页右上角菜单中点击「参数设置」，可以对当前设备下发可写参数（不同设备类型支持的参数不同）。&#xA;步骤 link 在设备详情页点击右上角菜单 选择「参数设置」 在参数页面选择/填写需要下发的参数 点击下发按钮执行（支持一次下发多个参数） 注意事项 link 参数会直接下发到现场设备，请确认设备在线、参数值正确 下发结果可以在 Web 平台的设备详情页（或设备操作日志）中查看 设备离线时下发会失败或超时 </description>
+    </item>
+    <item>
+      <title>设备别名</title>
+      <link>http://localhost:1313/zh/docs/app/device-view/alias/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/zh/docs/app/device-view/alias/</guid>
+      <description>功能概述 link在设备详情页右上角菜单中点击「设备别名」，可以给设备起一个便于识别的名称，别名会显示在设备列表、设备详情等位置。&#xA;步骤 link 在设备详情页点击右上角菜单 选择「设备别名」 输入新的别名 点击右上角保存，别名立即生效 说明：别名只影响显示名称，不会改变设备序列号。</description>
+    </item>
+    <item>
+      <title>解绑设备</title>
+      <link>http://localhost:1313/zh/docs/app/device-view/unbind/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/zh/docs/app/device-view/unbind/</guid>
+      <description>功能概述 link在设备详情页右上角菜单中点击「解绑设备」，可以解除设备与电站（或子设备与采集器）的绑定关系。&#xA;步骤 link 在设备详情页点击右上角菜单 选择「解绑设备」 确认提示后完成解绑 注意事项 link 解绑子设备会从采集器下删除该子设备，并清空该子设备的数据，请谨慎操作 采集器解绑后会解除与电站的绑定关系，需要重新添加才会继续上报数据 解绑操作不可撤销 </description>
+    </item>
+  </channel>
+</rss>

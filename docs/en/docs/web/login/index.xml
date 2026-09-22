@@ -1,6 +1,25 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Login on Solarhub Help Center</title><link>https://raymoniot.github.io/en/docs/web/login/</link><description>Recent content in Login on Solarhub Help Center</description><generator>Hugo</generator><language>en</language><atom:link href="https://raymoniot.github.io/en/docs/web/login/index.xml" rel="self" type="application/rss+xml"/><item><title>Login</title><link>https://raymoniot.github.io/en/docs/web/login/login/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://raymoniot.github.io/en/docs/web/login/login/</guid><description>Function Overview linkLog in to Solarhub (Web) with a platform account. After a successful login the data dashboard page is shown.
-Visit the Solarhub login page through Solarhub, enter the correct account and password and log in
-App download: the upper right corner of the login page provides the App download QR code; scan it with your phone to download the latest App released by the platform Multi-language switch: the upper right corner of the login page allows you to switch the display language After a successful login the data dashboard page is shown</description></item><item><title>Multi-language Switch</title><link>https://raymoniot.github.io/en/docs/web/login/languages/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://raymoniot.github.io/en/docs/web/login/languages/</guid><description>Function Overview linkThe platform supports multiple interface languages, which can be switched at any time before or after login; the switch takes effect immediately.
-Before login, switch the language through the icon in the upper right corner
-After login, switch the language next to the user in the upper right corner
-Multi-language texts on the platform (for example the name of a measurement group or the name of a device parameter) are shown in the corresponding language when the interface language is switched; if a name is not filled in for that language, the default name is shown.</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Login on Solarhub Help Center</title>
+    <link>http://localhost:1313/en/docs/web/login/</link>
+    <description>Recent content in Login on Solarhub Help Center</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <atom:link href="http://localhost:1313/en/docs/web/login/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Login</title>
+      <link>http://localhost:1313/en/docs/web/login/login/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/en/docs/web/login/login/</guid>
+      <description>Function Overview linkLog in to Solarhub (Web) with a platform account. After a successful login the data dashboard page is shown.&#xA;Visit the Solarhub login page through Solarhub, enter the correct account and password and log in&#xA;App download: the upper right corner of the login page provides the App download QR code; scan it with your phone to download the latest App released by the platform Multi-language switch: the upper right corner of the login page allows you to switch the display language After a successful login the data dashboard page is shown</description>
+    </item>
+    <item>
+      <title>Multi-language Switch</title>
+      <link>http://localhost:1313/en/docs/web/login/languages/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/en/docs/web/login/languages/</guid>
+      <description>Function Overview linkThe platform supports multiple interface languages, which can be switched at any time before or after login; the switch takes effect immediately.&#xA;Before login, switch the language through the icon in the upper right corner&#xA;After login, switch the language next to the user in the upper right corner&#xA;Multi-language texts on the platform (for example the name of a measurement group or the name of a device parameter) are shown in the corresponding language when the interface language is switched; if a name is not filled in for that language, the default name is shown.</description>
+    </item>
+  </channel>
+</rss>

@@ -10,9 +10,9 @@ description: 查看电站的组件与设备布局
 
 ## 1.创建布局
 
-<img src="/../../zh/photo/docs/app/plant/layout1.png" style="margin-right: 24px" width="300">
+<img src="/../../zh/photo/docs/app/plant/layout1.webp" style="margin-right: 24px" width="300">
 
-<img src="/../../zh/photo/docs/app/plant/layout3.png" style="margin-right: 0px" width="300">
+<img src="/../../zh/photo/docs/app/plant/layout3.webp" style="margin-right: 0px" width="300">
 
 ### 步骤
 
@@ -22,9 +22,9 @@ description: 查看电站的组件与设备布局
 
 ## 2.查看布局数据
 
-<img src="/../../zh/photo/docs/app/plant/layout6.png" style="margin-right: 24px" width="300">
+<img src="/../../zh/photo/docs/app/plant/layout6.webp" style="margin-right: 24px" width="300">
 
-<img src="/../../zh/photo/docs/app/plant/layout9.png" style="margin-right: 0px" width="300">
+<img src="/../../zh/photo/docs/app/plant/layout9.webp" style="margin-right: 0px" width="300">
 
 ### 步骤
 

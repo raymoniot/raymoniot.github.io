@@ -8,7 +8,7 @@ description: Modify the device name
 
 Tap "Device Alias" in the menu in the upper right corner of the device details page to give the device an easily recognizable name. The alias is shown in the device list, the device details and other places.
 
-<img src="../../../../photo/docs/app/device/deviceview-rename.png" style="margin-right: 50px" width="300">
+<img src="../../../../photo/docs/app/device/deviceview-rename.webp" style="margin-right: 50px" width="300">
 
 ## Steps
 

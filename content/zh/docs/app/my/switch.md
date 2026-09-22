@@ -8,7 +8,7 @@ description: 在三种用户视角之间切换，不同视角的界面与功能�
 
 App 提供三种使用视角，同一个账号可以随时切换。视角决定进入 App 后**看到什么、能做什么**：进入的首页面、底部导航和可用的功能入口都不一样。
 
-<img src="/../../zh/photo/docs/app/my/switch.png" style="margin-right: 50px" width="300">
+<img src="/../../zh/photo/docs/app/my/switch.webp" style="margin-right: 50px" width="300">
 
 | 视角 | App 内的说明 | 适合谁 |
 |---|---|---|

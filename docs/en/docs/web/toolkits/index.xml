@@ -1,13 +1,53 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Toolbox on Solarhub Help Center</title><link>https://raymoniot.github.io/en/docs/web/toolkits/</link><description>Recent content in Toolbox on Solarhub Help Center</description><generator>Hugo</generator><language>en</language><atom:link href="https://raymoniot.github.io/en/docs/web/toolkits/index.xml" rel="self" type="application/rss+xml"/><item><title>Firmware Management</title><link>https://raymoniot.github.io/en/docs/web/toolkits/firmware/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://raymoniot.github.io/en/docs/web/toolkits/firmware/</guid><description>Function Overview linkPlatform device firmware management, including firmware search, adding firmware, modifying firmware, downloading firmware, access authorization, generating redemption codes, etc.
-Firmware is maintained separately by device type (collector, inverter, battery system, battery PACK, micro inverter, etc.). The list displays firmware name, firmware version, extended info, remark, file size and update time. When performing firmware upgrade in remote interaction and on the device details page, only the firmware that the current account has permission for and that matches the target device type will be seen.</description></item><item><title>Point Query</title><link>https://raymoniot.github.io/en/docs/web/toolkits/point-query/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://raymoniot.github.io/en/docs/web/toolkits/point-query/</guid><description>Function Overview linkQuery how a device reports measurement point data; the latest data reporting is displayed.
-It is used to troubleshoot device-side problems: for example, confirm whether the device is reporting, and whether the reported firmware version, server address, signal strength and other parameters meet expectations. The query result only reflects the latest data of the current day.
-The query result is displayed one by one by measurement point:
-Point ID: the number of the measurement point in the device type Measurement point name: the name of the measurement point (such as data update time, firmware version, Server Url, upload signal strength, etc.</description></item><item><title>Batch Operation</title><link>https://raymoniot.github.io/en/docs/web/toolkits/batch/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://raymoniot.github.io/en/docs/web/toolkits/batch/</guid><description>Function Overview linkPerform parameter settings, firmware upgrade, command transmission and other operations on devices in batch.
-A batch operation is organized by &amp;ldquo;task&amp;rdquo;: first add devices to the task, then select the operation content and submit it. The platform executes device by device and counts the number of successes and failures; failed devices can be redone. Each row in the list displays the task&amp;rsquo;s failed/successful/processing/total counts, operation content, creator and creation time.</description></item><item><title>Remote Interaction</title><link>https://raymoniot.github.io/en/docs/web/toolkits/remote/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://raymoniot.github.io/en/docs/web/toolkits/remote/</guid><description>Function Overview linkSend downlink commands to the collector, including firmware upgrade (OTA), command transmission and parameter settings.
-The remote interaction interface displays the currently online collectors by default, and can also perform advanced search by serial number, status, plant, tag and firmware version.
-Each row in the list corresponds to a collector, showing status, serial number, brand, model, plant, signal strength, communication type, timezone and data update time. The operation column provides four entries: firmware upgrade, operation log, command transmission and parameter settings.</description></item><item><title>Notice Announcement</title><link>https://raymoniot.github.io/en/docs/web/toolkits/notification/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://raymoniot.github.io/en/docs/web/toolkits/notification/</guid><description>Function Overview linkPush announcement messages on the Web or App, used to publish notices to users (such as maintenance notices and activity notices).
-The list displays the title, type, status, creator and creation time of published announcements, and supports searching by title, publisher and type; the operation column allows you to modify or delete an announcement.
-Click &amp;ldquo;Add&amp;rdquo; to create an announcement, which requires filling in:
-Title: the title of the announcement, required Type: App notification push (pushed to the App) or system announcement (displayed on the platform) Publisher: the name of the announcement publisher Content: the body of the announcement Push Scope: full push (all users), end user group (end users only) or specific users (specified accounts) After saving, the announcement is pushed to the corresponding users according to the selected scope.</description></item><item><title>Production Test</title><link>https://raymoniot.github.io/en/docs/web/toolkits/test/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://raymoniot.github.io/en/docs/web/toolkits/test/</guid><description>Function Overview linkUse production test to test whether a device meets a certain test standard.
-Production test is divided into three parts, corresponding to the three tabs on the page:
-Test Standard: define &amp;ldquo;what to measure and what condition counts as passing&amp;rdquo; Task List: create test tasks for devices and track their running status Test Record: the entry for querying historical test tasks and reports 1. Create Test Standard link Select the device type to be tested, select the measurement points, aggregate functions, test conditions and thresholds for testing devices of this type, and save the test standard.</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Toolbox on Solarhub Help Center</title>
+    <link>http://localhost:1313/en/docs/web/toolkits/</link>
+    <description>Recent content in Toolbox on Solarhub Help Center</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <atom:link href="http://localhost:1313/en/docs/web/toolkits/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Firmware Management</title>
+      <link>http://localhost:1313/en/docs/web/toolkits/firmware/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/en/docs/web/toolkits/firmware/</guid>
+      <description>Function Overview linkPlatform device firmware management, including firmware search, adding firmware, modifying firmware, downloading firmware, access authorization, generating redemption codes, etc.&#xA;Firmware is maintained separately by device type (collector, inverter, battery system, battery PACK, micro inverter, etc.). The list displays firmware name, firmware version, extended info, remark, file size and update time. When performing firmware upgrade in remote interaction and on the device details page, only the firmware that the current account has permission for and that matches the target device type will be seen.</description>
+    </item>
+    <item>
+      <title>Point Query</title>
+      <link>http://localhost:1313/en/docs/web/toolkits/point-query/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/en/docs/web/toolkits/point-query/</guid>
+      <description>Function Overview linkQuery how a device reports measurement point data; the latest data reporting is displayed.&#xA;It is used to troubleshoot device-side problems: for example, confirm whether the device is reporting, and whether the reported firmware version, server address, signal strength and other parameters meet expectations. The query result only reflects the latest data of the current day.&#xA;The query result is displayed one by one by measurement point:&#xA;Point ID: the number of the measurement point in the device type Measurement point name: the name of the measurement point (such as data update time, firmware version, Server Url, upload signal strength, etc.</description>
+    </item>
+    <item>
+      <title>Batch Operation</title>
+      <link>http://localhost:1313/en/docs/web/toolkits/batch/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/en/docs/web/toolkits/batch/</guid>
+      <description>Function Overview linkPerform parameter settings, firmware upgrade, command transmission and other operations on devices in batch.&#xA;A batch operation is organized by &amp;ldquo;task&amp;rdquo;: first add devices to the task, then select the operation content and submit it. The platform executes device by device and counts the number of successes and failures; failed devices can be redone. Each row in the list displays the task&amp;rsquo;s failed/successful/processing/total counts, operation content, creator and creation time.</description>
+    </item>
+    <item>
+      <title>Remote Interaction</title>
+      <link>http://localhost:1313/en/docs/web/toolkits/remote/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/en/docs/web/toolkits/remote/</guid>
+      <description>Function Overview linkSend downlink commands to the collector, including firmware upgrade (OTA), command transmission and parameter settings.&#xA;The remote interaction interface displays the currently online collectors by default, and can also perform advanced search by serial number, status, plant, tag and firmware version.&#xA;Each row in the list corresponds to a collector, showing status, serial number, brand, model, plant, signal strength, communication type, timezone and data update time. The operation column provides four entries: firmware upgrade, operation log, command transmission and parameter settings.</description>
+    </item>
+    <item>
+      <title>Notice Announcement</title>
+      <link>http://localhost:1313/en/docs/web/toolkits/notification/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/en/docs/web/toolkits/notification/</guid>
+      <description>Function Overview linkPush announcement messages on the Web or App, used to publish notices to users (such as maintenance notices and activity notices).&#xA;The list displays the title, type, status, creator and creation time of published announcements, and supports searching by title, publisher and type; the operation column allows you to modify or delete an announcement.&#xA;Click &amp;ldquo;Add&amp;rdquo; to create an announcement, which requires filling in:&#xA;Title: the title of the announcement, required Type: App notification push (pushed to the App) or system announcement (displayed on the platform) Publisher: the name of the announcement publisher Content: the body of the announcement Push Scope: full push (all users), end user group (end users only) or specific users (specified accounts) After saving, the announcement is pushed to the corresponding users according to the selected scope.</description>
+    </item>
+    <item>
+      <title>Production Test</title>
+      <link>http://localhost:1313/en/docs/web/toolkits/test/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/en/docs/web/toolkits/test/</guid>
+      <description>Function Overview linkUse production test to test whether a device meets a certain test standard.&#xA;Production test is divided into three parts, corresponding to the three tabs on the page:&#xA;Test Standard: define &amp;ldquo;what to measure and what condition counts as passing&amp;rdquo; Task List: create test tasks for devices and track their running status Test Record: the entry for querying historical test tasks and reports 1. Create Test Standard link Select the device type to be tested, select the measurement points, aggregate functions, test conditions and thresholds for testing devices of this type, and save the test standard.</description>
+    </item>
+  </channel>
+</rss>

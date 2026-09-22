@@ -4,13 +4,13 @@ weight: 3
 description: 在电站下绑定采集器
 ---
 
-<img src="/../../zh/photo/docs/app/plant/switch.png" style="margin-right: 24px" width="300">
+<img src="/../../zh/photo/docs/app/plant/switch.webp" style="margin-right: 24px" width="300">
 
-<img src="/../../zh/photo/docs/app/plant/logger.png" style="margin-right: 24px" width="300">
+<img src="/../../zh/photo/docs/app/plant/logger.webp" style="margin-right: 24px" width="300">
 
-<img src="/../../zh/photo/docs/app/plant/logger1.png" style="margin-right: 24px" width="300">
+<img src="/../../zh/photo/docs/app/plant/logger1.webp" style="margin-right: 24px" width="300">
 
-<img src="/../../zh/photo/docs/app/plant/logger2.png" style="margin-right: 0px" width="300">
+<img src="/../../zh/photo/docs/app/plant/logger2.webp" style="margin-right: 0px" width="300">
 
 ### 步骤
 

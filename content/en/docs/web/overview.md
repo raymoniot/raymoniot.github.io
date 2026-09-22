@@ -17,7 +17,7 @@ Main usage flow of the platform:
 
 ## Get a Solarhub account
 
-<img src="../../../photo/docs/overview.png">
+<img src="../../../photo/docs/overview.webp">
 
 - Trial account: to let you quickly experience the functions of Solarhub, we provide a customer trial account. You can get the trial account and password from your business contact and use them to experience Solarhub. **Mainstream browsers are supported; we recommend Chrome 58, Firefox 49 or IE 9 and above.**
 

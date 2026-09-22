@@ -1,4 +1,39 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Device on Solarhub Help Center</title><link>https://raymoniot.github.io/en/docs/app/manager-view/device/</link><description>Recent content in Device on Solarhub Help Center</description><generator>Hugo</generator><language>en</language><atom:link href="https://raymoniot.github.io/en/docs/app/manager-view/device/index.xml" rel="self" type="application/rss+xml"/><item><title>Search Or Filter Devices</title><link>https://raymoniot.github.io/en/docs/app/manager-view/device/search/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://raymoniot.github.io/en/docs/app/manager-view/device/search/</guid><description>1. Device search link Under &amp;ldquo;Device&amp;rdquo; of the APP, you can search for devices by device serial number
-2. Device filtering link Two conditions for filtering link Filter by device type Filter by device online status</description></item><item><title>Device Details</title><link>https://raymoniot.github.io/en/docs/app/manager-view/device/detail/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://raymoniot.github.io/en/docs/app/manager-view/device/detail/</guid><description>Entrance link Click on the device in the device list interface to enter the device overview page
-Function Overview linkThe menu at the top right of the device details page contains three operations: Parameter setting, Device alias, Unbind device (see below for details). The menu style is shown in the figure below.
-1. Device Alias link 2. Remote upgrade link Moved to &amp;ldquo;My → OTA Assistant&amp;rdquo;: the device details menu of the new version of the App no longer provides a remote upgrade entry.</description></item><item><title>Device Statistics</title><link>https://raymoniot.github.io/en/docs/app/manager-view/device/history/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://raymoniot.github.io/en/docs/app/manager-view/device/history/</guid><description> Click a device in the device list to enter the device details Click to enter Statistics from the menu below (before the version update, this tab was named &amp;ldquo;History&amp;rdquo;) Statistics support four views: day, month, year, and all In the chart, you can view the data at a certain point in time by continuously pressing</description></item><item><title>Device Event</title><link>https://raymoniot.github.io/en/docs/app/manager-view/device/event/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://raymoniot.github.io/en/docs/app/manager-view/device/event/</guid><description> Click a device in the device list to enter the device details Click to enter the event from the menu below Events have two states: Occurring and Recovered. You can filter by clicking the title above Click on an event to view detailed information about the event</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Device on Solarhub Help Center</title>
+    <link>http://localhost:1313/en/docs/app/manager-view/device/</link>
+    <description>Recent content in Device on Solarhub Help Center</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <atom:link href="http://localhost:1313/en/docs/app/manager-view/device/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Search Or Filter Devices</title>
+      <link>http://localhost:1313/en/docs/app/manager-view/device/search/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/en/docs/app/manager-view/device/search/</guid>
+      <description>1. Device search link Under &amp;ldquo;Device&amp;rdquo; of the APP, you can search for devices by device serial number&#xA;2. Device filtering link Two conditions for filtering link Filter by device type Filter by device online status </description>
+    </item>
+    <item>
+      <title>Device Details</title>
+      <link>http://localhost:1313/en/docs/app/manager-view/device/detail/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/en/docs/app/manager-view/device/detail/</guid>
+      <description>Entrance link Click on the device in the device list interface to enter the device overview page&#xA;Function Overview linkThe menu at the top right of the device details page contains three operations: Parameter setting, Device alias, Unbind device (see below for details). The menu style is shown in the figure below.&#xA;1. Device Alias link 2. Remote upgrade link Moved to &amp;ldquo;My → OTA Assistant&amp;rdquo;: the device details menu of the new version of the App no longer provides a remote upgrade entry.</description>
+    </item>
+    <item>
+      <title>Device Statistics</title>
+      <link>http://localhost:1313/en/docs/app/manager-view/device/history/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/en/docs/app/manager-view/device/history/</guid>
+      <description> Click a device in the device list to enter the device details Click to enter Statistics from the menu below (before the version update, this tab was named &amp;ldquo;History&amp;rdquo;) Statistics support four views: day, month, year, and all In the chart, you can view the data at a certain point in time by continuously pressing </description>
+    </item>
+    <item>
+      <title>Device Event</title>
+      <link>http://localhost:1313/en/docs/app/manager-view/device/event/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/en/docs/app/manager-view/device/event/</guid>
+      <description> Click a device in the device list to enter the device details Click to enter the event from the menu below Events have two states: Occurring and Recovered. You can filter by clicking the title above Click on an event to view detailed information about the event </description>
+    </item>
+  </channel>
+</rss>

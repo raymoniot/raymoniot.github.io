@@ -8,9 +8,9 @@ description: 在当前电站下绑定采集器
 
 把采集器绑定到当前电站，电站才会开始有数据。入口在电站概览页右上角的菜单。
 
-<img src="/../../zh/photo/docs/app/view/plant-logger.png" style="margin-right: 24px" width="300">
+<img src="/../../zh/photo/docs/app/view/plant-logger.webp" style="margin-right: 24px" width="300">
 
-<img src="/../../zh/photo/docs/app/view/plant-logger2.png" style="margin-right: 0px" width="300">
+<img src="/../../zh/photo/docs/app/view/plant-logger2.webp" style="margin-right: 0px" width="300">
 
 ## 步骤
 

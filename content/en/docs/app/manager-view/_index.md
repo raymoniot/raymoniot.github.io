@@ -14,11 +14,11 @@ After selecting "Professional Consultant" in "My → Switch Perspective", the Ap
 
 After entering the Professional Consultant Perspective, the first page you see is the **plant list** (all plants within the data permissions of the current account), with four tabs at the bottom:
 
-<img src="../../../photo/docs/app/view/manager-root.png" style="margin-right: 24px" width="300">
+<img src="../../../photo/docs/app/view/manager-root.webp" style="margin-right: 24px" width="300">
 
-<img src="../../../photo/docs/app/view/manager-devicelist.png" style="margin-right: 24px" width="300">
+<img src="../../../photo/docs/app/view/manager-devicelist.webp" style="margin-right: 24px" width="300">
 
-<img src="../../../photo/docs/app/view/manager-eventlist.png" style="margin-right: 0px" width="300">
+<img src="../../../photo/docs/app/view/manager-eventlist.webp" style="margin-right: 0px" width="300">
 
 | Tab | Content |
 |---|---|

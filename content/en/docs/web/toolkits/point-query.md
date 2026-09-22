@@ -8,7 +8,7 @@ weight: 1
 
 Query how a device reports measurement point data; the latest data reporting is displayed.
 
-<img src="../../../../photo/docs/toolkits/point-query.png">
+<img src="../../../../photo/docs/toolkits/point-query.webp">
 
 It is used to troubleshoot device-side problems: for example, confirm whether the device is reporting, and whether the reported firmware version, server address, signal strength and other parameters meet expectations. The query result only reflects the **latest data of the current day**.
 
@@ -20,11 +20,11 @@ The query result is displayed one by one by measurement point:
 
 ## 1. Point Query Export
 
-<img src="../../../../photo/docs/toolkits/point-query1.png">
+<img src="../../../../photo/docs/toolkits/point-query1.webp">
 
 Enter the device serial number to query the device data.
 
-<img src="../../../../photo/docs/toolkits/point-export.png">
+<img src="../../../../photo/docs/toolkits/point-export.webp">
 
 Select the export time to export the data of a certain day.
 

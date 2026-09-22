@@ -8,7 +8,7 @@ weight: 1
 
 Summary Data summarizes the day, month, year and total data of all plants and all devices, and you can filter the target data by conditions and then export it as an Excel sheet
 
-<img src="../../../../photo/docs/report/report-enter.png">
+<img src="../../../../photo/docs/report/report-enter.webp">
 
 On the left you switch between "Plant report" and "Device report". The filters shared by both pages are:
 
@@ -18,7 +18,7 @@ On the left you switch between "Plant report" and "Device report". The filters s
 
 ## 1. Plant Report
 
-<img src="../../../../photo/docs/report/report-plant.png">
+<img src="../../../../photo/docs/report/report-plant.webp">
 
 The plant report counts row by row by plant, including the plant name, plant address, plant owner, contact, and data such as Power Generation and income corresponding to the selected report type; when the report type is "day", "month" or "year", each row is the summary value of one plant within that time range.
 
@@ -26,12 +26,12 @@ The "Plant" filter can specify a single plant; when it is not selected, all plan
 
 ### 1.1 Export
 
-<img src="../../../../photo/docs/report/export.png">
+<img src="../../../../photo/docs/report/export.webp">
 
 Click "Export" in the upper right corner to export the report data under the current filter conditions as an Excel sheet.
 
 ## 2. Device Report
 
-<img src="../../../../photo/docs/report/report-device.png">
+<img src="../../../../photo/docs/report/report-device.webp">
 
 The device report counts operating data by device, and you need to select the device type and the **Device Serial Number**. The report content includes device-side parameters such as the Firmware Version, total operating time, power-on time this time, data upload interval, data collection interval, connection count, Signal Strength and heartbeat, which are used to verify the operating status and configuration of the device. The query results can likewise be exported.

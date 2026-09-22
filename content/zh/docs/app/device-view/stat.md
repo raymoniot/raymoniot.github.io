@@ -8,7 +8,7 @@ description: 设备的历史数据统计
 
 设备统计用于查看这台设备的历史数据曲线。
 
-<img src="/../../zh/photo/docs/app/view/device-stat.png" style="margin-right: 50px" width="300">
+<img src="/../../zh/photo/docs/app/view/device-stat.webp" style="margin-right: 50px" width="300">
 
 ## 步骤
 

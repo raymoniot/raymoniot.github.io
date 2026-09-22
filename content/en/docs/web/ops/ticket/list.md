@@ -13,13 +13,13 @@ The Work Order List shows all work orders and is divided into several tabs by th
 - **Related to me**: work orders that the current account has participated in (such as being replied to or copied)
 - **All**: all work orders within the data permissions of the current account
 
-<img src="../../../../../photo/docs/ops/ticket/ticket-list.png">
+<img src="../../../../../photo/docs/ops/ticket/ticket-list.webp">
 
 The information in the list includes the work order number, subject, work order type, handler (or creator), first response deadline, close deadline, priority, status and operations. The "Quick Search" at the top allows you to quickly locate a work order by keyword.
 
 ## 1. Work Order Status Change
 
-<img src="../../../../../photo/docs/ops/ticket/ticket-status.png">
+<img src="../../../../../photo/docs/ops/ticket/ticket-status.webp">
 
 The status needs to be updated in time during work order handling. The statuses are:
 
@@ -30,19 +30,19 @@ The status needs to be updated in time during work order handling. The statuses 
 
 ## 2. Work Order Modification
 
-<img src="../../../../../photo/docs/ops/ticket/ticket-update.png">
+<img src="../../../../../photo/docs/ops/ticket/ticket-update.webp">
 
-<img src="../../../../../photo/docs/ops/ticket/ticket-update1.png">
+<img src="../../../../../photo/docs/ops/ticket/ticket-update1.webp">
 
 ## 3. To-do
 
-<img src="../../../../../photo/docs/ops/ticket/ticket-undeal.png">
+<img src="../../../../../photo/docs/ops/ticket/ticket-undeal.webp">
 
 Work orders in To-do show a priority (high, medium, low), so that urgent problems can be handled first by priority.
 
 ## 4. Related to Me
 
-<img src="../../../../../photo/docs/ops/ticket/ticket-me.png">
+<img src="../../../../../photo/docs/ops/ticket/ticket-me.webp">
 
 ## 5. Work Order Score
 

@@ -8,7 +8,7 @@ description: Default page after entering the Plant User Perspective
 
 After entering the Plant User Perspective, the **Plant Overview** opens by default, showing the real-time power, generation, and estimated revenue of this plant.
 
-<img src="../../../../photo/docs/app/view/plant-root.png" style="margin-right: 50px" width="300">
+<img src="../../../../photo/docs/app/view/plant-root.webp" style="margin-right: 50px" width="300">
 
 ## Page Content
 

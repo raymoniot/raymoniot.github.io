@@ -8,23 +8,23 @@ weight: 1
 
 平台设备固件管理，包含固件搜索、新增固件、修改固件、下载固件、访问授权、生成兑换码等
 
-<img src="/../../zh/photo/docs/toolkits/firmware-enter.png">
+<img src="/../../zh/photo/docs/toolkits/firmware-enter.webp">
 
 固件按设备类型（采集器、逆变器、电池系统、电池 PACK、微逆等）分开维护，列表显示固件名称、固件版本、扩展信息、备注、文件大小和更新时间。远程交互和设备详情页做固件升级时，只会看到当前账号有权限且与目标设备类型匹配的固件。
 
 ## 1.固件搜索
 
-<img src="/../../zh/photo/docs/toolkits/firmware-search1.png">
+<img src="/../../zh/photo/docs/toolkits/firmware-search1.webp">
 
-<img src="/../../zh/photo/docs/toolkits/firmware-search.png" width="700" height="550">
+<img src="/../../zh/photo/docs/toolkits/firmware-search.webp" width="700" height="550">
 
 可以根据设备类型或固件名称进行高级搜索
 
 ## 2.新增固件
 
-<img src="/../../zh/photo/docs/toolkits/firmware-add.png">
+<img src="/../../zh/photo/docs/toolkits/firmware-add.webp">
 
-<img src="/../../zh/photo/docs/toolkits/firmware-add1.png" width="600" height="450">
+<img src="/../../zh/photo/docs/toolkits/firmware-add1.webp" width="600" height="450">
 
 - **设备类型**：必填，按设备类型/品牌/型号三级选择，固件只能用于所选的型号
 - **固件名称、固件版本**：必填，**固件版本**不易过长
@@ -34,29 +34,29 @@ weight: 1
 
 ## 3.其他操作
 
-<img src="/../../zh/photo/docs/toolkits/firmware-other.png">
+<img src="/../../zh/photo/docs/toolkits/firmware-other.webp">
 
 ### 3.1修改固件
 
-<img src="/../../zh/photo/docs/toolkits/firmware-update1.png">
+<img src="/../../zh/photo/docs/toolkits/firmware-update1.webp">
 
-<img src="/../../zh/photo/docs/toolkits/firmware-update.png" width="600" height="450">
+<img src="/../../zh/photo/docs/toolkits/firmware-update.webp" width="600" height="450">
 
 ### 3.2删除固件
 
-<img src="/../../zh/photo/docs/toolkits/firmware-delete.png">
+<img src="/../../zh/photo/docs/toolkits/firmware-delete.webp">
 
 删除后该固件不再出现在固件列表中，已经升级过的设备不受影响。
 
 ### 3.3下载固件
 
-<img src="/../../zh/photo/docs/toolkits/firmware-download.png">
+<img src="/../../zh/photo/docs/toolkits/firmware-download.webp">
 
 ### 3.4固件访问授权
 
-<img src="/../../zh/photo/docs/toolkits/firmware-access1.png">
+<img src="/../../zh/photo/docs/toolkits/firmware-access1.webp">
 
-<img src="/../../zh/photo/docs/toolkits/firmware-access.png" width="600" height="450">
+<img src="/../../zh/photo/docs/toolkits/firmware-access.webp" width="600" height="450">
 
 通过输入平台账号的邮箱会自动检索平台账号，选择对应的账号可以将固件访问授权到该账号下，授权组织同理
 
@@ -64,8 +64,8 @@ weight: 1
 
 ### 3.5固件兑换码生成
 
-<img src="/../../zh/photo/docs/toolkits/firmware-code1.png">
+<img src="/../../zh/photo/docs/toolkits/firmware-code1.webp">
 
-<img src="/../../zh/photo/docs/toolkits/firmware-code.png" width="600" height="450">
+<img src="/../../zh/photo/docs/toolkits/firmware-code.webp" width="600" height="450">
 
 固件兑换码生成用于APP中使用OTA助手进行升级，详请参考APP页面OTA助手

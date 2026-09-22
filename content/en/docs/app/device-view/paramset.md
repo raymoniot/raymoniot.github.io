@@ -8,7 +8,7 @@ description: Deliver parameters to the device
 
 Tap "Parameter Settings" in the menu in the upper right corner of the device details page to deliver writable parameters to the current device (different device types support different parameters).
 
-<img src="../../../../photo/docs/app/device/deviceview-set.png" style="margin-right: 50px" width="300">
+<img src="../../../../photo/docs/app/device/deviceview-set.webp" style="margin-right: 50px" width="300">
 
 ## Steps
 

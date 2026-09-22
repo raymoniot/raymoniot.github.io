@@ -10,7 +10,7 @@ The Battery System (BMS) is the core device of an energy storage system; it usua
 
 ## 1. Device List
 
-<img src="../../../../photo/docs/device/battery/device-list.png">
+<img src="../../../../photo/docs/device/battery/device-list.webp">
 
 The device list can view online, faulty, offline and all device information; the status tabs at the top also show the device count of each status, and clicking a tab shows only the devices in that status.
 
@@ -18,11 +18,11 @@ The list shows the serial number, alias, average SOC, plant, collector, timezone
 
 ## 2. Battery Details Page
 
-<img src="../../../../photo/docs/device/battery/detail-enter.png">
+<img src="../../../../photo/docs/device/battery/detail-enter.webp">
 
 You can enter the device details page from the device in the device list
 
-<img src="../../../../photo/docs/device/battery/detail.png">
+<img src="../../../../photo/docs/device/battery/detail.webp">
 
 The battery details page displays the BMS information, the battery information under its BMS, and historical data charts.
 
@@ -64,7 +64,7 @@ Refer to [Operation log for the collector]({{< ref "/collector/#835-operation-lo
 
 ### 3.8 Historical Data Chart
 
-<img src="../../../../photo/docs/device/battery/chart.png">
+<img src="../../../../photo/docs/device/battery/chart.webp">
 
 Battery historical data supports data display and time range selection at the daily and weekly levels
 

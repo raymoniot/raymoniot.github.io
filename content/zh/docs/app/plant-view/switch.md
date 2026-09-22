@@ -8,9 +8,9 @@ description: 切换到其他电站
 
 用户电站视角一次只聚焦一个电站，需要查看其他电站时用「切换电站」进行切换。
 
-<img src="/../../zh/photo/docs/app/plant/switch1.png" style="margin-right: 24px" width="300">
+<img src="/../../zh/photo/docs/app/plant/switch1.webp" style="margin-right: 24px" width="300">
 
-<img src="/../../zh/photo/docs/app/plant/switch3.png" style="margin-right: 0px" width="300">
+<img src="/../../zh/photo/docs/app/plant/switch3.webp" style="margin-right: 0px" width="300">
 
 ## 步骤
 

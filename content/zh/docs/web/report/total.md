@@ -8,7 +8,7 @@ weight: 1
 
 汇总数据会汇总所有电站，所有设备日月年总的数据情况，可以根据条件筛选目标数据后导出为Excel表格
 
-<img src="/../../zh/photo/docs/report/report-enter.png">
+<img src="/../../zh/photo/docs/report/report-enter.webp">
 
 左侧在「电站报表」和「设备报表」之间切换，两个页面共用的筛选方式是：
 
@@ -18,7 +18,7 @@ weight: 1
 
 ## 1.电站报表
 
-<img src="/../../zh/photo/docs/report/report-plant.png">
+<img src="/../../zh/photo/docs/report/report-plant.webp">
 
 电站报表按电站逐行统计，包含电站名称、电站地址、电站业主、联系人，以及所选报表种类对应的发电量和收益等数据；报表种类为「日」「月」「年」时，每行是一个电站在该时间范围内的汇总值。
 
@@ -26,12 +26,12 @@ weight: 1
 
 ### 1.1导出
 
-<img src="/../../zh/photo/docs/report/export.png">
+<img src="/../../zh/photo/docs/report/export.webp">
 
 点击右上角「导出」，把当前筛选条件下的报表数据导出为 Excel 表格。
 
 ## 2.设备报表
 
-<img src="/../../zh/photo/docs/report/report-device.png">
+<img src="/../../zh/photo/docs/report/report-device.webp">
 
 设备报表按设备统计运行数据，需要选择设备类型和**设备序列号**，报表内容包括固件版本号、总运行时间、本次上电时间、数据上传间隔、数据采集间隔、连接数量、信号强度、心跳等设备侧参数，用于核对设备的运行状态和配置。查询结果同样可以导出。

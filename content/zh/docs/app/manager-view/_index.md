@@ -14,11 +14,11 @@ description: 设备制造商、经销商、安装人员或专业顾问使用视�
 
 进入专业顾问视角后，首先看到的是**电站列表**（当前账号数据权限内的全部电站），底部有四个标签：
 
-<img src="/../../zh/photo/docs/app/view/manager-root.png" style="margin-right: 24px" width="300">
+<img src="/../../zh/photo/docs/app/view/manager-root.webp" style="margin-right: 24px" width="300">
 
-<img src="/../../zh/photo/docs/app/view/manager-devicelist.png" style="margin-right: 24px" width="300">
+<img src="/../../zh/photo/docs/app/view/manager-devicelist.webp" style="margin-right: 24px" width="300">
 
-<img src="/../../zh/photo/docs/app/view/manager-eventlist.png" style="margin-right: 0px" width="300">
+<img src="/../../zh/photo/docs/app/view/manager-eventlist.webp" style="margin-right: 0px" width="300">
 
 | 标签 | 内容 |
 |---|---|

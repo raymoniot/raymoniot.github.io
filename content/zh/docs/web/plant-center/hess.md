@@ -10,7 +10,7 @@ weight: 8
 
 ## 电站概览
 
-<img src="/../../zh/photo/docs/plant/hess-overview.png">
+<img src="/../../zh/photo/docs/plant/hess-overview.webp">
 
 户用储能的电站概览包括发电、电网、电池、用电四个板块。
 
@@ -51,7 +51,7 @@ weight: 8
 
 通过点击电站列表中的电站可以查看单个电站的详情页，详情页展示该电站的详细信息，包括电站图表、电站设备、电站报警、电站布局、电站资料等
 
-<img src="/../../zh/photo/docs/plant/plant-detail-hess.png">
+<img src="/../../zh/photo/docs/plant/plant-detail-hess.webp">
 
 页面顶部显示电站名称、位置、业主和最近数据更新时间，右上角操作的种类与光伏系统一致（添加采集器、系统大屏、新建工单、发电修补、布局编辑等），具体参考[电站详情页]({{< ref "/pvs#电站详情页" >}} "电站详情页")。
 

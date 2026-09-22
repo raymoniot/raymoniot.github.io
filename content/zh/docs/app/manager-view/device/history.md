@@ -4,13 +4,13 @@ weight: 4
 description: 设备历史数据统计
 ---
 
-<img src="/../../zh/photo/docs/app/device/history.png" style="margin-right: 24px" width="300">
+<img src="/../../zh/photo/docs/app/device/history.webp" style="margin-right: 24px" width="300">
 
-<img src="/../../zh/photo/docs/app/device/history1.png" style="margin-right: 24px" width="300">
+<img src="/../../zh/photo/docs/app/device/history1.webp" style="margin-right: 24px" width="300">
 
-<img src="/../../zh/photo/docs/app/device/history2.png" style="margin-right: 24px" width="300">
+<img src="/../../zh/photo/docs/app/device/history2.webp" style="margin-right: 24px" width="300">
 
-<img src="/../../zh/photo/docs/app/device/history3.png" style="margin-right: 0px" width="300">
+<img src="/../../zh/photo/docs/app/device/history3.webp" style="margin-right: 0px" width="300">
 
 1. 设备列表点击设备进入设备详情
 2. 从下方菜单中点击进入**统计**（版本更新前该标签名为「历史」）

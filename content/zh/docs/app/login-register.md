@@ -6,13 +6,13 @@ description: Solarhub App注册，登陆
 
 ## 1.账号注册
 
-<img src="/../../zh/photo/docs/app/registerLogin/register-enter.png" style="margin-right: 20px" width="300">
+<img src="/../../zh/photo/docs/app/registerLogin/register-enter.webp" style="margin-right: 20px" width="300">
 
-<img src="/../../zh/photo/docs/app/registerLogin/register.png" style="margin-right: 20px" width="300">
+<img src="/../../zh/photo/docs/app/registerLogin/register.webp" style="margin-right: 20px" width="300">
 
-<img src="/../../zh/photo/docs/app/registerLogin/register1.png" style="margin-right: 20px" width="300">
+<img src="/../../zh/photo/docs/app/registerLogin/register1.webp" style="margin-right: 20px" width="300">
 
-<img src="/../../zh/photo/docs/app/registerLogin/register2.png" style="margin-right: 20px" width="300">
+<img src="/../../zh/photo/docs/app/registerLogin/register2.webp" style="margin-right: 20px" width="300">
 
 注册信息概述：
 
@@ -25,4 +25,4 @@ description: Solarhub App注册，登陆
 
 ## 2.登陆
 
-<img src="/../../zh/photo/docs/app/registerLogin/login.png" style="margin-left: 400px" width="300">
+<img src="/../../zh/photo/docs/app/registerLogin/login.webp" style="margin-left: 400px" width="300">

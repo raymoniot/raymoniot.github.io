@@ -8,25 +8,25 @@ weight: 2
 
 Perform parameter settings, firmware upgrade, command transmission and other operations on devices in batch.
 
-<img src="../../../../photo/docs/toolkits/batch-enter.png">
+<img src="../../../../photo/docs/toolkits/batch-enter.webp">
 
 A batch operation is organized by "task": first add devices to the task, then select the operation content and submit it. The platform executes device by device and counts the number of successes and failures; failed devices can be redone. Each row in the list displays the task's failed/successful/processing/total counts, operation content, creator and creation time.
 
 ## 1. Create Task
 
-<img src="../../../../photo/docs/toolkits/batch-add.png">
+<img src="../../../../photo/docs/toolkits/batch-add.webp">
 
-<img src="../../../../photo/docs/toolkits/batch-add1.png" width="700" height="550">
+<img src="../../../../photo/docs/toolkits/batch-add1.webp" width="700" height="550">
 
 Devices can be filtered according to the specified device type and plant.
 
 First filter out the target devices by status, device type, program version, serial number and plant name (left column); check them and click "Add" to put them into the right column, which are the devices to be operated in this task.
 
-<img src="../../../../photo/docs/toolkits/batch-add2.png" width="700" height="550">
+<img src="../../../../photo/docs/toolkits/batch-add2.webp" width="700" height="550">
 
 Select the device type, select the device in the device list, and add the device.
 
-<img src="../../../../photo/docs/toolkits/batch-add3.png" width="700" height="550">
+<img src="../../../../photo/docs/toolkits/batch-add3.webp" width="700" height="550">
 
 Select the type of batch operation required and submit the task.
 
@@ -40,6 +40,6 @@ After filling in a name for the task and submitting it, the platform executes de
 
 ## 2. Redo Failed Devices
 
-<img src="../../../../photo/docs/toolkits/batch-redo.png">
+<img src="../../../../photo/docs/toolkits/batch-redo.webp">
 
 If device operations fail in a batch operation task, you can use the redo function to redo the failed devices in the batch task.

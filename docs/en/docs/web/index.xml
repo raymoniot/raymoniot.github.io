@@ -1,6 +1,32 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Solarhub(Web) on Solarhub Help Center</title><link>https://raymoniot.github.io/en/docs/web/</link><description>Recent content in Solarhub(Web) on Solarhub Help Center</description><generator>Hugo</generator><language>en</language><atom:link href="https://raymoniot.github.io/en/docs/web/index.xml" rel="self" type="application/rss+xml"/><item><title>Overview</title><link>https://raymoniot.github.io/en/docs/web/overview/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://raymoniot.github.io/en/docs/web/overview/</guid><description>Solarhub Web overview linkSolarhub Web provides comprehensive energy monitoring services for photovoltaic, wind power and energy storage systems, and offers professional and efficient comprehensive energy cloud monitoring platform services for medium and large plants, device manufacturers, O&amp;amp;M providers and residential plant owners.
-Main usage flow of the platform:
-Log in to the platform with an account (the account is created by the platform provider or by the administrator of your organization), see Login If you are responsible for on-site installation: first configure the network of the collector with the App, then import the collector, see Quick Start Create a plant and bind the collector to the plant, see Create Plant and Add Collector After the plant and the devices start to report data, use Data Dashboard, Plant Center and Device Center in daily work, and handle alarms and work orders in the Operation and Maintenance Center Get a Solarhub account link Trial account: to let you quickly experience the functions of Solarhub, we provide a customer trial account.</description></item><item><title>Quick Start</title><link>https://raymoniot.github.io/en/docs/web/quickstart/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://raymoniot.github.io/en/docs/web/quickstart/</guid><description>Function Overview linkIf you are new to the platform, follow the five steps below to connect the on-site devices and see the data:
-Collector network configuration (use the App to connect the collector to the on-site WiFi) Collector import (add the collector to the platform) Create a plant Add collector (bind the collector to the plant) View plant and device data 1. Collector network configuration linkUse the Solarhub App to configure the network of the collector.</description></item><item><title>Data Dashboard</title><link>https://raymoniot.github.io/en/docs/web/dashboard/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://raymoniot.github.io/en/docs/web/dashboard/</guid><description>Function Overview linkThe data dashboard is the default home page after logging in. It shows the plant situation within the data permissions of the current account from a macro point of view: the total number of plants, the number of plants of each type, and the geographic distribution of the plants.
-There are also two shortcuts in the upper right corner of the page:
-My work orders: go to the Work Order List to see the work orders related to you My favorites: quickly open the plants you follow (click the star in front of the plant name in the plant list to follow a plant) Business use link As an O&amp;amp;M provider or installer, you need to know the category and number of plants connected to your company and the device distribution.</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Solarhub(Web) on Solarhub Help Center</title>
+    <link>http://localhost:1313/en/docs/web/</link>
+    <description>Recent content in Solarhub(Web) on Solarhub Help Center</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <atom:link href="http://localhost:1313/en/docs/web/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Overview</title>
+      <link>http://localhost:1313/en/docs/web/overview/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/en/docs/web/overview/</guid>
+      <description>Solarhub Web overview linkSolarhub Web provides comprehensive energy monitoring services for photovoltaic, wind power and energy storage systems, and offers professional and efficient comprehensive energy cloud monitoring platform services for medium and large plants, device manufacturers, O&amp;amp;M providers and residential plant owners.&#xA;Main usage flow of the platform:&#xA;Log in to the platform with an account (the account is created by the platform provider or by the administrator of your organization), see Login If you are responsible for on-site installation: first configure the network of the collector with the App, then import the collector, see Quick Start Create a plant and bind the collector to the plant, see Create Plant and Add Collector After the plant and the devices start to report data, use Data Dashboard, Plant Center and Device Center in daily work, and handle alarms and work orders in the Operation and Maintenance Center Get a Solarhub account link Trial account: to let you quickly experience the functions of Solarhub, we provide a customer trial account.</description>
+    </item>
+    <item>
+      <title>Quick Start</title>
+      <link>http://localhost:1313/en/docs/web/quickstart/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/en/docs/web/quickstart/</guid>
+      <description>Function Overview linkIf you are new to the platform, follow the five steps below to connect the on-site devices and see the data:&#xA;Collector network configuration (use the App to connect the collector to the on-site WiFi) Collector import (add the collector to the platform) Create a plant Add collector (bind the collector to the plant) View plant and device data 1. Collector network configuration linkUse the Solarhub App to configure the network of the collector.</description>
+    </item>
+    <item>
+      <title>Data Dashboard</title>
+      <link>http://localhost:1313/en/docs/web/dashboard/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/en/docs/web/dashboard/</guid>
+      <description>Function Overview linkThe data dashboard is the default home page after logging in. It shows the plant situation within the data permissions of the current account from a macro point of view: the total number of plants, the number of plants of each type, and the geographic distribution of the plants.&#xA;There are also two shortcuts in the upper right corner of the page:&#xA;My work orders: go to the Work Order List to see the work orders related to you My favorites: quickly open the plants you follow (click the star in front of the plant name in the plant list to follow a plant) Business use link As an O&amp;amp;M provider or installer, you need to know the category and number of plants connected to your company and the device distribution.</description>
+    </item>
+  </channel>
+</rss>

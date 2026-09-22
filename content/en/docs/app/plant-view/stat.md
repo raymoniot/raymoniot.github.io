@@ -8,9 +8,9 @@ description: Historical data statistics of the plant
 
 Plant Statistics is used to view the historical data of this plant: you can switch the statistical dimension by day, month, year, or all, and select a specific date or time range.
 
-<img src="../../../../photo/docs/app/view/plant-stat.png" style="margin-right: 24px" width="300">
+<img src="../../../../photo/docs/app/view/plant-stat.webp" style="margin-right: 24px" width="300">
 
-<img src="../../../../photo/docs/app/plant/history1.png" style="margin-right: 0px" width="300">
+<img src="../../../../photo/docs/app/plant/history1.webp" style="margin-right: 0px" width="300">
 
 ## Steps
 

@@ -8,7 +8,7 @@ description: 切换到其他设备
 
 用户设备视角一次只聚焦一台设备，需要查看其他设备时用「设备切换」。
 
-<img src="/../../zh/photo/docs/app/view/device-switch.png" style="margin-right: 50px" width="300">
+<img src="/../../zh/photo/docs/app/view/device-switch.webp" style="margin-right: 50px" width="300">
 
 ## 步骤
 

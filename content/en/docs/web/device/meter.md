@@ -10,7 +10,7 @@ The meter is used to measure the energy data of a plant such as the grid connect
 
 ## 1. Device List
 
-<img src="../../../../photo/docs/device/meter/device-list.png">
+<img src="../../../../photo/docs/device/meter/device-list.webp">
 
 The device list can view online, faulty, offline and all device information; the status tabs at the top also show the device count of each status, and clicking a tab shows only the devices in that status.
 
@@ -18,11 +18,11 @@ The list shows the serial number, alias, plant, collector, timezone, data update
 
 ## 2. Meter Details Page
 
-<img src="../../../../photo/docs/device/meter/detail-enter.png">
+<img src="../../../../photo/docs/device/meter/detail-enter.webp">
 
 You can enter the device details page from the device in the device list
 
-<img src="../../../../photo/docs/device/meter/detail.png">
+<img src="../../../../photo/docs/device/meter/detail.webp">
 
 The meter details page displays meter information and micro-inverter devices.
 

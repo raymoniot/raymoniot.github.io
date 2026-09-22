@@ -10,7 +10,7 @@ The Battery System page is used to manage plants whose business type is Battery 
 
 ## Plant Overview
 
-<img src="../../../../photo/docs/plant/bess-overview.png">
+<img src="../../../../photo/docs/plant/bess-overview.webp">
 
 The plant overview of the Battery System includes four sections: real-time power, Charge/Discharge Statistics, social benefits, and online plants.
 
@@ -35,7 +35,7 @@ This is the same as the photovoltaic system, for details please refer to [Plant 
 
 By clicking on a plant in the plant list, you can view the details page of a single plant. The details page displays the detailed information of the plant, including plant charts, plant devices, plant alarms, plant layout, plant info, etc.
 
-<img src="../../../../photo/docs/plant/plant-detail-bess.png">
+<img src="../../../../photo/docs/plant/plant-detail-bess.webp">
 
 The top of the page displays the plant name, location, owner and the latest Data Update Time. The types of operations in the upper right corner are the same as the PVS (Add Collector, System large screen, Create work order, Power Generation Repair, Layout editing, etc.), for details please refer to [Plant details page]({{< ref "/pvs#plant-details-page" >}} "Plant details page").
 

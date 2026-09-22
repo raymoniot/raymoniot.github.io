@@ -14,9 +14,9 @@ After selecting "Plant User" in "My → Switch Perspective", the App enters this
 
 After entering the Plant User Perspective, what you see directly is the **overview of one plant** (the overview page shows real-time power, generation, estimated revenue, etc.), with four tabs at the bottom:
 
-<img src="../../../photo/docs/app/view/plant-root.png" style="margin-right: 24px" width="300">
+<img src="../../../photo/docs/app/view/plant-root.webp" style="margin-right: 24px" width="300">
 
-<img src="../../../photo/docs/app/view/plant-menu.png" style="margin-right: 0px" width="300">
+<img src="../../../photo/docs/app/view/plant-menu.webp" style="margin-right: 0px" width="300">
 
 | Tab | Content |
 |---|---|

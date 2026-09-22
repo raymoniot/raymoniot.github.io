@@ -8,9 +8,9 @@ description: 在用户电站视角下创建电站
 
 用户电站视角下也可以创建电站：入口在电站概览页右上角的菜单里。
 
-<img src="/../../zh/photo/docs/app/plant/create1.png" style="margin-right: 24px" width="300">
+<img src="/../../zh/photo/docs/app/plant/create1.webp" style="margin-right: 24px" width="300">
 
-<img src="/../../zh/photo/docs/app/plant/create2.png" style="margin-right: 0px" width="300">
+<img src="/../../zh/photo/docs/app/plant/create2.webp" style="margin-right: 0px" width="300">
 
 ## 步骤
 

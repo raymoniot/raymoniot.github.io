@@ -8,7 +8,7 @@ description: 解除设备与电站/采集器的绑定关系
 
 在设备详情页右上角菜单中点击「解绑设备」，可以解除设备与电站（或子设备与采集器）的绑定关系。
 
-<img src="/../../zh/photo/docs/app/device/deviceview-unbind.png" style="margin-right: 50px" width="300">
+<img src="/../../zh/photo/docs/app/device/deviceview-unbind.webp" style="margin-right: 50px" width="300">
 
 ## 步骤
 

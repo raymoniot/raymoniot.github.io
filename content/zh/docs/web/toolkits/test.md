@@ -16,58 +16,58 @@ weight: 5
 
 ## 1.测试标准创建
 
-<img src="/../../zh/photo/docs/toolkits/test.png">
+<img src="/../../zh/photo/docs/toolkits/test.webp">
 
 选择需要测试的设备类型，选择需要测试该类型设备的测点以及聚合函数，测试条件，阈值，保存测试标准
 
 每个测点一行，需要选择聚合函数（如最新值、最大值）和测试条件（如 =、>、>=），并填写阈值；任务运行时按这些条件判断设备是否通过。
 
-<img src="/../../zh/photo/docs/toolkits/test1.png">
+<img src="/../../zh/photo/docs/toolkits/test1.webp">
 
-<img src="/../../zh/photo/docs/toolkits/test3.png">
+<img src="/../../zh/photo/docs/toolkits/test3.webp">
 
 创建后在列表中可以看到
 
-<img src="/../../zh/photo/docs/toolkits/test2.png">
+<img src="/../../zh/photo/docs/toolkits/test2.webp">
 
 ## 2.新建测试任务
 
-<img src="/../../zh/photo/docs/toolkits/test4.png">
+<img src="/../../zh/photo/docs/toolkits/test4.webp">
 
 选择创建的测试标准，添加设备序列号(**设备已经正常完成配网并且设备未入库**)，支持通过模版添加多个设备
 
-<img src="/../../zh/photo/docs/toolkits/test5.png">
+<img src="/../../zh/photo/docs/toolkits/test5.webp">
 
 保存加入任务队列
 
-<img src="/../../zh/photo/docs/toolkits/test6.png">
+<img src="/../../zh/photo/docs/toolkits/test6.webp">
 
 在列表中可以看到新建任务，此时任务处于就绪状态
 
-<img src="/../../zh/photo/docs/toolkits/test7.png">
+<img src="/../../zh/photo/docs/toolkits/test7.webp">
 
 通过刷新按钮刷新列表看到任务已经处于运行状态中
 
-<img src="/../../zh/photo/docs/toolkits/test8.png">
+<img src="/../../zh/photo/docs/toolkits/test8.webp">
 
 鼠标移动到测试结果上可以看到设备是否上报数据，序列号绿色并且携带上行时间说明设备已经上报最新数据，结合测试标准决定测试时间判断是否结束任务
 
-<img src="/../../zh/photo/docs/toolkits/test9.png">
+<img src="/../../zh/photo/docs/toolkits/test9.webp">
 
 点击正在运行后可以进行结束任务
 
-<img src="/../../zh/photo/docs/toolkits/test10.png">
+<img src="/../../zh/photo/docs/toolkits/test10.webp">
 
 结束后会自动导出测试报告，需要等待一会
 
-<img src="/../../zh/photo/docs/toolkits/test11.png">
+<img src="/../../zh/photo/docs/toolkits/test11.webp">
 
 刷新列表后发现测试报告已导出，处于已完成状态
 
-<img src="/../../zh/photo/docs/toolkits/test12.png">
+<img src="/../../zh/photo/docs/toolkits/test12.webp">
 
 点击已完成进入测试报告，测试报告中包含测试结果等信息，此时测试结束
 
-<img src="/../../zh/photo/docs/toolkits/test13.png">
+<img src="/../../zh/photo/docs/toolkits/test13.webp">
 
 任务列表中会显示每个任务的创建时间、开始/结束时间、测试时长和测试结果，便于产线按批次留档。

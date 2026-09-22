@@ -8,7 +8,7 @@ description: 进入用户电站视角后的默认页面
 
 用户电站视角进入后默认打开的是**电站概览**，展示这个电站的实时功率、发电量和预估收益。
 
-<img src="/../../zh/photo/docs/app/view/plant-root.png" style="margin-right: 50px" width="300">
+<img src="/../../zh/photo/docs/app/view/plant-root.webp" style="margin-right: 50px" width="300">
 
 ## 页面内容
 

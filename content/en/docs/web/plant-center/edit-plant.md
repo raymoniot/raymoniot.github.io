@@ -10,11 +10,11 @@ Modifying a plant is used to update the plant's basic information, location, sta
 
 ## 1. Modify Plant Entry
 
-<img src="../../../../photo/docs/edit-plant/edit-plant.png">
+<img src="../../../../photo/docs/edit-plant/edit-plant.webp">
 
 Click "Modify" in the operation column on the right side of the Plant List (you can also enter from the plant details page)
 
-<img src="../../../../photo/docs/edit-plant/edit-plant1.png">
+<img src="../../../../photo/docs/edit-plant/edit-plant1.webp">
 
 For the steps to modify a plant, please refer to [Complete the Plant Information]({{< ref "/create-plant/#2-complete-the-plant-information" >}} "Create Plant")
 

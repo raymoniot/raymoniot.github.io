@@ -8,13 +8,13 @@ weight: 1
 
 事件中心汇总平台上发生了告警的电站和设备：设备上报的告警和故障会在这里生成一条事件记录，可以按条件检索，并对需要处理的事件[新建工单]({{< ref "ticket/list" >}} "工单列表")跟进。
 
-<img src="/../../zh/photo/docs/ops/event-enter.png">
+<img src="/../../zh/photo/docs/ops/event-enter.webp">
 
 列表展示事件的电站名称、设备序列号、事件时间、事件级别、事件代码和事件内容。最上方的搜索框可以按事件内容或设备序列号快速搜索。
 
 ## 1.高级搜索
 
-<img src="/../../zh/photo/docs/ops/search.png">
+<img src="/../../zh/photo/docs/ops/search.webp">
 
 支持通过事件级别、事件时间、电站名名称、设备序列号、事件代码、事件内容作为条件搜索
 
@@ -23,9 +23,9 @@ weight: 1
 
 ## 2.新建工单
 
-<img src="/../../zh/photo/docs/ops/ticket.png">
+<img src="/../../zh/photo/docs/ops/ticket.webp">
 
-<img src="/../../zh/photo/docs/ops/ticket1.png">
+<img src="/../../zh/photo/docs/ops/ticket1.webp">
 
 对单个事件进行工单创建
 

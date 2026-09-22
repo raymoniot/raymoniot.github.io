@@ -14,9 +14,9 @@ description: 以设备为焦点关注数据
 
 进入用户设备视角后，直接看到的是**设备详情**（实时数据卡片，如 SOC、SOH、系统功率、电流电压等），底部有三个标签：
 
-<img src="/../../zh/photo/docs/app/view/device-root.png" style="margin-right: 24px" width="300">
+<img src="/../../zh/photo/docs/app/view/device-root.webp" style="margin-right: 24px" width="300">
 
-<img src="/../../zh/photo/docs/app/view/device-menu.png" style="margin-right: 0px" width="300">
+<img src="/../../zh/photo/docs/app/view/device-menu.webp" style="margin-right: 0px" width="300">
 
 | 标签 | 内容 |
 |---|---|

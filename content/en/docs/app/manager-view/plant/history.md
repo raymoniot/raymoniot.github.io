@@ -4,13 +4,13 @@ weight: 5
 description: Plant historical data statistics
 ---
 
-<img src="../../../../../photo/docs/app/plant/switch.png" style="margin-right: 24px" width="300">
+<img src="../../../../../photo/docs/app/plant/switch.webp" style="margin-right: 24px" width="300">
 
-<img src="../../../../../photo/docs/app/view/plant-stat.png" style="margin-right: 24px" width="300">
+<img src="../../../../../photo/docs/app/view/plant-stat.webp" style="margin-right: 24px" width="300">
 
-<img src="../../../../../photo/docs/app/plant/history1.png" style="margin-right: 24px" width="300">
+<img src="../../../../../photo/docs/app/plant/history1.webp" style="margin-right: 24px" width="300">
 
-<img src="../../../../../photo/docs/app/plant/history2.png" style="margin-right: 0px" width="300">
+<img src="../../../../../photo/docs/app/plant/history2.webp" style="margin-right: 0px" width="300">
 
 ### Steps
 

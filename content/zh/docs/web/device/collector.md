@@ -10,7 +10,7 @@ weight: 1
 
 ## 1.设备列表
 
-<img src="/../../zh/photo/docs/device/collector/device-list.png">
+<img src="/../../zh/photo/docs/device/collector/device-list.webp">
 
 设备列表可以查看在线、故障、离线和全部的设备信息。上方的状态标签会同时显示各状态的设备数量，点击标签可以只看该状态的设备：
 
@@ -18,9 +18,9 @@ weight: 1
 - **故障**：设备存在未恢复的告警
 - **离线**：设备长时间没有上报数据
 
-<img src="/../../zh/photo/docs/device/collector/collector-uninstall.png">
+<img src="/../../zh/photo/docs/device/collector/collector-uninstall.webp">
 
-<img src="/../../zh/photo/docs/device/collector/collector-install.png">
+<img src="/../../zh/photo/docs/device/collector/collector-install.webp">
 
 对于采集器设备来说，有两种额外的状态
 
@@ -39,7 +39,7 @@ weight: 1
 
 ## 2.采集器入库
 
-<img src="/../../zh/photo/docs/device/collector/import-one.png">
+<img src="/../../zh/photo/docs/device/collector/import-one.webp">
 
 采集器入库是把采集器录入平台，有两种方式
 
@@ -48,7 +48,7 @@ weight: 1
 
 ### 2.1单个导入
 
-<img src="/../../zh/photo/docs/device/collector/import-one1.png" width="600" height="450">
+<img src="/../../zh/photo/docs/device/collector/import-one1.webp" width="600" height="450">
 
 一般采集器类型选择WI-FI Stick。
 
@@ -57,29 +57,29 @@ weight: 1
 
 ### 2.2批量导入
 
-<img src="/../../zh/photo/docs/device/collector/import-more1.png" width="600" height="450">
+<img src="/../../zh/photo/docs/device/collector/import-more1.webp" width="600" height="450">
 
 下载采集器导入模版
 
-<img src="/../../zh/photo/docs/device/collector/import-more.png">
+<img src="/../../zh/photo/docs/device/collector/import-more.webp">
 
 可以填写多个采集器SN，Owner为授权用户，Keywords为标签
 
-<img src="/../../zh/photo/docs/device/collector/import-more2.png" width="700" height="550">
+<img src="/../../zh/photo/docs/device/collector/import-more2.webp" width="700" height="550">
 
 类型选择WI-FI Stick，上传并读取校验，即可添加成功，若上传错误的SN或者已入库的SN则会列出报错信息
 
 ## 3.批量设置访问授权
 
-<img src="/../../zh/photo/docs/device/collector/access.png">
+<img src="/../../zh/photo/docs/device/collector/access.webp">
 
 可以勾选单个或多个设备
 
-<img src="/../../zh/photo/docs/device/collector/access1.png" width="700" height="550">
+<img src="/../../zh/photo/docs/device/collector/access1.webp" width="700" height="550">
 
 输入平台账号的邮箱，如果存在则会弹出对应的平台账号
 
-<img src="/../../zh/photo/docs/device/collector/access2.png" width="700" height="550">
+<img src="/../../zh/photo/docs/device/collector/access2.webp" width="700" height="550">
 
 选择平台账号，点击确定设置成功
 
@@ -87,37 +87,37 @@ weight: 1
 
 ## 4.批量设置标签
 
-<img src="/../../zh/photo/docs/device/collector/tag.png">
+<img src="/../../zh/photo/docs/device/collector/tag.webp">
 
-<img src="/../../zh/photo/docs/device/collector/tag2.png">
+<img src="/../../zh/photo/docs/device/collector/tag2.webp">
 
 给多个采集器统一打标签，标签用于给设备添加备注信息（例如安装区域、用途），便于日常归类和查找。
 
 ## 5.批量删除
 
-<img src="/../../zh/photo/docs/device/collector/tag.png">
+<img src="/../../zh/photo/docs/device/collector/tag.webp">
 
 勾选多个采集器后可以批量删除。**已安装（已绑定电站）的采集器不能直接删除**，需要先在详情页解绑；删除后设备及其数据将不再展示，请谨慎操作。
 
 ## 6.单个访问授权/设置标签/删除
 
-<img src="/../../zh/photo/docs/device/collector/single.png">
+<img src="/../../zh/photo/docs/device/collector/single.webp">
 
 列表右侧操作列有三个图标按钮，依次是「访问授权」「标签」「删除」，只有设备的授权用户和管理用户可以看到并操作。
 
 ## 7.固件版本号搜索
 
-<img src="/../../zh/photo/docs/device/collector/search.png">
+<img src="/../../zh/photo/docs/device/collector/search.webp">
 
 按固件版本号筛选设备，便于确认哪些设备需要做固件升级。
 
 ## 8.采集器详情页
 
-<img src="/../../zh/photo/docs/device/collector/detail-enter.png">
+<img src="/../../zh/photo/docs/device/collector/detail-enter.webp">
 
 从设备列表中的设备可以进入设备详情页
 
-<img src="/../../zh/photo/docs/device/collector/detail.png">
+<img src="/../../zh/photo/docs/device/collector/detail.webp">
 
 采集器详情页包括采集器的基本信息和其子设备，支持的子设备有逆变器、BMS、优化器、电表等。
 
@@ -125,15 +125,15 @@ weight: 1
 
 ### 8.1报警
 
-<img src="/../../zh/photo/docs/device/collector/alert.png">
+<img src="/../../zh/photo/docs/device/collector/alert.webp">
 
 报警将打开该设备的设备事件页面，可以看到该设备产生的所有告警和故障，支持按事件级别、事件时间、事件代码、事件内容等条件筛选；每条事件可以查看详情，也可以直接创建工单跟进。
 
-<img src="/../../zh/photo/docs/device/collector/alert1.png">
+<img src="/../../zh/photo/docs/device/collector/alert1.webp">
 
 ### 8.2解绑
 
-<img src="/../../zh/photo/docs/device/collector/unbind.png">
+<img src="/../../zh/photo/docs/device/collector/unbind.webp">
 
 采集器的解绑将解绑采集器绑定的电站，**子设备的解绑将会从采集器下删除该子设备，清空子设备的数据**。
 
@@ -141,36 +141,36 @@ weight: 1
 
 ### 8.3其他功能
 
-<img src="/../../zh/photo/docs/device/collector/other-function.png">
+<img src="/../../zh/photo/docs/device/collector/other-function.webp">
 
 点击右上角的「…」展开其余操作，包括变更、新建工单、别名编辑、固件升级、参数设置、操作日志。
 
 ### 8.3.1变更
 
-<img src="/../../zh/photo/docs/device/collector/update.png" width="600" height="450">
+<img src="/../../zh/photo/docs/device/collector/update.webp" width="600" height="450">
 
 变更采集器的型号和序列号。入库时型号或者序列号填写有误，可以通过变更修正。
 
 ### 8.3.2新建工单
 
-<img src="/../../zh/photo/docs/device/collector/ticket.png" width="600" height="450">
+<img src="/../../zh/photo/docs/device/collector/ticket.webp" width="600" height="450">
 
 对该采集器创建一个工单。工单会带上设备信息，创建的工单可以在「运维中心 → 工单系统」中查看和处理。
 
 ### 8.3.3别名编辑
 
-<img src="/../../zh/photo/docs/device/collector/name.png" width="600" height="450">
+<img src="/../../zh/photo/docs/device/collector/name.webp" width="600" height="450">
 
 可以对采集器命名。别名会显示在设备列表、详情页等位置，建议填写便于识别的名称（例如安装位置），设备的序列号不受影响。
 
 ### 8.3.4固件升级
 
-<img src="/../../zh/photo/docs/device/collector/ota.png">
+<img src="/../../zh/photo/docs/device/collector/ota.webp">
 
 对采集器进行OTA升级，上传固件后选择固件，点击立即升级。升级过程与超时时间的说明参考「工具箱 → 远程交互」中的固件升级。
 
 ### 8.3.5操作日志
 
-<img src="/../../zh/photo/docs/device/collector/ops.png">
+<img src="/../../zh/photo/docs/device/collector/ops.webp">
 
 操作日志保存了最近对该设备的远程交互记录，包括OTA、参数设置、指令透传

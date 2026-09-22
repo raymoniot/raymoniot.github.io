@@ -8,9 +8,9 @@ description: 电站的历史数据统计
 
 电站统计用于查看这个电站的历史数据：可以按日、月、年、全部切换统计维度，并选择具体日期或时间段。
 
-<img src="/../../zh/photo/docs/app/view/plant-stat.png" style="margin-right: 24px" width="300">
+<img src="/../../zh/photo/docs/app/view/plant-stat.webp" style="margin-right: 24px" width="300">
 
-<img src="/../../zh/photo/docs/app/plant/history1.png" style="margin-right: 0px" width="300">
+<img src="/../../zh/photo/docs/app/plant/history1.webp" style="margin-right: 0px" width="300">
 
 ## 步骤
 

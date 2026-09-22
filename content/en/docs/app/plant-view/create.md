@@ -8,9 +8,9 @@ description: Create a plant in the Plant User Perspective
 
 You can also create a plant in the Plant User Perspective: the entry is in the menu in the upper right corner of the plant overview page.
 
-<img src="../../../../photo/docs/app/plant/create1.png" style="margin-right: 24px" width="300">
+<img src="../../../../photo/docs/app/plant/create1.webp" style="margin-right: 24px" width="300">
 
-<img src="../../../../photo/docs/app/plant/create2.png" style="margin-right: 0px" width="300">
+<img src="../../../../photo/docs/app/plant/create2.webp" style="margin-right: 0px" width="300">
 
 ## Steps
 

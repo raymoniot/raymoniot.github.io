@@ -8,9 +8,9 @@ description: Switch to another plant
 
 The Plant User Perspective focuses on only one plant at a time. When you need to view another plant, use "Switch Plant" to switch.
 
-<img src="../../../../photo/docs/app/plant/switch1.png" style="margin-right: 24px" width="300">
+<img src="../../../../photo/docs/app/plant/switch1.webp" style="margin-right: 24px" width="300">
 
-<img src="../../../../photo/docs/app/plant/switch3.png" style="margin-right: 0px" width="300">
+<img src="../../../../photo/docs/app/plant/switch3.webp" style="margin-right: 0px" width="300">
 
 ## Steps
 

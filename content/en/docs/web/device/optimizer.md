@@ -10,7 +10,7 @@ The optimizer (MLPE) is used to perform independent maximum power point tracking
 
 ## 1. Device List
 
-<img src="../../../../photo/docs/device/optimizer/device-list.png">
+<img src="../../../../photo/docs/device/optimizer/device-list.webp">
 
 The device list can view online, faulty, offline and all device information; the status tabs at the top also show the device count of each status, and clicking a tab shows only the devices in that status.
 
@@ -18,11 +18,11 @@ The list shows the serial number, alias, plant, collector, timezone, data update
 
 ## 2. Optimizer Controller Details Page
 
-<img src="../../../../photo/docs/device/optimizer/detail-enter.png">
+<img src="../../../../photo/docs/device/optimizer/detail-enter.webp">
 
 You can enter the device details page from the device in the device list
 
-<img src="../../../../photo/docs/device/optimizer/detail.png">
+<img src="../../../../photo/docs/device/optimizer/detail.webp">
 
 The optimizer controller details page displays the information of the optimizer controller and the switch status of the optimizers.
 

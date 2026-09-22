@@ -10,7 +10,7 @@ The PVS page is used to manage plants whose business type is PVS: the plant over
 
 ## Plant Overview
 
-<img src="../../../../photo/docs/plant/psv-overview.png">
+<img src="../../../../photo/docs/plant/psv-overview.webp">
 
 The plant overview of the PVS includes four sections: real-time power, daily power, social benefits, and online plants.
 
@@ -21,7 +21,7 @@ The plant overview of the PVS includes four sections: real-time power, daily pow
 
 ## Plant List
 
-<img src="../../../../photo/docs/plant/plant-list.png">
+<img src="../../../../photo/docs/plant/plant-list.webp">
 
 The plant list displays part of the information of all plants in online, faulty, and offline status. You can intuitively see the basic information of the plants and the online status of all plants, and you can also modify and delete plants
 
@@ -31,13 +31,13 @@ The information in the list includes: status, plant name and address, plant owne
 - The star in front of the plant name is used to follow (favorite) a plant; followed plants can be quickly accessed from My Favorites in the "Data Dashboard"
 - The "Modify" and "Delete" in the operation column can only be clicked by the plant owner
 
-<img src="../../../../photo/docs/plant/plant-list2.png">
+<img src="../../../../photo/docs/plant/plant-list2.webp">
 
 You can also use conditional search to find plants that meet the conditions
 
 ## Plant Map
 
-<img src="../../../../photo/docs/plant/plant-map.png">
+<img src="../../../../photo/docs/plant/plant-map.webp">
 
 Intuitively display the online status and distribution of all plants. You can find qualified plants by plant name/address/owner
 
@@ -45,11 +45,11 @@ The markers on the map are colored according to the online status of the plant; 
 
 ## System large screen
 
-<img src="../../../../photo/docs/plant/dashboard-enter.png">
+<img src="../../../../photo/docs/plant/dashboard-enter.webp">
 
 The entrance to the System large screen is in the upper right corner of the plant overview module of each system in the Plant Center
 
-<img src="../../../../photo/docs/plant/dashboard.png">
+<img src="../../../../photo/docs/plant/dashboard.webp">
 
 The Plant large screen is used to intuitively display the operating status of the entire system, including plant overview, real-time power, daily full power generation hour ranking, monthly power generation, annual power generation, social contribution and other information
 
@@ -57,7 +57,7 @@ The Plant large screen is used to intuitively display the operating status of th
 
 By clicking on a plant in the plant list, you can view the details page of a single plant. The details page displays the detailed information of the plant, including plant charts, plant devices, plant alarms, plant layout, plant info, etc.
 
-<img src="../../../../photo/docs/plant/plant-detail.png">
+<img src="../../../../photo/docs/plant/plant-detail.webp">
 
 The top of the page displays the plant name, location, owner and the latest Data Update Time. The operations in the upper right corner include: Add Collector, System large screen, Create work order, Power Generation Repair, Layout editing; the other operations (Modify, Delete, Follow) are in the "…" menu. On the left are the basic information and more information panels:
 
@@ -74,46 +74,46 @@ The top of the page displays the plant name, location, owner and the latest Data
   - Yearly view: Display the power generation and revenue summary of each month in a certain year
   - Total view: Display the power generation and revenue summary of each year
 
-  <img src="../../../../photo/docs/plant/plant-chart.png">
+  <img src="../../../../photo/docs/plant/plant-chart.webp">
 
 - **Plant large screen**: Display the overview information, power generation status, alarm information, etc. of the plant
 
-  <img src="../../../../photo/docs/plant/plant-dashboard.png">
+  <img src="../../../../photo/docs/plant/plant-dashboard.webp">
 
-  <img src="../../../../photo/docs/plant/plant-dashboard2.png">
+  <img src="../../../../photo/docs/plant/plant-dashboard2.webp">
 
 - **Add Collector**: Bind a collector to the current plant. There are two ways to add a collector, for details please refer to [Add Collector]({{< ref "/add-logger" >}} "Add Collector")
 
-  <img src="../../../../photo/docs/plant/add-collect.png">
+  <img src="../../../../photo/docs/plant/add-collect.webp">
 
 - **Create work order**: Create a work order for this plant, for details please refer to [Work order system]({{< ref "../ops/ticket/dashboard/" >}} "PVS")
 
-  <img src="../../../../photo/docs/plant/ticket.png">
+  <img src="../../../../photo/docs/plant/ticket.webp">
 
 - **Power Generation Repair**: When the power generation is incorrect, manually modify the power generation value
 
-  <img src="../../../../photo/docs/plant/power-fix.png">
+  <img src="../../../../photo/docs/plant/power-fix.webp">
 
 - **Device list**: Displays all devices under the plant, and displays each device list according to the device classification
 
-  <img src="../../../../photo/docs/plant/device-list.png">
+  <img src="../../../../photo/docs/plant/device-list.webp">
 
 - **Alarm list**: Displays the events that are being alarmed in the past 3 days, and can be filtered by advanced search conditions
 
-  <img src="../../../../photo/docs/plant/alert.png">
+  <img src="../../../../photo/docs/plant/alert.webp">
 
-  <img src="../../../../photo/docs/plant/alert2.png">
+  <img src="../../../../photo/docs/plant/alert2.webp">
 
 - **Layout**: Set the physical layout of the roof and the system layout of the component device connection
 
-  <img src="../../../../photo/docs/plant/layout.png">
+  <img src="../../../../photo/docs/plant/layout.webp">
 
   - Timeline drag: Support dragging the timeline to obtain photovoltaic panel information at different times
 
   - Layout editing: Add photovoltaic panels by dragging components, support starting/disabling and deleting photovoltaic panels
 
-    <img src="../../../../photo/docs/plant/layout-edit.png">
+    <img src="../../../../photo/docs/plant/layout-edit.webp">
 
 - **Info**: Detailed information display of the plant
 
-  <img src="../../../../photo/docs/plant/info.png">
+  <img src="../../../../photo/docs/plant/info.webp">

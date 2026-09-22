@@ -1,4 +1,32 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Work Order System on Solarhub Help Center</title><link>https://raymoniot.github.io/en/docs/web/ops/ticket/</link><description>Recent content in Work Order System on Solarhub Help Center</description><generator>Hugo</generator><language>en</language><atom:link href="https://raymoniot.github.io/en/docs/web/ops/ticket/index.xml" rel="self" type="application/rss+xml"/><item><title>Work Order Dashboard</title><link>https://raymoniot.github.io/en/docs/web/ops/ticket/dashboard/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://raymoniot.github.io/en/docs/web/ops/ticket/dashboard/</guid><description>Function Overview linkThe Work Order Dashboard is used to quickly understand the overall status of work orders: four key metrics at the top, a work order trend chart in the middle, and to-dos and score statistics below.
-Unresolved: the number of work orders that are not yet resolved Overdue: the number of work orders that have passed the first response or close deadline and are still unhandled, which need to be handled first Processing: the number of work orders being processed Unassigned: the number of work orders that have not been assigned to a handler Today&amp;rsquo;s Trend compares the change in the number of work orders between yesterday and today.</description></item><item><title>Work Order List</title><link>https://raymoniot.github.io/en/docs/web/ops/ticket/list/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://raymoniot.github.io/en/docs/web/ops/ticket/list/</guid><description>Function Overview linkThe Work Order List shows all work orders and is divided into several tabs by the relationship with the current account:
-Created by me: work orders created by the current account To-do: work orders that need to be handled by the current account Related to me: work orders that the current account has participated in (such as being replied to or copied) All: all work orders within the data permissions of the current account The information in the list includes the work order number, subject, work order type, handler (or creator), first response deadline, close deadline, priority, status and operations.</description></item><item><title>Customer Team</title><link>https://raymoniot.github.io/en/docs/web/ops/ticket/team/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://raymoniot.github.io/en/docs/web/ops/ticket/team/</guid><description>Function Overview linkThe Customer Team is used to divide the teams that handle work orders: each team has a name, description, main responsibilities and main members, and work orders are assigned to the corresponding team according to the team&amp;rsquo;s main responsibilities.
-The list shows the team name, description, main responsibilities (tags such as complaint, problem, return or exchange) and main members. The operation column allows you to modify or dissolve a team.</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Work Order System on Solarhub Help Center</title>
+    <link>http://localhost:1313/en/docs/web/ops/ticket/</link>
+    <description>Recent content in Work Order System on Solarhub Help Center</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <atom:link href="http://localhost:1313/en/docs/web/ops/ticket/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Work Order Dashboard</title>
+      <link>http://localhost:1313/en/docs/web/ops/ticket/dashboard/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/en/docs/web/ops/ticket/dashboard/</guid>
+      <description>Function Overview linkThe Work Order Dashboard is used to quickly understand the overall status of work orders: four key metrics at the top, a work order trend chart in the middle, and to-dos and score statistics below.&#xA;Unresolved: the number of work orders that are not yet resolved Overdue: the number of work orders that have passed the first response or close deadline and are still unhandled, which need to be handled first Processing: the number of work orders being processed Unassigned: the number of work orders that have not been assigned to a handler Today&amp;rsquo;s Trend compares the change in the number of work orders between yesterday and today.</description>
+    </item>
+    <item>
+      <title>Work Order List</title>
+      <link>http://localhost:1313/en/docs/web/ops/ticket/list/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/en/docs/web/ops/ticket/list/</guid>
+      <description>Function Overview linkThe Work Order List shows all work orders and is divided into several tabs by the relationship with the current account:&#xA;Created by me: work orders created by the current account To-do: work orders that need to be handled by the current account Related to me: work orders that the current account has participated in (such as being replied to or copied) All: all work orders within the data permissions of the current account The information in the list includes the work order number, subject, work order type, handler (or creator), first response deadline, close deadline, priority, status and operations.</description>
+    </item>
+    <item>
+      <title>Customer Team</title>
+      <link>http://localhost:1313/en/docs/web/ops/ticket/team/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/en/docs/web/ops/ticket/team/</guid>
+      <description>Function Overview linkThe Customer Team is used to divide the teams that handle work orders: each team has a name, description, main responsibilities and main members, and work orders are assigned to the corresponding team according to the team&amp;rsquo;s main responsibilities.&#xA;The list shows the team name, description, main responsibilities (tags such as complaint, problem, return or exchange) and main members. The operation column allows you to modify or dissolve a team.</description>
+    </item>
+  </channel>
+</rss>

@@ -8,15 +8,15 @@ weight: 4
 
 The Customer Team is used to divide the teams that handle work orders: each team has a name, description, main responsibilities and main members, and work orders are assigned to the corresponding team according to the team's main responsibilities.
 
-<img src="../../../../../photo/docs/ops/team.png">
+<img src="../../../../../photo/docs/ops/team.webp">
 
 The list shows the team name, description, main responsibilities (tags such as complaint, problem, return or exchange) and main members. The operation column allows you to modify or dissolve a team.
 
 ## 1. Create Team
 
-<img src="../../../../../photo/docs/ops/team1.png">
+<img src="../../../../../photo/docs/ops/team1.webp">
 
-<img src="../../../../../photo/docs/ops/team2.png">
+<img src="../../../../../photo/docs/ops/team2.webp">
 
 Creating a team requires filling in:
 
@@ -27,14 +27,14 @@ Creating a team requires filling in:
 
 ## 2. Modify
 
-<img src="../../../../../photo/docs/ops/team-update.png">
+<img src="../../../../../photo/docs/ops/team-update.webp">
 
-<img src="../../../../../photo/docs/ops/team-update1.png">
+<img src="../../../../../photo/docs/ops/team-update1.webp">
 
 Modify team information and members; adjust here when personnel change.
 
 ## 3. Dissolve
 
-<img src="../../../../../photo/docs/ops/team-delete.png">
+<img src="../../../../../photo/docs/ops/team-delete.webp">
 
 After dissolution, the team no longer participates in work order assignment, and the team's existing work orders are not affected.

@@ -10,7 +10,7 @@ weight: 6
 
 ## 电站概览
 
-<img src="/../../zh/photo/docs/plant/psv-overview.png">
+<img src="/../../zh/photo/docs/plant/psv-overview.webp">
 
 光伏系统的电站概览包括实时功率、当日电量、社会效益、在线电站四个板块。
 
@@ -23,7 +23,7 @@ weight: 6
 
 ## 电站列表
 
-<img src="/../../zh/photo/docs/plant/plant-list.png">
+<img src="/../../zh/photo/docs/plant/plant-list.webp">
 
 电站列表展示所有在线、故障、离线状态电站的部分信息，可以直观的看到电站的基本信息，所有电站的在线情况，也可以进行修改和删除电站
 
@@ -33,7 +33,7 @@ weight: 6
 - 电站名称前的星标用于关注（收藏）电站，关注的电站可以在「数据看板」的我的收藏中快速进入
 - 操作列的「修改」「删除」只有电站业主可以点击
 
-<img src="/../../zh/photo/docs/plant/plant-list2.png">
+<img src="/../../zh/photo/docs/plant/plant-list2.webp">
 
 也可以使用条件搜索，查找符合条件的电站
 
@@ -41,7 +41,7 @@ weight: 6
 
 ## 电站地图
 
-<img src="/../../zh/photo/docs/plant/plant-map.png">
+<img src="/../../zh/photo/docs/plant/plant-map.webp">
 
 直观的展示所有电站的在线状态和分布情况，可以通过电站名称/地址/业主来查找符合条件的电站
 
@@ -51,11 +51,11 @@ weight: 6
 
 ## 系统大屏
 
-<img src="/../../zh/photo/docs/plant/dashboard-enter.png">
+<img src="/../../zh/photo/docs/plant/dashboard-enter.webp">
 
 系统大屏的入口在电站中心各个系统的电站概览模块右上角
 
-<img src="/../../zh/photo/docs/plant/dashboard.png">
+<img src="/../../zh/photo/docs/plant/dashboard.webp">
 
 电站大屏用于直观的展示整个系统的运行状态，包含电站概览、实时功率、日满发电小时排名、当月发电量、当年发电量、社会贡献等信息
 
@@ -67,7 +67,7 @@ weight: 6
 
 通过点击电站列表中的电站可以查看单个电站的详情页，详情页展示该电站的详细信息，包括电站图表、电站设备、电站报警、电站布局、电站资料等
 
-<img src="/../../zh/photo/docs/plant/plant-detail.png">
+<img src="/../../zh/photo/docs/plant/plant-detail.webp">
 
 页面顶部显示电站名称、位置、业主和最近数据更新时间，右上角的操作包括：添加采集器、系统大屏、新建工单、发电修补、布局编辑，其余操作（修改、删除、关注）在「…」菜单中。左侧是电站的基本信息和更多信息面板：
 
@@ -84,47 +84,47 @@ weight: 6
   - 年视图：展示某年中每个月的发电量和收益汇总
   - 总视图：展示每年的发电量和收益汇总
 
-  <img src="/../../zh/photo/docs/plant/plant-chart.png">
+  <img src="/../../zh/photo/docs/plant/plant-chart.webp">
 
 - **电站大屏**：展示该电站的概览信息和发电情况、告警信息等
 
-  <img src="/../../zh/photo/docs/plant/plant-dashboard.png">
+  <img src="/../../zh/photo/docs/plant/plant-dashboard.webp">
 
-  <img src="/../../zh/photo/docs/plant/plant-dashboard2.png">
+  <img src="/../../zh/photo/docs/plant/plant-dashboard2.webp">
 
 - **添加采集器**：对当前电站绑定采集器，添加采集器的方式有两种，详细请参考[添加采集器]({{< ref "/add-logger" >}} "添加采集器")
 
-  <img src="/../../zh/photo/docs/plant/add-collect.png">
+  <img src="/../../zh/photo/docs/plant/add-collect.webp">
 
 
 - **新建工单**：对此电站创建一个工单，详细请参考[工单系统]({{< ref "../ops/ticket/dashboard/" >}} "光伏系统")
 
-  <img src="/../../zh/photo/docs/plant/ticket.png">
+  <img src="/../../zh/photo/docs/plant/ticket.webp">
 
 - **发电修补**：针对发电量有误的情况，手动对发电量的数值进行修改
 
-  <img src="/../../zh/photo/docs/plant/power-fix.png">
+  <img src="/../../zh/photo/docs/plant/power-fix.webp">
 
 - **设备列表**：展示电站下的所有设备，按照设备分类展示各设备列表
 
-  <img src="/../../zh/photo/docs/plant/device-list.png">
+  <img src="/../../zh/photo/docs/plant/device-list.webp">
 
 - **告警列表**：展示最近3天内正在告警的事件，可以通过高级搜索过滤条件
 
-  <img src="/../../zh/photo/docs/plant/alert.png">
+  <img src="/../../zh/photo/docs/plant/alert.webp">
 
-  <img src="/../../zh/photo/docs/plant/alert2.png">
+  <img src="/../../zh/photo/docs/plant/alert2.webp">
 
 - **布局**：设置屋面的物理布局和组件设备连接的系统布局
 
-  <img src="/../../zh/photo/docs/plant/layout.png">
+  <img src="/../../zh/photo/docs/plant/layout.webp">
 
   - 时间轴拖动：支持拖动时间轴来获取不同时间的光伏板信息
 
   - 布局编辑：通过拖动组件来添加光伏板，支持对光伏板的启动/禁用和删除
 
-    <img src="/../../zh/photo/docs/plant/layout-edit.png">
+    <img src="/../../zh/photo/docs/plant/layout-edit.webp">
 
 - **资料**：电站的详细信息展示
 
-  <img src="/../../zh/photo/docs/plant/info.png">
+  <img src="/../../zh/photo/docs/plant/info.webp">

@@ -8,7 +8,7 @@ description: Unbind the device from the plant/logger
 
 Tap "Unbind Device" in the menu in the upper right corner of the device details page to remove the binding relationship between the device and the plant (or between a sub-device and the logger).
 
-<img src="../../../../photo/docs/app/device/deviceview-unbind.png" style="margin-right: 50px" width="300">
+<img src="../../../../photo/docs/app/device/deviceview-unbind.webp" style="margin-right: 50px" width="300">
 
 ## Steps
 

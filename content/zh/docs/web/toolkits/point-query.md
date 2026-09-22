@@ -8,7 +8,7 @@ weight: 1
 
 查询设备上报测点数据的情况，会显示最新一包的数据上报情况
 
-<img src="/../../zh/photo/docs/toolkits/point-query.png">
+<img src="/../../zh/photo/docs/toolkits/point-query.webp">
 
 用途是排查设备侧问题：例如确认设备是否在上报、上报的固件版本、服务器地址、信号强度等参数是否符合预期。查询结果只反映**当日最新一包**数据。
 
@@ -20,11 +20,11 @@ weight: 1
 
 ## 1.测点查询导出
 
-<img src="/../../zh/photo/docs/toolkits/point-query1.png">
+<img src="/../../zh/photo/docs/toolkits/point-query1.webp">
 
 输入设备序列号即可查询到设备数据
 
-<img src="/../../zh/photo/docs/toolkits/point-export.png">
+<img src="/../../zh/photo/docs/toolkits/point-export.webp">
 
 选择导出时间，可以导出某天的数据
 
