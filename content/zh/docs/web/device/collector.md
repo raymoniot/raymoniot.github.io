@@ -48,9 +48,16 @@ weight: 1
 
 ### 2.1单个导入
 
-<img src="/../../zh/photo/docs/device/collector/import-one1.webp" width="600" height="450">
+<img src="/../../zh/photo/docs/device/collector/import-one1.webp" width="700" height="418">
 
-一般采集器类型选择WI-FI Stick。
+**设备类型**根据采集器序列号的**开头字母**选择：
+
+| 序列号开头字母 | 设备类型 |
+|---|---|
+| R | **R1** |
+| X | **X1** |
+
+目前采集器主要就是 **R1** 和 **X1** 两种类型，导入前请先确认设备上的序列号，选择对应类型。
 
 - **授权用户**：填写后该用户拥有设备的查看管理权限；不填写则默认当前登录用户
 - **标签**：给采集器添加备注信息，便于日常归类
@@ -67,7 +74,7 @@ weight: 1
 
 <img src="/../../zh/photo/docs/device/collector/import-more2.webp" width="700" height="550">
 
-类型选择WI-FI Stick，上传并读取校验，即可添加成功，若上传错误的SN或者已入库的SN则会列出报错信息
+类型同样按序列号开头字母选择（**R 选 R1、X 选 X1**），上传并读取校验，即可添加成功，若上传错误的SN或者已入库的SN则会列出报错信息
 
 ## 3.批量设置访问授权
 
